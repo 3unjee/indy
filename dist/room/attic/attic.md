@@ -1,4 +1,4 @@
-# Attic
+# [Attic](../room.md)
 
 ## Backgrounds
 
