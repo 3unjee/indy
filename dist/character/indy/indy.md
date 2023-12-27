@@ -1,4 +1,4 @@
-# [Indy (Harrison Ford from the last crusade)](../character.md)
+# [Characters](../character.md) - Indy (Harrison Ford from the last crusade
 
 ## Voice
 
