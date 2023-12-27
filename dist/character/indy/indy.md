@@ -1,4 +1,8 @@
-# [Characters](../character.md) - Indy (Harrison Ford from the last crusade
+# [Characters](../character.md) - Indy
+
+## Persona
+
+Harrison Ford from the last crusade
 
 ## Voice
 
