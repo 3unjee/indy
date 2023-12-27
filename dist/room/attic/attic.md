@@ -12,11 +12,11 @@ Harrison Ford as Indiana jones from the last crusade with his iconic hat and a l
 
 ## Dialogs
 
-Alright Jones... <break time="1.0s" /> How are you going to find that statue in all this junk ?
+Alright Jones... `<break time="1.0s" />` How are you going to find that statue in all this junk ?
 
 If Marcus approximations are accurate it should be pretty close.
 
-Although... <break time="1.0s" /> He got lost in his own museum once or twice.
+Although... `<break time="1.0s" />` He got lost in his own museum once or twice.
 
 ## Music
 
