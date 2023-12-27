@@ -23,7 +23,6 @@ X Marks the Spot: https://www.youtube.com/watch?v=i5H65-smy7E
 ### References
 
 - attic: https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/reference/attic.jpg
-
 - splash: https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/reference/splash.png
 - splash2: https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/reference/splash2.png
 - splash3: https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/reference/splash3.png
