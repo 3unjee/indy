@@ -1,12 +1,8 @@
 # Indiana Jones and the Fate of Atlantis
 
-## Rooms
+Rooms: [room/room.md](dist/room/room.md)
 
-Attic: [room/attic/attic.md](dist/room/attic/attic.md)
-
-## Characters
-
-Indy: [character/indy/indy.md](dist/character/indy/indy.md)
+Characters: [character/character.md](dist/character/character.md)
 
 ## Author
 
