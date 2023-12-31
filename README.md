@@ -1,4 +1,5 @@
 # Indiana Jones and the Fate of Atlantis
+<a href=""><img src="dist/screens/screen.jpg" alt="title" width="512px"></a>
 
 Rooms: [room/room.md](dist/room/room.md)
 

@@ -5,6 +5,9 @@
 - Midjourney: https://www.midjourney.com
     - Usage: image generation
 
+- Magnific AI: https://magnific.ai
+    - Usage: image upscaling
+
 - Runway Gen-2: https://research.runwayml.com/gen2
     - Usage: video generation
 
