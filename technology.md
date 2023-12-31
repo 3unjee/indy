@@ -3,41 +3,41 @@
 ## Generative tools
 
 - Midjourney: https://www.midjourney.com
-    - Usage: image generation
+    - Image generation
 
 - Magnific AI: https://magnific.ai
-    - Usage: image upscaling
+    - Image upscaling
 
 - Runway Gen-2: https://research.runwayml.com/gen2
-    - Usage: video generation
+    - Video generation
 
 - ElevenLabs: https://elevenlabs.io
-    - Usage: voice generation
+    - Voice generation
 
 ## Resources
 
 - Pixabay: https://pixabay.com/fr/sound-effects
-    - Usage: audio effects
+    - Audio effects
 
 ## Tools
 
 - Adobe Photoshop 2024: https://www.adobe.com/products/photoshop
-    - Usage: image composition
+    - Image composition
 
 - Kdenlive: https://kdenlive.org
-    - Usage: video edition
+    - Video edition
 
 ## Language
 
 - VBML: https://omega.gg/VBML
-    - Usage: video language
+    - Video language
 
 ## Runtime
 
 - MotionMonkey: https://omega.gg/MotionMonkey
-    - Usage: Semantic Player
+    - Semantic Player
 
 or
 
 - MotionBox: https://omega.gg/MotionBox
-    - Usage: Video Browser
+    - Video Browser
