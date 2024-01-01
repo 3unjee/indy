@@ -2,42 +2,50 @@
 
 ## Generative tools
 
-- Midjourney: https://www.midjourney.com
-    - Image generation
+### Image generation
 
-- Magnific AI: https://magnific.ai
-    - Image upscaling
+Midjourney: https://www.midjourney.com
 
-- Runway Gen-2: https://research.runwayml.com/gen2
-    - Video generation
+### Image upscaling
 
-- ElevenLabs: https://elevenlabs.io
-    - Voice generation
+Magnific AI: https://magnific.ai
+
+### Video generation
+
+Runway Gen-2: https://research.runwayml.com/gen2
+
+### Voice generation
+
+ElevenLabs: https://elevenlabs.io
 
 ## Resources
 
-- Pixabay: https://pixabay.com/fr/sound-effects
-    - Audio effects
+### Audio effects
+
+Pixabay: https://pixabay.com/fr/sound-effects
 
 ## Tools
 
-- Adobe Photoshop 2024: https://www.adobe.com/products/photoshop
-    - Image composition
+### Image composition
 
-- Kdenlive: https://kdenlive.org
-    - Video edition
+Adobe Photoshop 2024: https://www.adobe.com/products/photoshop
+
+### Video edition
+
+Kdenlive: https://kdenlive.org
 
 ## Language
 
-- VBML: https://omega.gg/VBML
-    - Video language
+### Video language
+
+VBML: https://omega.gg/VBML
 
 ## Runtime
 
-- MotionMonkey: https://omega.gg/MotionMonkey
-    - Semantic Player
+### Semantic Player
 
-or
+MotionMonkey: https://omega.gg/MotionMonkey
 
-- MotionBox: https://omega.gg/MotionBox
-    - Video Browser
+### Video Browser
+
+MotionBox: https://omega.gg/MotionBox
