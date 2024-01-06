@@ -1,4 +1,4 @@
-# Indiana Jones and the Fate of Atlantis
+Indiana Jones and the Fate of Atlantis
 ---
 [![Discord](https://img.shields.io/discord/705770212485496852)](https://omega.gg/discord)
 
