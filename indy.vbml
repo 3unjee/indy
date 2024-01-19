@@ -3,8 +3,20 @@
 # Visit https://omega.gg/vox for more informations.
 #--------------------------------------------------------------------------------------------------
 
-type: interactive
+type: hub
 
 title: Indiana Jones and the Fate of Atlantis
 
 cover: https://raw.githubusercontent.com/3unjee/indy/master/dist/screens/screen.jpg
+
+context: intro,attic
+
+source:
+    track:
+        id: intro
+        source: https://www.youtube.com/watch?v=VUrou9QCVHo
+    track:
+        id: attic
+        source: https://www.youtube.com/watch?v=VUrou9QCVHo
+
+INTRO: RETURN "attic"
