@@ -14,9 +14,12 @@ context: intro,attic
 source:
     track:
         id: intro
+        duration: 0:25
         source: https://www.youtube.com/watch?v=VUrou9QCVHo
     track:
         id: attic
+        at: 0:25
+        end: 0:55
         source: https://www.youtube.com/watch?v=VUrou9QCVHo
 
 INTRO: RETURN "attic"
