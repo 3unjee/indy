@@ -3,7 +3,7 @@
 # Visit https://omega.gg/vox for more informations.
 #--------------------------------------------------------------------------------------------------
 
-type: hub
+type: interactive
 
 title: Indiana Jones and the Fate of Atlantis
 
@@ -19,7 +19,7 @@ source:
         id: intro
         duration: 0:25
         source: https://www.youtube.com/watch?v=VUrou9QCVHo
-    track:
+    hub:
         id: attic
         at: 0:25
         end: 0:55
