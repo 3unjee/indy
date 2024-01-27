@@ -1,4 +1,6 @@
-OTHER_FILES += README.md \
+OTHER_FILES += configure.sh \
+               push.sh \
+               README.md \
                technology.md \
                videos.md \
                indy.vbml \
