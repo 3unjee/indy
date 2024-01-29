@@ -70,30 +70,6 @@ fi
 
 if [ $1 = "character/indy" ]; then
 
-    path="$PWD/dist/character/indy/reference/body"
-
-    cp "$indy"/reference/body/indy.jpg "$path"
-
-    path="$PWD/dist/character/indy/reference/neutral"
-
-    cp "$indy"/reference/neutral/indy.jpg   "$path"
-    cp "$indy"/reference/neutral/indy2.webp "$path"
-    cp "$indy"/reference/neutral/indy3.png  "$path"
-
-    path="$PWD/dist/character/indy/reference/neutral/base"
-
-    cp "$indy"/reference/neutral/base/indy3.jpg "$path"
-
-    path="$PWD/dist/character/indy/reference/surprised"
-
-    cp "$indy"/reference/surprised/indy.png  "$path"
-    cp "$indy"/reference/surprised/indy2.png "$path"
-
-    path="$PWD/dist/character/indy/reference/surprised/base"
-
-    cp "$indy"/reference/surprised/base/indy.jpg  "$path"
-    cp "$indy"/reference/surprised/base/indy2.jpg "$path"
-
     path="$PWD/dist/character/indy/data/voice"
 
     cp "$indy"/data/voice/neutral.webm "$path"
@@ -122,13 +98,9 @@ if [ $1 = "room/attic" ]; then
 
     path="$PWD/dist/room/attic/reference"
 
-    cp "$attic"/reference/attic.jpg   "$path"
     cp "$attic"/reference/splash.psd  "$path"
-    cp "$attic"/reference/splash.png  "$path"
     cp "$attic"/reference/splash2.psd "$path"
-    cp "$attic"/reference/splash2.png "$path"
     cp "$attic"/reference/splash3.psd "$path"
-    cp "$attic"/reference/splash3.png "$path"
 
     path="$PWD/dist/room/attic/data"
 

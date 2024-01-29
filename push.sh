@@ -73,35 +73,6 @@ fi
 
 if [ $1 = "character/indy" ]; then
 
-    path="$assets/character/indy/reference/body"
-    mkdir -p "$path"
-
-    cp "$indy"/reference/body/indy.jpg "$path"
-
-    path="$assets/character/indy/reference/neutral"
-    mkdir -p "$path"
-
-    cp "$indy"/reference/neutral/indy.jpg   "$path"
-    cp "$indy"/reference/neutral/indy2.webp "$path"
-    cp "$indy"/reference/neutral/indy3.png  "$path"
-
-    path="$assets/character/indy/reference/neutral/base"
-    mkdir -p "$path"
-
-    cp "$indy"/reference/neutral/base/indy3.jpg "$path"
-
-    path="$assets/character/indy/reference/surprised"
-    mkdir -p "$path"
-
-    cp "$indy"/reference/surprised/indy.png  "$path"
-    cp "$indy"/reference/surprised/indy2.png "$path"
-
-    path="$assets/character/indy/reference/surprised/base"
-    mkdir -p "$path"
-
-    cp "$indy"/reference/surprised/base/indy.jpg  "$path"
-    cp "$indy"/reference/surprised/base/indy2.jpg "$path"
-
     path="$assets/character/indy/data/voice"
     mkdir -p "$path"
 
@@ -133,13 +104,9 @@ if [ $1 = "room/attic" ]; then
     path="$assets/room/attic/reference"
     mkdir -p "$path"
 
-    cp "$attic"/reference/attic.jpg   "$path"
     cp "$attic"/reference/splash.psd  "$path"
-    cp "$attic"/reference/splash.png  "$path"
     cp "$attic"/reference/splash2.psd "$path"
-    cp "$attic"/reference/splash2.png "$path"
     cp "$attic"/reference/splash3.psd "$path"
-    cp "$attic"/reference/splash3.png "$path"
 
     path="$assets/room/attic/data"
     mkdir -p "$path"
