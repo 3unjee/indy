@@ -71,6 +71,7 @@ if [ $1 = "deploy" ]; then
 
     cp "$deploy"/intro.mp4    "$path"
     cp "$deploy"/attic.mp4    "$path"
+    cp "$deploy"/attic2.mp4   "$path"
     cp "$deploy"/trailer.mp4  "$path"
     cp "$deploy"/trailer2.mp4 "$path"
 fi

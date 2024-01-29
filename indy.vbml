@@ -9,7 +9,7 @@ title: Indiana Jones and the Fate of Atlantis
 
 cover: https://raw.githubusercontent.com/3unjee/indy/master/dist/screens/screen.jpg
 
-context: intro,attic
+context: intro,attic,attic2
 
 tags: |
     statue
@@ -17,12 +17,15 @@ tags: |
 source:
     track:
         id: intro
-        duration: 0:25
-        source: https://www.youtube.com/watch?v=VUrou9QCVHo
-    hub:
+        duration: 1:21
+        source: https://odysee.com/intro:562
+    track:
         id: attic
-        at: 0:25
-        end: 0:55
-        source: https://www.youtube.com/watch?v=VUrou9QCVHo
+        duration: 0:20
+        source: https://odysee.com/attic:a
+    hub:
+        id: attic2
+        duration: 0:16
+        source: https://odysee.com/attic2:c
 
 INTRO: RETURN "attic"
