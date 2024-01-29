@@ -93,6 +93,12 @@ if [ $1 = "room/intro" ]; then
     cp "$intro"/content/intro3.mp4    "$path"
     cp "$intro"/content/lucasarts.jpg "$path"
     cp "$intro"/content/title.png     "$path"
+
+    path="$assets/room/intro/content/music"
+    mkdir -p "$path"
+
+    cp "$intro"/content/music/intro.webm  "$path"
+    cp "$intro"/content/music/splash.webm "$path"
 fi
 
 #--------------------------------------------------------------------------------------------------
