@@ -53,6 +53,7 @@ if [ $1 = "deploy" ]; then
     path="$assets/deploy"
     mkdir -p "$path"
 
+    cp "$deploy"/intro.mp4    "$path"
     cp "$deploy"/attic.mp4    "$path"
     cp "$deploy"/trailer.mp4  "$path"
     cp "$deploy"/trailer2.mp4 "$path"
@@ -100,12 +101,19 @@ fi
 
 if [ $1 = "room/intro" ]; then
 
+    path="$assets/room/intro/data"
+    mkdir -p "$path"
+
+    cp "$intro"/data/intro.psd "$path"
+    cp "$intro"/data/intro.png "$path"
+
     path="$assets/room/intro/content"
     mkdir -p "$path"
 
     cp "$intro"/content/intro.mp4     "$path"
     cp "$intro"/content/intro2.mp4    "$path"
     cp "$intro"/content/intro3.mp4    "$path"
+    cp "$intro"/content/intro.png     "$path"
     cp "$intro"/content/lucasarts.jpg "$path"
     cp "$intro"/content/title.png     "$path"
 
