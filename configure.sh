@@ -10,6 +10,7 @@ assets="/c/users/bunjee/OneDrive/assets/indy"
 
 deploy="$assets/deploy"
 
+screens="$assets/screens"
 trailer="$assets/trailer"
 
 indy="$assets/character/indy"
@@ -22,12 +23,14 @@ attic="$assets/room/attic"
 #--------------------------------------------------------------------------------------------------
 
 if [ $# != 1 ] || [ $1 != "deploy"         -a \
+                    $1 != "screens"        -a \
                     $1 != "trailer"        -a \
                     $1 != "character/indy" -a \
                     $1 != "room/intro"     -a \
                     $1 != "room/attic" ]; then
 
     echo "Usage: configure <deploy>"
+    echo "                 <screens>"
     echo "                 <trailer>"
     echo "                 <character/indy>"
     echo "                 <room/intro>"
@@ -51,6 +54,17 @@ if [ $1 = "deploy" ]; then
     cp "$deploy"/attic.mp4    "$path"
     cp "$deploy"/trailer.mp4  "$path"
     cp "$deploy"/trailer2.mp4 "$path"
+fi
+
+#--------------------------------------------------------------------------------------------------
+# Screens
+#--------------------------------------------------------------------------------------------------
+
+if [ $1 = "screens" ]; then
+
+    path="$PWD/dist/screens/data"
+
+    cp "$screens"/data/screen.psd "$path"
 fi
 
 #--------------------------------------------------------------------------------------------------
