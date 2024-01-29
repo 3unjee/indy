@@ -8,15 +8,14 @@ set -e
 # NOTE: Update this path with your own asset folder.
 assets="/c/users/bunjee/OneDrive/assets/indy"
 
-deploy="$PWD/deploy"
-dist="$PWD/dist"
+deploy="$assets/deploy"
 
-trailer="$dist/trailer"
+trailer="$assets/trailer"
 
-indy="$dist/character/indy"
+indy="$assets/character/indy"
 
-intro="$dist/room/intro"
-attic="$dist/room/attic"
+intro="$assets/room/intro"
+attic="$assets/room/attic"
 
 #--------------------------------------------------------------------------------------------------
 # Syntax
@@ -47,9 +46,20 @@ if [ "$REPLY" != "yes" ]; then exit 1; fi
 
 if [ $1 = "deploy" ]; then
 
-    path="$assets/deploy"
+    path="$PWD/deploy"
 
-    cp "$path"/attic.mp4    "$deploy"
-    cp "$path"/trailer.mp4  "$deploy"
-    cp "$path"/trailer2.mp4 "$deploy"
+    cp "$deploy"/attic.mp4    "$path"
+    cp "$deploy"/trailer.mp4  "$path"
+    cp "$deploy"/trailer2.mp4 "$path"
+fi
+
+#--------------------------------------------------------------------------------------------------
+# Trailer
+#--------------------------------------------------------------------------------------------------
+
+if [ $1 = "trailer" ]; then
+
+    path="$PWD/dist/trailer/content"
+
+    cp "$trailer"/content/indy.mp4 "$path"
 fi
