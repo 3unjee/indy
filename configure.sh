@@ -22,14 +22,16 @@ attic="$assets/room/attic"
 # Syntax
 #--------------------------------------------------------------------------------------------------
 
-if [ $# != 1 ] || [ $1 != "deploy"         -a \
+if [ $# != 1 ] || [ $1 != "all"            -a \
+                    $1 != "deploy"         -a \
                     $1 != "screens"        -a \
                     $1 != "trailer"        -a \
                     $1 != "character/indy" -a \
                     $1 != "room/intro"     -a \
                     $1 != "room/attic" ]; then
 
-    echo "Usage: configure <deploy>"
+    echo "Usage: configure <all>"
+    echo "                 <deploy>"
     echo "                 <screens>"
     echo "                 <trailer>"
     echo "                 <character/indy>"
@@ -42,6 +44,22 @@ fi
 read -p "Run configure for $1 ? (yes/no) " REPLY
 
 if [ "$REPLY" != "yes" ]; then exit 1; fi
+
+#--------------------------------------------------------------------------------------------------
+# All
+#--------------------------------------------------------------------------------------------------
+
+if [ $1 = "all" ]; then
+
+    sh configure.sh deploy
+    sh configure.sh screens
+    sh configure.sh trailer
+    sh configure.sh character/indy
+    sh configure.sh room/intro
+    sh configure.sh room/attic
+
+    exit 0
+fi
 
 #--------------------------------------------------------------------------------------------------
 # Deploy
