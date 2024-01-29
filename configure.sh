@@ -142,7 +142,7 @@ if [ $1 = "room/attic" ]; then
     cp "$attic"/data/indy2.png   "$path"
     cp "$attic"/data/indy3.psd   "$path"
     cp "$attic"/data/indy3.png   "$path"
-    cp "$attic"/data/indy3.psd   "$path"
+    cp "$attic"/data/indy4.psd   "$path"
     cp "$attic"/data/indy4.png   "$path"
     cp "$attic"/data/indy5.png   "$path"
     cp "$attic"/data/splash.psd  "$path"
