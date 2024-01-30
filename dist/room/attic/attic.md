@@ -6,7 +6,9 @@ https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/reference/s
 
 An old and dusty university attic from Indiana jones and the last crusade full of arechological artifacts and ancient greek atlantean statues, low blue light filtering throughout the room mysterious atmosphere CINEMATIC STILL --ar 16:9 --v 6.0
 
-https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/reference/attic2.jpg First person view of an old and dusty desk against the wall of an university attic from Indiana jones and the last crusade full of arechological artifacts and ancient greek atlantean statues, low blue light filtering throughout the room mysterious atmosphere CINEMATIC STILL --ar 16:9 --v 6.0
+https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/reference/attic2.jpg First person view of an old and dusty desk an university attic from Indiana jones and the last crusade full of arechological artifacts and ancient greek atlantean statues, low blue light filtering throughout the room mysterious atmosphere CINEMATIC STILL --ar 16:9 --v 6.0
+
+https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/reference/coronado.jpg The Cross of Coronado from Indiana jones and the last crusade sitting on an old and dusty desk in an university attic full of arechological artifacts and ancient greek atlantean statues, low blue light filtering throughout the room mysterious atmosphere CINEMATIC STILL --ar 16:9 --v 6.0
 
 ## Characters
 
