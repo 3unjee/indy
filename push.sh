@@ -145,6 +145,8 @@ if [ $1 = "room/attic" ]; then
     cp "$attic"/data/attic.png  "$path"
     cp "$attic"/data/attic2.psd "$path"
     cp "$attic"/data/attic3.psd "$path"
+    cp "$attic"/data/attic4.psd "$path"
+    cp "$attic"/data/attic4.png "$path"
 
     cp "$attic"/data/indy.psd    "$path"
     cp "$attic"/data/indy.png    "$path"
@@ -162,9 +164,15 @@ if [ $1 = "room/attic" ]; then
     path="$assets/room/attic/data/upscale"
     mkdir -p "$path"
 
-    cp "$attic"/data/upscale/attic.jpeg "$path"
-    cp "$attic"/data/upscale/indy.jpeg  "$path"
-    cp "$attic"/data/upscale/indy2.jpeg "$path"
+    cp "$attic"/data/upscale/attic.jpeg  "$path"
+    cp "$attic"/data/upscale/attic4.jpeg "$path"
+    cp "$attic"/data/upscale/indy.jpeg   "$path"
+    cp "$attic"/data/upscale/indy2.jpeg  "$path"
+
+    path="$assets/room/attic/data/upscale/base"
+    mkdir -p "$path"
+
+    cp "$attic"/data/upscale/base/attic4.png "$path"
 
     path="$assets/room/attic/content"
     mkdir -p "$path"

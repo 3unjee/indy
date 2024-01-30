@@ -6,9 +6,15 @@ https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/reference/s
 
 An old and dusty university attic from Indiana jones and the last crusade full of arechological artifacts and ancient greek atlantean statues, low blue light filtering throughout the room mysterious atmosphere CINEMATIC STILL --ar 16:9 --v 6.0
 
+https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/reference/attic2.jpg First person view of an old and dusty desk against the wall of an university attic from Indiana jones and the last crusade full of arechological artifacts and ancient greek atlantean statues, low blue light filtering throughout the room mysterious atmosphere CINEMATIC STILL --ar 16:9 --v 6.0
+
 ## Characters
 
 Harrison Ford as Indiana jones from the last crusade with his iconic hat and a leather jacket facing an old and dusty university attic from Indiana jones and the last crusade full of arechological artifacts and ancient greek atlantean statues, low blue light filtering throughout the room mysterious atmosphere CINEMATIC STILL --ar 16:9 --v 6.0
+
+Close up of Harrisson Ford as Indiana jones in an old and dusty attic full of arechological artifacts and ancient greek and atlantean statues, low blue light filtering throughout the room mysterious atmosphere CINEMATIC STILL --ar 16:9 --v 6.0
+
+Close up of Harrisson Ford silhouette as Indiana jones in an old and dusty attic full of arechological artifacts and ancient greek and atlantean statues, low blue light filtering throughout the room mysterious atmosphere CINEMATIC STILL --ar 16:9 --v 6.0
 
 https://raw.githubusercontent.com/3unjee/indy/master/dist/character/indy/reference/neutral/indy.jpg https://raw.githubusercontent.com/3unjee/indy/master/dist/character/indy/reference/neutral/indy2.webp https://raw.githubusercontent.com/3unjee/indy/master/dist/character/indy/reference/neutral/indy3.png Harrison Ford facing the camera as Indiana jones from the last crusade with his iconic hat and a leather jacket in an old and dusty university attic full of arechological artifacts and ancient greek atlantean statues, low blue light filtering throughout the room mysterious atmosphere CINEMATIC STILL --ar 16:9 --v 6.0
 

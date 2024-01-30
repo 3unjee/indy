@@ -154,6 +154,8 @@ if [ $1 = "room/attic" ]; then
     cp "$attic"/data/attic.png  "$path"
     cp "$attic"/data/attic2.psd "$path"
     cp "$attic"/data/attic3.psd "$path"
+    cp "$attic"/data/attic4.psd "$path"
+    cp "$attic"/data/attic4.png "$path"
 
     cp "$attic"/data/indy.psd    "$path"
     cp "$attic"/data/indy.png    "$path"
@@ -173,6 +175,10 @@ if [ $1 = "room/attic" ]; then
     cp "$attic"/data/upscale/attic.jpeg "$path"
     cp "$attic"/data/upscale/indy.jpeg  "$path"
     cp "$attic"/data/upscale/indy2.jpeg "$path"
+
+    path="$PWD/dist/room/attic/data/upscale/base"
+
+    cp "$attic"/data/upscale/base/attic4.png "$path"
 
     path="$PWD/dist/room/attic/content"
 
