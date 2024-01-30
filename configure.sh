@@ -157,28 +157,33 @@ if [ $1 = "room/attic" ]; then
     cp "$attic"/data/attic4.psd "$path"
     cp "$attic"/data/attic4.png "$path"
 
-    cp "$attic"/data/indy.psd    "$path"
-    cp "$attic"/data/indy.png    "$path"
-    cp "$attic"/data/indy2.psd   "$path"
-    cp "$attic"/data/indy2.png   "$path"
-    cp "$attic"/data/indy3.psd   "$path"
-    cp "$attic"/data/indy3.png   "$path"
-    cp "$attic"/data/indy4.psd   "$path"
-    cp "$attic"/data/indy4.png   "$path"
-    cp "$attic"/data/indy5.png   "$path"
+    cp "$attic"/data/indy.psd  "$path"
+    cp "$attic"/data/indy.png  "$path"
+    cp "$attic"/data/indy2.psd "$path"
+    cp "$attic"/data/indy2.png "$path"
+    cp "$attic"/data/indy3.psd "$path"
+    cp "$attic"/data/indy3.png "$path"
+    cp "$attic"/data/indy4.psd "$path"
+    cp "$attic"/data/indy4.png "$path"
+    cp "$attic"/data/indy5.png "$path"
+    cp "$attic"/data/indy6.psd "$path"
+
     cp "$attic"/data/splash.psd  "$path"
     cp "$attic"/data/splash2.psd "$path"
     cp "$attic"/data/splash3.psd "$path"
 
     path="$PWD/dist/room/attic/data/upscale"
 
-    cp "$attic"/data/upscale/attic.jpeg "$path"
-    cp "$attic"/data/upscale/indy.jpeg  "$path"
-    cp "$attic"/data/upscale/indy2.jpeg "$path"
+    cp "$attic"/data/upscale/attic.jpeg  "$path"
+    cp "$attic"/data/upscale/attic4.jpeg "$path"
+    cp "$attic"/data/upscale/indy.jpeg   "$path"
+    cp "$attic"/data/upscale/indy2.jpeg  "$path"
+    cp "$attic"/data/upscale/indy6.jpeg  "$path"
 
     path="$PWD/dist/room/attic/data/upscale/base"
 
     cp "$attic"/data/upscale/base/attic4.png "$path"
+    cp "$attic"/data/upscale/base/indy6.png  "$path"
 
     path="$PWD/dist/room/attic/content"
 
