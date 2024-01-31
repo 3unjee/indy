@@ -5,7 +5,6 @@ set -e
 # Settings
 #--------------------------------------------------------------------------------------------------
 
-# NOTE: Update this path with your own asset folder.
 assets="/c/users/bunjee/OneDrive/assets/indy"
 
 deploy="$PWD/deploy"

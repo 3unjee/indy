@@ -1,5 +1,6 @@
 OTHER_FILES += configure.sh \
                push.sh \
+               environment.sh \
                README.md \
                technology.md \
                videos.md \
