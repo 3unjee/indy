@@ -50,4 +50,4 @@ Glass Breaking: https://pixabay.com/fr/sound-effects/glass-breaking-151256
 - attic3: https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/reference/attic3.jpg
 
 - coronado: https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/reference/coronado.jpg
-- cross: https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/reference/cross.pngs
+- cross: https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/reference/cross.png
