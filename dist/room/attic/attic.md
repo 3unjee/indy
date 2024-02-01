@@ -41,7 +41,13 @@ Glass Breaking: https://pixabay.com/fr/sound-effects/glass-breaking-151256
 
 ### References
 
-- attic: https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/reference/attic.jpg
 - splash: https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/reference/splash.png
 - splash2: https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/reference/splash2.png
 - splash3: https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/reference/splash3.png
+
+- attic: https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/reference/attic.jpg
+- attic2: https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/reference/attic2.jpg
+- attic3: https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/reference/attic3.jpg
+
+- coronado: https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/reference/coronado.jpg
+- cross: https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/reference/cross.pngs
