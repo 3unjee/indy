@@ -12,6 +12,8 @@ Technology: [technology.md](technology.md)
 
 Videos: [videos.md](videos.md)
 
+Screenshots: [screens.md](dist/screens/screens.md)
+
 ## Author
 
 Benjamin Arnaud aka [bunjee](https://bunjee.me) | <bunjee@omega.gg>

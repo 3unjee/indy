@@ -9,3 +9,4 @@ OTHER_FILES += configure.sh \
                dist/room/attic/attic.md \
                dist/character/character.md \
                dist/character/indy/indy.md \
+               dist/screens/screens.md \
