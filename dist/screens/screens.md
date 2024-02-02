@@ -2,7 +2,7 @@
 
 # Attic
 
-<a href=""><img src="attic/attic.jpg" width="640px"></a>
+<img src="attic/attic.jpg" width="640px">
 
 <a href=""><img src="attic/attic5.jpg" width="640px"></a>
 
