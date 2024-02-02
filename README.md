@@ -14,6 +14,20 @@ Videos: [videos.md](videos.md)
 
 Screenshots: [screens.md](dist/screens/screens.md)
 
+## Screenshots
+
+<img src="dist/screens/attic/attic.jpg" width="640px">
+
+<img src="dist/screens/attic/attic5.jpg" width="640px">
+
+<img src="dist/screens/attic/cross2.jpg" width="640px">
+
+<img src="dist/screens/attic/gargoyle3.jpg" width="640px">
+
+<img src="dist/screens/attic/indy3.jpg" width="640px">
+
+<img src="dist/screens/attic/indy7.jpg" width="640px">
+
 ## Author
 
 Benjamin Arnaud aka [bunjee](https://bunjee.me) | <bunjee@omega.gg>
