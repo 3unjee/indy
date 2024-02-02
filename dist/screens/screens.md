@@ -2,6 +2,8 @@
 
 # Attic
 
+<img src="attic/reference.jpg" width="640px">
+
 <img src="attic/attic.jpg" width="640px">
 
 <img src="attic/attic5.jpg" width="640px">
