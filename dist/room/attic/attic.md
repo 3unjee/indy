@@ -11,7 +11,11 @@ https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/reference/a
 https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/reference/coronado.jpg
 https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/reference/attic3.jpg The cross of Coronado from Indiana jones and the last crusade sitting on an old and dusty desk in an university attic full of arechological artifacts and ancient greek atlantean statues, low blue light filtering throughout the room mysterious atmosphere CINEMATIC STILL --ar 16:9 --v 6.0
 
+https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/reference/attic3.jpg A prominent medieval gargoyle from Indiana jones and the last crusade in an old and dusty desk an university attic full of arechological artifacts and ancient greek atlantean statues, low blue light filtering throughout the room mysterious atmosphere CINEMATIC STILL --ar 16:9 --v 6.0
+
 https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/reference/cross.png First person adventurer hands with a black leather jacket holding the Cross of coronado in an university attic full of arechological artifacts and ancient greek atlantean statues, low blue light filtering throughout the room mysterious atmosphere CINEMATIC STILL --ar 16:9 --v 6.0
+
+https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/reference/gargoyle.png First person adventurer hands with a black leather jacket touching the medieval gargoyle in an university attic full of arechological artifacts and ancient greek atlantean statues, low blue light filtering throughout the room mysterious atmosphere CINEMATIC STILL --ar 16:9 --v 6.0
 
 ## Characters
 
