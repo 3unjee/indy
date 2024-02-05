@@ -27,5 +27,12 @@ source:
         id: attic2
         duration: 0:16
         source: https://odysee.com/attic2:c
+    hub:
+        id: attic3
 
 START: RETURN "attic"
+
+ATTIC: |
+    IF (EQUAL argument "desk")
+        RETURN "attic3"
+    FI
