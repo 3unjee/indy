@@ -30,7 +30,7 @@ source:
     hub:
         id: attic3
 
-START: RETURN "attic"
+START: RETURN "attic,attic2"
 
 ATTIC: |
     IF (EQUAL argument "desk")
