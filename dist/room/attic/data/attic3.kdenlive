@@ -245,55 +245,6 @@
    <property name="disable">1</property>
   </filter>
  </tractor>
- <producer id="producer1" in="00:00:00.000" out="00:00:03.958">
-  <property name="length">96</property>
-  <property name="eof">pause</property>
-  <property name="resource">-1.000000:C:/dev/workspace/indy/dist/room/attic/content/attic7.mp4</property>
-  <property name="aspect_ratio">1</property>
-  <property name="meta.media.nb_streams">1</property>
-  <property name="meta.media.0.stream.type">video</property>
-  <property name="meta.media.0.stream.frame_rate">24</property>
-  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
-  <property name="meta.media.0.codec.width">2816</property>
-  <property name="meta.media.0.codec.height">1536</property>
-  <property name="meta.media.0.codec.rotate">0</property>
-  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
-  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
-  <property name="meta.media.0.codec.colorspace">709</property>
-  <property name="meta.media.0.codec.name">h264</property>
-  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
-  <property name="meta.media.0.codec.bit_rate">15840094</property>
-  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
-  <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
-  <property name="meta.attr.major_brand.markup">isom</property>
-  <property name="meta.attr.minor_version.markup">512</property>
-  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
-  <property name="meta.attr.encoder.markup">Lavf58.29.100</property>
-  <property name="seekable">1</property>
-  <property name="meta.media.sample_aspect_num">1</property>
-  <property name="meta.media.sample_aspect_den">1</property>
-  <property name="audio_index">-1</property>
-  <property name="video_index">0</property>
-  <property name="warp_speed">-1</property>
-  <property name="warp_resource">C:/dev/workspace/indy/dist/room/attic/content/attic7.mp4</property>
-  <property name="mlt_service">timewarp</property>
-  <property name="vstream">0</property>
-  <property name="astream">-1</property>
-  <property name="set.test_audio">1</property>
-  <property name="set.test_image">0</property>
-  <property name="kdenlive:id">6</property>
-  <property name="warp_pitch">0</property>
-  <property name="meta.media.frame_rate_num">24</property>
-  <property name="meta.media.frame_rate_den">1</property>
-  <property name="meta.media.colorspace">709</property>
-  <property name="meta.media.color_trc">2</property>
-  <property name="meta.media.has_b_frames">2</property>
-  <property name="meta.media.width">2816</property>
-  <property name="meta.media.height">1536</property>
-  <property name="meta.media.color_range">mpeg</property>
-  <property name="meta.media.top_field_first">0</property>
-  <property name="meta.media.progressive">1</property>
- </producer>
  <chain id="chain1" out="00:00:03.958">
   <property name="length">96</property>
   <property name="eof">pause</property>
@@ -592,8 +543,9 @@
   <property name="meta.media.progressive">1</property>
  </producer>
  <playlist id="playlist4">
-  <entry producer="producer1" in="00:00:00.000" out="00:00:03.958">
+  <entry producer="chain1" in="00:00:00.000" out="00:00:03.958">
    <property name="kdenlive:id">6</property>
+   <property name="kdenlive:activeeffect">-1</property>
   </entry>
   <entry producer="chain1" in="00:00:00.000" out="00:00:03.958">
    <property name="kdenlive:id">6</property>
@@ -628,13 +580,12 @@
   <blank length="00:00:04.000"/>
   <entry producer="producer5" in="00:00:00.000" out="00:00:23.958">
    <property name="kdenlive:id">7</property>
-   <property name="kdenlive:activeeffect">-1</property>
-   <filter id="filter6" out="00:00:00.417">
+   <filter id="filter7" out="00:00:00.833">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
-    <property name="alpha">00:00:00.000=0;00:00:00.417=1</property>
+    <property name="alpha">00:00:00.000=0;00:00:00.833=1</property>
    </filter>
   </entry>
  </playlist>
@@ -665,7 +616,7 @@
   <property name="kdenlive:sequenceproperties.documentuuid">{93e8ea12-7463-4eeb-8744-610d14ce039d}</property>
   <property name="kdenlive:sequenceproperties.hasAudio">1</property>
   <property name="kdenlive:sequenceproperties.hasVideo">1</property>
-  <property name="kdenlive:sequenceproperties.position">113</property>
+  <property name="kdenlive:sequenceproperties.position">20</property>
   <property name="kdenlive:sequenceproperties.scrollPos">0</property>
   <property name="kdenlive:sequenceproperties.tracks">4</property>
   <property name="kdenlive:sequenceproperties.tracksCount">4</property>
@@ -673,7 +624,7 @@
   <property name="kdenlive:sequenceproperties.videoTarget">2</property>
   <property name="kdenlive:sequenceproperties.zonein">0</property>
   <property name="kdenlive:sequenceproperties.zoneout">75</property>
-  <property name="kdenlive:sequenceproperties.zoom">6</property>
+  <property name="kdenlive:sequenceproperties.zoom">4</property>
   <property name="kdenlive:sequenceproperties.groups">[
 ]
 </property>
@@ -753,53 +704,53 @@
   <property name="kdenlive:docproperties.externalproxyparams"/>
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">0</property>
-  <property name="kdenlive:docproperties.guidesCategories">[&#xd;&#xd;&#xd;
-    {&#xd;&#xd;&#xd;
-        "color": "#9b59b6",&#xd;&#xd;&#xd;
-        "comment": "Category 1",&#xd;&#xd;&#xd;
-        "index": 0&#xd;&#xd;&#xd;
-    },&#xd;&#xd;&#xd;
-    {&#xd;&#xd;&#xd;
-        "color": "#3daee9",&#xd;&#xd;&#xd;
-        "comment": "Category 2",&#xd;&#xd;&#xd;
-        "index": 1&#xd;&#xd;&#xd;
-    },&#xd;&#xd;&#xd;
-    {&#xd;&#xd;&#xd;
-        "color": "#1abc9c",&#xd;&#xd;&#xd;
-        "comment": "Category 3",&#xd;&#xd;&#xd;
-        "index": 2&#xd;&#xd;&#xd;
-    },&#xd;&#xd;&#xd;
-    {&#xd;&#xd;&#xd;
-        "color": "#1cdc9a",&#xd;&#xd;&#xd;
-        "comment": "Category 4",&#xd;&#xd;&#xd;
-        "index": 3&#xd;&#xd;&#xd;
-    },&#xd;&#xd;&#xd;
-    {&#xd;&#xd;&#xd;
-        "color": "#c9ce3b",&#xd;&#xd;&#xd;
-        "comment": "Category 5",&#xd;&#xd;&#xd;
-        "index": 4&#xd;&#xd;&#xd;
-    },&#xd;&#xd;&#xd;
-    {&#xd;&#xd;&#xd;
-        "color": "#fdbc4b",&#xd;&#xd;&#xd;
-        "comment": "Category 6",&#xd;&#xd;&#xd;
-        "index": 5&#xd;&#xd;&#xd;
-    },&#xd;&#xd;&#xd;
-    {&#xd;&#xd;&#xd;
-        "color": "#f39c1f",&#xd;&#xd;&#xd;
-        "comment": "Category 7",&#xd;&#xd;&#xd;
-        "index": 6&#xd;&#xd;&#xd;
-    },&#xd;&#xd;&#xd;
-    {&#xd;&#xd;&#xd;
-        "color": "#f47750",&#xd;&#xd;&#xd;
-        "comment": "Category 8",&#xd;&#xd;&#xd;
-        "index": 7&#xd;&#xd;&#xd;
-    },&#xd;&#xd;&#xd;
-    {&#xd;&#xd;&#xd;
-        "color": "#da4453",&#xd;&#xd;&#xd;
-        "comment": "Category 9",&#xd;&#xd;&#xd;
-        "index": 8&#xd;&#xd;&#xd;
-    }&#xd;&#xd;&#xd;
-]&#xd;&#xd;&#xd;
+  <property name="kdenlive:docproperties.guidesCategories">[&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "color": "#9b59b6",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "comment": "Category 1",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "index": 0&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    },&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "color": "#3daee9",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "comment": "Category 2",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "index": 1&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    },&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "color": "#1abc9c",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "comment": "Category 3",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "index": 2&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    },&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "color": "#1cdc9a",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "comment": "Category 4",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "index": 3&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    },&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "color": "#c9ce3b",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "comment": "Category 5",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "index": 4&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    },&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "color": "#fdbc4b",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "comment": "Category 6",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "index": 5&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    },&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "color": "#f39c1f",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "comment": "Category 7",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "index": 6&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    },&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "color": "#f47750",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "comment": "Category 8",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "index": 7&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    },&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "color": "#da4453",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "comment": "Category 9",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "index": 8&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    }&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+]&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
 </property>
   <property name="kdenlive:docproperties.kdenliveversion">23.08.4</property>
   <property name="kdenlive:docproperties.opensequences">{93e8ea12-7463-4eeb-8744-610d14ce039d}</property>
@@ -840,7 +791,7 @@
   <entry producer="chain3" in="00:00:00.000" out="00:00:03.958"/>
   <entry producer="chain4" in="00:00:00.000" out="00:00:03.958"/>
   <entry producer="chain5" in="00:00:00.000" out="00:00:03.958"/>
-  <entry producer="producer5" in="00:00:00.000" out="00:00:22.958"/>
+  <entry producer="producer5" in="00:00:00.000" out="00:00:23.958"/>
   <entry producer="tractor4" in="00:00:00.000" out="00:00:27.958"/>
  </playlist>
  <tractor id="tractor5" in="00:00:00.000" out="00:00:28.000">
