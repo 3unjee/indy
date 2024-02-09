@@ -15,6 +15,9 @@ tags: |
     statue
 
 source:
+    #----------------------------------------------------------------------------------------------
+    # Room: attic
+    #----------------------------------------------------------------------------------------------
     track:
         id: intro
         duration: 1:21
@@ -27,12 +30,27 @@ source:
         id: attic2
         duration: 0:16
         source: https://odysee.com/attic2:c
-    hub:
+    track:
         id: attic3
+        duration: 0:04
+        source: https://odysee.com/attic3:3
+    hub:
+        id: attic4
+        at: 0:04
+        end: 0:28
+        source: https://odysee.com/attic3:3
+    track:
+        id: attic5
+        duration: 0:24
+        source: https://odysee.com/attic4:4
 
 START: RETURN "attic,attic2"
 
 ATTIC: |
     IF (EQUAL argument "desk")
-        RETURN "attic3"
+        RETURN "attic3,attic4"
+    ELIF (EQUAL argument "cross")
+        RETURN "attic5,attic4"
+    ELSE
+        RETURN "attic2"
     FI
