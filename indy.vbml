@@ -55,7 +55,7 @@ soundtrack:
     audio:
         id: attic2
         source: https://odysee.com/intro:562
-        start: 0:10
+        from: 0:10
 
 START: RETURN "attic,attic2"
 
