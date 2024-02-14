@@ -26,22 +26,36 @@ source:
         id: attic
         duration: 0:17
         source: https://odysee.com/attic:a
+        soundtrack: attic
     hub:
         id: attic2
         duration: 0:16
         source: https://odysee.com/attic2:c
+        soundtrack: attic
     track:
         id: attic3
         duration: 0:04
         source: https://odysee.com/attic3:3
+        soundtrack: attic
     hub:
         id: attic4
         duration: 0:24
         source: https://odysee.com/attic4:4
+        soundtrack: attic
     track:
         id: attic5
         duration: 0:24
         source: https://odysee.com/attic-cross:f
+        soundtrack: attic2
+
+soundtrack:
+    audio:
+        id: attic
+        source: https://odysee.com/intro:562
+    audio:
+        id: attic2
+        source: https://odysee.com/intro:562
+        volume: 0.2
 
 START: RETURN "attic,attic2"
 
