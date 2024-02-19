@@ -44,18 +44,18 @@ source:
         soundtrack: attic
     track:
         id: attic5
-        duration: 0:24
+        duration: 0:20
         source: https://odysee.com/attic-cross:f
+    track:
+        id: attic6
+        duration: 0:20
+        source: https://odysee.com/gargoyle:0
         soundtrack: attic2
 
 soundtrack:
     audio:
         id: attic
         source: https://odysee.com/intro:562
-    audio:
-        id: attic2
-        source: https://odysee.com/intro:562
-        from: 0:10
 
 START: RETURN "attic,attic2"
 
@@ -64,6 +64,8 @@ ATTIC: |
         RETURN "attic3,attic4"
     ELIF (EQUAL argument "cross")
         RETURN "attic5,attic4"
+    ELIF (EQUAL argument "gargoyle")
+        RETURN "attic6,attic4"
     ELSE
         RETURN "attic2"
     FI
