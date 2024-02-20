@@ -57,7 +57,7 @@ if [ $1 = "deploy" ]; then
     path="$assets/deploy/ambient"
     mkdir -p "$path"
 
-    cp "$deploy"/*.mp4 "$path"
+    cp "$deploy"/ambient/*.mp4 "$path"
 fi
 
 #--------------------------------------------------------------------------------------------------
