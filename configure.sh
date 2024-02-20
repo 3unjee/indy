@@ -69,6 +69,10 @@ if [ $1 = "deploy" ]; then
     path="$PWD/deploy"
 
     cp "$deploy"/*.mp4 "$path"
+
+    path="$PWD/deploy/ambient"
+
+    cp "$deploy"/ambient/*.ogg "$path"
 fi
 
 #--------------------------------------------------------------------------------------------------
