@@ -26,22 +26,22 @@ source:
         id: attic
         duration: 0:17
         source: /attic.mp4
-        soundtrack: attic
+        ambient: /ambient/attic.ogg
     hub:
         id: attic2
         duration: 0:16
         source: /attic2.mp4
-        soundtrack: attic
+        ambient: /ambient/attic.ogg
     track:
         id: attic3
         duration: 0:04
         source: /attic3.mp4
-        soundtrack: attic
+        ambient: /ambient/attic.ogg
     hub:
         id: attic4
         duration: 0:24
         source: /attic4.mp4
-        soundtrack: attic
+        ambient: /ambient/attic.ogg
     track:
         id: attic5
         duration: 0:20
@@ -50,12 +50,7 @@ source:
         id: attic6
         duration: 0:20
         source: /gargoyle.mp4
-        soundtrack: attic2
-
-soundtrack:
-    audio:
-        id: attic
-        source: https://odysee.com/intro:562
+        ambient: /ambient/attic.ogg
 
 START: RETURN "attic,attic2"
 
