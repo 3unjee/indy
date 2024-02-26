@@ -6,6 +6,7 @@ OTHER_FILES += configure.sh \
                videos.md \
                indy.vbml \
                deploy/local.vbml \
+               deploy/subtitle/attic-eng.srt \
                dist/room/room.md \
                dist/room/attic/attic.md \
                dist/character/character.md \

@@ -27,6 +27,7 @@ source:
         duration: 0:17
         source: https://odysee.com/attic:a
         ambient: https://www.youtube.com/watch?v=W2oS3BgIZr4
+        subtitles: https://raw.githubusercontent.com/3unjee/indy/master/deploy/subtitle/attic-eng.srt
     hub:
         id: attic2
         duration: 0:16

@@ -27,6 +27,7 @@ source:
         duration: 0:17
         source: /attic.mp4
         ambient: /ambient/attic.mp4
+        subtitles: /subtitle/attic-eng.srt
     hub:
         id: attic2
         duration: 0:16
