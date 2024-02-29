@@ -1645,14 +1645,14 @@
   <property name="kdenlive:clip_type">0</property>
   <property name="kdenlive:file_hash">68d2016a3fa5e6f2ec07fd8c8b97dd3b</property>
   <property name="kdenlive:folderid">13</property>
-  <property name="kdenlive:sequenceproperties.activeTrack">3</property>
+  <property name="kdenlive:sequenceproperties.activeTrack">-2</property>
   <property name="kdenlive:sequenceproperties.audioTarget">-1</property>
   <property name="kdenlive:sequenceproperties.disablepreview">0</property>
   <property name="kdenlive:sequenceproperties.documentuuid">{ac7c1121-0bd0-4526-af5f-e6338e7d1206}</property>
   <property name="kdenlive:sequenceproperties.hasAudio">1</property>
   <property name="kdenlive:sequenceproperties.hasVideo">1</property>
-  <property name="kdenlive:sequenceproperties.position">377</property>
-  <property name="kdenlive:sequenceproperties.scrollPos">1879</property>
+  <property name="kdenlive:sequenceproperties.position">370</property>
+  <property name="kdenlive:sequenceproperties.scrollPos">1837</property>
   <property name="kdenlive:sequenceproperties.tracksCount">5</property>
   <property name="kdenlive:sequenceproperties.videoTarget">-1</property>
   <property name="kdenlive:sequenceproperties.zonein">0</property>
@@ -1748,6 +1748,11 @@
    <property name="start">0.5</property>
    <property name="disable">1</property>
   </filter>
+  <filter id="filter25">
+   <property name="mlt_service">avfilter.subtitles</property>
+   <property name="internal_added">237</property>
+   <property name="av.filename">attic.kdenlive.srt</property>
+  </filter>
  </tractor>
  <playlist id="main_bin">
   <property name="kdenlive:folder.-1.13">Sequences</property>
@@ -1762,53 +1767,53 @@
   <property name="kdenlive:docproperties.externalproxyparams"/>
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">0</property>
-  <property name="kdenlive:docproperties.guidesCategories">[&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "color": "#9b59b6",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "comment": "Category 1",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "index": 0&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    },&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "color": "#3daee9",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "comment": "Category 2",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "index": 1&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    },&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "color": "#1abc9c",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "comment": "Category 3",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "index": 2&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    },&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "color": "#1cdc9a",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "comment": "Category 4",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "index": 3&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    },&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "color": "#c9ce3b",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "comment": "Category 5",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "index": 4&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    },&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "color": "#fdbc4b",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "comment": "Category 6",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "index": 5&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    },&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "color": "#f39c1f",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "comment": "Category 7",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "index": 6&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    },&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "color": "#f47750",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "comment": "Category 8",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "index": 7&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    },&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "color": "#da4453",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "comment": "Category 9",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "index": 8&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    }&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-]&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+  <property name="kdenlive:docproperties.guidesCategories">[&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "color": "#9b59b6",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "comment": "Category 1",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "index": 0&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    },&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "color": "#3daee9",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "comment": "Category 2",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "index": 1&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    },&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "color": "#1abc9c",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "comment": "Category 3",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "index": 2&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    },&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "color": "#1cdc9a",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "comment": "Category 4",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "index": 3&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    },&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "color": "#c9ce3b",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "comment": "Category 5",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "index": 4&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    },&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "color": "#fdbc4b",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "comment": "Category 6",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "index": 5&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    },&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "color": "#f39c1f",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "comment": "Category 7",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "index": 6&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    },&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "color": "#f47750",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "comment": "Category 8",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "index": 7&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    },&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "color": "#da4453",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "comment": "Category 9",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "index": 8&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    }&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+]&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
 </property>
   <property name="kdenlive:docproperties.kdenliveversion">23.08.4</property>
   <property name="kdenlive:docproperties.opensequences">{ac7c1121-0bd0-4526-af5f-e6338e7d1206}</property>
