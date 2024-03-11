@@ -26,23 +26,23 @@ source:
         id: attic
         duration: 0:17
         source: /attic.mp4
-        ambient: /ambient/attic.mp4
         subtitles: /subtitle/attic-eng.srt
+        template: attic
     hub:
         id: attic2
         duration: 0:16
         source: /attic2.mp4
-        ambient: /ambient/attic.mp4
+        template: attic
     track:
         id: attic3
         duration: 0:04
         source: /attic3.mp4
-        ambient: /ambient/attic.mp4
+        template: attic
     hub:
         id: attic4
         duration: 0:24
         source: /attic4.mp4
-        ambient: /ambient/attic.mp4
+        template: attic
     track:
         id: attic5
         duration: 0:20
@@ -51,6 +51,11 @@ source:
         id: attic6
         duration: 0:20
         source: /gargoyle.mp4
+        template: attic
+
+templates:
+    template:
+        id: attic
         ambient: /ambient/attic.mp4
 
 START: RETURN "attic,attic2"

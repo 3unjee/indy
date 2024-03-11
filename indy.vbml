@@ -26,23 +26,23 @@ source:
         id: attic
         duration: 0:17
         source: https://odysee.com/attic:a
-        ambient: https://www.youtube.com/watch?v=W2oS3BgIZr4
         subtitles: https://raw.githubusercontent.com/3unjee/indy/master/deploy/subtitle/attic-eng.srt
+        template: attic
     hub:
         id: attic2
         duration: 0:16
         source: https://odysee.com/attic2:c
-        ambient: https://www.youtube.com/watch?v=W2oS3BgIZr4
+        template: attic
     track:
         id: attic3
         duration: 0:04
         source: https://odysee.com/attic3:3
-        ambient: https://www.youtube.com/watch?v=W2oS3BgIZr4
+        template: attic
     hub:
         id: attic4
         duration: 0:24
         source: https://odysee.com/attic4:4
-        ambient: https://www.youtube.com/watch?v=W2oS3BgIZr4
+        template: attic
     track:
         id: attic5
         duration: 0:20
@@ -51,6 +51,11 @@ source:
         id: attic6
         duration: 0:20
         source: https://odysee.com/gargoyle:0
+        template: attic
+
+templates:
+    template:
+        id: attic
         ambient: https://www.youtube.com/watch?v=W2oS3BgIZr4
 
 START: RETURN "attic,attic2"
