@@ -7,7 +7,7 @@ type: interactive
 
 title: Indiana Jones and the Fate of Atlantis
 
-cover: https://raw.githubusercontent.com/3unjee/indy/master/dist/screens/screen.jpg
+cover: /dist/screens/screen.jpg
 
 context: intro,attic,attic2
 
@@ -21,42 +21,42 @@ source:
     track:
         id: intro
         duration: 1:21
-        source: /intro.mp4
+        source: /deploy/intro.mp4
     track:
         id: attic
         duration: 0:17
-        source: /attic.mp4
-        subtitles: /subtitle/attic-eng.srt
+        source: /deploy/attic.mp4
+        subtitles: /deploy/subtitle/attic-eng.srt
         template: attic
     hub:
         id: attic2
         duration: 0:16
-        source: /attic2.mp4
+        source: /deploy/attic2.mp4
         template: attic
     track:
         id: attic3
         duration: 0:04
-        source: /attic3.mp4
+        source: /deploy/attic3.mp4
         template: attic
     hub:
         id: attic4
         duration: 0:24
-        source: /attic4.mp4
+        source: /deploy/attic4.mp4
         template: attic
     track:
         id: attic5
         duration: 0:20
-        source: /attic-cross.mp4
+        source: /deploy/attic-cross.mp4
     track:
         id: attic6
         duration: 0:20
-        source: /gargoyle.mp4
+        source: /deploy/gargoyle.mp4
         template: attic
 
 templates:
     template:
         id: attic
-        ambient: /ambient/attic.mp4
+        ambient: /deploy/ambient/attic.mp4
 
 START: RETURN "attic,attic2"
 
