@@ -7,6 +7,8 @@ set -e
 
 assets="/c/users/bunjee/OneDrive/assets/indy"
 
+extra="$assets/extra/indy"
+
 deploy="$assets/deploy"
 
 screens="$assets/screens"
@@ -126,9 +128,9 @@ if [ $1 = "room/intro" ]; then
     cp "$intro"/content/*.jpg "$path"
     cp "$intro"/content/*.mp4 "$path"
 
-    path="$PWD/dist/room/intro/content/music"
+    path="$PWD/dist/room/intro/content/music/extra"
 
-    cp "$intro"/content/music/*.webm "$path"
+    cp "$extra"/intro/music/*.webm "$path"
 fi
 
 #--------------------------------------------------------------------------------------------------
@@ -163,9 +165,9 @@ if [ $1 = "room/attic" ]; then
 
     cp "$attic"/content/audio/*.mp3 "$path"
 
-    path="$PWD/dist/room/attic/content/music"
+    path="$PWD/dist/room/attic/content/music/extra"
 
-    cp "$attic"/content/music/*.webm "$path"
+    cp "$extra"/attic/music/*.webm "$path"
 
     path="$PWD/dist/room/attic/content/voice"
 

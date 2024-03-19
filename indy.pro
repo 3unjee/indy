@@ -2,6 +2,7 @@ OTHER_FILES += configure.sh \
                push.sh \
                environment.sh \
                README.md \
+               extra.md \
                technology.md \
                videos.md \
                indy.vbml \
