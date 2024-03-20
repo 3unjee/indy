@@ -4,17 +4,17 @@
 
 path: assets/extra/indy/intro/music/intro.webm
 
-source: https://www.youtube.com/watch?v=a8OZ5F59ScQ
-title: Indy's Very First Adventure
-length: 12:00
+source: https://www.youtube.com/watch?v=l_VfjEmeUWk
+title: Finale & End Credits
+length: 10:39
 
 ### attic
 
 path: assets/extra/indy/attic/music/attic.webm
 
-source: https://www.youtube.com/watch?v=a8OZ5F59ScQ
+source: https://www.youtube.com/watch?v=i5H65-smy7E
 title: X Marks the Spot
-length: 12:00
+length: 3:11
 
 ---
 
