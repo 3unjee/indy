@@ -145,7 +145,7 @@
  <chain id="chain6" out="00:12:00.000">
   <property name="length">17281</property>
   <property name="eof">pause</property>
-  <property name="resource">C:/dev/workspace/indy/dist/room/attic/content/music/attic2.webm</property>
+  <property name="resource">C:/dev/workspace/indy/dist/room/attic/content/music/extra/attic2.webm</property>
   <property name="mlt_service">avformat</property>
   <property name="meta.media.nb_streams">1</property>
   <property name="meta.media.0.stream.type">audio</property>
@@ -256,7 +256,7 @@
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
   <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:id">10</property>
+  <property name="kdenlive:id">9</property>
   <property name="mute_on_pause">0</property>
   <property name="kdenlive:clip_type">2</property>
   <property name="kdenlive:file_size">7922094</property>
@@ -311,7 +311,7 @@
  <chain id="chain0" out="00:12:00.000">
   <property name="length">17281</property>
   <property name="eof">pause</property>
-  <property name="resource">C:/dev/workspace/indy/dist/room/attic/content/music/attic2.webm</property>
+  <property name="resource">C:/dev/workspace/indy/dist/room/attic/content/music/extra/attic2.webm</property>
   <property name="mlt_service">avformat-novalidate</property>
   <property name="seekable">1</property>
   <property name="audio_index">0</property>
@@ -651,7 +651,7 @@
   <property name="video_index">0</property>
   <property name="vstream">0</property>
   <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:id">10</property>
+  <property name="kdenlive:id">9</property>
   <property name="mute_on_pause">0</property>
   <property name="kdenlive:clip_type">2</property>
   <property name="kdenlive:file_size">7922094</property>
@@ -709,7 +709,7 @@
   </entry>
   <blank length="00:00:00.500"/>
   <entry producer="chain7" in="00:00:00.000" out="00:00:00.375">
-   <property name="kdenlive:id">10</property>
+   <property name="kdenlive:id">9</property>
   </entry>
  </playlist>
  <playlist id="playlist5"/>
@@ -732,7 +732,7 @@
   <property name="video_index">0</property>
   <property name="vstream">0</property>
   <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:id">10</property>
+  <property name="kdenlive:id">9</property>
   <property name="mute_on_pause">0</property>
   <property name="kdenlive:clip_type">2</property>
   <property name="kdenlive:file_size">7922094</property>
@@ -824,7 +824,7 @@
  </chain>
  <playlist id="playlist6">
   <entry producer="chain8" in="00:00:00.000" out="00:00:00.375">
-   <property name="kdenlive:id">10</property>
+   <property name="kdenlive:id">9</property>
    <filter id="filter8" in="00:00:-0.042" out="00:00:00.375">
     <property name="start">1</property>
     <property name="level">1</property>
@@ -962,53 +962,53 @@
   <property name="kdenlive:docproperties.externalproxyparams"/>
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">0</property>
-  <property name="kdenlive:docproperties.guidesCategories">[&#xd;&#xd;&#xd;
-    {&#xd;&#xd;&#xd;
-        "color": "#9b59b6",&#xd;&#xd;&#xd;
-        "comment": "Category 1",&#xd;&#xd;&#xd;
-        "index": 0&#xd;&#xd;&#xd;
-    },&#xd;&#xd;&#xd;
-    {&#xd;&#xd;&#xd;
-        "color": "#3daee9",&#xd;&#xd;&#xd;
-        "comment": "Category 2",&#xd;&#xd;&#xd;
-        "index": 1&#xd;&#xd;&#xd;
-    },&#xd;&#xd;&#xd;
-    {&#xd;&#xd;&#xd;
-        "color": "#1abc9c",&#xd;&#xd;&#xd;
-        "comment": "Category 3",&#xd;&#xd;&#xd;
-        "index": 2&#xd;&#xd;&#xd;
-    },&#xd;&#xd;&#xd;
-    {&#xd;&#xd;&#xd;
-        "color": "#1cdc9a",&#xd;&#xd;&#xd;
-        "comment": "Category 4",&#xd;&#xd;&#xd;
-        "index": 3&#xd;&#xd;&#xd;
-    },&#xd;&#xd;&#xd;
-    {&#xd;&#xd;&#xd;
-        "color": "#c9ce3b",&#xd;&#xd;&#xd;
-        "comment": "Category 5",&#xd;&#xd;&#xd;
-        "index": 4&#xd;&#xd;&#xd;
-    },&#xd;&#xd;&#xd;
-    {&#xd;&#xd;&#xd;
-        "color": "#fdbc4b",&#xd;&#xd;&#xd;
-        "comment": "Category 6",&#xd;&#xd;&#xd;
-        "index": 5&#xd;&#xd;&#xd;
-    },&#xd;&#xd;&#xd;
-    {&#xd;&#xd;&#xd;
-        "color": "#f39c1f",&#xd;&#xd;&#xd;
-        "comment": "Category 7",&#xd;&#xd;&#xd;
-        "index": 6&#xd;&#xd;&#xd;
-    },&#xd;&#xd;&#xd;
-    {&#xd;&#xd;&#xd;
-        "color": "#f47750",&#xd;&#xd;&#xd;
-        "comment": "Category 8",&#xd;&#xd;&#xd;
-        "index": 7&#xd;&#xd;&#xd;
-    },&#xd;&#xd;&#xd;
-    {&#xd;&#xd;&#xd;
-        "color": "#da4453",&#xd;&#xd;&#xd;
-        "comment": "Category 9",&#xd;&#xd;&#xd;
-        "index": 8&#xd;&#xd;&#xd;
-    }&#xd;&#xd;&#xd;
-]&#xd;&#xd;&#xd;
+  <property name="kdenlive:docproperties.guidesCategories">[&#xd;&#xd;&#xd;&#xd;
+    {&#xd;&#xd;&#xd;&#xd;
+        "color": "#9b59b6",&#xd;&#xd;&#xd;&#xd;
+        "comment": "Category 1",&#xd;&#xd;&#xd;&#xd;
+        "index": 0&#xd;&#xd;&#xd;&#xd;
+    },&#xd;&#xd;&#xd;&#xd;
+    {&#xd;&#xd;&#xd;&#xd;
+        "color": "#3daee9",&#xd;&#xd;&#xd;&#xd;
+        "comment": "Category 2",&#xd;&#xd;&#xd;&#xd;
+        "index": 1&#xd;&#xd;&#xd;&#xd;
+    },&#xd;&#xd;&#xd;&#xd;
+    {&#xd;&#xd;&#xd;&#xd;
+        "color": "#1abc9c",&#xd;&#xd;&#xd;&#xd;
+        "comment": "Category 3",&#xd;&#xd;&#xd;&#xd;
+        "index": 2&#xd;&#xd;&#xd;&#xd;
+    },&#xd;&#xd;&#xd;&#xd;
+    {&#xd;&#xd;&#xd;&#xd;
+        "color": "#1cdc9a",&#xd;&#xd;&#xd;&#xd;
+        "comment": "Category 4",&#xd;&#xd;&#xd;&#xd;
+        "index": 3&#xd;&#xd;&#xd;&#xd;
+    },&#xd;&#xd;&#xd;&#xd;
+    {&#xd;&#xd;&#xd;&#xd;
+        "color": "#c9ce3b",&#xd;&#xd;&#xd;&#xd;
+        "comment": "Category 5",&#xd;&#xd;&#xd;&#xd;
+        "index": 4&#xd;&#xd;&#xd;&#xd;
+    },&#xd;&#xd;&#xd;&#xd;
+    {&#xd;&#xd;&#xd;&#xd;
+        "color": "#fdbc4b",&#xd;&#xd;&#xd;&#xd;
+        "comment": "Category 6",&#xd;&#xd;&#xd;&#xd;
+        "index": 5&#xd;&#xd;&#xd;&#xd;
+    },&#xd;&#xd;&#xd;&#xd;
+    {&#xd;&#xd;&#xd;&#xd;
+        "color": "#f39c1f",&#xd;&#xd;&#xd;&#xd;
+        "comment": "Category 7",&#xd;&#xd;&#xd;&#xd;
+        "index": 6&#xd;&#xd;&#xd;&#xd;
+    },&#xd;&#xd;&#xd;&#xd;
+    {&#xd;&#xd;&#xd;&#xd;
+        "color": "#f47750",&#xd;&#xd;&#xd;&#xd;
+        "comment": "Category 8",&#xd;&#xd;&#xd;&#xd;
+        "index": 7&#xd;&#xd;&#xd;&#xd;
+    },&#xd;&#xd;&#xd;&#xd;
+    {&#xd;&#xd;&#xd;&#xd;
+        "color": "#da4453",&#xd;&#xd;&#xd;&#xd;
+        "comment": "Category 9",&#xd;&#xd;&#xd;&#xd;
+        "index": 8&#xd;&#xd;&#xd;&#xd;
+    }&#xd;&#xd;&#xd;&#xd;
+]&#xd;&#xd;&#xd;&#xd;
 </property>
   <property name="kdenlive:docproperties.kdenliveversion">23.08.4</property>
   <property name="kdenlive:docproperties.opensequences">{fdbb71c0-047d-481f-90c9-88631554cfee}</property>
