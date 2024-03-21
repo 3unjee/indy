@@ -7,7 +7,7 @@ set -e
 
 assets="/c/users/bunjee/OneDrive/assets/indy"
 
-extra="$assets/extra/indy"
+extra="$assets/../extra/indy"
 
 deploy="$assets/deploy"
 
