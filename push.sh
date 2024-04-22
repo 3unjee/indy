@@ -7,16 +7,14 @@ set -e
 
 assets="/c/users/bunjee/OneDrive/assets/indy"
 
-deploy="$PWD/deploy"
-dist="$PWD/dist"
+#--------------------------------------------------------------------------------------------------
+# Functions
+#--------------------------------------------------------------------------------------------------
 
-screens="$dist/screens"
-trailer="$dist/trailer"
-
-indy="$dist/character/indy"
-
-intro="$dist/room/intro"
-attic="$dist/room/attic"
+exists()
+{
+    ls "$1" 1> /dev/null 2>&1
+}
 
 #--------------------------------------------------------------------------------------------------
 # Syntax
@@ -49,15 +47,19 @@ if [ "$REPLY" != "yes" ]; then exit 1; fi
 
 if [ $1 = "deploy" ]; then
 
-    path="$assets/deploy"
+    source="$PWD/$1"
+
+    path="$assets/$1"
     mkdir -p "$path"
 
-    cp "$deploy"/*.mp4 "$path"
+    cp "$source"/*.mp4 "$path"
 
-    path="$assets/deploy/ambient"
+    source="$PWD/$1/ambient"
+
+    path="$assets/$1"
     mkdir -p "$path"
 
-    cp "$deploy"/ambient/*.mp4 "$path"
+    cp "$source"/*.mp4 "$path"
 fi
 
 #--------------------------------------------------------------------------------------------------
@@ -66,10 +68,12 @@ fi
 
 if [ $1 = "screens" ]; then
 
-    path="$assets/screens/data"
+    source="$PWD/dist/$1/data"
+
+    path="$assets/$1/data"
     mkdir -p "$path"
 
-    cp "$screens"/data/*.psd "$path"
+    cp "$source"/*.psd "$path"
 fi
 
 #--------------------------------------------------------------------------------------------------
@@ -78,94 +82,93 @@ fi
 
 if [ $1 = "trailer" ]; then
 
-    path="$assets/trailer/content"
+    source="$PWD/dist/$1/content"
+
+    path="$assets/$1/content"
     mkdir -p "$path"
 
-    cp "$trailer"/content/*.mp4 "$path"
+    cp "$source"/*.mp4 "$path"
 fi
 
 #--------------------------------------------------------------------------------------------------
-# Character indy
+# Characters
 #--------------------------------------------------------------------------------------------------
 
 if [ $1 = "character/indy" ]; then
 
-    path="$assets/character/indy/data/voice"
+    source="$PWD/dist/$1/data/voice"
+
+    path="$assets/$1/data/voice"
     mkdir -p "$path"
 
-    cp "$indy"/data/voice/*.webm "$path"
+    cp "$source"/*.webm "$path"
 fi
 
 #--------------------------------------------------------------------------------------------------
-# Room intro
+# Rooms
 #--------------------------------------------------------------------------------------------------
 
-if [ $1 = "room/intro" ]; then
+if [ $1 = "room/intro" -o \
+     $1 = "room/attic" ]; then
 
-    path="$assets/room/intro/data"
+    source="$PWD/dist/$1/data"
+
+    path="$assets/$1/data"
     mkdir -p "$path"
 
-    cp "$intro"/data/*.psd "$path"
-    cp "$intro"/data/*.png "$path"
+    cp "$source"/*.psd "$path"
+    cp "$source"/*.png "$path"
 
-    path="$assets/room/intro/content"
+    source="$PWD/dist/$1/data/upscale"
+
+    if [ -d "$source" ]; then
+
+        path="$assets/$1/data/upscale"
+        mkdir -p "$path"
+
+        cp "$source"/*.jpeg "$path"
+    fi
+
+    source="$PWD/dist/$1/data/upscale/base"
+
+    if [ -d "$source" ]; then
+
+        path="$assets/$1/data/upscale/base"
+        mkdir -p "$path"
+
+        cp "$source"/*.png "$path"
+    fi
+
+    source="$PWD/dist/$1/content"
+
+    path="$assets/$1/content"
     mkdir -p "$path"
 
-    cp "$intro"/content/*.png "$path"
-    cp "$intro"/content/*.jpg "$path"
-    cp "$intro"/content/*.mp4 "$path"
+    cp "$source"/*.png "$path"
+    cp "$source"/*.mp4 "$path"
 
-    path="$assets/room/intro/content/music"
-    mkdir -p "$path"
+    if exists "$source"/*.jpg; then
 
-    cp "$intro"/content/music/*.webm "$path"
-fi
+        cp "$source"/*.jpg "$path"
+    fi
 
-#--------------------------------------------------------------------------------------------------
-# Room attic
-#--------------------------------------------------------------------------------------------------
+    source="$PWD/dist/$1/content/audio"
 
-if [ $1 = "room/attic" ]; then
+    if [ -d "$source" ]; then
 
-    path="$assets/room/attic/reference"
-    mkdir -p "$path"
+        path="$assets/$1/content/audio"
+        mkdir -p "$path"
 
-    cp "$attic"/reference/*.psd  "$path"
+        cp "$source"/*.mp3 "$path"
+    fi
 
-    path="$assets/room/attic/data"
-    mkdir -p "$path"
+    source="$PWD/dist/$1/content/voice"
 
-    cp "$attic"/data/*.psd  "$path"
-    cp "$attic"/data/*.png  "$path"
+    if [ -d "$source" ]; then
 
-    path="$assets/room/attic/data/upscale"
-    mkdir -p "$path"
+        path="$assets/$1/content/voice"
+        mkdir -p "$path"
 
-    cp "$attic"/data/upscale/*.jpeg "$path"
-
-    path="$assets/room/attic/data/upscale/base"
-    mkdir -p "$path"
-
-    cp "$attic"/data/upscale/base/*.png "$path"
-
-    path="$assets/room/attic/content"
-    mkdir -p "$path"
-
-    cp "$attic"/content/*.png "$path"
-    cp "$attic"/content/*.mp4 "$path"
-
-    path="$assets/room/attic/content/audio"
-    mkdir -p "$path"
-
-    cp "$attic"/content/audio/*.mp3 "$path"
-
-    path="$assets/room/attic/content/music"
-    mkdir -p "$path"
-
-    cp "$attic"/content/music/*.webm "$path"
-
-    path="$assets/room/attic/content/voice"
-    mkdir -p "$path"
-
-    cp "$attic"/content/voice/*.mp3 "$path"
+        cp "$source"/*.mp3 "$path"
+    fi
 fi
