@@ -11,14 +11,6 @@ extra="$assets/../extra/indy"
 
 deploy="$assets/deploy"
 
-screens="$assets/screens"
-trailer="$assets/trailer"
-
-indy="$assets/character/indy"
-
-intro="$assets/room/intro"
-attic="$assets/room/attic"
-
 #--------------------------------------------------------------------------------------------------
 # Functions
 #--------------------------------------------------------------------------------------------------
@@ -94,9 +86,11 @@ fi
 
 if [ $1 = "screens" ]; then
 
-    path="$PWD/dist/screens/data"
+    source="$assets/$1/data"
 
-    cp "$screens"/data/*.psd "$path"
+    path="$PWD/dist/$1/data"
+
+    cp "$source"/*.psd "$path"
 
     exit 0
 fi
@@ -107,9 +101,11 @@ fi
 
 if [ $1 = "trailer" ]; then
 
-    path="$PWD/dist/trailer/content"
+    source="$assets/$1/content"
 
-    cp "$trailer"/content/*.mp4 "$path"
+    path="$PWD/dist/$1/content"
+
+    cp "$source"/*.mp4 "$path"
 
     exit 0
 fi
