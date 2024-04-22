@@ -9,8 +9,6 @@ assets="/c/users/bunjee/OneDrive/assets/indy"
 
 extra="$assets/../extra/indy"
 
-deploy="$assets/deploy"
-
 #--------------------------------------------------------------------------------------------------
 # Functions
 #--------------------------------------------------------------------------------------------------
@@ -69,13 +67,17 @@ fi
 
 if [ $1 = "deploy" ]; then
 
-    path="$PWD/deploy"
+    source="$assets/$1"
 
-    cp "$deploy"/*.mp4 "$path"
+    path="$PWD/$1"
 
-    path="$PWD/deploy/ambient"
+    cp "$source"/*.mp4 "$path"
 
-    cp "$deploy"/ambient/*.mp4 "$path"
+    source="$assets/$1/ambient"
+
+    path="$PWD/$1/ambient"
+
+    cp "$source"/*.mp4 "$path"
 
     exit 0
 fi
