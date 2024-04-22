@@ -20,6 +20,12 @@ intro="$assets/room/intro"
 attic="$assets/room/attic"
 
 #--------------------------------------------------------------------------------------------------
+# Functions
+#--------------------------------------------------------------------------------------------------
+
+exists() { ls "$1" 1> /dev/null 2>&1 }
+
+#--------------------------------------------------------------------------------------------------
 # Syntax
 #--------------------------------------------------------------------------------------------------
 
@@ -75,6 +81,8 @@ if [ $1 = "deploy" ]; then
     path="$PWD/deploy/ambient"
 
     cp "$deploy"/ambient/*.mp4 "$path"
+
+    exit 0
 fi
 
 #--------------------------------------------------------------------------------------------------
@@ -86,6 +94,8 @@ if [ $1 = "screens" ]; then
     path="$PWD/dist/screens/data"
 
     cp "$screens"/data/*.psd "$path"
+
+    exit 0
 fi
 
 #--------------------------------------------------------------------------------------------------
@@ -97,79 +107,93 @@ if [ $1 = "trailer" ]; then
     path="$PWD/dist/trailer/content"
 
     cp "$trailer"/content/*.mp4 "$path"
+
+    exit 0
 fi
 
 #--------------------------------------------------------------------------------------------------
-# Character indy
+# Characters
 #--------------------------------------------------------------------------------------------------
 
 if [ $1 = "character/indy" ]; then
 
-    path="$PWD/dist/character/indy/data/voice"
+    source="$assets/$1/data/voice"
 
-    cp "$indy"/data/voice/*.webm "$path"
+    path="$PWD/dist/$1/data/voice"
+
+    cp "$source"/*.webm "$path"
+
+    exit 0
 fi
 
 #--------------------------------------------------------------------------------------------------
-# Room intro
+# Rooms
 #--------------------------------------------------------------------------------------------------
 
-if [ $1 = "room/intro" ]; then
+if [ $1 = "room/intro" -o
+     $1 = "room/attic" ]; then
 
-    path="$PWD/dist/room/intro/data"
-    mkdir -p "$path"
+    source="$assets/$1/data"
 
-    cp "$intro"/data/*.psd "$path"
-    cp "$intro"/data/*.png "$path"
+    path="$PWD/dist/$1/data"
 
-    path="$PWD/dist/room/intro/content"
+    cp "$source"/*.psd "$path"
+    cp "$source"/*.png "$path"
 
-    cp "$intro"/content/*.png "$path"
-    cp "$intro"/content/*.jpg "$path"
-    cp "$intro"/content/*.mp4 "$path"
+    source="$assets/$1/data/upscale"
 
-    path="$PWD/dist/room/intro/content/music/extra"
+    if [ -d "$source" ]; then
 
-    cp "$extra"/intro/music/*.webm "$path"
-fi
+        path="$PWD/dist/$1/data/upscale"
 
-#--------------------------------------------------------------------------------------------------
-# Room attic
-#--------------------------------------------------------------------------------------------------
+        cp "$source"/*.jpeg "$path"
+    fi
 
-if [ $1 = "room/attic" ]; then
+    source="$assets/$1/data/upscale/base"
 
-    path="$PWD/dist/room/attic/reference"
+    if [ -d "$source" ]; then
 
-    cp "$attic"/reference/*.psd "$path"
+        path="$PWD/dist/$1/data/upscale/base"
 
-    path="$PWD/dist/room/attic/data"
+        cp "$source"/*.png "$path"
+    fi
 
-    cp "$attic"/data/*.psd "$path"
-    cp "$attic"/data/*.png "$path"
+    source="$assets/$1/content"
 
-    path="$PWD/dist/room/attic/data/upscale"
+    path="$PWD/dist/$1/content"
 
-    cp "$attic"/data/upscale/*.jpeg "$path"
+    cp "$source"/*.png "$path"
+    cp "$source"/*.mp4 "$path"
 
-    path="$PWD/dist/room/attic/data/upscale/base"
+    if exists "$source"/*.jpg; then
 
-    cp "$attic"/data/upscale/base/*.png "$path"
+        cp "$source"/*.jpg "$path"
+    fi
 
-    path="$PWD/dist/room/attic/content"
+    source="$assets/$1/content/audio"
 
-    cp "$attic"/content/*.png "$path"
-    cp "$attic"/content/*.mp4 "$path"
+    if [ -d "$source" ]; then
 
-    path="$PWD/dist/room/attic/content/audio"
+        path="$PWD/dist/$1/content/audio"
 
-    cp "$attic"/content/audio/*.mp3 "$path"
+        cp "$source"/*.mp3 "$path"
+    fi
 
-    path="$PWD/dist/room/attic/content/music/extra"
+    source="$assets/$1/content/voice"
 
-    cp "$extra"/attic/music/*.webm "$path"
+    if [ -d "$source" ]; then
 
-    path="$PWD/dist/room/attic/content/voice"
+        path="$PWD/dist/$1/content/voice"
 
-    cp "$attic"/content/voice/*.mp3 "$path"
+        cp "$source"/*.mp3 "$path"
+    fi
+
+    source="$extra/$1/music"
+
+    if [ -d "$source" ]; then
+
+        path="$PWD/dist/$1/content/music/extra"
+
+        cp "$source"/*.webm "$path"
+    fi
 fi
