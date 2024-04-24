@@ -69,11 +69,15 @@ if [ $1 = "deploy" ]; then
 
     source="$assets/$1"
 
+    echo "$source"
+
     path="$PWD/$1"
 
     cp "$source"/*.mp4 "$path"
 
     source="$assets/$1/ambient"
+
+    echo "$source"
 
     path="$PWD/$1/ambient"
 
@@ -90,6 +94,8 @@ if [ $1 = "screens" ]; then
 
     source="$assets/$1/data"
 
+    echo "$source"
+
     path="$PWD/dist/$1/data"
 
     cp "$source"/*.psd "$path"
@@ -104,6 +110,8 @@ fi
 if [ $1 = "trailer" ]; then
 
     source="$assets/$1/content"
+
+    echo "$source"
 
     path="$PWD/dist/$1/content"
 
@@ -120,9 +128,14 @@ if [ $1 = "character/indy" ]; then
 
     source="$assets/$1/data/voice"
 
-    path="$PWD/dist/$1/data/voice"
+    if [ -d "$source" ]; then
 
-    cp "$source"/*.webm "$path"
+        echo "$source"
+
+        path="$PWD/dist/$1/data/voice"
+
+        cp "$source"/*.webm "$path"
+    fi
 
     exit 0
 fi
@@ -136,14 +149,21 @@ if [ $1 = "room/intro" -o \
 
     source="$assets/$1/data"
 
-    path="$PWD/dist/$1/data"
+    if [ -d "$source" ]; then
 
-    cp "$source"/*.psd "$path"
-    cp "$source"/*.png "$path"
+        echo "$source"
+
+        path="$PWD/dist/$1/data"
+
+        cp "$source"/*.psd "$path"
+        cp "$source"/*.png "$path"
+    fi
 
     source="$assets/$1/data/upscale"
 
     if [ -d "$source" ]; then
+
+        echo "$source"
 
         path="$PWD/dist/$1/data/upscale"
 
@@ -154,6 +174,8 @@ if [ $1 = "room/intro" -o \
 
     if [ -d "$source" ]; then
 
+        echo "$source"
+
         path="$PWD/dist/$1/data/upscale/base"
 
         cp "$source"/*.png "$path"
@@ -161,19 +183,26 @@ if [ $1 = "room/intro" -o \
 
     source="$assets/$1/content"
 
-    path="$PWD/dist/$1/content"
+    if [ -d "$source" ]; then
 
-    cp "$source"/*.png "$path"
-    cp "$source"/*.mp4 "$path"
+        echo "$source"
 
-    if exists "$source"/*.jpg; then
+        path="$PWD/dist/$1/content"
 
-        cp "$source"/*.jpg "$path"
+        cp "$source"/*.png "$path"
+        cp "$source"/*.mp4 "$path"
+
+        if exists "$source"/*.jpg; then
+
+            cp "$source"/*.jpg "$path"
+        fi
     fi
 
     source="$assets/$1/content/audio"
 
     if [ -d "$source" ]; then
+
+        echo "$source"
 
         path="$PWD/dist/$1/content/audio"
 
@@ -184,6 +213,8 @@ if [ $1 = "room/intro" -o \
 
     if [ -d "$source" ]; then
 
+        echo "$source"
+
         path="$PWD/dist/$1/content/voice"
 
         cp "$source"/*.mp3 "$path"
@@ -192,6 +223,8 @@ if [ $1 = "room/intro" -o \
     source="$extra/$1/music"
 
     if [ -d "$source" ]; then
+
+        echo "$source"
 
         path="$PWD/dist/$1/content/music/extra"
 

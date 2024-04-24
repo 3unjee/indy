@@ -49,6 +49,8 @@ if [ $1 = "deploy" ]; then
 
     source="$PWD/$1"
 
+    echo "$source"
+
     path="$assets/$1"
     mkdir -p "$path"
 
@@ -70,6 +72,8 @@ if [ $1 = "screens" ]; then
 
     source="$PWD/dist/$1/data"
 
+    echo "$source"
+
     path="$assets/$1/data"
     mkdir -p "$path"
 
@@ -84,6 +88,8 @@ if [ $1 = "trailer" ]; then
 
     source="$PWD/dist/$1/content"
 
+    echo "$source"
+
     path="$assets/$1/content"
     mkdir -p "$path"
 
@@ -97,6 +103,8 @@ fi
 if [ $1 = "character/indy" ]; then
 
     source="$PWD/dist/$1/data/voice"
+
+    echo "$source"
 
     path="$assets/$1/data/voice"
     mkdir -p "$path"
@@ -113,15 +121,22 @@ if [ $1 = "room/intro" -o \
 
     source="$PWD/dist/$1/data"
 
-    path="$assets/$1/data"
-    mkdir -p "$path"
+    if [ -d "$source" ]; then
 
-    cp "$source"/*.psd "$path"
-    cp "$source"/*.png "$path"
+        echo "$source"
+
+        path="$assets/$1/data"
+        mkdir -p "$path"
+
+        cp "$source"/*.psd "$path"
+        cp "$source"/*.png "$path"
+    fi
 
     source="$PWD/dist/$1/data/upscale"
 
     if [ -d "$source" ]; then
+
+        echo "$source"
 
         path="$assets/$1/data/upscale"
         mkdir -p "$path"
@@ -133,6 +148,8 @@ if [ $1 = "room/intro" -o \
 
     if [ -d "$source" ]; then
 
+        echo "$source"
+
         path="$assets/$1/data/upscale/base"
         mkdir -p "$path"
 
@@ -141,20 +158,27 @@ if [ $1 = "room/intro" -o \
 
     source="$PWD/dist/$1/content"
 
-    path="$assets/$1/content"
-    mkdir -p "$path"
+    if [ -d "$source" ]; then
 
-    cp "$source"/*.png "$path"
-    cp "$source"/*.mp4 "$path"
+        echo "$source"
 
-    if exists "$source"/*.jpg; then
+        path="$assets/$1/content"
+        mkdir -p "$path"
 
-        cp "$source"/*.jpg "$path"
+        cp "$source"/*.png "$path"
+        cp "$source"/*.mp4 "$path"
+
+        if exists "$source"/*.jpg; then
+
+            cp "$source"/*.jpg "$path"
+        fi
     fi
 
     source="$PWD/dist/$1/content/audio"
 
     if [ -d "$source" ]; then
+
+        echo "$source"
 
         path="$assets/$1/content/audio"
         mkdir -p "$path"
@@ -165,6 +189,8 @@ if [ $1 = "room/intro" -o \
     source="$PWD/dist/$1/content/voice"
 
     if [ -d "$source" ]; then
+
+        echo "$source"
 
         path="$assets/$1/content/voice"
         mkdir -p "$path"
