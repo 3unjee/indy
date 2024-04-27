@@ -30,27 +30,31 @@ source:
         template: attic
     hub:
         id: attic2
-        duration: 0:16
-        source: /deploy/attic2.mp4
+        at: 0:18
+        end: 0:34
+        source: /deploy/attic.mp4
         template: attic
     track:
         id: attic3
         duration: 0:04
-        source: /deploy/attic3.mp4
+        source: /deploy/attic2.mp4
         template: attic
     hub:
         id: attic4
-        duration: 0:24
-        source: /deploy/attic4.mp4
+        at: 0:04
+        end: 0:28
+        source: /deploy/attic2.mp4
         template: attic
     track:
         id: attic5
-        duration: 0:20
-        source: /deploy/attic-cross.mp4
+        at: 0:28
+        end: 0:49
+        source: /deploy/attic2.mp4
     track:
         id: attic6
-        duration: 0:20
-        source: /deploy/gargoyle.mp4
+        at: 0:49
+        end: 1:09
+        source: /deploy/attic2.mp4
         template: attic
 
 templates:
