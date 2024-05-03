@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<mlt LC_NUMERIC="en_US.UTF-8" producer="main_bin" version="7.21.0" root="C:/dev/workspace/indy/dist/room/attic/data">
+<mlt LC_NUMERIC="en_US.UTF-8" producer="main_bin" version="7.21.0" root="">
  <profile frame_rate_num="24" sample_aspect_num="1" display_aspect_den="6" colorspace="709" progressive="1" description="2816x1536 24.00fps" display_aspect_num="11" frame_rate_den="1" width="2816" height="1536" sample_aspect_den="1"/>
  <chain id="chain3" out="00:00:03.958">
   <property name="length">96</property>
