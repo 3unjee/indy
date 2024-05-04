@@ -8,8 +8,10 @@ OTHER_FILES += configure.sh \
                indy.vbml \
                local.vbml \
                deploy/subtitle/attic-eng.srt \
+               deploy/subtitle/attic2-eng.srt \
                dist/room/room.md \
                dist/room/attic/attic.md \
+               dist/room/attic/data/voice.sh \
                dist/character/character.md \
                dist/character/indy/indy.md \
                dist/screens/screens.md \

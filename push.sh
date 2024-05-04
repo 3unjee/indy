@@ -156,6 +156,18 @@ if [ $1 = "room/intro" -o \
         cp "$source"/*.png "$path"
     fi
 
+    source="$PWD/dist/$1/data/voice"
+
+    if [ -d "$source" ]; then
+
+        echo "$source"
+
+        path="$assets/$1/data/voice"
+        mkdir -p "$path"
+
+        cp "$source"/*.mp3 "$path"
+    fi
+
     source="$PWD/dist/$1/content"
 
     if [ -d "$source" ]; then

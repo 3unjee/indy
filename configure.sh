@@ -181,6 +181,17 @@ if [ $1 = "room/intro" -o \
         cp "$source"/*.png "$path"
     fi
 
+    source="$assets/$1/data/voice"
+
+    if [ -d "$source" ]; then
+
+        echo "$source"
+
+        path="$PWD/dist/$1/data/voice"
+
+        cp "$source"/*.jpeg "$path"
+    fi
+
     source="$assets/$1/content"
 
     if [ -d "$source" ]; then

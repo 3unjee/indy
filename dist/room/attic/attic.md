@@ -37,6 +37,22 @@ If Marcus approximations are accurate it should be pretty close.
 
 Although... `<break time="1.0s" />` He got lost in his own museum once or twice.
 
+### cross
+
+A replica of the cross of Coronado...
+
+The original is now in a museum... Where it belongs.
+
+Brings back memories of my father... And what we went through together.
+
+### gargoyle
+
+It's a medieval gargoyle... Or a good imitation.
+
+People back then... Were well aware of the battle between good and evil.
+
+All these things that we can't explain...
+
 ## Music
 
 X Marks the Spot: https://www.youtube.com/watch?v=i5H65-smy7E
