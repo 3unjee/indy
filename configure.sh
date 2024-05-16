@@ -189,7 +189,7 @@ if [ $1 = "room/intro" -o \
 
         path="$PWD/dist/$1/data/voice"
 
-        cp "$source"/*.jpeg "$path"
+        cp "$source"/*.mp3 "$path"
     fi
 
     source="$assets/$1/content"
