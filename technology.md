@@ -14,9 +14,20 @@ Magnific AI: https://magnific.ai
 
 Runway Gen-2: https://research.runwayml.com/gen2
 
+Kling: https://klingai.com
+
+Topaz Video AI: https://topazlabs.com
+
 ### Voice generation
 
 ElevenLabs: https://elevenlabs.io
+
+### Lipsync
+
+LivePortrait: https://github.com/KwaiVGI/LivePortrait
+
+Configuration:
+- crf=15 (inference_config.py / video.py)
 
 ## Resources
 
