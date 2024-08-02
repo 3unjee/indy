@@ -5,7 +5,7 @@ set -e
 # Settings
 #--------------------------------------------------------------------------------------------------
 
-ffmpeg="/c/dev/tools/ffmpeg/ffmpeg.exe"
+volume="$PWD/../../../../../Sky/tools/ffmpeg/volume.sh"
 
 input="$PWD/voice"
 
@@ -15,23 +15,23 @@ output="$PWD/../content/voice"
 # Functions
 #--------------------------------------------------------------------------------------------------
 
-volume()
+apply()
 {
-    "$ffmpeg" -y -i "$input/$1" -filter:a "volume=$2dB" "$output/$1"
+    sh "$volume" "$input/$1" "$2" "$output/$1"
 }
 
 #--------------------------------------------------------------------------------------------------
 # Voice
 #--------------------------------------------------------------------------------------------------
 
-volume "attic.mp3"  20
-volume "attic2.mp3" 20
-volume "attic3.mp3" 20
+apply "attic.mp3"  20
+apply "attic2.mp3" 20
+apply "attic3.mp3" 20
 
-volume "cross.mp3"  20
-volume "cross2.mp3" 20
-volume "cross3.mp3" 20
+apply "cross.mp3"  20
+apply "cross2.mp3" 20
+apply "cross3.mp3" 20
 
-volume "gargoyle.mp3"  20
-volume "gargoyle2.mp3" 20
-volume "gargoyle3.mp3" 20
+apply "gargoyle.mp3"  20
+apply "gargoyle2.mp3" 20
+apply "gargoyle3.mp3" 20
