@@ -192,6 +192,28 @@ if [ $1 = "room/intro" -o \
         cp "$source"/*.mp4 "$path"
     fi
 
+    source="$assets/$1/data/video/base"
+
+    if [ -d "$source" ]; then
+
+        echo "$source"
+
+        path="$PWD/dist/$1/data/video/base"
+
+        cp "$source"/*.mp4 "$path"
+    fi
+
+    source="$assets/$1/data/video/sync"
+
+    if [ -d "$source" ]; then
+
+        echo "$source"
+
+        path="$PWD/dist/$1/data/video/sync"
+
+        cp "$source"/*.mp4 "$path"
+    fi
+
     source="$assets/$1/data/voice"
 
     if [ -d "$source" ]; then

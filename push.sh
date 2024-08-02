@@ -168,6 +168,30 @@ if [ $1 = "room/intro" -o \
         cp "$source"/*.mp4 "$path"
     fi
 
+    source="$PWD/dist/$1/data/video/base"
+
+    if [ -d "$source" ]; then
+
+        echo "$source"
+
+        path="$assets/$1/data/video/base"
+        mkdir -p "$path"
+
+        cp "$source"/*.mp4 "$path"
+    fi
+
+    source="$PWD/dist/$1/data/video/sync"
+
+    if [ -d "$source" ]; then
+
+        echo "$source"
+
+        path="$assets/$1/data/video/sync"
+        mkdir -p "$path"
+
+        cp "$source"/*.mp4 "$path"
+    fi
+
     source="$PWD/dist/$1/data/voice"
 
     if [ -d "$source" ]; then

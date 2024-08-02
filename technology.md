@@ -27,7 +27,10 @@ ElevenLabs: https://elevenlabs.io
 LivePortrait: https://github.com/KwaiVGI/LivePortrait
 
 Configuration:
-- crf=15 (inference_config.py / video.py)
+- Code changes
+    - crf=15 (inference_config.py / video.py)
+- Driving Video
+    - do crop: enabled
 
 ## Resources
 
