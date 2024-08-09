@@ -54,6 +54,12 @@ If Marcus approximations are accurate it should be pretty close.
 
 Although... `<break time="1.0s" />` He got lost in his own museum once or twice.
 
+All these artifacts...
+
+Remnants from past adventures.
+
+Shadows lingering in the dark.
+
 ### cross
 
 A replica of the cross of Coronado...

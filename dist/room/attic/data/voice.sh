@@ -7,7 +7,7 @@ set -e
 
 root="$PWD"
 
-ffmpeg="$PWD/../../../../../../../Sky/tools/ffmpeg"
+ffmpeg="$PWD/../../../../../Sky/tools/ffmpeg"
 
 input="$PWD/voice"
 
@@ -31,6 +31,9 @@ cd "$ffmpeg"
 apply "attic.mp3"  20
 apply "attic2.mp3" 20
 apply "attic3.mp3" 20
+apply "attic4.mp3" 20
+apply "attic5.mp3" 20
+apply "attic6.mp3" 20
 
 apply "cross.mp3"  20
 apply "cross2.mp3" 20
