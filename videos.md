@@ -6,4 +6,4 @@ Turning the Fate of Atlantis prologue into an interactive video with VBML and AI
 
 Turning Fate of Atlantis into a cinematic adventure with generative AI 🤠: https://www.youtube.com/watch?v=95TbTazeUqY
 
-An hommage to Fate of Atlantis using AI generative technologies 🤠: https://vox.omega.gg/w/akjQQM6iaAVfaw3SXtke1n
+An hommage to Fate of Atlantis using AI generative technologies 🤠: https://www.youtube.com/watch?v=VUrou9QCVHo
