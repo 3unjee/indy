@@ -232,6 +232,11 @@ if [ $1 = "room/intro" -o \
         mkdir -p "$path"
 
         cp "$source"/*.mp3 "$path"
+
+        if exists "$source"/*.mp4; then
+
+            cp "$source"/*.mp4 "$path"
+        fi
     fi
 
     source="$PWD/dist/$1/content/voice"

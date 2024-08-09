@@ -29,6 +29,23 @@ Close up of Harrisson Ford silhouette as Indiana jones in an old and dusty attic
 
 https://raw.githubusercontent.com/3unjee/indy/master/dist/character/indy/reference/neutral/indy.jpg https://raw.githubusercontent.com/3unjee/indy/master/dist/character/indy/reference/neutral/indy2.webp https://raw.githubusercontent.com/3unjee/indy/master/dist/character/indy/reference/neutral/indy3.png Harrison Ford facing the camera as Indiana jones from the last crusade with his iconic hat and a leather jacket in an old and dusty university attic full of arechological artifacts and ancient greek atlantean statues, low blue light filtering throughout the room mysterious atmosphere CINEMATIC STILL --ar 16:9 --v 6.0
 
+## Kling
+
+The camera is slowly rotating on the character while he is blinking his eyes and breathing slowly.
+https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/content/indy3.png
+
+The character is walking through the room.
+https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/data/upscale/attic.jpeg
+
+The character is recovering and standing in the room.
+https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/content/splash3.png
+
+The character is holding and inspecting the cross slowly.
+https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/data/upscale/cross2.jpeg
+
+Harrison ford from Indiana jones and the last crusade is slowly passing by the camera and crossing the room from the right to the left.
+https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/data/upscale/indy7.jpeg
+
 ## Dialogs
 
 Alright Jones... `<break time="1.0s" />` How are you going to find that statue in all this junk ?

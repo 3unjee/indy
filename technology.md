@@ -18,9 +18,15 @@ Kling: https://klingai.com
 
 Topaz Video AI: https://topazlabs.com
 
+### Audio generation
+
+ElevenLabs: https://elevenlabs.io
+
 ### Voice generation
 
 ElevenLabs: https://elevenlabs.io
+
+videotosoundeffects: https://www.videotosoundeffects.com
 
 ### Lipsync
 

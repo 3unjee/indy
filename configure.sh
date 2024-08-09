@@ -251,6 +251,11 @@ if [ $1 = "room/intro" -o \
         path="$PWD/dist/$1/content/audio"
 
         cp "$source"/*.mp3 "$path"
+
+        if exists "$source"/*.mp4; then
+
+            cp "$source"/*.mp4 "$path"
+        fi
     fi
 
     source="$assets/$1/content/voice"
