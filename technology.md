@@ -56,7 +56,7 @@ Kdenlive: https://kdenlive.org
 
 Configuration:
 - Project profile
-    - Size: 2880w1620
+    - Size: 3840x2160
     - Frame rate: 24fps
     - Pixel aspect ratio: 1
     - Display aspect ratio: 16:9

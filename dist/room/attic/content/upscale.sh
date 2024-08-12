@@ -9,17 +9,17 @@ root="$PWD"
 
 ffmpeg="$PWD/../../../../../Sky/tools/ffmpeg"
 
-input="$PWD/voice"
+input="$PWD"
 
-output="$PWD/../content/voice"
+output="$PWD/upscale"
 
 #--------------------------------------------------------------------------------------------------
 # Functions
 #--------------------------------------------------------------------------------------------------
 
-volume()
+topaz()
 {
-    sh volume.sh "$input/$1" "$2" "$output/$1"
+    sh topaz.sh "$input/$1" "$output/$1" $2
 }
 
 #--------------------------------------------------------------------------------------------------
@@ -28,17 +28,9 @@ volume()
 
 cd "$ffmpeg"
 
-volume "attic.mp3"  20
-volume "attic2.mp3" 20
-volume "attic3.mp3" 20
-volume "attic4.mp3" 20
-volume "attic5.mp3" 20
-volume "attic6.mp3" 20
-
-volume "cross.mp3"  20
-volume "cross2.mp3" 20
-volume "cross3.mp3" 20
-
-volume "gargoyle.mp3"  20
-volume "gargoyle2.mp3" 20
-volume "gargoyle3.mp3" 20
+topaz "attic.mp4"   iris-3
+topaz "attic11.mp4" iris-3
+topaz "attic12.mp4" iris-3
+topaz "indy3.mp4"   iris-3
+topaz "indy4.mp4"   iris-3
+topaz "splash3.mp4" iris-3

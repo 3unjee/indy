@@ -2,7 +2,7 @@ Indiana Jones and the Fate of Atlantis
 ---
 [![Discord](https://img.shields.io/discord/705770212485496852)](https://omega.gg/discord)
 
-<a href=""><img src="dist/screens/screen.jpg" alt="title" width="640px"></a>
+<a href="https://vox.omega.gg/w/e9XW8PPErW6dmU8eJnvQ6m"><img src="dist/screens/screen.jpg" alt="title" width="640px"></a>
 
 Rooms: [room/room.md](dist/room/room.md)
 
