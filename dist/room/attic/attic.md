@@ -40,8 +40,11 @@ https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/data/upscal
 The character is recovering and standing in the room.
 https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/content/splash3.png
 
-The character is holding and inspecting the cross slowly.
-https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/data/upscale/cross2.jpeg
+The character is holding and rotating the cross slowly.
+https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/data/upscale/cross3.jpeg
+
+The character is touching and inspecting the statue slowly.
+https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/data/upscale/gargoyle3.jpeg
 
 Harrison ford from Indiana jones and the last crusade is slowly passing by the camera and crossing the room from the right to the left.
 https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/data/upscale/indy7.jpeg

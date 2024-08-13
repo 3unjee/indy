@@ -56,9 +56,9 @@
   <property name="kdenlive:id">4</property>
   <property name="mute_on_pause">0</property>
   <property name="kdenlive:clip_type">0</property>
-  <property name="kdenlive:file_size">104924454</property>
+  <property name="kdenlive:file_size">104909402</property>
   <property name="kdenlive:audio_max1">1</property>
-  <property name="kdenlive:file_hash">1dc1bc51d05b125a6f2793467d238a21</property>
+  <property name="kdenlive:file_hash">9e3dba3feff458e67e541f213d5f116c</property>
  </chain>
  <chain id="chain9" out="00:00:05.042">
   <property name="length">122</property>
@@ -208,9 +208,9 @@
   <property name="kdenlive:id">8</property>
   <property name="mute_on_pause">0</property>
   <property name="kdenlive:clip_type">2</property>
-  <property name="kdenlive:file_size">26979211</property>
-  <property name="kdenlive:file_hash">d30456c6c6cb80904b71c6723046d5e3</property>
+  <property name="kdenlive:file_size">26965206</property>
   <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:file_hash">6565ddee5076a26e98bdcfaf99477e4f</property>
  </chain>
  <chain id="chain13" out="00:00:03.708">
   <property name="length">90</property>
@@ -285,8 +285,8 @@
   <property name="kdenlive:id">10</property>
   <property name="mute_on_pause">0</property>
   <property name="kdenlive:clip_type">2</property>
-  <property name="kdenlive:file_size">165796050</property>
-  <property name="kdenlive:file_hash">954a187b0089bc7088e99e2f2b9308d9</property>
+  <property name="kdenlive:file_size">165801740</property>
+  <property name="kdenlive:file_hash">7fc4a1007aaf5d74205d6d02d8ea258f</property>
  </chain>
  <chain id="chain15" out="00:00:05.042">
   <property name="length">122</property>
@@ -336,8 +336,8 @@
   <property name="kdenlive:id">11</property>
   <property name="mute_on_pause">0</property>
   <property name="kdenlive:clip_type">2</property>
-  <property name="kdenlive:file_size">47734955</property>
-  <property name="kdenlive:file_hash">defa9803546f92ad1b17e14ca9c6ccae</property>
+  <property name="kdenlive:file_size">47770484</property>
+  <property name="kdenlive:file_hash">1cc5bb15c3d492848b121f697506b5ad</property>
  </chain>
  <chain id="chain16" out="00:00:04.000">
   <property name="length">97</property>
@@ -578,9 +578,9 @@
   <property name="kdenlive:id">17</property>
   <property name="mute_on_pause">0</property>
   <property name="kdenlive:clip_type">2</property>
-  <property name="kdenlive:file_size">54652765</property>
+  <property name="kdenlive:file_size">54635594</property>
   <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:file_hash">550749b53108c9642918add56a04b673</property>
+  <property name="kdenlive:file_hash">23fe47dd6a9e3d52ab6f97dd15024786</property>
  </chain>
  <producer id="producer4" in="00:00:00.000" out="00:00:06.417">
   <property name="length">155</property>
@@ -592,17 +592,17 @@
   <property name="mlt_service">kdenlivetitle</property>
   <property name="kdenlive:duration">00:00:05:00</property>
   <property name="kdenlive:clipname">Interactive ...</property>
-  <property name="xmldata">&lt;kdenlivetitle duration="120" LC_NUMERIC="C" width="3840" height="2160" out="119">&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
- &lt;item type="QGraphicsTextItem" z-index="0">&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-  &lt;position x="974" y="1005">&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-  &lt;/position>&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="150" font="Times New Roman" letter-spacing="0" font-pixel-size="128" font-italic="0" typewriter="0;2;1;0;0" alignment="1" font-weight="50" box-width="1891" font-color="255,255,255,255">I N T E R A C T I V E   C I N E M A&lt;/content>&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
- &lt;/item>&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
- &lt;startviewport rect="0,0,3840,2160"/>&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
- &lt;endviewport rect="0,0,3840,2160"/>&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
- &lt;background color="0,0,0,0"/>&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-&lt;/kdenlivetitle>&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+  <property name="xmldata">&lt;kdenlivetitle duration="120" LC_NUMERIC="C" width="3840" height="2160" out="119">&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+ &lt;item type="QGraphicsTextItem" z-index="0">&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+  &lt;position x="974" y="1005">&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+  &lt;/position>&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="150" font="Times New Roman" letter-spacing="0" font-pixel-size="128" font-italic="0" typewriter="0;2;1;0;0" alignment="1" font-weight="50" box-width="1891" font-color="255,255,255,255">I N T E R A C T I V E   C I N E M A&lt;/content>&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+ &lt;/item>&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+ &lt;startviewport rect="0,0,3840,2160"/>&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+ &lt;endviewport rect="0,0,3840,2160"/>&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+ &lt;background color="0,0,0,0"/>&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+&lt;/kdenlivetitle>&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
 </property>
   <property name="xml">was here</property>
   <property name="kdenlive:folderid">-1</property>
@@ -623,17 +623,17 @@
   <property name="mlt_service">kdenlivetitle</property>
   <property name="kdenlive:duration">00:00:05:00</property>
   <property name="kdenlive:clipname">vox.omega.gg</property>
-  <property name="xmldata">&lt;kdenlivetitle duration="120" LC_NUMERIC="C" width="3840" height="2160" out="119">&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
- &lt;item type="QGraphicsTextItem" z-index="0">&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-  &lt;position x="1517" y="1006">&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-  &lt;/position>&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="150" font-outline-color="0,0,0,255" font="Times New Roman" letter-spacing="0" font-pixel-size="128" font-italic="0" typewriter="0;2;1;0;0" alignment="1" font-weight="50" font-outline="0" box-width="724" font-color="255,255,255,255">vox.omega.gg&lt;/content>&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
- &lt;/item>&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
- &lt;startviewport rect="0,0,3840,2160"/>&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
- &lt;endviewport rect="0,0,3840,2160"/>&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
- &lt;background color="0,0,0,0"/>&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-&lt;/kdenlivetitle>&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+  <property name="xmldata">&lt;kdenlivetitle duration="120" LC_NUMERIC="C" width="3840" height="2160" out="119">&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+ &lt;item type="QGraphicsTextItem" z-index="0">&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+  &lt;position x="1517" y="1006">&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+  &lt;/position>&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="150" font-outline-color="0,0,0,255" font="Times New Roman" letter-spacing="0" font-pixel-size="128" font-italic="0" typewriter="0;2;1;0;0" alignment="1" font-weight="50" font-outline="0" box-width="724" font-color="255,255,255,255">vox.omega.gg&lt;/content>&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+ &lt;/item>&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+ &lt;startviewport rect="0,0,3840,2160"/>&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+ &lt;endviewport rect="0,0,3840,2160"/>&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+ &lt;background color="0,0,0,0"/>&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+&lt;/kdenlivetitle>&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
 </property>
   <property name="xml">was here</property>
   <property name="kdenlive:folderid">-1</property>
@@ -1338,7 +1338,7 @@
   <property name="meta.media.0.codec.colorspace">709</property>
   <property name="meta.media.0.codec.name">h264</property>
   <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
-  <property name="meta.media.0.codec.bit_rate">74873739</property>
+  <property name="meta.media.0.codec.bit_rate">74442910</property>
   <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
   <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
   <property name="meta.attr.0.stream.encoder.markup">Lavc61.5.103 h264_nvenc</property>
@@ -1614,7 +1614,7 @@
   <property name="meta.media.0.codec.colorspace">709</property>
   <property name="meta.media.0.codec.name">h264</property>
   <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
-  <property name="meta.media.0.codec.bit_rate">94065860</property>
+  <property name="meta.media.0.codec.bit_rate">94069080</property>
   <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
   <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
   <property name="meta.attr.0.stream.encoder.markup">Lavc61.5.103 h264_nvenc</property>
@@ -2056,30 +2056,15 @@
   <property name="kdenlive:sequenceproperties.hasVideo">1</property>
   <property name="kdenlive:sequenceproperties.hidesubtitle">0</property>
   <property name="kdenlive:sequenceproperties.position">586</property>
-  <property name="kdenlive:sequenceproperties.scrollPos">7789</property>
+  <property name="kdenlive:sequenceproperties.scrollPos">1124</property>
   <property name="kdenlive:sequenceproperties.tracks">4</property>
   <property name="kdenlive:sequenceproperties.tracksCount">5</property>
   <property name="kdenlive:sequenceproperties.verticalzoom">1</property>
   <property name="kdenlive:sequenceproperties.videoTarget">2</property>
   <property name="kdenlive:sequenceproperties.zonein">0</property>
   <property name="kdenlive:sequenceproperties.zoneout">75</property>
-  <property name="kdenlive:sequenceproperties.zoom">2</property>
+  <property name="kdenlive:sequenceproperties.zoom">4</property>
   <property name="kdenlive:sequenceproperties.groups">[
-    {
-        "children": [
-            {
-                "data": "-2:648",
-                "leaf": "subtitle",
-                "type": "Leaf"
-            },
-            {
-                "data": "2:648",
-                "leaf": "clip",
-                "type": "Leaf"
-            }
-        ],
-        "type": "Selection"
-    }
 ]
 </property>
   <property name="kdenlive:sequenceproperties.guides">[
@@ -2176,53 +2161,53 @@
   <property name="kdenlive:docproperties.externalproxyparams"/>
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">0</property>
-  <property name="kdenlive:docproperties.guidesCategories">[&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "color": "#9b59b6",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "comment": "Category 1",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "index": 0&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    },&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "color": "#3daee9",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "comment": "Category 2",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "index": 1&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    },&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "color": "#1abc9c",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "comment": "Category 3",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "index": 2&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    },&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "color": "#1cdc9a",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "comment": "Category 4",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "index": 3&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    },&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "color": "#c9ce3b",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "comment": "Category 5",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "index": 4&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    },&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "color": "#fdbc4b",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "comment": "Category 6",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "index": 5&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    },&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "color": "#f39c1f",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "comment": "Category 7",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "index": 6&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    },&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "color": "#f47750",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "comment": "Category 8",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "index": 7&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    },&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "color": "#da4453",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "comment": "Category 9",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        "index": 8&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    }&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-]&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+  <property name="kdenlive:docproperties.guidesCategories">[&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "color": "#9b59b6",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "comment": "Category 1",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "index": 0&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    },&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "color": "#3daee9",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "comment": "Category 2",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "index": 1&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    },&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "color": "#1abc9c",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "comment": "Category 3",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "index": 2&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    },&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "color": "#1cdc9a",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "comment": "Category 4",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "index": 3&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    },&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "color": "#c9ce3b",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "comment": "Category 5",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "index": 4&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    },&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "color": "#fdbc4b",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "comment": "Category 6",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "index": 5&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    },&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "color": "#f39c1f",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "comment": "Category 7",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "index": 6&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    },&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "color": "#f47750",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "comment": "Category 8",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "index": 7&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    },&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "color": "#da4453",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "comment": "Category 9",&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        "index": 8&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    }&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+]&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
 </property>
   <property name="kdenlive:docproperties.kdenliveversion">23.08.5</property>
   <property name="kdenlive:docproperties.opensequences">{07d6ad25-5fa8-453d-b356-6899ec624c2a}</property>
