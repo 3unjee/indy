@@ -17,20 +17,28 @@ output="$PWD/upscale"
 # Functions
 #--------------------------------------------------------------------------------------------------
 
-topaz()
+run()
 {
     sh topaz.sh "$input/$1" "$output/$1" $2
 }
 
 #--------------------------------------------------------------------------------------------------
-# Voice
+# Run
 #--------------------------------------------------------------------------------------------------
 
 cd "$ffmpeg"
 
-topaz "attic.mp4"   iris-3
-topaz "attic11.mp4" iris-3
-topaz "attic12.mp4" iris-3
-topaz "indy3.mp4"   iris-3
-topaz "indy4.mp4"   iris-3
-topaz "splash3.mp4" iris-3
+run "attic.mp4"     iris-3
+run "attic5.mp4"    iris-3
+run "attic6.mp4"    iris-3
+run "attic7.mp4"    iris-3
+run "attic8.mp4"    iris-3
+run "attic11.mp4"   iris-3
+run "attic12.mp4"   iris-3
+run "indy3.mp4"     iris-3
+run "indy4.mp4"     iris-3
+run "splash3.mp4"   iris-3
+run "desk.mp4"      iris-3
+run "cross6.mp4"    iris-3
+run "cross7.mp4"    iris-3
+run "gargoyle6.mp4" iris-3
