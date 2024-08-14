@@ -269,6 +269,17 @@ if [ $1 = "room/intro" -o \
         cp "$source"/*.mp3 "$path"
     fi
 
+    source="$assets/$1/content/music"
+
+    if [ -d "$source" ]; then
+
+        echo "$source"
+
+        path="$PWD/dist/$1/content/music"
+
+        cp "$source"/*.webm "$path"
+    fi
+
     source="$extra/$1/music"
 
     if [ -d "$source" ]; then

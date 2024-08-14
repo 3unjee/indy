@@ -250,4 +250,16 @@ if [ $1 = "room/intro" -o \
 
         cp "$source"/*.mp3 "$path"
     fi
+
+    source="$PWD/dist/$1/content/music"
+
+    if [ -d "$source" ]; then
+
+        echo "$source"
+
+        path="$assets/$1/content/music"
+        mkdir -p "$path"
+
+        cp "$source"/*.webm "$path"
+    fi
 fi
