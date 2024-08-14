@@ -10,7 +10,6 @@ title: Indiana Jones and the Fate of Atlantis
 cover: https://raw.githubusercontent.com/3unjee/indy/master/dist/screens/screen.jpg
 
 context: intro,attic,attic2
-
 source:
     #----------------------------------------------------------------------------------------------
     # Room: attic
@@ -30,21 +29,27 @@ source:
         template: attic
     track:
         id: attic3
+        at: 0:40
+        end: 0:55
+        source: https://odysee.com/attic:a
+        subtitles: https://raw.githubusercontent.com/3unjee/indy/master/deploy/subtitle/attic-eng.srt
+    track:
+        id: attic4
         duration: 0:04
         template: attic2
     hub:
-        id: attic4
+        id: attic5
         at: 0:04
         end: 0:28
         template: attic2
     track:
-        id: attic5
+        id: attic6
         at: 0:28
         end: 0:49
         source: https://odysee.com/attic2:c
         subtitles: https://raw.githubusercontent.com/3unjee/indy/master/deploy/subtitle/attic2-eng.srt
     track:
-        id: attic6
+        id: attic7
         at: 0:49
         end: 1:03
         template: attic2
@@ -65,11 +70,13 @@ START: RETURN "attic,attic2"
 
 ATTIC: |
     IF (EQUAL argument "desk")
-        RETURN "attic3,attic4"
+        RETURN "attic4,attic5"
     ELIF (EQUAL argument "cross")
-        RETURN "attic5,attic4"
+        RETURN "attic6,attic5"
     ELIF (EQUAL argument "gargoyle")
-        RETURN "attic6,attic4"
+        RETURN "attic7,attic5"
+    ELIF (EQUAL id "attic2")
+        RETURN "attic3,attic2"
     ELSE
         RETURN "attic2"
     FI
