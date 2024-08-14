@@ -31,6 +31,7 @@ else
     mv "$upscale"/*.mp4 "$temp"
 
     run "attic.mp4"     iris-3
+    run "attic2.mp4"    iris-3
     run "attic5.mp4"    iris-3
     run "attic6.mp4"    iris-3
     run "attic7.mp4"    iris-3

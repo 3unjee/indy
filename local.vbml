@@ -21,12 +21,12 @@ source:
         source: /deploy/intro.mp4
     track:
         id: attic
-        duration: 0:17
+        duration: 0:23
         template: attic
     hub:
         id: attic2
-        at: 0:18
-        end: 0:34
+        at: 0:24
+        end: 0:40
         template: attic
     track:
         id: attic3
