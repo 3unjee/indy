@@ -28,7 +28,10 @@ if [ "$1" = "restore" ]; then
 
     mv "$temp"/*.mp4 "$upscale"
 else
-    mv "$upscale"/*.mp4 "$temp"
+    if exists "$upscale"/*.mp4; then
+
+        mv "$upscale"/*.mp4 "$temp"
+    fi
 
     run "intro.mp4"  iris-3
     run "intro2.mp4" iris-3
