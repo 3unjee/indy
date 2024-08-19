@@ -144,7 +144,10 @@ if [ $1 = "room/intro" -o \
         path="$assets/$1/data/upscale"
         mkdir -p "$path"
 
-        cp "$source"/*.jpeg "$path"
+        if exists "$source"/*.jpeg; then
+
+            cp "$source"/*.jpeg "$path"
+        fi
     fi
 
     source="$PWD/dist/$1/data/upscale/base"
