@@ -16,6 +16,7 @@ OTHER_FILES += configure.sh \
                dist/room/attic/data/voice.sh \
                dist/room/attic/content/upscale.sh \
                dist/room/attic/content/copy.sh \
+               dist/room/attic2/attic2.md \
                dist/character/character.md \
                dist/character/indy/indy.md \
                dist/screens/screens.md \
