@@ -31,22 +31,22 @@ https://raw.githubusercontent.com/3unjee/indy/master/dist/character/indy/referen
 
 ## Kling
 
-The camera is slowly rotating on the character while he is blinking his eyes and breathing slowly.
+The camera is slowly rotating on the character while he is blinking his eyes and breathing slowly
 https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/content/indy3.png
 
-The character is walking through the room.
+The character is walking through the room
 https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/data/upscale/attic.jpeg
 
-The character is recovering and standing in the room.
+The character is recovering and standing in the room
 https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/content/splash3.png
 
-The character is holding and rotating the cross slowly.
+The character is holding and rotating the cross slowly
 https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/data/upscale/cross3.jpeg
 
-The character is touching and inspecting the statue slowly.
+The character is touching and inspecting the statue slowly
 https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/data/upscale/gargoyle3.jpeg
 
-Harrison ford from Indiana jones and the last crusade is slowly passing by the camera and crossing the room from the right to the left.
+Harrison ford from Indiana jones and the last crusade is slowly passing by the camera and crossing the room from the right to the left
 https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/data/upscale/indy7.jpeg
 
 ## Dialogs
@@ -86,6 +86,10 @@ X Marks the Spot: https://www.youtube.com/watch?v=i5H65-smy7E
 ## Audio
 
 Glass Breaking: https://pixabay.com/fr/sound-effects/glass-breaking-151256
+
+### Elevenlabs
+
+Long and heavy glass breaking
 
 ### References
 
