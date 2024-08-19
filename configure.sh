@@ -28,7 +28,8 @@ if [ $# != 1 ] || [ $1 != "all"            -a \
                     $1 != "trailer"        -a \
                     $1 != "character/indy" -a \
                     $1 != "room/intro"     -a \
-                    $1 != "room/attic" ]; then
+                    $1 != "room/attic"     -a \
+                    $1 != "room/attic2" ]; then
 
     echo "Usage: configure <all>"
     echo "                 <deploy>"
@@ -37,6 +38,7 @@ if [ $# != 1 ] || [ $1 != "all"            -a \
     echo "                 <character/indy>"
     echo "                 <room/intro>"
     echo "                 <room/attic>"
+    echo "                 <room/attic2>"
 
     exit 1
 fi
@@ -57,6 +59,7 @@ if [ $1 = "all" ]; then
     sh configure.sh character/indy
     sh configure.sh room/intro
     sh configure.sh room/attic
+    sh configure.sh room/attic2
 
     exit 0
 fi
@@ -145,7 +148,8 @@ fi
 #--------------------------------------------------------------------------------------------------
 
 if [ $1 = "room/intro" -o \
-     $1 = "room/attic" ]; then
+     $1 = "room/attic" -o \
+     $1 = "room/attic2" ]; then
 
     source="$assets/$1/data"
 
