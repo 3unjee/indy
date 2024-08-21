@@ -240,8 +240,12 @@ if [ $1 = "room/intro" -o \
 
         path="$PWD/dist/$1/content"
 
-        cp "$source"/*.png "$path"
         cp "$source"/*.mp4 "$path"
+
+        if exists "$source"/*.png; then
+
+            cp "$source"/*.png "$path"
+        fi
 
         if exists "$source"/*.jpg; then
 
