@@ -4,12 +4,13 @@
 
 An old and dusty university attic from Indiana jones and the last crusade with archeological artifacts, book shelves and a pathway in the back, mayan and snake totems, small mysterious statues, low and subtle violet light filtering throughout the room mysterious atmosphere CINEMATIC STILL --ar 16:9 --v 6.0
 
-An old and dusty book shelf facing the camera from Indiana jones and the last crusade full of academic and archeological books, low and subtle violet light filtering throughout the room mysterious atmosphere CINEMATIC STILL --ar 16:9 --v 6.0
-https://www.decorativecollective.com/resources/images/blog-pictures/Antique-books-on-a-wooden-bookcase-crop-v2.jpeg https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic2/reference/attic.jpg
+An old and dusty book shelf from Indiana jones and the last crusade full of academic and archeological books, low and subtle violet light filtering throughout the room mysterious atmosphere CINEMATIC STILL --ar 16:9 --v 6.0 https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic2/reference/shelf.jpeg
 
 ## Characters
 
 Harrison Ford as Indiana jones from the last crusade with his iconic hat and a leather jacket facing an old and dusty university attic with archeological artifacts, book shelves and a pathway in the back, mayan and snake totems, small mysterious statues, low and subtle violet light filtering throughout the room mysterious atmosphere CINEMATIC STILL --ar 16:9 --v 6.0
+
+Back view of Harrison Ford as Indiana jones from the last crusade in his forties with his iconic hat and a leather jacket facing an old and dusty book shelf from Indiana jones and the last crusade full of academic and archeological books, low and subtle violet light filtering throughout the room mysterious atmosphere CINEMATIC STILL --ar 16:9 --v 6.0
 
 Body shot of Harrison Ford as Indiana jones from the last crusade in his forties with his iconic hat and a leather jacket crossing a door to an old and dusty university attic with archeological artifacts, book shelves and a pathway in the back, mayan and snake totems, small mysterious statues, low and subtle violet light filtering throughout the room mysterious atmosphere CINEMATIC STILL --ar 16:9 --v 6.0
 
