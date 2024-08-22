@@ -16,6 +16,8 @@ Runway Gen-2: https://research.runwayml.com/gen2
 
 Kling: https://klingai.com
 
+Luma Dream Machine: https://lumalabs.ai
+
 Topaz Video AI: https://topazlabs.com
 
 ### Audio generation

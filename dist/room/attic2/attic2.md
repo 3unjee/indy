@@ -6,6 +6,10 @@ An old and dusty university attic from Indiana jones and the last crusade with a
 
 An old and dusty book shelf from Indiana jones and the last crusade full of academic and archeological books, low and subtle violet light filtering throughout the room mysterious atmosphere CINEMATIC STILL --ar 16:9 --v 6.0 https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic2/reference/shelf.jpeg
 
+First person adventurer male hands with a black leather jacket holding an old book about ancient Greece with pictures of statues and monuments, low and subtle violet light filtering throughout the room mysterious atmosphere CINEMATIC STILL --ar 16:9 --v 6.0 https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic2/reference/book.jpg
+
+First person adventurer male hands with a black leather jacket holding an old book with a large picture of a mysterious aquatic city, low and subtle violet light filtering throughout the room mysterious atmosphere CINEMATIC STILL --ar 16:9 --v 6.0 https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic2/reference/book.jpg
+
 ## Characters
 
 Harrison Ford as Indiana jones from the last crusade with his iconic hat and a leather jacket facing an old and dusty university attic with archeological artifacts, book shelves and a pathway in the back, mayan and snake totems, small mysterious statues, low and subtle violet light filtering throughout the room mysterious atmosphere CINEMATIC STILL --ar 16:9 --v 6.0
@@ -24,6 +28,11 @@ https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic2/data/upsca
 
 Zooming out from the scene
 https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic2/data/upscale/attic.jpeg
+
+## Luma
+
+Fixed camera, the character is standing still, looking at the books
+https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic2/data/upscale/book.jpeg
 
 ## References
 

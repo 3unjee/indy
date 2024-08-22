@@ -46,4 +46,7 @@ else
     run "attic3.mp4" iris-3
     run "indy.mp4"   iris-3
     run "indy2.mp4"  iris-3
+    run "indy4.mp4"  iris-3
+    run "book.mp4"   iris-3
+    run "book2.mp4"  iris-3
 fi
