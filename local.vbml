@@ -56,12 +56,12 @@ source:
         template: attic2
     track:
         id: attic8
-        duration: 0:06
+        duration: 0:08
         source: /deploy/attic2-0.mp4
     hub:
         id: attic9
-        at: 0:06
-        end: 0:22
+        at: 0:08
+        end: 0:24
         template: attic3
 
 templates:

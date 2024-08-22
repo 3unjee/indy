@@ -22,6 +22,9 @@ https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic2/data/upsca
 The camera slowly rotates around the character
 https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic2/data/upscale/attic.jpeg
 
+Zooming out from the scene
+https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic2/data/upscale/attic.jpeg
+
 ## References
 
 Marcus thought Potlatch Indians carved this. It looks like a movie prop to me.
