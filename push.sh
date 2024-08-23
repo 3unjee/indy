@@ -270,6 +270,9 @@ if [ $1 = "room/intro" -o \
         path="$assets/$1/content/music"
         mkdir -p "$path"
 
-        cp "$source"/*.webm "$path"
+        if exists "$source"/*.webm; then
+
+            cp "$source"/*.webm "$path"
+        fi
     fi
 fi

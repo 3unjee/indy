@@ -288,7 +288,10 @@ if [ $1 = "room/intro" -o \
 
         path="$PWD/dist/$1/content/music"
 
-        cp "$source"/*.webm "$path"
+        if exists "$source"/*.webm; then
+
+            cp "$source"/*.webm "$path"
+        fi
     fi
 
     source="$extra/$1/music"
