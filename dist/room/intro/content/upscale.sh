@@ -19,7 +19,12 @@ output="$PWD/upscale"
 
 run()
 {
-    sh topaz.sh "$input/$1" "$output/$1" $2
+    if [ $# = 3 ]; then
+
+        sh topaz.sh "$input/$1" "$output/$1" $2 $3
+    else
+        sh topaz.sh "$input/$1" "$output/$1" $2
+    fi
 }
 
 #--------------------------------------------------------------------------------------------------
@@ -30,3 +35,4 @@ cd "$ffmpeg"
 
 run "intro.mp4"  iris-3
 run "intro2.mp4" iris-3
+run "intro3.mp4" iris-3 letterbox

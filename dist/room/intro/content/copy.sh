@@ -40,4 +40,5 @@ else
 
     run "intro.mp4"  iris-3
     run "intro2.mp4" iris-3
+    run "intro3.mp4" iris-3 letterbox
 fi
