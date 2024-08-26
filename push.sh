@@ -104,14 +104,29 @@ fi
 
 if [ $1 = "character/indy" ]; then
 
+    source="$PWD/dist/$1/data"
+
+    if [ -d "$source" ]; then
+
+        echo "$source"
+
+        path="$assets/$1/data"
+        mkdir -p "$path"
+
+        cp "$source"/*.psd "$path"
+    fi
+
     source="$PWD/dist/$1/data/voice"
 
-    echo "$source"
+    if [ -d "$source" ]; then
 
-    path="$assets/$1/data/voice"
-    mkdir -p "$path"
+        echo "$source"
 
-    cp "$source"/*.webm "$path"
+        path="$assets/$1/data/voice"
+        mkdir -p "$path"
+
+        cp "$source"/*.webm "$path"
+    fi
 fi
 
 #--------------------------------------------------------------------------------------------------

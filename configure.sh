@@ -129,6 +129,20 @@ fi
 
 if [ $1 = "character/indy" ]; then
 
+    source="$assets/$1/data"
+
+    if [ -d "$source" ]; then
+
+        echo "$source"
+
+        path="$PWD/dist/$1/data"
+
+        if exists "$source"/*.psd; then
+
+            cp "$source"/*.psd "$path"
+        fi
+    fi
+
     source="$assets/$1/data/voice"
 
     if [ -d "$source" ]; then
