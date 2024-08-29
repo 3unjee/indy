@@ -146,8 +146,20 @@ if [ $1 = "room/intro" -o \
         path="$assets/$1/data"
         mkdir -p "$path"
 
-        cp "$source"/*.psd "$path"
-        cp "$source"/*.png "$path"
+        if exists "$source"/*.kra; then
+
+            cp "$source"/*.kra "$path"
+        fi
+
+        if exists "$source"/*.psd; then
+
+            cp "$source"/*.psd "$path"
+        fi
+
+        if exists "$source"/*.png; then
+
+            cp "$source"/*.png "$path"
+        fi
     fi
 
     source="$PWD/dist/$1/data/upscale"
