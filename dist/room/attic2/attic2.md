@@ -18,6 +18,8 @@ Back view of Harrison Ford as Indiana jones from the last crusade in his forties
 
 Body shot of Harrison Ford as Indiana jones from the last crusade in his forties with his iconic hat and a leather jacket crossing a door to an old and dusty university attic with archeological artifacts, book shelves and a pathway in the back, mayan and snake totems, small mysterious statues, low and subtle violet light filtering throughout the room mysterious atmosphere CINEMATIC STILL --ar 16:9 --v 6.0
 
+Harrison Ford as Indiana jones from the last crusade with his iconic hat and a leather jacket holding an old book, low and subtle violet light filtering throughout the room mysterious atmosphere CINEMATIC STILL --ar 16:9 --v 6.0 --cref https://raw.githubusercontent.com/3unjee/indy/master/dist/character/indy/reference/neutral/indy.jpg https://raw.githubusercontent.com/3unjee/indy/master/dist/character/indy/reference/neutral/indy2.webp https://raw.githubusercontent.com/3unjee/indy/master/dist/character/indy/reference/neutral/indy3.png
+
 ## Kling
 
 The character is slowly walking towards the camera

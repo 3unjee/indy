@@ -267,6 +267,20 @@ if [ $1 = "room/intro" -o \
         fi
     fi
 
+    source="$assets/$1/content/upscale"
+
+    if [ -d "$source" ]; then
+
+        echo "$source"
+
+        path="$PWD/dist/$1/content"
+
+        if exists "$source"/*.mp4; then
+
+            cp "$source"/*.mp4 "$path"
+        fi
+    fi
+
     source="$assets/$1/content/audio"
 
     if [ -d "$source" ]; then
