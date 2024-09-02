@@ -37,6 +37,7 @@ LivePortrait: https://github.com/KwaiVGI/LivePortrait
 Configuration:
 - Code changes
     - crf=15 (inference_config.py / video.py)
+    - flag_normalize_lip: bool = True (argument_config.py)
 - Driving Video
     - do crop: enabled
 
