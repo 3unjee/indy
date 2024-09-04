@@ -69,12 +69,12 @@ source:
     track:
         id: attic10
         at: 0:24
-        end: 0:29
+        end: 0:28
         template: attic3
     hub:
         id: attic11
-        at: 0:29
-        end: 0:45
+        at: 0:28
+        end: 0:44
         template: attic3
 
 templates:

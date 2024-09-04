@@ -31,6 +31,9 @@ https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic2/data/upsca
 Zooming out from the scene
 https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic2/data/upscale/attic.jpeg
 
+The character is slowly looking down a the book
+https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic2/data/upscale/indy3.jpeg
+
 ## Luma
 
 Fixed camera, the character is standing still, looking at the books
