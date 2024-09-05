@@ -10,6 +10,7 @@ OTHER_FILES += configure.sh \
                deploy/subtitle/attic-eng.srt \
                deploy/subtitle/attic2-eng.srt \
                dist/room/room.md \
+               dist/room/intro/intro.md \
                dist/room/intro/content/upscale.sh \
                dist/room/intro/content/copy.sh \
                dist/room/attic/attic.md \
