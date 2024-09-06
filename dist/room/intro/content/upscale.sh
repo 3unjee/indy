@@ -33,6 +33,9 @@ run()
 
 cd "$ffmpeg"
 
-run "intro.mp4"  iris-3
-run "intro2.mp4" iris-3
-run "intro3.mp4" iris-3 letterbox
+run "intro.mp4"    iris-3
+run "intro2.mp4"   iris-3
+run "intro3.mp4"   iris-3 letterbox
+run "college.mp4"  iris-3
+run "college2.mp4" iris-3
+run "college3.mp4" iris-3

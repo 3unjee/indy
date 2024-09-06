@@ -8,6 +8,12 @@ source: https://www.youtube.com/watch?v=l_VfjEmeUWk
 title: Finale & End Credits
 length: 10:39
 
+path: assets/extra/indy/room/intro/music/intro2.webm
+
+source: https://www.youtube.com/watch?v=nZUW-RSkThA
+title: The Departure
+length: 2:26
+
 ### attic
 
 path: assets/extra/indy/room/attic/music/attic.webm
