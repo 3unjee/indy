@@ -197,6 +197,11 @@ if [ $1 = "room/intro" -o \
 
         path="$PWD/dist/$1/data/upscale"
 
+        if exists "$source"/*.png; then
+
+            cp "$source"/*.png "$path"
+        fi
+
         if exists "$source"/*.jpeg; then
 
             cp "$source"/*.jpeg "$path"
