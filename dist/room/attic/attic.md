@@ -34,8 +34,14 @@ https://raw.githubusercontent.com/3unjee/indy/master/dist/character/indy/referen
 The camera is slowly rotating on the character while he is blinking his eyes and breathing slowly
 https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/content/indy3.png
 
+The camera is zooming on the center of the frame
+https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/data/upscale/attic.jpeg
+
 The character is walking through the room
 https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/data/upscale/attic.jpeg
+
+The camera is zooming on the desk
+https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/data/upscale/attic5.jpeg
 
 The character is recovering and standing in the room
 https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/content/splash3.png
