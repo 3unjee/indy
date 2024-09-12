@@ -25,6 +25,7 @@ exists()
 if [ $# != 1 ] || [ $1 != "all"            -a \
                     $1 != "deploy"         -a \
                     $1 != "screens"        -a \
+                    $1 != "movie"          -a \
                     $1 != "trailer"        -a \
                     $1 != "character/indy" -a \
                     $1 != "room/intro"     -a \
@@ -34,6 +35,7 @@ if [ $# != 1 ] || [ $1 != "all"            -a \
     echo "Usage: configure <all>"
     echo "                 <deploy>"
     echo "                 <screens>"
+    echo "                 <movie>"
     echo "                 <trailer>"
     echo "                 <character/indy>"
     echo "                 <room/intro>"
@@ -55,6 +57,7 @@ if [ $1 = "all" ]; then
 
     sh configure.sh deploy
     sh configure.sh screens
+    sh configure.sh movie
     sh configure.sh trailer
     sh configure.sh character/indy
     sh configure.sh room/intro
@@ -110,7 +113,8 @@ fi
 # Trailer
 #--------------------------------------------------------------------------------------------------
 
-if [ $1 = "trailer" ]; then
+if [ $1 = "movie" -o \
+     $1 = "trailer" ]; then
 
     source="$assets/$1/content"
 

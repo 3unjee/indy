@@ -22,6 +22,7 @@ exists()
 
 if [ $# != 1 ] || [ $1 != "deploy"         -a \
                     $1 != "screens"        -a \
+                    $1 != "movie"          -a \
                     $1 != "trailer"        -a \
                     $1 != "character/indy" -a \
                     $1 != "room/intro"     -a \
@@ -30,6 +31,7 @@ if [ $# != 1 ] || [ $1 != "deploy"         -a \
 
     echo "Usage: push <deploy>"
     echo "            <screens>"
+    echo "            <movie>"
     echo "            <trailer>"
     echo "            <character/indy>"
     echo "            <room/intro>"
@@ -86,7 +88,8 @@ fi
 # Trailer
 #--------------------------------------------------------------------------------------------------
 
-if [ $1 = "trailer" ]; then
+if [ $1 = "movie" -o \
+     $1 = "trailer" ]; then
 
     source="$PWD/dist/$1/content"
 
