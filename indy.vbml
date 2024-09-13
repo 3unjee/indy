@@ -9,15 +9,24 @@ title: Indiana Jones and the Fate of Atlantis
 
 cover: https://raw.githubusercontent.com/3unjee/indy/master/dist/screens/screen.jpg
 
-context: intro,attic,attic2
+context: intro,intro2,attic,attic2
+
 source:
     #----------------------------------------------------------------------------------------------
-    # Room: attic
+    # Room: intro
     #----------------------------------------------------------------------------------------------
     track:
         id: intro
-        duration: 1:21
-        source: https://odysee.com/intro:562
+        duration: 1:25
+        source: https://www.youtube.com/watch?v=apLCr06jmRA
+    track:
+        id: intro2
+        at: 1:26
+        end: 1:49
+        source: https://www.youtube.com/watch?v=apLCr06jmRA
+    #----------------------------------------------------------------------------------------------
+    # Room: attic
+    #----------------------------------------------------------------------------------------------
     track:
         id: attic
         duration: 0:23
@@ -29,9 +38,9 @@ source:
         template: attic
     track:
         id: attic3
-        at: 0:40
-        end: 0:55
-        source: https://odysee.com/attic:a
+        at: 0:39
+        end: 0:54
+        source: https://www.youtube.com/watch?v=MmBd_S4PhnU
         subtitles: https://raw.githubusercontent.com/3unjee/indy/master/deploy/subtitle/attic-eng.srt
     track:
         id: attic4
@@ -45,28 +54,55 @@ source:
     track:
         id: attic6
         at: 0:28
-        end: 0:49
-        source: https://odysee.com/attic2:c
+        end: 0:51
+        source: https://www.youtube.com/watch?v=y9Qx3KWDeg4
         subtitles: https://raw.githubusercontent.com/3unjee/indy/master/deploy/subtitle/attic2-eng.srt
     track:
         id: attic7
-        at: 0:49
-        end: 1:03
+        at: 0:51
+        end: 1:07
         template: attic2
+    #----------------------------------------------------------------------------------------------
+    # Room: attic2
+    #----------------------------------------------------------------------------------------------
+    track:
+        id: attic8
+        duration: 0:08
+        source: /deploy/attic2-0.mp4
+    hub:
+        id: attic9
+        at: 0:08
+        end: 0:24
+        template: attic3
+    track:
+        id: attic10
+        at: 0:24
+        end: 0:28
+        template: attic3
+    hub:
+        id: attic11
+        at: 0:28
+        end: 0:44
+        template: attic3
 
 templates:
     template:
         id: attic
-        source: https://odysee.com/attic:a
+        source: https://www.youtube.com/watch?v=MmBd_S4PhnU
         ambient: https://www.youtube.com/watch?v=W2oS3BgIZr4
         subtitles: https://raw.githubusercontent.com/3unjee/indy/master/deploy/subtitle/attic-eng.srt
     template:
         id: attic2
-        source: https://odysee.com/attic2:c
+        source: https://www.youtube.com/watch?v=y9Qx3KWDeg4
         ambient: https://www.youtube.com/watch?v=W2oS3BgIZr4
         subtitles: https://raw.githubusercontent.com/3unjee/indy/master/deploy/subtitle/attic2-eng.srt
+    template:
+        id: attic3
+        source: https://www.youtube.com/watch?v=DHHysOiE48Y
+        ambient: https://www.youtube.com/watch?v=W2oS3BgIZr4
+        subtitles: https://raw.githubusercontent.com/3unjee/indy/master/deploy/subtitle/attic2-0-eng.srt
 
-START: RETURN "attic,attic2"
+START: RETURN "intro2,attic,attic2"
 
 ATTIC: |
     IF (EQUAL argument "desk")
@@ -76,7 +112,14 @@ ATTIC: |
     ELIF (EQUAL argument "gargoyle")
         RETURN "attic7,attic5"
     ELIF (EQUAL id "attic2")
-        RETURN "attic3,attic2"
+        RETURN "attic3,attic8,attic9"
     ELSE
         RETURN "attic2"
+    FI
+
+ATTIC2: |
+    IF (EQUAL argument "shelf")
+        RETURN "attic10,attic11"
+    ELSE
+        RETURN "attic9"
     FI
