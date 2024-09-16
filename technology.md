@@ -1,5 +1,12 @@
 # [Indy](README.md) - Technology
 
+## Global
+
+### Resolution
+
+- 16 / 9: 3840 x 2160
+- 21 / 9: 5120 x 2160
+
 ## Generative tools
 
 ### Image generation
