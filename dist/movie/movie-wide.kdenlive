@@ -406,7 +406,7 @@
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
-    <property name="rect">00:01:06.833=-896 -300 6912 2916 1.000000;00:01:24.833=-896 -300 6912 2916 1.000000;00:01:26.375=-896 -378 6912 2916 1.000000</property>
+    <property name="rect">00:01:06.833=-896 -240 6912 2916 1.000000;00:01:24.833=-896 -240 6912 2916 1.000000;00:01:26.375=-896 -378 6912 2916 1.000000</property>
     <property name="rotation">00:01:06.833=0;00:01:24.833=0;00:01:26.375=0</property>
     <property name="compositing">0</property>
     <property name="distort">0</property>
@@ -529,16 +529,46 @@
   <property name="kdenlive:sequenceproperties.documentuuid">{eef67dc6-2ffe-424f-88e7-ad03d8eacf49}</property>
   <property name="kdenlive:sequenceproperties.hasAudio">1</property>
   <property name="kdenlive:sequenceproperties.hasVideo">1</property>
-  <property name="kdenlive:sequenceproperties.position">2948</property>
-  <property name="kdenlive:sequenceproperties.scrollPos">9634</property>
+  <property name="kdenlive:sequenceproperties.position">2975</property>
+  <property name="kdenlive:sequenceproperties.scrollPos">1479</property>
   <property name="kdenlive:sequenceproperties.tracks">4</property>
   <property name="kdenlive:sequenceproperties.tracksCount">4</property>
   <property name="kdenlive:sequenceproperties.verticalzoom">1</property>
   <property name="kdenlive:sequenceproperties.videoTarget">2</property>
   <property name="kdenlive:sequenceproperties.zonein">0</property>
   <property name="kdenlive:sequenceproperties.zoneout">75</property>
-  <property name="kdenlive:sequenceproperties.zoom">4</property>
+  <property name="kdenlive:sequenceproperties.zoom">6</property>
   <property name="kdenlive:sequenceproperties.groups">[
+    {
+        "children": [
+            {
+                "data": "1:2074",
+                "leaf": "clip",
+                "type": "Leaf"
+            },
+            {
+                "data": "2:2074",
+                "leaf": "clip",
+                "type": "Leaf"
+            }
+        ],
+        "type": "AVSplit"
+    },
+    {
+        "children": [
+            {
+                "data": "2:2828",
+                "leaf": "clip",
+                "type": "Leaf"
+            },
+            {
+                "data": "1:2828",
+                "leaf": "clip",
+                "type": "Leaf"
+            }
+        ],
+        "type": "AVSplit"
+    },
     {
         "children": [
             {
@@ -718,36 +748,6 @@
             }
         ],
         "type": "AVSplit"
-    },
-    {
-        "children": [
-            {
-                "data": "1:2074",
-                "leaf": "clip",
-                "type": "Leaf"
-            },
-            {
-                "data": "2:2074",
-                "leaf": "clip",
-                "type": "Leaf"
-            }
-        ],
-        "type": "AVSplit"
-    },
-    {
-        "children": [
-            {
-                "data": "2:2828",
-                "leaf": "clip",
-                "type": "Leaf"
-            },
-            {
-                "data": "1:2828",
-                "leaf": "clip",
-                "type": "Leaf"
-            }
-        ],
-        "type": "AVSplit"
     }
 ]
 </property>
@@ -828,53 +828,53 @@
   <property name="kdenlive:docproperties.externalproxyparams"/>
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">0</property>
-  <property name="kdenlive:docproperties.guidesCategories">[&#xd;
-    {&#xd;
-        "color": "#9b59b6",&#xd;
-        "comment": "Category 1",&#xd;
-        "index": 0&#xd;
-    },&#xd;
-    {&#xd;
-        "color": "#3daee9",&#xd;
-        "comment": "Category 2",&#xd;
-        "index": 1&#xd;
-    },&#xd;
-    {&#xd;
-        "color": "#1abc9c",&#xd;
-        "comment": "Category 3",&#xd;
-        "index": 2&#xd;
-    },&#xd;
-    {&#xd;
-        "color": "#1cdc9a",&#xd;
-        "comment": "Category 4",&#xd;
-        "index": 3&#xd;
-    },&#xd;
-    {&#xd;
-        "color": "#c9ce3b",&#xd;
-        "comment": "Category 5",&#xd;
-        "index": 4&#xd;
-    },&#xd;
-    {&#xd;
-        "color": "#fdbc4b",&#xd;
-        "comment": "Category 6",&#xd;
-        "index": 5&#xd;
-    },&#xd;
-    {&#xd;
-        "color": "#f39c1f",&#xd;
-        "comment": "Category 7",&#xd;
-        "index": 6&#xd;
-    },&#xd;
-    {&#xd;
-        "color": "#f47750",&#xd;
-        "comment": "Category 8",&#xd;
-        "index": 7&#xd;
-    },&#xd;
-    {&#xd;
-        "color": "#da4453",&#xd;
-        "comment": "Category 9",&#xd;
-        "index": 8&#xd;
-    }&#xd;
-]&#xd;
+  <property name="kdenlive:docproperties.guidesCategories">[&#xd;&#xd;
+    {&#xd;&#xd;
+        "color": "#9b59b6",&#xd;&#xd;
+        "comment": "Category 1",&#xd;&#xd;
+        "index": 0&#xd;&#xd;
+    },&#xd;&#xd;
+    {&#xd;&#xd;
+        "color": "#3daee9",&#xd;&#xd;
+        "comment": "Category 2",&#xd;&#xd;
+        "index": 1&#xd;&#xd;
+    },&#xd;&#xd;
+    {&#xd;&#xd;
+        "color": "#1abc9c",&#xd;&#xd;
+        "comment": "Category 3",&#xd;&#xd;
+        "index": 2&#xd;&#xd;
+    },&#xd;&#xd;
+    {&#xd;&#xd;
+        "color": "#1cdc9a",&#xd;&#xd;
+        "comment": "Category 4",&#xd;&#xd;
+        "index": 3&#xd;&#xd;
+    },&#xd;&#xd;
+    {&#xd;&#xd;
+        "color": "#c9ce3b",&#xd;&#xd;
+        "comment": "Category 5",&#xd;&#xd;
+        "index": 4&#xd;&#xd;
+    },&#xd;&#xd;
+    {&#xd;&#xd;
+        "color": "#fdbc4b",&#xd;&#xd;
+        "comment": "Category 6",&#xd;&#xd;
+        "index": 5&#xd;&#xd;
+    },&#xd;&#xd;
+    {&#xd;&#xd;
+        "color": "#f39c1f",&#xd;&#xd;
+        "comment": "Category 7",&#xd;&#xd;
+        "index": 6&#xd;&#xd;
+    },&#xd;&#xd;
+    {&#xd;&#xd;
+        "color": "#f47750",&#xd;&#xd;
+        "comment": "Category 8",&#xd;&#xd;
+        "index": 7&#xd;&#xd;
+    },&#xd;&#xd;
+    {&#xd;&#xd;
+        "color": "#da4453",&#xd;&#xd;
+        "comment": "Category 9",&#xd;&#xd;
+        "index": 8&#xd;&#xd;
+    }&#xd;&#xd;
+]&#xd;&#xd;
 </property>
   <property name="kdenlive:docproperties.kdenliveversion">23.08.5</property>
   <property name="kdenlive:docproperties.opensequences">{eef67dc6-2ffe-424f-88e7-ad03d8eacf49}</property>
