@@ -20,6 +20,7 @@ OTHER_FILES += configure.sh \
                dist/room/attic2/attic2.md \
                dist/room/attic2/content/upscale.sh \
                dist/room/attic2/content/copy.sh \
+               dist/room/chase/chase.md \
                dist/character/character.md \
                dist/character/indy/indy.md \
                dist/screens/screens.md \

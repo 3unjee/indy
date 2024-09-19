@@ -1,5 +1,19 @@
 # Extra resources
 
+### movie
+
+path: assets/extra/indy/movie/indy3.mp4
+title: Indiana Jones and the Last Crusade
+length: 2:06:53
+
+path: assets/extra/indy/movie/indy4.mp4
+title: Indiana Jones and the Kingdom of the Crystal Skull
+length: 2:02:32
+
+path: assets/extra/indy/movie/indy5.mp4
+title: Indiana Jones and the Dial of Destiny
+length: 2:34:34
+
 ### intro
 
 path: assets/extra/indy/room/intro/music/intro.webm
