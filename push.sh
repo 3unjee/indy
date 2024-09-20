@@ -27,7 +27,8 @@ if [ $# != 1 ] || [ $1 != "deploy"         -a \
                     $1 != "character/indy" -a \
                     $1 != "room/intro"     -a \
                     $1 != "room/attic"     -a \
-                    $1 != "room/attic2" ]; then
+                    $1 != "room/attic2"    -a \
+                    $1 != "room/chase" ]; then
 
     echo "Usage: push <deploy>"
     echo "            <screens>"
@@ -37,6 +38,7 @@ if [ $# != 1 ] || [ $1 != "deploy"         -a \
     echo "            <room/intro>"
     echo "            <room/attic>"
     echo "            <room/attic2>"
+    echo "            <room/chase>"
 
     exit 1
 fi
@@ -138,7 +140,8 @@ fi
 
 if [ $1 = "room/intro" -o \
      $1 = "room/attic" -o \
-     $1 = "room/attic2" ]; then
+     $1 = "room/attic2" -o \
+     $1 = "room/chase" ]; then
 
     source="$PWD/dist/$1/data"
 

@@ -33,7 +33,10 @@ A wide angle shot of a german guy spy with a trenchcoat sitting on an Amalgamate
 
 A wide angle shot of a german guy spy with a trenchcoat sitting on an Amalgamated Harley-Davidson in front of an old university from Indiana jones and the last crusade in 1939, rainy night and low blue light filtering through the clouds CINEMATIC STILL --ar 16:9 --v 6.0
 
-A wide angle shot of a german guy spy with a trenchcoat sitting on an Amalgamated Harley-Davidson from Indiana jones and the last crusade in 1939, rainy night and low blue light filtering through the clouds CINEMATIC STILL --ar 16:9 --v 6.0
+A wide angle shot of a german guy spy with a trenchcoat sitting on an Amalgamated Harley-Davidson from Indiana jones and the last crusade in 1939, rainy night and low blue light filtering through the clouds CINEMATIC STILL --ar 16:9 --v 6.0 --sw 800
+--sref https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/reference/college3.jpg
+
+A three quarter shot of a german guy spy facing the camera with a trenchcoat sitting on an Amalgamated Harley-Davidson from Indiana jones and the last crusade in 1939, rainy night and low blue light filtering through the clouds CINEMATIC STILL --ar 16:9 --v 6.0 --sw 800
 --sref https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/reference/college3.jpg
 
 ## Objects
