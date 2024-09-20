@@ -22,12 +22,12 @@ https://raw.githubusercontent.com/3unjee/indy/master/dist/room/intro/reference/c
 
 A rainy night shot of a blonde german spy with a black trenchcoat sitting on an Amalgamated Harley-Davidson from Indiana jones and the last crusade in 1939, rainy night and low blue light filtering through the clouds CINEMATIC STILL --ar 16:9 --v 6.0 --cw 100
 https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/reference/bike.jpg
---cref https://raw.githubusercontent.com/3unjee/indy/master/dist/character/german/guy/german.png
-https://raw.githubusercontent.com/3unjee/indy/master/dist/character/german/guy/german2.png
+--cref https://raw.githubusercontent.com/3unjee/indy/master/dist/character/german/guy/german2.png
+https://raw.githubusercontent.com/3unjee/indy/master/dist/character/german/guy/german.png
 
 A rainy night shot of a blonde german spy with a trenchcoat sitting on an Amalgamated Harley-Davidson from Indiana jones and the last crusade in 1939, rainy night and low blue light filtering through the clouds CINEMATIC STILL --ar 16:9 --v 6.0 --cw 100
---cref https://raw.githubusercontent.com/3unjee/indy/master/dist/character/german/guy/german.png
-https://raw.githubusercontent.com/3unjee/indy/master/dist/character/german/guy/german2.png
+--cref https://raw.githubusercontent.com/3unjee/indy/master/dist/character/german/guy/german2.png
+https://raw.githubusercontent.com/3unjee/indy/master/dist/character/german/guy/german.png
 
 ## Objects
 
