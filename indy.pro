@@ -23,4 +23,5 @@ OTHER_FILES += configure.sh \
                dist/room/chase/chase.md \
                dist/character/character.md \
                dist/character/indy/indy.md \
+               dist/character/german/german.md \
                dist/screens/screens.md \

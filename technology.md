@@ -25,6 +25,8 @@ Kling: https://klingai.com
 
 Luma Dream Machine: https://lumalabs.ai
 
+### Video upscaling
+
 Topaz Video AI: https://topazlabs.com
 
 ### Audio generation
@@ -65,11 +67,21 @@ Adobe Photoshop 2024: https://www.adobe.com/products/photoshop
 Kdenlive: https://kdenlive.org
 
 Configuration:
+
 - Project profile
     - Size: 3840x2160
     - Frame rate: 24fps
     - Pixel aspect ratio: 1
     - Display aspect ratio: 16:9
+    - Colorspace: IUT-R BT.709
+    - Scanning: Progressive
+    - Field order: Top Field First
+
+- Project profile
+    - Size: 5120x2160
+    - Frame rate: 24fps
+    - Pixel aspect ratio: 1
+    - Display aspect ratio: 21:9
     - Colorspace: IUT-R BT.709
     - Scanning: Progressive
     - Field order: Top Field First
