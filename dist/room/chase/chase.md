@@ -29,6 +29,13 @@ A rainy night shot of a blonde german spy with a trenchcoat sitting on an Amalga
 --cref https://raw.githubusercontent.com/3unjee/indy/master/dist/character/german/guy/german2.png
 https://raw.githubusercontent.com/3unjee/indy/master/dist/character/german/guy/german.png
 
+A wide angle shot of a german guy spy with a trenchcoat sitting on an Amalgamated Harley-Davidson from Indiana jones and the last crusade in 1939, rainy night and low blue light filtering through the clouds CINEMATIC STILL --ar 16:9 --v 6.0
+
+A wide angle shot of a german guy spy with a trenchcoat sitting on an Amalgamated Harley-Davidson in front of an old university from Indiana jones and the last crusade in 1939, rainy night and low blue light filtering through the clouds CINEMATIC STILL --ar 16:9 --v 6.0
+
+A wide angle shot of a german guy spy with a trenchcoat sitting on an Amalgamated Harley-Davidson from Indiana jones and the last crusade in 1939, rainy night and low blue light filtering through the clouds CINEMATIC STILL --ar 16:9 --v 6.0
+--sref https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/reference/college3.jpg
+
 ## Objects
 
 A rainy night view of an 1939 Ford V8 De Luxe Fordor, low blue light filtering through the clouds CINEMATIC STILL --ar 16:9 --v 6.0
