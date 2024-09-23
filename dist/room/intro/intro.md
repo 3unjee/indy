@@ -9,7 +9,7 @@ An aerial view of an old university from Indiana jones and the last crusade in 1
 ## Kling
 
 An old university under heavy rain at dusk
-https://raw.githubusercontent.com/3unjee/indy/master/dist/room/intro/data/upscale/college4.png
+https://raw.githubusercontent.com/3unjee/indy/master/dist/room/intro/data/upscale/college4.jpeg
 
 Slowly zooming on an old university under heavy rain
-https://raw.githubusercontent.com/3unjee/indy/master/dist/room/intro/data/upscale/college4.png
+https://raw.githubusercontent.com/3unjee/indy/master/dist/room/intro/data/upscale/college4.jpeg

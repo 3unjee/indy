@@ -46,6 +46,14 @@ https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/reference/c
 https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/reference/car2.jpg
 https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/reference/car3.jpg
 
+## Kling
+
+An university in fire under heavy rain
+https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/data/upscale/college2.jpeg
+
+The camera is zooming slowly
+https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/data/upscale/college.jpeg
+
 ## References
 
 Amalgamated Harley-Davidson 1939
