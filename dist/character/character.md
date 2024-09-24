@@ -2,4 +2,8 @@
 
 Indy: [indy/indy.md](indy/indy.md)
 
-German: [indy/german.md](indy/german.md)
+Kerner: [kerner/kerner.md](kerner/kerner.md)
+
+Fritz: [fritz/fritz.md](fritz/fritz.md)
+
+German: [kerner/german.md](kerner/german.md)
