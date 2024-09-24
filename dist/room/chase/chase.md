@@ -19,18 +19,18 @@ https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/reference/c
 https://raw.githubusercontent.com/3unjee/indy/master/dist/room/intro/reference/college3.jpg
 
 A wide angle shot, facing the front seats of a black Ford V8 De Luxe Fordor from Indiana jones and the last crusade in 1939, rainy night and low blue light filtering through the clouds CINEMATIC STILL --ar 16:9 --v 6.0
-https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/reference/interior.jpg
+https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/reference/interior2.jpg
 
 ## Characters
 
 A rainy night shot of a blonde german spy with a black trenchcoat sitting on an Amalgamated Harley-Davidson from Indiana jones and the last crusade in 1939, rainy night and low blue light filtering through the clouds CINEMATIC STILL --ar 16:9 --v 6.0 --cw 100
 https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/reference/bike.jpg
---cref https://raw.githubusercontent.com/3unjee/indy/master/dist/character/german/guy/german2.png
-https://raw.githubusercontent.com/3unjee/indy/master/dist/character/german/guy/german.png
+--cref https://raw.githubusercontent.com/3unjee/indy/master/dist/character/german/reference/guy/german2.png
+https://raw.githubusercontent.com/3unjee/indy/master/dist/character/german/reference/guy/german.png
 
 A rainy night shot of a blonde german spy with a trenchcoat sitting on an Amalgamated Harley-Davidson from Indiana jones and the last crusade in 1939, rainy night and low blue light filtering through the clouds CINEMATIC STILL --ar 16:9 --v 6.0 --cw 100
---cref https://raw.githubusercontent.com/3unjee/indy/master/dist/character/german/guy/german2.png
-https://raw.githubusercontent.com/3unjee/indy/master/dist/character/german/guy/german.png
+--cref https://raw.githubusercontent.com/3unjee/indy/master/dist/character/german/reference/guy/german2.png
+https://raw.githubusercontent.com/3unjee/indy/master/dist/character/german/reference/guy/german.png
 
 A wide angle shot of a german guy spy with a trenchcoat sitting on an Amalgamated Harley-Davidson from Indiana jones and the last crusade in 1939, rainy night and low blue light filtering through the clouds CINEMATIC STILL --ar 16:9 --v 6.0
 
