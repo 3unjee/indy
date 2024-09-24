@@ -126,6 +126,34 @@ if [ $1 = "movie" -o \
 
     cp "$source"/*.mp4 "$path"
 
+    source="$assets/$1/reference"
+
+    if [ -d "$source" ]; then
+
+        echo "$source"
+
+        path="$PWD/dist/$1/reference"
+
+        if exists "$source"/*.png; then
+
+            cp "$source"/*.png "$path"
+        fi
+    fi
+
+    source="$extra/$1"
+
+    if [ -d "$source" ]; then
+
+        echo "$source"
+
+        path="$PWD/dist/$1/content/extra"
+
+        if exists "$source"/*.mp4; then
+
+            cp "$source"/*.mp4 "$path"
+        fi
+    fi
+
     exit 0
 fi
 

@@ -101,6 +101,21 @@ if [ $1 = "movie" -o \
     mkdir -p "$path"
 
     cp "$source"/*.mp4 "$path"
+
+    source="$PWD/dist/$1/reference"
+
+    if [ -d "$source" ]; then
+
+        echo "$source"
+
+        path="$assets/$1/reference"
+        mkdir -p "$path"
+
+        if exists "$source"/*.png; then
+
+            cp "$source"/*.png "$path"
+        fi
+    fi
 fi
 
 #--------------------------------------------------------------------------------------------------

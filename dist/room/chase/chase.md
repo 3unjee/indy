@@ -56,4 +56,6 @@ https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/data/upscal
 
 ## References
 
+Ford V8 De Luxe Fordor 1939
+
 Amalgamated Harley-Davidson 1939

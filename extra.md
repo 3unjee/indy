@@ -43,3 +43,17 @@ path: assets/extra/indy/room/attic/music/attic2.webm
 source: https://www.youtube.com/watch?v=a8OZ5F59ScQ
 title: Indy's Very First Adventure
 length: 12:00
+
+### chase
+
+path: assets/extra/indy/room/chase/music/chase.webm
+
+source: https://www.youtube.com/watch?v=FFioda0kMzw
+title: Prologue to Indiana Jones and the Dial of Destiny
+length: 6:00
+
+path: assets/extra/indy/room/chase/music/chase2.webm
+
+source: https://www.youtube.com/watch?v=z-fl5E_8PG8
+title: Germany, 1944
+length: 4:42
