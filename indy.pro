@@ -25,6 +25,7 @@ OTHER_FILES += configure.sh \
                dist/room/chase/chase/copy.sh \
                dist/character/character.md \
                dist/character/indy/indy.md \
+               dist/character/marcus/marcus.md \
                dist/character/kerner/kerner.md \
                dist/character/fritz/fritz.md \
                dist/character/german/german.md \
