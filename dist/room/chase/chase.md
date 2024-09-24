@@ -42,6 +42,11 @@ A wide angle shot of a german guy spy with a trenchcoat sitting on an Amalgamate
 A three quarter shot of a german guy spy facing the camera with a trenchcoat sitting on an Amalgamated Harley-Davidson from Indiana jones and the last crusade in 1939, rainy night and low blue light filtering through the clouds CINEMATIC STILL --ar 16:9 --v 6.0 --sw 800
 --sref https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/reference/college3.jpg
 
+Christoph Waltz from Indiana jones and the last crusade facing the camera with a dark trenchcoat and holding the wheel of a Ford V8 De Luxe Fordor, rainy night and low blue light filtering through the clouds CINEMATIC STILL --ar 16:9 --v 6.0
+--cref https://raw.githubusercontent.com/3unjee/indy/master/dist/character/kerner/reference/neutral/kerner.jpg
+https://raw.githubusercontent.com/3unjee/indy/master/dist/character/kerner/reference/neutral/kerner4.jpg
+https://raw.githubusercontent.com/3unjee/indy/master/dist/character/kerner/reference/neutral/kerner5.jpg
+
 ## Objects
 
 A rainy night view of an 1939 Ford V8 De Luxe Fordor, low blue light filtering through the clouds CINEMATIC STILL --ar 16:9 --v 6.0
