@@ -18,11 +18,8 @@ A rainy night view of an old university with fire exploding through the windows 
 https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/reference/college.jpg
 https://raw.githubusercontent.com/3unjee/indy/master/dist/room/intro/reference/college3.jpg
 
-A wide angle classic cinema shot of the interior of a Ford V8 De Luxe Fordor from Indiana jones and the last crusade in 1939, rainy night and low blue light filtering through the clouds CINEMATIC STILL --ar 16:9 --v 6.0
-
-An interior shot of a Ford V8 De Luxe Fordor from Indiana jones and the last crusade in 1939, the camera is the front facing the wheel and the seats, rainy night and low blue light filtering through the clouds CINEMATIC STILL --ar 16:9 --v 6.0
-
-A wide short of a Ford V8 De Luxe Fordor from Indiana jones and the last crusade in 1939, The camera is mounted in front of the vehicule facing the seats, rainy night and low blue light filtering through the clouds CINEMATIC STILL --ar 16:9 --v 6.0
+A wide angle shot, facing the front seats of a black Ford V8 De Luxe Fordor from Indiana jones and the last crusade in 1939, rainy night and low blue light filtering through the clouds CINEMATIC STILL --ar 16:9 --v 6.0
+https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/reference/interior.jpg
 
 ## Characters
 
