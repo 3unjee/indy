@@ -21,6 +21,10 @@ https://raw.githubusercontent.com/3unjee/indy/master/dist/room/intro/reference/c
 A wide angle shot, facing the front seats of a black Ford V8 De Luxe Fordor from Indiana jones and the last crusade in 1939, rainy night and low blue light filtering through the clouds CINEMATIC STILL --ar 16:9 --v 6.0
 https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/reference/interior2.jpg
 
+A wide angle shot, facing the front seats of a black Ford V8 De Luxe Fordor from Indiana jones and the last crusade in 1939, rainy night and low blue light filtering through the clouds CINEMATIC STILL --ar 16:9 --v 6.0 --sw 50
+https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/reference/interior2.jpg
+--sref https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/reference/college3.jpg
+
 ## Characters
 
 A rainy night shot of a blonde german spy with a black trenchcoat sitting on an Amalgamated Harley-Davidson from Indiana jones and the last crusade in 1939, rainy night and low blue light filtering through the clouds CINEMATIC STILL --ar 16:9 --v 6.0 --cw 100
@@ -42,15 +46,17 @@ A wide angle shot of a german guy spy with a trenchcoat sitting on an Amalgamate
 A three quarter shot of a german guy spy facing the camera with a trenchcoat sitting on an Amalgamated Harley-Davidson from Indiana jones and the last crusade in 1939, rainy night and low blue light filtering through the clouds CINEMATIC STILL --ar 16:9 --v 6.0 --sw 800
 --sref https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/reference/college3.jpg
 
-Wide view of Christoph Waltz from Indiana jones and the last crusade facing the camera with a menacing look and a dark trenchcoat and holding the wheel of a Ford V8 De Luxe Fordor, rainy night and low blue light filtering through the clouds CINEMATIC STILL --ar 16:9 --v 6.0 --cw 0 --no hat
+Wide view of Christoph Waltz from Indiana jones and the last crusade facing the camera with a menacing look and a dark trenchcoat and holding the wheel of a Ford V8 De Luxe Fordor, rainy night and low blue light filtering through the clouds CINEMATIC STILL --ar 16:9 --v 6.0 --cw 50 --sw 50 --no hat
 --cref https://raw.githubusercontent.com/3unjee/indy/master/dist/character/kerner/reference/neutral/kerner.jpg
 https://raw.githubusercontent.com/3unjee/indy/master/dist/character/kerner/reference/neutral/kerner2.jpg
 https://raw.githubusercontent.com/3unjee/indy/master/dist/character/kerner/reference/neutral/kerner3.jpg
+--sref https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/reference/college3.jpg
 
-Wide view of Marcus Brody from Indiana jones and the last crusade facing the camera with messy hairs and sitting in a Ford V8 De Luxe Fordor, rainy night and low blue light filtering through the clouds CINEMATIC STILL
+Wide view of Marcus Brody from Indiana jones and the last crusade facing the camera with messy hairs and sitting in a Ford V8 De Luxe Fordor, rainy night and low blue light filtering through the clouds CINEMATIC STILL --ar 16:9 --v 6.0 --cw 50 --sw 50
 --cref https://raw.githubusercontent.com/3unjee/indy/master/dist/character/marcus/reference/neutral/marcus.jpg
 https://raw.githubusercontent.com/3unjee/indy/master/dist/character/marcus/reference/neutral/marcus3.jpg
 https://raw.githubusercontent.com/3unjee/indy/master/dist/character/marcus/reference/neutral/marcus4.jpg
+--sref https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/reference/college3.jpg
 
 ## Objects
 
