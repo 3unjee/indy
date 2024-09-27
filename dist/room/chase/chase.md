@@ -58,6 +58,11 @@ https://raw.githubusercontent.com/3unjee/indy/master/dist/character/marcus/refer
 https://raw.githubusercontent.com/3unjee/indy/master/dist/character/marcus/reference/neutral/marcus4.jpg
 --sref https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/reference/college3.jpg
 
+Wide view of Michael Fassbender from Indiana jones and the last crusade facing the camera with a menacing look and a dark trenchcoat and sitting in a Ford V8 De Luxe Fordor, rainy night and low blue light filtering through the clouds CINEMATIC STILL --ar 16:9 --v 6.0 --cw 50 --no hat
+--cref https://raw.githubusercontent.com/3unjee/indy/master/dist/character/fritz/reference/neutral/fritz.jpg
+https://raw.githubusercontent.com/3unjee/indy/master/dist/character/fritz/reference/neutral/fritz4.jpg
+https://raw.githubusercontent.com/3unjee/indy/master/dist/character/fritz/reference/neutral/fritz6.png
+
 ## Objects
 
 A rainy night view of an 1939 Ford V8 De Luxe Fordor, low blue light filtering through the clouds CINEMATIC STILL --ar 16:9 --v 6.0
