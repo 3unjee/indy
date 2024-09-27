@@ -21,8 +21,8 @@ OTHER_FILES += configure.sh \
                dist/room/attic2/content/upscale.sh \
                dist/room/attic2/content/copy.sh \
                dist/room/chase/chase.md \
-               dist/room/chase/chase/upscale.sh \
-               dist/room/chase/chase/copy.sh \
+               dist/room/chase/content/upscale.sh \
+               dist/room/chase/content/copy.sh \
                dist/character/character.md \
                dist/character/indy/indy.md \
                dist/character/marcus/marcus.md \
