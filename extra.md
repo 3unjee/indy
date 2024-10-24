@@ -2,6 +2,10 @@
 
 ### movie
 
+path: assets/extra/indy/movie/indy.mp4
+title: Indiana Jones and the Raiders of the Lost Ark
+length: 1:55:18
+
 path: assets/extra/indy/movie/indy3.mp4
 title: Indiana Jones and the Last Crusade
 length: 2:06:53
@@ -35,8 +39,6 @@ path: assets/extra/indy/room/attic/music/attic.webm
 source: https://www.youtube.com/watch?v=i5H65-smy7E
 title: X Marks the Spot
 length: 3:11
-
----
 
 path: assets/extra/indy/room/attic/music/attic2.webm
 

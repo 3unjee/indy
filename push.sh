@@ -152,6 +152,11 @@ if [ $1 = "character/indy" -o \
 
             cp "$source"/*.webm "$path"
         fi
+
+        if exists "$source"/*.mp3; then
+
+            cp "$source"/*.mp3 "$path"
+        fi
     fi
 
     source="$PWD/dist/$1/data/voice/base"
