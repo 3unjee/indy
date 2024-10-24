@@ -22,15 +22,16 @@ exists()
 # Syntax
 #--------------------------------------------------------------------------------------------------
 
-if [ $# != 1 ] || [ $1 != "all"            -a \
-                    $1 != "deploy"         -a \
-                    $1 != "screens"        -a \
-                    $1 != "movie"          -a \
-                    $1 != "trailer"        -a \
-                    $1 != "character/indy" -a \
-                    $1 != "room/intro"     -a \
-                    $1 != "room/attic"     -a \
-                    $1 != "room/attic2"    -a \
+if [ $# != 1 ] || [ $1 != "all"              -a \
+                    $1 != "deploy"           -a \
+                    $1 != "screens"          -a \
+                    $1 != "movie"            -a \
+                    $1 != "trailer"          -a \
+                    $1 != "character/indy"   -a \
+                    $1 != "character/kerner" -a \
+                    $1 != "room/intro"       -a \
+                    $1 != "room/attic"       -a \
+                    $1 != "room/attic2"      -a \
                     $1 != "room/chase" ]; then
 
     echo "Usage: configure <all>"
@@ -39,6 +40,7 @@ if [ $# != 1 ] || [ $1 != "all"            -a \
     echo "                 <movie>"
     echo "                 <trailer>"
     echo "                 <character/indy>"
+    echo "                 <character/kerner>"
     echo "                 <room/intro>"
     echo "                 <room/attic>"
     echo "                 <room/attic2>"
@@ -62,6 +64,7 @@ if [ $1 = "all" ]; then
     sh configure.sh movie
     sh configure.sh trailer
     sh configure.sh character/indy
+    sh configure.sh character/kerner
     sh configure.sh room/intro
     sh configure.sh room/attic
     sh configure.sh room/attic2
@@ -161,7 +164,8 @@ fi
 # Characters
 #--------------------------------------------------------------------------------------------------
 
-if [ $1 = "character/indy" ]; then
+if [ $1 = "character/indy" -o \
+     $1 = "character/kerner" ]; then
 
     source="$assets/$1/data"
 
@@ -185,7 +189,24 @@ if [ $1 = "character/indy" ]; then
 
         path="$PWD/dist/$1/data/voice"
 
-        cp "$source"/*.webm "$path"
+        if exists "$source"/*.webm; then
+
+            cp "$source"/*.webm "$path"
+        fi
+    fi
+
+    source="$assets/$1/data/voice/base"
+
+    if [ -d "$source" ]; then
+
+        echo "$source"
+
+        path="$PWD/dist/$1/data/voice/base"
+
+        if exists "$source"/*.webm; then
+
+            cp "$source"/*.webm "$path"
+        fi
     fi
 
     exit 0

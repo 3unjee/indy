@@ -20,14 +20,15 @@ exists()
 # Syntax
 #--------------------------------------------------------------------------------------------------
 
-if [ $# != 1 ] || [ $1 != "deploy"         -a \
-                    $1 != "screens"        -a \
-                    $1 != "movie"          -a \
-                    $1 != "trailer"        -a \
-                    $1 != "character/indy" -a \
-                    $1 != "room/intro"     -a \
-                    $1 != "room/attic"     -a \
-                    $1 != "room/attic2"    -a \
+if [ $# != 1 ] || [ $1 != "deploy"           -a \
+                    $1 != "screens"          -a \
+                    $1 != "movie"            -a \
+                    $1 != "trailer"          -a \
+                    $1 != "character/indy"   -a \
+                    $1 != "character/kerner" -a \
+                    $1 != "room/intro"       -a \
+                    $1 != "room/attic"       -a \
+                    $1 != "room/attic2"      -a \
                     $1 != "room/chase" ]; then
 
     echo "Usage: push <deploy>"
@@ -35,6 +36,7 @@ if [ $# != 1 ] || [ $1 != "deploy"         -a \
     echo "            <movie>"
     echo "            <trailer>"
     echo "            <character/indy>"
+    echo "            <character/kerner>"
     echo "            <room/intro>"
     echo "            <room/attic>"
     echo "            <room/attic2>"
@@ -122,7 +124,8 @@ fi
 # Characters
 #--------------------------------------------------------------------------------------------------
 
-if [ $1 = "character/indy" ]; then
+if [ $1 = "character/indy" -o \
+     $1 = "character/kerner" ]; then
 
     source="$PWD/dist/$1/data"
 
@@ -145,7 +148,25 @@ if [ $1 = "character/indy" ]; then
         path="$assets/$1/data/voice"
         mkdir -p "$path"
 
-        cp "$source"/*.webm "$path"
+        if exists "$source"/*.webm; then
+
+            cp "$source"/*.webm "$path"
+        fi
+    fi
+
+    source="$PWD/dist/$1/data/voice/base"
+
+    if [ -d "$source" ]; then
+
+        echo "$source"
+
+        path="$assets/$1/data/voice/base"
+        mkdir -p "$path"
+
+        if exists "$source"/*.webm; then
+
+            cp "$source"/*.webm "$path"
+        fi
     fi
 fi
 
