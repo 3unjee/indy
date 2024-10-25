@@ -28,7 +28,9 @@ if [ $# != 1 ] || [ $1 != "all"              -a \
                     $1 != "movie"            -a \
                     $1 != "trailer"          -a \
                     $1 != "character/indy"   -a \
+                    $1 != "character/marcus" -a \
                     $1 != "character/kerner" -a \
+                    $1 != "character/fritz"  -a \
                     $1 != "room/intro"       -a \
                     $1 != "room/attic"       -a \
                     $1 != "room/attic2"      -a \
@@ -40,7 +42,9 @@ if [ $# != 1 ] || [ $1 != "all"              -a \
     echo "                 <movie>"
     echo "                 <trailer>"
     echo "                 <character/indy>"
+    echo "                 <character/marcus>"
     echo "                 <character/kerner>"
+    echo "                 <character/fritz>"
     echo "                 <room/intro>"
     echo "                 <room/attic>"
     echo "                 <room/attic2>"
@@ -64,7 +68,9 @@ if [ $1 = "all" ]; then
     sh configure.sh movie
     sh configure.sh trailer
     sh configure.sh character/indy
+    sh configure.sh character/marcus
     sh configure.sh character/kerner
+    sh configure.sh character/fritz
     sh configure.sh room/intro
     sh configure.sh room/attic
     sh configure.sh room/attic2
@@ -164,8 +170,10 @@ fi
 # Characters
 #--------------------------------------------------------------------------------------------------
 
-if [ $1 = "character/indy" -o \
-     $1 = "character/kerner" ]; then
+if [ $1 = "character/indy"   -o \
+     $1 = "character/marcus" -o \
+     $1 = "character/kerner" -o \
+     $1 = "character/fritz" ]; then
 
     source="$assets/$1/data"
 
@@ -207,6 +215,11 @@ if [ $1 = "character/indy" -o \
         echo "$source"
 
         path="$PWD/dist/$1/data/voice/base"
+
+        if exists "$source"/*.mp4; then
+
+            cp "$source"/*.mp4 "$path"
+        fi
 
         if exists "$source"/*.webm; then
 

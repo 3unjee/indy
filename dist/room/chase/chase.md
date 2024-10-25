@@ -1,5 +1,15 @@
 # [Rooms](../room.md) - Chase
 
+## Context
+
+Kerner is nietzschean persona that wants the Uberman to arise, essentially becoming a god.
+Marcus is a conservative christian that cherishes the university, transmission and western heritage in general.
+
+Nazis are at odd with western heritage and want to give birth to a new man, liberated from the weakness of the past. Engaging fully with what's ahead while burning the past.
+Marcus values western heritage and his relationship with the Jones family and embraces the weakness and fragility that goes along with it.
+
+The underlying theme for the Kerner antagonist and the German in general is the Nietzschean Uberman versus the Selfless christian archetype. Man as a son of god versus man becoming god. Nazis are looking for Atlantis to lay their hand on its power and instrumentalize it to become gods.
+
 ## Backgrounds
 
 A rainy night view of an old university from Indiana jones and the last crusade in 1939, low blue light filtering through the clouds CINEMATIC STILL --ar 16:9 --v 6.0
@@ -26,14 +36,6 @@ https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/reference/i
 --sref https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/reference/college3.jpg
 
 ## Characters
-
-Kerner is nietzschean persona that wants the Uberman to arise, essentially becoming a god.
-Marcus is a conservative christian that cherishes the university, transmission and western heritage in general.
-
-Nazis are at odd with western heritage and want to give birth to a new man, liberated from the weakness of the past. Engaging fully with what's ahead while burning the past.
-Marcus values western heritage and his relationship with the Jones family and embraces the weakness and fragility that goes along with it.
-
-The underlying theme for the Kerner antagonist and the German in general is the Nietzschean Uberman versus the Selfless christian archetype. Man as a son of god versus man becoming god. Nazis are looking for Atlantis to lay their hand on its power and instrumentalize it to become gods.
 
 A rainy night shot of a blonde german spy with a black trenchcoat sitting on an Amalgamated Harley-Davidson from Indiana jones and the last crusade in 1939, rainy night and low blue light filtering through the clouds CINEMATIC STILL --ar 16:9 --v 6.0 --cw 100
 https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/reference/bike.jpg
