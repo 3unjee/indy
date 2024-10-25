@@ -21,6 +21,7 @@ OTHER_FILES += configure.sh \
                dist/room/attic2/content/upscale.sh \
                dist/room/attic2/content/copy.sh \
                dist/room/chase/chase.md \
+               dist/room/chase/data/voice.sh \
                dist/room/chase/content/upscale.sh \
                dist/room/chase/content/copy.sh \
                dist/character/character.md \

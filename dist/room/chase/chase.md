@@ -88,6 +88,24 @@ https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/data/upscal
 The camera is zooming slowly
 https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/data/upscale/college.jpeg
 
+## Dialogs
+
+Kerner
+So marcus... It seems we are opening a new chapter in German history
+
+Marcus
+You're not wriring history I don't think... You're burning it
+
+Kerner
+Don't be ridiculous, the Uberman will lead the way and leave your world behind
+
+Marcus
+If that's you're idea of paradise... I think I'd rather go to hell
+
+Fritz
+Whatever you say... Marcus Brooly
+Vatever you say... Marcus Broooly
+
 ## References
 
 Ford V8 De Luxe Fordor 1939
