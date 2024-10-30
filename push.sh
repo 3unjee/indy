@@ -261,7 +261,10 @@ if [ $1 = "room/intro" -o \
         path="$assets/$1/data/video"
         mkdir -p "$path"
 
-        cp "$source"/*.mp4 "$path"
+        if exists "$source"/*.mp4; then
+
+            cp "$source"/*.mp4 "$path"
+        fi
     fi
 
     source="$PWD/dist/$1/data/video/base"

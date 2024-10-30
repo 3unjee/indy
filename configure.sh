@@ -301,7 +301,10 @@ if [ $1 = "room/intro" -o \
 
         path="$PWD/dist/$1/data/video"
 
-        cp "$source"/*.mp4 "$path"
+        if exists "$source"/*.mp4; then
+
+            cp "$source"/*.mp4 "$path"
+        fi
     fi
 
     source="$assets/$1/data/video/base"
