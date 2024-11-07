@@ -234,8 +234,8 @@ fi
 # Rooms
 #--------------------------------------------------------------------------------------------------
 
-if [ $1 = "room/intro" -o \
-     $1 = "room/attic" -o \
+if [ $1 = "room/intro"  -o \
+     $1 = "room/attic"  -o \
      $1 = "room/attic2" -o \
      $1 = "room/chase" ]; then
 
