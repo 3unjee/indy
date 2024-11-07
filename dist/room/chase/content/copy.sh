@@ -41,10 +41,19 @@ else
         mv "$upscale"/*.mp4 "$temp"
     fi
 
-    run "college.mp4"   iris-3
-    run "college2.mp4"  iris-3
-    run "college3.mp4"  iris-3
-    run "college4.mp4"  iris-3
-    run "interior.mp4"  iris-3
-    run "interior3.mp4" iris-3
+    run "college.mp4"         iris-3
+    run "college2.mp4"        iris-3
+    run "college3.mp4"        iris-3
+    run "college4.mp4"        iris-3
+    run "interior.mp4"        iris-3
+    run "interior3.mp4"       iris-3
+    run "interior9.mp4"       iris-3
+    run "interior10.mp4"      iris-3
+    run "interior11.mp4"      iris-3
+    run "interior12.mp4"      iris-3
+    run "interior3-sync.mp4"  iris-3 letterbox
+    run "interior9-sync.mp4"  iris-3 letterbox
+    run "interior10-sync.mp4" iris-3 letterbox
+    run "interior11-sync.mp4" iris-3 letterbox
+    run "interior12-sync.mp4" iris-3 letterbox
 fi
