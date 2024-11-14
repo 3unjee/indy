@@ -252,6 +252,21 @@ if [ $1 = "room/intro"  -o \
         cp "$source"/*.png "$path"
     fi
 
+    source="$PWD/dist/$1/data/upscale/jpg"
+
+    if [ -d "$source" ]; then
+
+        echo "$source"
+
+        path="$assets/$1/data/upscale/jpg"
+        mkdir -p "$path"
+
+        if exists "$source"/*.jpg; then
+
+            cp "$source"/*.jpg "$path"
+        fi
+    fi
+
     source="$PWD/dist/$1/data/video"
 
     if [ -d "$source" ]; then
