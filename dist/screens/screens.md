@@ -6,6 +6,8 @@
 
 <img src="intro/college4.jpg" width="640px">
 
+<img src="intro/college.jpg" width="640px">
+
 
 # Attic
 
