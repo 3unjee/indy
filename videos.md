@@ -8,7 +8,7 @@ Fate of Atlantis prologue made interactive and a LucasArts tribute: https://www.
 
 This is *not* Harrison Ford: https://www.youtube.com/watch?v=1n_eirl5MA0
 
-Fate of Atlantis updated with state of the art syncing and body motion 🤠; https://www.youtube.com/watch?v=cL0zV8Tu38c
+Fate of Atlantis updated with state of the art syncing and body motion 🤠: https://www.youtube.com/watch?v=cL0zV8Tu38c
 
 Anatomy of an interactive video: Fate of Atlantis prologue: https://www.youtube.com/watch?v=y5MyX4j34f0&t=6s
 
