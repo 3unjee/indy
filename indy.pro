@@ -11,6 +11,7 @@ OTHER_FILES += configure.sh \
                deploy/subtitle/attic2-eng.srt \
                dist/room/room.md \
                dist/room/intro/intro.md \
+               dist/room/intro/data/upscale.sh \
                dist/room/intro/content/upscale.sh \
                dist/room/intro/content/copy.sh \
                dist/room/attic/attic.md \
@@ -19,6 +20,7 @@ OTHER_FILES += configure.sh \
                dist/room/attic/content/upscale.sh \
                dist/room/attic/content/copy.sh \
                dist/room/attic2/attic2.md \
+               dist/room/attic2/data/upscale.sh \
                dist/room/attic2/content/upscale.sh \
                dist/room/attic2/content/copy.sh \
                dist/room/chase/chase.md \

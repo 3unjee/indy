@@ -26,6 +26,10 @@ An hommage to Fate of Atlantis using AI generative technologies 🤠: https://vo
 
 ## Screenshots
 
+<img src="dist/screens/intro/college2.jpg" width="640px">
+
+<img src="dist/screens/intro/college4.jpg" width="640px">
+
 <img src="dist/screens/attic/attic.jpg" width="640px">
 
 <img src="dist/screens/attic/attic5.jpg" width="640px">
@@ -37,6 +41,26 @@ An hommage to Fate of Atlantis using AI generative technologies 🤠: https://vo
 <img src="dist/screens/attic/indy3.jpg" width="640px">
 
 <img src="dist/screens/attic/indy7.jpg" width="640px">
+
+<img src="dist/screens/attic2/attic.jpg" width="640px">
+
+<img src="dist/screens/attic2/book.jpg" width="640px">
+
+<img src="dist/screens/attic2/indy2.jpg" width="640px">
+
+<img src="dist/screens/attic2/indy3.jpg" width="640px">
+
+<img src="dist/screens/chase/college.jpg" width="640px">
+
+<img src="dist/screens/chase/college2.jpg" width="640px">
+
+<img src="dist/screens/chase/interior2.jpg" width="640px">
+
+<img src="dist/screens/chase/interior3.jpg" width="640px">
+
+<img src="dist/screens/chase/interior4.jpg" width="640px">
+
+<img src="dist/screens/chase/interior5.jpg" width="640px">
 
 ## Author
 
