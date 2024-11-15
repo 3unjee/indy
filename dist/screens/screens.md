@@ -1,4 +1,4 @@
-# [Indy](../../README.md) - Rooms
+# [Indy](../../README.md) - Screens
 
 # Intro
 
