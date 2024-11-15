@@ -60,6 +60,8 @@ An hommage to Fate of Atlantis using AI generative technologies 🤠: https://vo
 
 <img src="dist/screens/chase/interior4.jpg" width="640px">
 
+<img src="dist/screens/chase/interior5.jpg" width="640px">
+
 ## Author
 
 Benjamin Arnaud aka [bunjee](https://bunjee.me) | <bunjee@omega.gg>
