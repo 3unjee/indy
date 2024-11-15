@@ -6,7 +6,7 @@
 
 <img src="intro/college4.jpg" width="640px">
 
-<img src="intro/college.jpg" width="640px">
+<img src="intro/screen.jpg" width="640px">
 
 
 # Attic
@@ -40,6 +40,10 @@
 
 <img src="attic2/indy3.jpg" width="640px">
 
+<img src="attic2/screen.jpg" width="640px">
+
+<img src="attic2/screen2.jpg" width="640px">
+
 
 # Chase
 
@@ -55,4 +59,4 @@
 
 <img src="chase/interior5.jpg" width="640px">
 
-<img src="chase/marcus.jpg" width="640px">
+<img src="chase/screen.jpg" width="640px">
