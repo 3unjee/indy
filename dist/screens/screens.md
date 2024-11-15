@@ -26,7 +26,7 @@
 
 # Attic2
 
-<img src="attic2/reference.jpg" width="640px">
+<img src="attic2/reference.png" width="640px">
 
 <img src="attic2/attic.jpg" width="640px">
 
