@@ -13,7 +13,7 @@ input="$PWD/upscale/base"
 
 output="$PWD/upscale"
 
-screens="$PWD/../../../screens/chase"
+screens="$PWD/../../../screens/attic"
 
 #--------------------------------------------------------------------------------------------------
 # Functions
@@ -42,21 +42,21 @@ copy()
 
 cd "$Magnific"
 
-run "college"   2x
-run "college2"  2x
-run "interior"  2x
-run "interior2" 2x -2
-run "interior3" 2x -2
-run "interior4" 2x -2
-run "interior5" 2x -2
+run "attic"     2x
+run "attic5"    2x
+run "cross2"    2x
+run "gargoyle3" 2x
+run "indy7"     2x
+run "splash"    2x
 
 #--------------------------------------------------------------------------------------------------
 # Screens
 #--------------------------------------------------------------------------------------------------
 
-copy "college"
-copy "college2"
-copy "interior2"
-copy "interior3"
-copy "interior4"
-copy "interior5"
+copy "attic"
+copy "attic5"
+copy "cross2"
+copy "gargoyle3"
+copy "indy3"
+copy "indy7"
+copy "splash"
