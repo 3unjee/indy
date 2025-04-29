@@ -9,6 +9,7 @@ OTHER_FILES += configure.sh \
                local.vbml \
                deploy/subtitle/attic-eng.srt \
                deploy/subtitle/attic2-eng.srt \
+               dist/reference/reference.md \
                dist/room/room.md \
                dist/room/intro/intro.md \
                dist/room/intro/data/upscale.sh \
