@@ -22,10 +22,37 @@ senior which is much more of a traditional catholic deeply rooted in faith. The 
 tradition and the son is the application of tradition: common sense applied to adventure and
 archeology. Indy engages with the world and the wonders that he teaches at school.
 
+---
+
+Kerner is the philosopher and the doctor is a rational mad scientist that has lost almost everyting
+but reason. He is the archetype of the madman that's backed up by a corrupt ideology. He has little
+room for redemption because his approach is entirely materialistic. Kerner has more of a romantic
+trait along with finesse, he genuinely believes he is doing good. Kerner does not believe in good
+or evil, he is a cold pragmatical scientific thinker that wants power to eradicate what he
+considers unnatural. He is a nazy ideology zealot, closer to us he would advise everyone including
+children to get 5 injections of the Covic vaccine. His science is his god. Kerner sees nazism as a
+mean to an end. The doctor sees nazism as the end.
+
+## Inspiration
+
+Chesterton orthodoxy: for the adventurer archetype. Common sense driven, ready for adventure.
+Willing to admit they are things that we don't understand beyond perception, based on perosnal
+experiences on the field. It's more of a crusader faith than a monk.
+
 ## Dialogs
 
 Sophia
 Wait... Are you a Christian Jones ?
 
 Indy
-I'm an apostle of common sense... And I don't have enough faith to be an atheist.
+I'm an apostle of common sense... But I don't have enough faith to be an atheist.
+
+---
+
+Kerner (in the car leaving the college)
+Rain and fire
+/
+Rain and fire Marcus... Rain and fire
+
+Marcus
+More like darkness and brutality
