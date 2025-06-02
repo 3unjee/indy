@@ -5,7 +5,7 @@
 ### Resolution
 
 - 16 / 9: 3840 x 2160
-- 21 / 9: 5120 x 2160
+- 21 / 9: 5040 x 2160
 
 ## Generative tools
 
@@ -58,6 +58,14 @@ Pixabay: https://pixabay.com/fr/sound-effects
 
 ## Tools
 
+### Platform OS
+
+Windows 11: https://www.microsoft.com/en-us/windows
+
+### Script automation
+
+Git for Windows: https://gitforwindows.org
+
 ### Image composition
 
 Adobe Photoshop 2024: https://www.adobe.com/products/photoshop
@@ -78,7 +86,7 @@ Configuration:
     - Field order: Top Field First
 
 - Project profile
-    - Size: 5120x2160
+    - Size: 5040x2160
     - Frame rate: 24fps
     - Pixel aspect ratio: 1
     - Display aspect ratio: 21:9
