@@ -48,11 +48,16 @@ run "attic17.mp4"   iris-3
 run "attic18.mp4"   iris-3
 run "attic19.mp4"   iris-3
 run "attic20.mp4"   iris-3
-run "attic21.mp4"   iris-3
-run "indy3.mp4"     iris-3
+run "attic22.mp4"   iris-3
+
 run "indy4.mp4"     iris-3
 run "splash3.mp4"   iris-3
 run "desk.mp4"      iris-3
 run "cross6.mp4"    iris-3
 run "cross7.mp4"    iris-3
 run "gargoyle6.mp4" iris-3
+
+run "dialog.mp4"       iris-3
+run "dialog2.mp4"      iris-3
+run "dialog-sync.mp4"  iris-3 letterbox
+run "dialog2-sync.mp4" iris-3 letterbox

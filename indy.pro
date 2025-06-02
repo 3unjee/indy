@@ -18,6 +18,8 @@ OTHER_FILES += configure.sh \
                dist/room/attic/attic.md \
                dist/room/attic/data/upscale.sh \
                dist/room/attic/data/voice.sh \
+               dist/room/attic/data/sync.sh \
+               dist/room/attic/data/copy.sh \
                dist/room/attic/content/upscale.sh \
                dist/room/attic/content/copy.sh \
                dist/room/attic2/attic2.md \
