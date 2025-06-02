@@ -61,6 +61,10 @@ Pixabay: https://pixabay.com/fr/sound-effects
 ### Platform OS
 
 Windows 11: https://www.microsoft.com/en-us/windows
+- More suitable for Photoshop
+- Better Nvidia drivers for Topaz nvcenc upscaling
+
+NOTE: This workflow should be feasible on macOS.
 
 ### Script automation
 
