@@ -5,7 +5,8 @@
 ### Resolution
 
 - 16 / 9: 3840 x 2160
-- 21 / 9: 5040 x 2160
+
+- Cinemascope: 5160 x 2160
 
 ## Generative tools
 
@@ -94,10 +95,10 @@ Configuration:
     - Field order: Top Field First
 
 - Project profile
-    - Size: 5040x2160
+    - Size: 5160x2160
     - Frame rate: 24fps
     - Pixel aspect ratio: 1
-    - Display aspect ratio: 21:9
+    - Display aspect ratio: 43:18
     - Colorspace: IUT-R BT.709
     - Scanning: Progressive
     - Field order: Top Field First
