@@ -13,6 +13,8 @@
 
 Midjourney: https://www.midjourney.com
 
+Runway references: https://api.dev.runwayml.com/v1/text_to_image
+
 ### Image upscaling
 
 Magnific AI: https://magnific.ai
@@ -47,6 +49,23 @@ Configuration:
 - Code changes
     - crf=15 (inference_config.py / video.py)
     - flag_normalize_lip: bool = True (argument_config.py)
+    - max_dim 1280 -> 1920
+    - codec to libx264
+        - ffmpeg_params =
+        [
+            '-crf', str(kwargs.get('crf', 15)),
+            '-preset','slow',
+            '-profile:v', 'high'
+        ]
+    or
+    - codec to libx265
+        - ffmpeg_params =
+        [
+            '-crf', str(kwargs.get('crf', 15)),
+            '-preset', 'slow',
+            '-tag:v', 'hvc1'
+        ]
+
 - Driving Video
     - do crop: enabled
 
