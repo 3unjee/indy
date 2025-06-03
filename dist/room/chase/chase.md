@@ -88,6 +88,15 @@ https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/data/upscal
 The camera is zooming slowly
 https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/data/upscale/college.jpeg
 
+The camera rotates to the right around the characters
+https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/data/upscale/interior2.png
+
+The camera rotates around the silent characters
+https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/data/upscale/interior2.png
+
+The car is running at full speed while the characters stay silent. The camera stays on the characters
+https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/data/upscale/interior2.png
+
 ## Dialogs
 
 Kerner

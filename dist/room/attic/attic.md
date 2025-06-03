@@ -55,6 +55,15 @@ https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/data/upscal
 Harrison ford from Indiana jones and the last crusade is slowly passing by the camera and crossing the room from the right to the left
 https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/data/upscale/indy7.jpeg
 
+The camera is zooming out slowly. The character is silent
+https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/data/indy7.png
+
+The camera is slowly rotating around the character while he stays silent
+https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/data/indy7.png
+
+The camera is slowly rotating around the character
+https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/data/upscale/attic.jpeg
+
 ## Dialogs
 
 Alright Jones... `<break time="1.0s" />` How are you going to find that statue in all this junk ?
