@@ -19,12 +19,13 @@ output="$PWD/upscale"
 
 run()
 {
-    if [ $# = 3 ]; then
+    local pathInput="$input/$1"
 
-        sh topaz.sh "$input/$1" "$output/$1" $2 $3
-    else
-        sh topaz.sh "$input/$1" "$output/$1" $2
-    fi
+    local pathOutput="$output/$1"
+
+    shift
+
+    sh topaz.sh "$pathInput" "$pathOutput" "$@"
 }
 
 #--------------------------------------------------------------------------------------------------
@@ -39,3 +40,5 @@ run "intro3.mp4"   iris-3 letterbox
 run "college.mp4"  iris-3
 run "college2.mp4" iris-3
 run "college3.mp4" iris-3
+
+run "wide/college.mp4" iris-3 default 5110
