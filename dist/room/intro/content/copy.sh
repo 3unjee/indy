@@ -7,11 +7,7 @@ set -e
 
 upscale="$PWD/upscale"
 
-upscaleWide="$upscale/wide"
-
 temp="$upscale/temp"
-
-tempWide="$upscale/temp/wide"
 
 #--------------------------------------------------------------------------------------------------
 # Functions
@@ -27,27 +23,38 @@ exists()
     ls "$1" 1> /dev/null 2>&1
 }
 
+move()
+{
+    if exists "$1"/*.mp4; then
+
+        mv "$1"/*.mp4 "$2"
+    fi
+}
+
+restore()
+{
+    if exists "$1"/*.mp4; then
+
+        rm -f "$2"/*.mp4
+
+        mv "$1"/*.mp4 "$2"
+    fi
+}
+
 #--------------------------------------------------------------------------------------------------
 # Run
 #--------------------------------------------------------------------------------------------------
 
 if [ "$1" = "restore" ]; then
 
-    rm -f "$upscale"/*.mp4
-    rm -f "$upscaleWide"/*.mp4
-
-    mv "$temp"/*.mp4     "$upscale"
-    mv "$tempWide"/*.mp4 "$upscaleWide"
+    restore "$temp"      "$upscale"
+    restore "$temp/wide" "$upscale/wide"
 else
-    if exists "$upscale"/*.mp4; then
+    move "$upscale"      "$temp"
+    move "$upscale/wide" "$temp/wide"
 
-        mv "$upscale"/*.mp4 "$temp"
-    fi
-
-    if exists "$upscaleWide"/*.mp4; then
-
-        mv "$upscaleWide"/*.mp4 "$tempWide"
-    fi
+    #----------------------------------------------------------------------------------------------
+    # NOTE: copied from upscale.sh
 
     run "intro.mp4"    iris-3
     run "intro2.mp4"   iris-3

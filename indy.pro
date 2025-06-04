@@ -15,6 +15,7 @@ OTHER_FILES += configure.sh \
                dist/room/intro/data/upscale.sh \
                dist/room/intro/content/upscale.sh \
                dist/room/intro/content/copy.sh \
+               dist/room/intro/content/wide/fix.sh \
                dist/room/attic/attic.md \
                dist/room/attic/data/upscale.sh \
                dist/room/attic/data/voice.sh \
