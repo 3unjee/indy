@@ -38,3 +38,4 @@ cd "$LivePortrait"
 
 run "dialog"
 run "dialog2"
+run "dialog3"
