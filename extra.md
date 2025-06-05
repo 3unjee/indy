@@ -46,6 +46,12 @@ source: https://www.youtube.com/watch?v=a8OZ5F59ScQ
 title: Indy's Very First Adventure
 length: 12:00
 
+path: assets/extra/indy/room/attic/music/attic3.webm
+
+source: https://www.youtube.com/watch?v=sf5G-7ULX00
+title: Nevada, 1957
+length: 2:27
+
 ### chase
 
 path: assets/extra/indy/room/chase/music/chase.webm
