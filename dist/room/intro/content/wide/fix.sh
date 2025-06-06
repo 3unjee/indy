@@ -9,7 +9,7 @@ root="$PWD"
 
 ffmpeg="$PWD/../../../../../../Sky/tools/ffmpeg"
 
-base="$PWD/base"
+fix="$PWD/fix"
 
 input="$PWD/.."
 
@@ -21,7 +21,12 @@ output="$PWD"
 
 run()
 {
-    sh resize.sh "$base/$1" "$input/$1" "$output/$1"
+    if [ $# = 2 ]; then
+
+        sh resize.sh "$fix/$1" "$input/$1" "$output/$1" $2
+    else
+        sh resize.sh "$fix/$1" "$input/$1" "$output/$1"
+    fi
 }
 
 #--------------------------------------------------------------------------------------------------
@@ -32,5 +37,5 @@ cd "$ffmpeg"
 
 run "college.mp4"
 run "college2.mp4"
-run "intro.mp4"
+run "intro.mp4" 1
 run "intro2.mp4"
