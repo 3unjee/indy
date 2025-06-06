@@ -220,6 +220,26 @@ if [ $1 = "room/intro"  -o \
         fi
     fi
 
+    source="$PWD/dist/$1/data/wide"
+
+    if [ -d "$source" ]; then
+
+        echo "$source"
+
+        path="$assets/$1/data/wide"
+        mkdir -p "$path"
+
+        if exists "$source"/*.psd; then
+
+            cp "$source"/*.psd "$path"
+        fi
+
+        if exists "$source"/*.png; then
+
+            cp "$source"/*.png "$path"
+        fi
+    fi
+
     source="$PWD/dist/$1/data/upscale"
 
     if [ -d "$source" ]; then
