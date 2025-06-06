@@ -37,5 +37,6 @@ cd "$ffmpeg"
 
 run "college.mp4"
 run "college2.mp4"
-run "intro.mp4" 1
-run "intro2.mp4"
+
+run "intro.mp4"  1
+run "intro2.mp4" 1
