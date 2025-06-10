@@ -334,6 +334,20 @@ if [ $1 = "room/intro"  -o \
         fi
     fi
 
+    source="$assets/$1/data/upscale/upload"
+
+    if [ -d "$source" ]; then
+
+        echo "$source"
+
+        path="$PWD/dist/$1/data/upscale/upload"
+
+        if exists "$source"/*.jpg; then
+
+            cp "$source"/*.jpg "$path"
+        fi
+    fi
+
     source="$assets/$1/data/video"
 
     if [ -d "$source" ]; then
