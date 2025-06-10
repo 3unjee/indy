@@ -15,13 +15,19 @@ input="$PWD/.."
 
 output="$PWD"
 
+base="$PWD/base"
+
 #--------------------------------------------------------------------------------------------------
 # Functions
 #--------------------------------------------------------------------------------------------------
 
 run()
 {
-    if [ $# = 2 ]; then
+    if [ $# = 3 ]; then
+
+        sh resize.sh "$fix/$1" "$2" "$output/$1" $3 1
+
+    elif [ $# = 2 ]; then
 
         sh resize.sh "$fix/$1" "$input/$1" "$output/$1" $2
     else
@@ -38,5 +44,7 @@ cd "$ffmpeg"
 run "intro.mp4"  1
 run "intro2.mp4" 1
 
-run "college.mp4"
-run "college2.mp4"
+run "college.mp4"    1
+run "college2.mp4"   1
+run "college3-1.mp4" "$base/college3-1.mp4" 1
+run "college3-2.mp4" "$base/college3-2.mp4" 1

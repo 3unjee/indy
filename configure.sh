@@ -100,6 +100,14 @@ if [ $1 = "deploy" ]; then
 
     cp "$source"/*.mp4 "$path"
 
+    source="$assets/$1/wide"
+
+    echo "$source"
+
+    path="$PWD/$1/wide"
+
+    cp "$source"/*.mp4 "$path"
+
     exit 0
 fi
 

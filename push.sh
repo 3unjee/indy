@@ -70,7 +70,18 @@ if [ $1 = "deploy" ]; then
 
     source="$PWD/$1/ambient"
 
+    echo "$source"
+
     path="$assets/$1/ambient"
+    mkdir -p "$path"
+
+    cp "$source"/*.mp4 "$path"
+
+    source="$PWD/$1/wide"
+
+    echo "$source"
+
+    path="$assets/$1/wide"
     mkdir -p "$path"
 
     cp "$source"/*.mp4 "$path"
