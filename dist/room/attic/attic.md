@@ -64,6 +64,12 @@ https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/data/indy7.
 The camera is slowly rotating around the character
 https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/data/upscale/attic.jpeg
 
+The character turns toward the table to the right while the camera is rotating around him
+https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/data/upscale/attic.jpeg
+
+The camera is slowly rotating around the character while he stays silent
+https://raw.githubusercontent.com/3unjee/indy/master/dist/room/attic/data/upscale/upload/attic5.jpg
+
 ## Dialogs
 
 Alright Jones... `<break time="1.0s" />` How are you going to find that statue in all this junk ?

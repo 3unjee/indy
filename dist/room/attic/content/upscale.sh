@@ -43,12 +43,12 @@ run "attic11.mp4"   iris-3
 run "attic12.mp4"   iris-3
 run "attic13.mp4"   rhea-1 crop
 run "attic14.mp4"   rhea-1 crop
-run "attic16.mp4"   iris-3
-run "attic17.mp4"   iris-3
 run "attic18.mp4"   iris-3
 run "attic19.mp4"   iris-3
 run "attic20.mp4"   iris-3
 run "attic22.mp4"   iris-3
+run "attic24.mp4"   iris-3
+run "attic25.mp4"   iris-3
 
 run "indy4.mp4"     iris-3
 run "splash3.mp4"   iris-3
