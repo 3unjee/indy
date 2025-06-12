@@ -5,13 +5,15 @@ set -e
 # Settings
 #--------------------------------------------------------------------------------------------------
 
-root="$PWD"
+ffmpeg="$PWD/../../../../../../Sky/tools/ffmpeg"
 
-ffmpeg="$PWD/../../../../../Sky/tools/ffmpeg"
+fix="$PWD/fix"
 
-input="$PWD"
+input="$PWD/.."
 
-output="$PWD/upscale"
+output="$PWD"
+
+base="$PWD/base"
 
 #--------------------------------------------------------------------------------------------------
 # Functions
@@ -19,12 +21,16 @@ output="$PWD/upscale"
 
 run()
 {
-    local pathA="$input/$1"
-    local pathB="$output/$1"
+    if [ $# = 3 ]; then
 
-    shift
+        sh resize.sh "$fix/$1" "$2" "$output/$1" $3 1
 
-    sh topaz.sh "$pathA" "$pathB" "$@"
+    elif [ $# = 2 ]; then
+
+        sh resize.sh "$fix/$1" "$input/$1" "$output/$1" $2
+    else
+        sh resize.sh "$fix/$1" "$input/$1" "$output/$1"
+    fi
 }
 
 #--------------------------------------------------------------------------------------------------
@@ -33,16 +39,9 @@ run()
 
 cd "$ffmpeg"
 
-run "intro.mp4"    iris-3
-run "intro2.mp4"   iris-3
-run "intro3.mp4"   iris-3 letterbox
-run "college.mp4"  iris-3
-run "college2.mp4" iris-3
-run "college3.mp4" iris-3
+run "splash3.mp4" 1
+run "attic22.mp4" 1
+run "indy4.mp4"   1
 
-run "wide/intro.mp4"      iris-3 default 5110
-run "wide/intro2.mp4"     iris-3 default 5110
-run "wide/college.mp4"    iris-3 default 5110
-run "wide/college2.mp4"   iris-3 default 5110
-run "wide/college3-1.mp4" iris-3 default 5110
-run "wide/college3-2.mp4" iris-3 default 5110
+run "dialog3-1.mp4" "$base/dialog3-1.mp4" 1
+run "dialog3-2.mp4" "$base/dialog3-2.mp4" 1

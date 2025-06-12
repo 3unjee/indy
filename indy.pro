@@ -23,6 +23,7 @@ OTHER_FILES += configure.sh \
                dist/room/attic/data/copy.sh \
                dist/room/attic/content/upscale.sh \
                dist/room/attic/content/copy.sh \
+               dist/room/attic/content/wide/fix.sh \
                dist/room/attic2/attic2.md \
                dist/room/attic2/data/upscale.sh \
                dist/room/attic2/content/upscale.sh \

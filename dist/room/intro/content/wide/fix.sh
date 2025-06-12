@@ -5,8 +5,6 @@ set -e
 # Settings
 #--------------------------------------------------------------------------------------------------
 
-root="$PWD"
-
 ffmpeg="$PWD/../../../../../../Sky/tools/ffmpeg"
 
 fix="$PWD/fix"
@@ -41,10 +39,10 @@ run()
 
 cd "$ffmpeg"
 
-run "intro.mp4"  1
-run "intro2.mp4" 1
+run "intro.mp4"    1
+run "intro2.mp4"   1
+run "college.mp4"  1
+run "college2.mp4" 1
 
-run "college.mp4"    1
-run "college2.mp4"   1
 run "college3-1.mp4" "$base/college3-1.mp4" 1
 run "college3-2.mp4" "$base/college3-2.mp4" 1

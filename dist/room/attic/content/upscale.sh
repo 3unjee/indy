@@ -19,12 +19,12 @@ output="$PWD/upscale"
 
 run()
 {
-    if [ $# = 3 ]; then
+    local pathA="$input/$1"
+    local pathB="$output/$1"
 
-        sh topaz.sh "$input/$1" "$output/$1" $2 $3
-    else
-        sh topaz.sh "$input/$1" "$output/$1" $2
-    fi
+    shift
+
+    sh topaz.sh "$pathA" "$pathB" "$@"
 }
 
 #--------------------------------------------------------------------------------------------------
