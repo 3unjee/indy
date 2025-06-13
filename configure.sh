@@ -74,6 +74,7 @@ if [ $1 = "all" ]; then
     sh configure.sh room/intro
     sh configure.sh room/attic
     sh configure.sh room/attic2
+    sh configure.sh room/chase
 
     exit 0
 fi

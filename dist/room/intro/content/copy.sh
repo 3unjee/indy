@@ -51,7 +51,7 @@ if [ "$1" = "restore" ]; then
 
         echo "The temp folder does not contain video files."
 
-        exit 1
+        exit 0
     fi
 
     restore "$temp"      "$upscale"
@@ -61,7 +61,7 @@ else
 
         echo "The temp folder already contains video files."
 
-        exit 1
+        exit 0
     fi
 
     move "$upscale"      "$temp"

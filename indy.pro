@@ -1,5 +1,6 @@
 OTHER_FILES += configure.sh \
                push.sh \
+               render.sh \
                environment.sh \
                README.md \
                extra.md \
@@ -9,6 +10,8 @@ OTHER_FILES += configure.sh \
                local.vbml \
                deploy/subtitle/attic-eng.srt \
                deploy/subtitle/attic2-eng.srt \
+               dist/profile/default.mlt \
+               dist/profile/cinemascope.mlt \
                dist/reference/reference.md \
                dist/room/room.md \
                dist/room/intro/intro.md \
