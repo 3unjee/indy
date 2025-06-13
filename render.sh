@@ -133,7 +133,7 @@ if [ $1 = "room/intro" ]; then
 elif [ $1 = "room/attic" ]; then
 
     render "attic"  "wide/attic"  "cinemascope"
-    render "attic2" "wide/attic2" "cinemascope"
+    #render "attic2" "wide/attic2" "cinemascope"
 
 elif [ $1 = "room/attic2" ]; then
 
