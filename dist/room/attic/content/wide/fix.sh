@@ -39,9 +39,14 @@ run()
 
 cd "$ffmpeg"
 
-run "splash3.mp4" 1
+run "attic.mp4"   1
+run "attic2.mp4"  1
+run "attic12.mp4" 1
 run "attic22.mp4" 1
 run "indy4.mp4"   1
+run "splash3.mp4" 1
 
+run "attic11-1.mp4" "$base/attic11-1.mp4" 1
+run "attic11-2.mp4" "$base/attic11-2.mp4" 1
 run "dialog3-1.mp4" "$base/dialog3-1.mp4" 1
 run "dialog3-2.mp4" "$base/dialog3-2.mp4" 1

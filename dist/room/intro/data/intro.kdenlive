@@ -2149,7 +2149,6 @@
   <blank length="00:00:14.833"/>
   <entry in="00:00:00.000" out="00:00:03.958" producer="chain4">
    <property name="kdenlive:id">24</property>
-   <property name="kdenlive:activeeffect">0</property>
    <filter id="filter12">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
@@ -2700,14 +2699,14 @@
     <property name="version">0.1</property>
     <property name="mlt_service">frei0r.scale0tilt</property>
     <property name="kdenlive_id">frei0r.scale0tilt</property>
-    <property name="Clip left">98=0.838372</property>
-    <property name="Clip right">98=0</property>
-    <property name="Clip top">98=0</property>
-    <property name="Clip bottom">98=0</property>
-    <property name="Scale X">98=0.52</property>
-    <property name="Scale Y">98=0.5</property>
-    <property name="Tilt X">98=0.5</property>
-    <property name="Tilt Y">98=0.5</property>
+    <property name="Clip left">00:00:04.083=0.838372</property>
+    <property name="Clip right">00:00:04.083=0</property>
+    <property name="Clip top">00:00:04.083=0</property>
+    <property name="Clip bottom">00:00:04.083=0</property>
+    <property name="Scale X">00:00:04.083=0.52</property>
+    <property name="Scale Y">00:00:04.083=0.5</property>
+    <property name="Tilt X">00:00:04.083=0.5</property>
+    <property name="Tilt Y">00:00:04.083=0.5</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
@@ -3718,7 +3717,6 @@
   <blank length="00:00:14.833"/>
   <entry in="00:00:00.000" out="00:00:03.958" producer="chain9">
    <property name="kdenlive:id">24</property>
-   <property name="kdenlive:activeeffect">0</property>
    <filter id="filter59">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
@@ -5430,7 +5428,6 @@
   </entry>
   <entry in="00:00:00.000" out="00:00:03.958" producer="chain28">
    <property name="kdenlive:id">5</property>
-   <property name="kdenlive:activeeffect">0</property>
    <filter id="filter113" out="00:00:01.000">
     <property name="start">1</property>
     <property name="level">1</property>
@@ -5513,7 +5510,6 @@
   </entry>
   <entry in="00:00:00.000" out="00:00:12.458" producer="chain31">
    <property name="kdenlive:id">15</property>
-   <property name="kdenlive:activeeffect">0</property>
    <filter id="filter115" in="00:00:12.042" out="00:00:12.458">
     <property name="start">1</property>
     <property name="level">1</property>
@@ -5724,15 +5720,15 @@
   <property name="kdenlive:sequenceproperties.documentuuid">{d09bf746-7f89-4039-8eea-ba2491e27b90}</property>
   <property name="kdenlive:sequenceproperties.hasAudio">1</property>
   <property name="kdenlive:sequenceproperties.hasVideo">1</property>
-  <property name="kdenlive:sequenceproperties.position">1700</property>
-  <property name="kdenlive:sequenceproperties.scrollPos">4025</property>
+  <property name="kdenlive:sequenceproperties.position">2597</property>
+  <property name="kdenlive:sequenceproperties.scrollPos">0</property>
   <property name="kdenlive:sequenceproperties.tracks">4</property>
   <property name="kdenlive:sequenceproperties.tracksCount">10</property>
   <property name="kdenlive:sequenceproperties.verticalzoom">1</property>
   <property name="kdenlive:sequenceproperties.videoTarget">2</property>
   <property name="kdenlive:sequenceproperties.zonein">356</property>
   <property name="kdenlive:sequenceproperties.zoneout">452</property>
-  <property name="kdenlive:sequenceproperties.zoom">2</property>
+  <property name="kdenlive:sequenceproperties.zoom">8</property>
   <property name="kdenlive:sequenceproperties.groups">[
 ]
 </property>
@@ -5951,7 +5947,7 @@
   <property name="kdenlive:docproperties.renderendguide">-1</property>
   <property name="kdenlive:docproperties.renderexportaudio">0</property>
   <property name="kdenlive:docproperties.renderfullcolorrange">0</property>
-  <property name="kdenlive:docproperties.rendermode">1</property>
+  <property name="kdenlive:docproperties.rendermode">0</property>
   <property name="kdenlive:docproperties.renderplay">0</property>
   <property name="kdenlive:docproperties.renderpreview">0</property>
   <property name="kdenlive:docproperties.renderprofile">MP4-H264/AAC</property>
@@ -5963,9 +5959,9 @@
   <property name="kdenlive:docproperties.rendertcoverlay">0</property>
   <property name="kdenlive:docproperties.rendertctype">-1</property>
   <property name="kdenlive:docproperties.rendertwopass">0</property>
-  <property name="kdenlive:docproperties.renderurl">C:/dev/workspace/indy/deploy/wide/intro-test.mp4</property>
+  <property name="kdenlive:docproperties.renderurl">C:/dev/workspace/indy/deploy/wide/intro.mp4</property>
   <property name="kdenlive:docproperties.seekOffset">30000</property>
-  <property name="kdenlive:docproperties.sessionid">{6249b54a-b3d0-427b-bb76-3601beb176b6}</property>
+  <property name="kdenlive:docproperties.sessionid">{4c257130-b291-4738-9934-36440af90eac}</property>
   <property name="kdenlive:docproperties.uuid">{d09bf746-7f89-4039-8eea-ba2491e27b90}</property>
   <property name="kdenlive:docproperties.version">1.1</property>
   <property name="kdenlive:expandedFolders"/>
