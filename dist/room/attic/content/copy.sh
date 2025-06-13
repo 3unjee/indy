@@ -47,9 +47,23 @@ restore()
 
 if [ "$1" = "restore" ]; then
 
+    if ! exists "$temp"/*.mp4; then
+
+        echo "The temp folder does not contain video files."
+
+        exit 1
+    fi
+
     restore "$temp"      "$upscale"
     restore "$temp/wide" "$upscale/wide"
 else
+    if exists "$temp"/*.mp4; then
+
+        echo "The temp folder already contains video files."
+
+        exit 1
+    fi
+
     move "$upscale"      "$temp"
     move "$upscale/wide" "$temp/wide"
 
