@@ -7,8 +7,8 @@ set -e
 
 root="$PWD"
 
-# NOTE windows: It seems we need a standalone version of Kdenlive for this to work.
-bin="/c/dev/tools/kdenlive-standalone/bin"
+# NOTE windows: It seems the Program Files path is messing up the melt command line.
+bin="/c/dev/tools/kdenlive/bin"
 
 #--------------------------------------------------------------------------------------------------
 # Functions
@@ -16,15 +16,20 @@ bin="/c/dev/tools/kdenlive-standalone/bin"
 
 render()
 {
-    local input=$(getPath "$root/dist/render/room/$1.mlt")
+    local input=$(getPath "$root/dist/room/$1/data/$1.kdenlive")
 
-    local output=$(getPath "$root/deploy/$1.mp4")
+    local output=$(getPath "$root/deploy/$2.mp4")
+
+    local profile=$(getPath "$root/dist/profile/$3.mlt")
 
     echo "Rendering from: $input"
     echo "Output:         $output"
 
     # NOTE: These settings are extracted from the kdenlive render panel.
-    ./melt "$input" -consumer avformat:"$output" -progress -verbose
+    ./melt "$input" -profile "$profile" -consumer avformat:"$output" \
+           ab=160k acodec=aac channels=2 crf=23 f=mp4 g=15 movflags=+faststart preset=veryfast \
+           real_time=-1 threads=0 vcodec=libx264 \
+           -progress -verbose
 }
 
 getOs()
@@ -123,12 +128,12 @@ cd "$bin"
 
 if [ $1 = "room/intro" ]; then
 
-    render "wide/intro" "cinemascope"
+    render "intro" "wide/intro" "cinemascope"
 
 elif [ $1 = "room/attic" ]; then
 
-    render "wide/attic"  "cinemascope"
-    #render "wide/attic2" "cinemascope"
+    render "attic"  "wide/attic"  "cinemascope"
+    #render "attic2" "wide/attic2" "cinemascope"
 
 elif [ $1 = "room/attic2" ]; then
 
