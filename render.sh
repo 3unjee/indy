@@ -16,11 +16,32 @@ bin="/c/dev/tools/kdenlive/bin"
 
 render()
 {
-    local input=$(getPath "$root/dist/room/$1/data/$1.kdenlive")
+    local namePath="$1"
 
-    local output=$(getPath "$root/deploy/$2.mp4")
+    local nameInput
+    local nameOutput
+    local nameProfile
 
-    local profile=$(getPath "$root/dist/profile/$3.mlt")
+    if [ $# = 4 ]; then
+
+        nameInput="$2"
+
+        nameOutput="$3"
+
+        nameProfile="$4"
+    else
+        nameInput="$1"
+
+        nameOutput="$2"
+
+        nameProfile="$3"
+    fi
+
+    local input=$(getPath "$root/dist/room/$namePath/data/$nameInput.kdenlive")
+
+    local output=$(getPath "$root/deploy/$nameOutput.mp4")
+
+    local profile=$(getPath "$root/dist/profile/$nameProfile.mlt")
 
     echo "Rendering from: $input"
     echo "Output:         $output"
@@ -132,8 +153,9 @@ if [ $1 = "room/intro" ]; then
 
 elif [ $1 = "room/attic" ]; then
 
-    render "attic"  "wide/attic"  "cinemascope"
-    #render "attic2" "wide/attic2" "cinemascope"
+    #render "attic" "wide/attic" "cinemascope"
+
+    render "attic" "attic2" "wide/attic2" "cinemascope"
 
 elif [ $1 = "room/attic2" ]; then
 
