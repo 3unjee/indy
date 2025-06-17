@@ -85,6 +85,15 @@ if [ $1 = "deploy" ]; then
     mkdir -p "$path"
 
     cp "$source"/*.mp4 "$path"
+
+    source="$PWD/$1/16-9"
+
+    echo "$source"
+
+    path="$assets/$1/16-9"
+    mkdir -p "$path"
+
+    cp "$source"/*.mp4 "$path"
 fi
 
 #--------------------------------------------------------------------------------------------------

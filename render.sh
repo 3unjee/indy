@@ -156,8 +156,8 @@ cd "$bin"
 
 if [ $1 = "room/intro" ]; then
 
-    render "intro" "cinemascope"
-    #render "intro" "16-9"
+    #render "intro" "cinemascope"
+    render "intro" "16-9"
 
 elif [ $1 = "room/attic" ]; then
 
