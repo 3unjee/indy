@@ -13,7 +13,7 @@ OTHER_FILES += configure.sh \
                dist/profile/default.mlt \
                dist/profile/cinemascope.mlt \
                dist/reference/reference.md \
-               dist/room/clean.sh \
+               dist/room/update.sh \
                dist/room/room.md \
                dist/room/intro/intro.md \
                dist/room/intro/data/upscale.sh \
