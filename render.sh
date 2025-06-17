@@ -16,6 +16,8 @@ bin="/c/dev/tools/kdenlive/bin"
 
 render()
 {
+    local path="$1"
+
     local nameInput
     local nameProfile
 
@@ -41,7 +43,7 @@ render()
         nameOutput="wide/$nameInput"
     fi
 
-    local input=$(getPath "$root/dist/room/$1/data/$nameInput.kdenlive")
+    local input=$(getPath "$root/dist/room/$path/data/$nameInput.kdenlive")
 
     local output=$(getPath "$root/deploy/$nameOutput.mp4")
 
@@ -49,6 +51,7 @@ render()
 
     echo "Rendering from: $input"
     echo "Output:         $output"
+    echo "Profile:        $profile"
 
     # NOTE: These settings are extracted from the kdenlive render panel.
     ./melt "$input" -profile "$profile" -consumer avformat:"$output" \
@@ -153,9 +156,8 @@ cd "$bin"
 
 if [ $1 = "room/intro" ]; then
 
-    render "intro" "16-9"
-
-    #render "intro" "wide/intro" "cinemascope"
+    render "intro" "cinemascope"
+    #render "intro" "16-9"
 
 elif [ $1 = "room/attic" ]; then
 
