@@ -82,6 +82,7 @@ run "wide/splash3.mp4"   iris-3 default 5110
 run "wide/cross6.mp4"    iris-3 default 5110
 run "wide/cross7.mp4"    iris-3 default 5110
 run "wide/gargoyle6.mp4" iris-3 default 5110
+run "wide/dialog2.mp4"   iris-3 default 5110
 
 run "wide/attic11-1.mp4" iris-3 default 5110
 run "wide/attic11-2.mp4" iris-3 default 5110
