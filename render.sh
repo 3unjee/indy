@@ -16,28 +16,32 @@ bin="/c/dev/tools/kdenlive/bin"
 
 render()
 {
-    local namePath="$1"
-
     local nameInput
-    local nameOutput
     local nameProfile
 
-    if [ $# = 4 ]; then
+    if [ $# = 3 ]; then
 
         nameInput="$2"
 
-        nameOutput="$3"
-
-        nameProfile="$4"
+        nameProfile="$3"
     else
         nameInput="$1"
 
-        nameOutput="$2"
-
-        nameProfile="$3"
+        nameProfile="$2"
     fi
 
-    local input=$(getPath "$root/dist/room/$namePath/data/$nameInput.kdenlive")
+    local nameOutput
+
+    if [ $nameProfile = "16-9" ]; then
+
+        nameInput="16-9/$nameInput"
+
+        nameOutput="$nameInput"
+    else
+        nameOutput="wide/$nameInput"
+    fi
+
+    local input=$(getPath "$root/dist/room/$1/data/$nameInput.kdenlive")
 
     local output=$(getPath "$root/deploy/$nameOutput.mp4")
 
@@ -120,10 +124,10 @@ if [ "$REPLY" != "yes" ]; then exit 1; fi
 
 if [ $1 = "all" ]; then
 
-    sh render.sh room/intro
-    sh render.sh room/attic
-    sh render.sh room/attic2
-    sh render.sh room/chase
+    sh render.sh "room/intro"
+    sh render.sh "room/attic"
+    sh render.sh "room/attic2"
+    sh render.sh "room/chase"
 
     exit 0
 fi
@@ -149,19 +153,21 @@ cd "$bin"
 
 if [ $1 = "room/intro" ]; then
 
-    render "intro" "wide/intro" "cinemascope"
+    render "intro" "16-9"
+
+    #render "intro" "wide/intro" "cinemascope"
 
 elif [ $1 = "room/attic" ]; then
 
-    render "attic" "wide/attic" "cinemascope"
+    render "attic" "cinemascope"
 
-    #render "attic" "attic2" "wide/attic2" "cinemascope"
+    #render "attic" "attic2" "cinemascope"
 
 elif [ $1 = "room/attic2" ]; then
 
-    render "attic2" "wide/attic2-1" "cinemascope"
+    render "attic2" "attic2-1" "cinemascope"
 
 elif [ $1 = "room/chase" ]; then
 
-    render "chase" "wide/chase" "cinemascope"
+    render "chase" "cinemascope"
 fi
