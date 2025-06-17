@@ -30,7 +30,7 @@ generate()
     inside && /<property name="kdenlive:track_name">16\/9<\/property>/       { mode = "16-9" }
 
     {
-        if (inside && /<track hide="audio"/) {
+        if (inside) {
             if (mode == "cinemascope") {
                 sub(/<track hide="audio"/, "<track hide=\"both\"")
             } else if (mode == "16-9") {

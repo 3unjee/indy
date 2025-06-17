@@ -5803,8 +5803,8 @@
   <property name="kdenlive:track_name">16/9</property>
   <property name="kdenlive:thumbs_format"/>
   <property name="kdenlive:audio_rec"/>
-  <track hide="both" producer="playlist14"/>
-  <track hide="both" producer="playlist15"/>
+  <track hide="audio" producer="playlist14"/>
+  <track hide="audio" producer="playlist15"/>
  </tractor>
  <playlist id="playlist16">
   <blank length="00:00:07.417"/>
@@ -5932,8 +5932,8 @@
   <property name="kdenlive:track_name">16/9</property>
   <property name="kdenlive:thumbs_format"/>
   <property name="kdenlive:audio_rec"/>
-  <track hide="both" producer="playlist18"/>
-  <track hide="both" producer="playlist19"/>
+  <track hide="audio" producer="playlist18"/>
+  <track hide="audio" producer="playlist19"/>
  </tractor>
  <playlist id="playlist20">
   <blank length="00:00:15.875"/>
@@ -6015,8 +6015,8 @@
   <property name="kdenlive:track_name">16/9</property>
   <property name="kdenlive:thumbs_format"/>
   <property name="kdenlive:audio_rec"/>
-  <track hide="both" producer="playlist22"/>
-  <track hide="both" producer="playlist23"/>
+  <track hide="audio" producer="playlist22"/>
+  <track hide="audio" producer="playlist23"/>
  </tractor>
  <playlist id="playlist24">
   <blank length="00:00:17.583"/>
