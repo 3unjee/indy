@@ -65,12 +65,23 @@ run "dialog-sync.mp4"  iris-3 letterbox
 run "dialog2-sync.mp4" iris-3 letterbox
 run "dialog3-sync.mp4" iris-3 letterbox
 
-run "wide/attic.mp4"   iris-3 default 5110
-run "wide/attic2.mp4"  iris-3 default 5110
-run "wide/attic12.mp4" iris-3 default 5110
-run "wide/attic22.mp4" iris-3 default 5110
-run "wide/indy4.mp4"   iris-3 default 5110
-run "wide/splash3.mp4" iris-3 default 5110
+run "wide/attic.mp4"     iris-3 default 5110
+run "wide/attic2.mp4"    iris-3 default 5110
+run "wide/attic5.mp4"    iris-3 default 5110
+run "wide/attic6.mp4"    iris-3 default 5110
+run "wide/attic7.mp4"    iris-3 default 5110
+run "wide/attic12.mp4"   iris-3 default 5110
+run "wide/attic18.mp4"   iris-3 default 5110
+run "wide/attic19.mp4"   iris-3 default 5110
+run "wide/attic20.mp4"   iris-3 default 5110
+run "wide/attic22.mp4"   iris-3 default 5110
+run "wide/attic24.mp4"   iris-3 default 5110
+run "wide/attic25.mp4"   iris-3 default 5110
+run "wide/indy4.mp4"     iris-3 default 5110
+run "wide/splash3.mp4"   iris-3 default 5110
+run "wide/cross6.mp4"    iris-3 default 5110
+run "wide/cross7.mp4"    iris-3 default 5110
+run "wide/gargoyle6.mp4" iris-3 default 5110
 
 run "wide/attic11-1.mp4" iris-3 default 5110
 run "wide/attic11-2.mp4" iris-3 default 5110
