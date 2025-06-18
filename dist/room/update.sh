@@ -26,12 +26,12 @@ generate()
 
     /<tractor[ >]/ { inside = 1 }
 
-    inside && /<property name="kdenlive:track_name">cinemascope<\/property>/ { mode = "cinemascope" }
-    inside && /<property name="kdenlive:track_name">16-9<\/property>/        { mode = "16-9" }
+    inside && /<property name="kdenlive:track_name">wide<\/property>/ { mode = "wide" }
+    inside && /<property name="kdenlive:track_name">16-9<\/property>/ { mode = "16-9" }
 
     {
         if (inside) {
-            if (mode == "cinemascope") {
+            if (mode == "wide") {
                 sub(/<track hide="audio"/, "<track hide=\"both\"")
             } else if (mode == "16-9") {
                 sub(/<track hide="both"/, "<track hide=\"audio\"")
@@ -53,10 +53,10 @@ clean()
 # 16-9
 #--------------------------------------------------------------------------------------------------
 
-generate "intro"
+#generate "intro"
 
-generate "attic"
-generate "attic" "attic2"
+#generate "attic"
+#generate "attic" "attic2"
 
 #generate "attic2"
 

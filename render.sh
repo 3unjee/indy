@@ -20,27 +20,38 @@ render()
 
     local nameInput
     local nameProfile
+    local nameOutput
 
-    if [ $# = 3 ]; then
+    if [ $# = 4 ]; then
 
         nameInput="$2"
+
+        nameOutput="$3"
+
+        nameProfile="$4"
+
+    elif [ $# = 3 ]; then
+
+        nameInput="$2"
+
+        nameOutput="$2"
 
         nameProfile="$3"
     else
         nameInput="$1"
 
+        nameOutput="$1"
+
         nameProfile="$2"
     fi
-
-    local nameOutput
 
     if [ $nameProfile = "16-9" ]; then
 
         nameInput="16-9/$nameInput"
 
-        nameOutput="$nameInput"
+        nameOutput="16-9/$nameOutput"
     else
-        nameOutput="wide/$nameInput"
+        nameOutput="wide/$nameOutput"
     fi
 
     local input=$(getPath "$root/dist/room/$path/data/$nameInput.kdenlive")
@@ -156,20 +167,21 @@ cd "$bin"
 
 if [ $1 = "room/intro" ]; then
 
-    #render "intro" "cinemascope"
+    render "intro" "wide"
     render "intro" "16-9"
 
 elif [ $1 = "room/attic" ]; then
 
-    render "attic" "cinemascope"
+    #render "attic" "wide"
+    #render "attic" "16-9"
 
-    #render "attic" "attic2" "cinemascope"
+    #render "attic" "attic2" "wide"
 
 elif [ $1 = "room/attic2" ]; then
 
-    render "attic2" "attic2-1" "cinemascope"
+    render "attic2" "attic2-1" "wide"
 
 elif [ $1 = "room/chase" ]; then
 
-    render "chase" "cinemascope"
+    render "chase" "wide"
 fi
