@@ -27,7 +27,7 @@ generate()
     /<tractor[ >]/ { inside = 1 }
 
     inside && /<property name="kdenlive:track_name">cinemascope<\/property>/ { mode = "cinemascope" }
-    inside && /<property name="kdenlive:track_name">16\/9<\/property>/       { mode = "16-9" }
+    inside && /<property name="kdenlive:track_name">16-9<\/property>/        { mode = "16-9" }
 
     {
         if (inside) {
@@ -50,13 +50,13 @@ clean()
 }
 
 #--------------------------------------------------------------------------------------------------
-# 16/9
+# 16-9
 #--------------------------------------------------------------------------------------------------
 
-#generate "intro"
+generate "intro"
 
 generate "attic"
-#generate "attic" "attic2"
+generate "attic" "attic2"
 
 #generate "attic2"
 
