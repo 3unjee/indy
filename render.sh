@@ -181,6 +181,7 @@ elif [ $1 = "room/attic" ]; then
 elif [ $1 = "room/attic2" ]; then
 
     render "attic2" "attic2" "attic2-1" "wide"
+    render "attic2" "attic2" "attic2-1" "16-9"
 
 elif [ $1 = "room/chase" ]; then
 
