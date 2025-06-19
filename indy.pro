@@ -40,6 +40,7 @@ OTHER_FILES += configure.sh \
                dist/room/chase/data/copy.sh \
                dist/room/chase/content/upscale.sh \
                dist/room/chase/content/copy.sh \
+               dist/room/chase/content/wide/fix.sh \
                dist/character/character.md \
                dist/character/indy/indy.md \
                dist/character/marcus/marcus.md \

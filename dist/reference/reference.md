@@ -29,8 +29,7 @@ but reason. He is the archetype of the madman that's backed up by a corrupt ideo
 room for redemption because his approach is entirely materialistic. Kerner has more of a romantic
 trait along with finesse, he genuinely believes he is doing good. Kerner does not believe in good
 or evil, he is a cold pragmatical scientific thinker that wants power to eradicate what he
-considers unnatural. He is a nazy ideology zealot, closer to us he would advise everyone including
-children to get 5 injections of the Covic vaccine. His science is his god. Kerner sees nazism as a
+considers unnatural. He is a nazy ideology zealot. His science is his god. Kerner sees nazism as a
 mean to an end. The doctor sees nazism as the end.
 
 ## Inspiration
@@ -45,14 +44,19 @@ Sophia
 Wait... Are you a Christian Jones ?
 
 Indy
-I'm an apostle of common sense... But I don't have enough faith to be an atheist.
+I'm an apostle of common sense... But I don't have enough faith to be a rationalist.
 
 ---
 
 Kerner (in the car leaving the college)
-Rain and fire
+Rain and fire.
 /
-Rain and fire Marcus... Rain and fire
+Rain and fire Marcus... Rain and fire.
 
 Marcus
-More like darkness and brutality
+More like darkness and brutality.
+
+---
+
+Kerner
+How deep are you prepared to go doctor Jones. Through rain and fire.

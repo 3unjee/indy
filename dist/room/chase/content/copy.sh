@@ -15,12 +15,30 @@ temp="$upscale/temp"
 
 run()
 {
-    cp "$1" "$upscale"
+    cp "$1" "$upscale/$1"
 }
 
 exists()
 {
     ls "$1" 1> /dev/null 2>&1
+}
+
+move()
+{
+    if exists "$1"/*.mp4; then
+
+        mv "$1"/*.mp4 "$2"
+    fi
+}
+
+restore()
+{
+    if exists "$1"/*.mp4; then
+
+        rm -f "$2"/*.mp4
+
+        mv "$1"/*.mp4 "$2"
+    fi
 }
 
 #--------------------------------------------------------------------------------------------------
@@ -29,17 +47,25 @@ exists()
 
 if [ "$1" = "restore" ]; then
 
+    if ! exists "$temp"/*.mp4; then
+
+        echo "The temp folder does not contain video files."
+
+        exit 0
+    fi
+
+    restore "$temp"      "$upscale"
+    restore "$temp/wide" "$upscale/wide"
+else
     if exists "$temp"/*.mp4; then
 
-        rm -f "$upscale"/*.mp4
+        echo "The temp folder already contains video files."
 
-        mv "$temp"/*.mp4 "$upscale"
+        exit 0
     fi
-else
-    if exists "$upscale"/*.mp4; then
 
-        mv "$upscale"/*.mp4 "$temp"
-    fi
+    move "$upscale"      "$temp"
+    move "$upscale/wide" "$temp/wide"
 
     #----------------------------------------------------------------------------------------------
     # NOTE: copied from upscale.sh
