@@ -33,6 +33,11 @@ run()
 
 cd "$ffmpeg"
 
+run "dialog-sync.mp4"  iris-3 letterbox
+run "dialog2-sync.mp4" iris-3 letterbox
+run "dialog3-sync.mp4" iris-3 letterbox
+exit 0
+
 run "attic.mp4"     iris-3
 run "attic2.mp4"    iris-3
 run "attic5.mp4"    iris-3
