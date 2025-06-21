@@ -33,9 +33,6 @@ run()
 
 cd "$ffmpeg"
 
-run "wide/interior-2.mp4" iris-3 default 5110 2160 30
-exit 0
-
 run "college.mp4"      iris-3
 run "college2.mp4"     iris-3
 run "college3.mp4"     iris-3
