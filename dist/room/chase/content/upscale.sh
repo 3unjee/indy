@@ -33,6 +33,9 @@ run()
 
 cd "$ffmpeg"
 
+run "wide/interior-2.mp4" iris-3 default 5110 2160 30
+exit 0
+
 run "college.mp4"      iris-3
 run "college2.mp4"     iris-3
 run "college3.mp4"     iris-3
@@ -49,5 +52,8 @@ run "dialog3-sync.mp4" iris-3 letterbox
 run "dialog4-sync.mp4" iris-3 letterbox
 run "dialog5-sync.mp4" iris-3 letterbox
 
-run "wide/college2.mp4" iris-3 default 5110
-run "wide/college4.mp4" iris-3 default 5110 2160 30
+run "wide/college2.mp4"   iris-3 default 5110
+run "wide/college3.mp4"   iris-3 default 5110
+run "wide/college4.mp4"   iris-3 default 5110 2160 30
+run "wide/interior.mp4"   iris-3 default 5110 2160 30
+run "wide/interior-2.mp4" iris-3 default 5110 2160 30

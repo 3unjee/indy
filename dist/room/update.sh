@@ -47,20 +47,22 @@ generate()
 clean()
 {
     rm -f "$PWD/$1"/data/*_backup*.kdenlive
+
+    rm -f "$PWD/$1"/data/*.kdenlive.ass
 }
 
 #--------------------------------------------------------------------------------------------------
 # 16-9
 #--------------------------------------------------------------------------------------------------
 
-generate "intro"
+#generate "intro"
 
-generate "attic"
-generate "attic" "attic2"
+#generate "attic"
+#generate "attic" "attic2"
 
-generate "attic2"
+#generate "attic2"
 
-generate "chase"
+#generate "chase"
 
 #--------------------------------------------------------------------------------------------------
 # Clean

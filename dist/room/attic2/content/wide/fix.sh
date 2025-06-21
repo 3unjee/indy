@@ -23,7 +23,7 @@ run()
 {
     if [ $# = 3 ]; then
 
-        sh resize.sh "$fix/$1" "$2" "$output/$1" $3 1
+        sh resize.sh "$fix/$1" "$2" "$output/$1" $3
 
     elif [ $# = 2 ]; then
 
@@ -31,6 +31,11 @@ run()
     else
         sh resize.sh "$fix/$1" "$input/$1" "$output/$1"
     fi
+}
+
+runBase()
+{
+    sh resize.sh "$fix/$1" "$base/$1" "$output/$1" $3 1
 }
 
 #--------------------------------------------------------------------------------------------------

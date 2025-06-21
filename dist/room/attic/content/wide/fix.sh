@@ -23,7 +23,7 @@ run()
 {
     if [ $# = 3 ]; then
 
-        sh resize.sh "$fix/$1" "$2" "$output/$1" $3 1
+        sh resize.sh "$fix/$1" "$2" "$output/$1" $3
 
     elif [ $# = 2 ]; then
 
@@ -31,6 +31,11 @@ run()
     else
         sh resize.sh "$fix/$1" "$input/$1" "$output/$1"
     fi
+}
+
+runBase()
+{
+    sh resize.sh "$fix/$1" "$base/$1" "$output/$1" $3 1
 }
 
 #--------------------------------------------------------------------------------------------------
@@ -58,7 +63,7 @@ run "cross7.mp4"    1
 run "gargoyle6.mp4" 1
 run "dialog2.mp4"   1
 
-run "attic11-1.mp4" "$base/attic11-1.mp4" 1
-run "attic11-2.mp4" "$base/attic11-2.mp4" 1
-run "dialog3-1.mp4" "$base/dialog3-1.mp4" 1
-run "dialog3-2.mp4" "$base/dialog3-2.mp4" 1
+runBase "attic11-1.mp4" 1
+runBase "attic11-2.mp4" 1
+runBase "dialog3-1.mp4" 1
+runBase "dialog3-2.mp4" 1
