@@ -2514,6 +2514,28 @@
   <property name="kdenlive:monitorPosition">0</property>
   <property name="kdenlive:file_hash">71944e797a7ee4bb24ad514ba2da0bfb</property>
  </chain>
+ <producer id="producer34" in="00:00:00.000" out="00:00:04.958">
+  <property name="length">00:00:05.000</property>
+  <property name="eof">pause</property>
+  <property name="resource">dialog2-wide.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="meta.media.progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="format">2</property>
+  <property name="meta.media.width">5160</property>
+  <property name="meta.media.height">2160</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="xml">was here</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">57</property>
+  <property name="kdenlive:control_uuid">{55e07897-4c5e-4855-b30b-8b935bab6513}</property>
+  <property name="kdenlive:clip_type">2</property>
+  <property name="kdenlive:file_size">7109633</property>
+  <property name="kdenlive:monitorPosition">0</property>
+  <property name="kdenlive:file_hash">b317aecfa1015b39949e13f610ab1d0c</property>
+ </producer>
  <producer id="producer0" in="00:00:00.000" out="00:06:07.000">
   <property name="length">2147483647</property>
   <property name="eof">continue</property>
@@ -5091,8 +5113,8 @@
     <property name="version">0.2</property>
     <property name="mlt_service">frei0r.coloradj_RGB</property>
     <property name="kdenlive_id">frei0r.coloradj_RGB</property>
-    <property name="R">00:00:00.000=0.4</property>
-    <property name="G">00:00:00.000=0.52</property>
+    <property name="R">00:00:00.000=0.5</property>
+    <property name="G">00:00:00.000=0.55</property>
     <property name="B">00:00:00.000=0.5</property>
     <property name="Action">0.5</property>
     <property name="Keep luma">1</property>
@@ -5132,8 +5154,8 @@
     <property name="version">0.2</property>
     <property name="mlt_service">frei0r.coloradj_RGB</property>
     <property name="kdenlive_id">frei0r.coloradj_RGB</property>
-    <property name="R">00:00:00.000=0.4</property>
-    <property name="G">00:00:00.000=0.52</property>
+    <property name="R">00:00:00.000=0.5</property>
+    <property name="G">00:00:00.000=0.55</property>
     <property name="B">00:00:00.000=0.5</property>
     <property name="Action">0.5</property>
     <property name="Keep luma">1</property>
@@ -5173,7 +5195,7 @@
     <property name="version">0.2</property>
     <property name="mlt_service">frei0r.coloradj_RGB</property>
     <property name="kdenlive_id">frei0r.coloradj_RGB</property>
-    <property name="R">00:00:00.000=0.4</property>
+    <property name="R">00:00:00.000=0.45</property>
     <property name="G">00:00:00.000=0.52</property>
     <property name="B">00:00:00.000=0.5</property>
     <property name="Action">0.5</property>
@@ -5214,7 +5236,7 @@
     <property name="version">0.2</property>
     <property name="mlt_service">frei0r.coloradj_RGB</property>
     <property name="kdenlive_id">frei0r.coloradj_RGB</property>
-    <property name="R">00:00:00.000=0.4</property>
+    <property name="R">00:00:00.000=0.45</property>
     <property name="G">00:00:00.000=0.52</property>
     <property name="B">00:00:00.000=0.5</property>
     <property name="Action">0.5</property>
@@ -5255,7 +5277,7 @@
     <property name="version">0.2</property>
     <property name="mlt_service">frei0r.coloradj_RGB</property>
     <property name="kdenlive_id">frei0r.coloradj_RGB</property>
-    <property name="R">00:00:00.000=0.4</property>
+    <property name="R">00:00:00.000=0.45</property>
     <property name="G">00:00:00.000=0.52</property>
     <property name="B">00:00:00.000=0.5</property>
     <property name="Action">0.5</property>
@@ -5296,7 +5318,7 @@
     <property name="version">0.2</property>
     <property name="mlt_service">frei0r.coloradj_RGB</property>
     <property name="kdenlive_id">frei0r.coloradj_RGB</property>
-    <property name="R">00:00:00.000=0.4</property>
+    <property name="R">00:00:00.000=0.45</property>
     <property name="G">00:00:00.000=0.52</property>
     <property name="B">00:00:00.000=0.5</property>
     <property name="Action">0.5</property>
@@ -5337,7 +5359,7 @@
     <property name="version">0.2</property>
     <property name="mlt_service">frei0r.coloradj_RGB</property>
     <property name="kdenlive_id">frei0r.coloradj_RGB</property>
-    <property name="R">00:00:00.000=0.4</property>
+    <property name="R">00:00:00.000=0.45</property>
     <property name="G">00:00:00.000=0.52</property>
     <property name="B">00:00:00.000=0.5</property>
     <property name="Action">0.5</property>
@@ -5378,7 +5400,7 @@
     <property name="version">0.2</property>
     <property name="mlt_service">frei0r.coloradj_RGB</property>
     <property name="kdenlive_id">frei0r.coloradj_RGB</property>
-    <property name="R">00:00:00.000=0.4</property>
+    <property name="R">00:00:00.000=0.45</property>
     <property name="G">00:00:00.000=0.52</property>
     <property name="B">00:00:00.000=0.5</property>
     <property name="Action">0.5</property>
@@ -5419,8 +5441,8 @@
     <property name="version">0.2</property>
     <property name="mlt_service">frei0r.coloradj_RGB</property>
     <property name="kdenlive_id">frei0r.coloradj_RGB</property>
-    <property name="R">00:00:00.000=0.4</property>
-    <property name="G">00:00:00.000=0.52</property>
+    <property name="R">00:00:00.000=0.5</property>
+    <property name="G">00:00:00.000=0.55</property>
     <property name="B">00:00:00.000=0.5</property>
     <property name="Action">0.5</property>
     <property name="Keep luma">1</property>
@@ -5458,20 +5480,15 @@
    </filter>
    <filter id="filter50">
     <property name="version">0.2</property>
-    <property name="mlt_service">frei0r.coloradj_RGB</property>
-    <property name="kdenlive_id">frei0r.coloradj_RGB</property>
-    <property name="R">00:00:00.000=0.4</property>
-    <property name="G">00:00:00.000=0.5</property>
-    <property name="B">00:00:00.000=0.5</property>
-    <property name="Action">0.5</property>
-    <property name="Keep luma">1</property>
-    <property name="Alpha controlled">0</property>
-    <property name="Luma formula">1</property>
+    <property name="mlt_service">frei0r.contrast0r</property>
+    <property name="kdenlive_id">frei0r.contrast0r</property>
+    <property name="Contrast">00:00:00.000=0.49</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
   <entry in="00:00:00.000" out="00:00:05.042" producer="chain19">
    <property name="kdenlive:id">47</property>
+   <property name="kdenlive:activeeffect">2</property>
    <filter id="filter51">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
@@ -5494,24 +5511,19 @@
     <property name="Scale Y">00:00:00.000=0.5</property>
     <property name="Tilt X">00:00:00.000=0.5</property>
     <property name="Tilt Y">00:00:00.000=0.5</property>
-    <property name="kdenlive:collapsed">0</property>
+    <property name="kdenlive:collapsed">1</property>
    </filter>
    <filter id="filter53">
     <property name="version">0.2</property>
-    <property name="mlt_service">frei0r.coloradj_RGB</property>
-    <property name="kdenlive_id">frei0r.coloradj_RGB</property>
-    <property name="R">00:00:00.000=0.4</property>
-    <property name="G">00:00:00.000=0.5</property>
-    <property name="B">00:00:00.000=0.5</property>
-    <property name="Action">0.5</property>
-    <property name="Keep luma">1</property>
-    <property name="Alpha controlled">0</property>
-    <property name="Luma formula">1</property>
-    <property name="kdenlive:collapsed">1</property>
+    <property name="mlt_service">frei0r.contrast0r</property>
+    <property name="kdenlive_id">frei0r.contrast0r</property>
+    <property name="Contrast">00:00:00.000=0.49</property>
+    <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
   <entry in="00:00:00.000" out="00:00:05.042" producer="producer18">
    <property name="kdenlive:id">47</property>
+   <property name="kdenlive:activeeffect">2</property>
    <filter id="filter54">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
@@ -5520,7 +5532,7 @@
     <property name="distort">0</property>
     <property name="rect">00:00:00.000=-148 0 5110 2160 1.000000</property>
     <property name="rotation">00:00:00.000=0</property>
-    <property name="kdenlive:collapsed"/>
+    <property name="kdenlive:collapsed">0</property>
    </filter>
    <filter id="filter55">
     <property name="version">0.1</property>
@@ -5534,19 +5546,14 @@
     <property name="Scale Y">00:00:00.000=0.5</property>
     <property name="Tilt X">00:00:00.000=0.5</property>
     <property name="Tilt Y">00:00:00.000=0.5</property>
-    <property name="kdenlive:collapsed"/>
+    <property name="kdenlive:collapsed">1</property>
    </filter>
    <filter id="filter56">
     <property name="version">0.2</property>
-    <property name="mlt_service">frei0r.coloradj_RGB</property>
-    <property name="kdenlive_id">frei0r.coloradj_RGB</property>
-    <property name="R">00:00:00.000=0.4</property>
-    <property name="G">00:00:00.000=0.5</property>
-    <property name="B">00:00:00.000=0.5</property>
-    <property name="Action">0.5</property>
-    <property name="Keep luma">1</property>
-    <property name="Alpha controlled">0</property>
-    <property name="Luma formula">1</property>
+    <property name="mlt_service">frei0r.contrast0r</property>
+    <property name="kdenlive_id">frei0r.contrast0r</property>
+    <property name="Contrast">00:00:00.000=0.49</property>
+    <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
   <entry in="00:00:00.000" out="00:00:05.042" producer="chain20">
@@ -5578,16 +5585,10 @@
    </filter>
    <filter id="filter59">
     <property name="version">0.2</property>
-    <property name="mlt_service">frei0r.coloradj_RGB</property>
-    <property name="kdenlive_id">frei0r.coloradj_RGB</property>
-    <property name="R">00:00:00.000=0.4</property>
-    <property name="G">00:00:00.000=0.5</property>
-    <property name="B">00:00:00.000=0.5</property>
-    <property name="Action">0.5</property>
-    <property name="Keep luma">1</property>
-    <property name="Alpha controlled">0</property>
-    <property name="Luma formula">1</property>
-    <property name="kdenlive:collapsed">1</property>
+    <property name="mlt_service">frei0r.contrast0r</property>
+    <property name="kdenlive_id">frei0r.contrast0r</property>
+    <property name="Contrast">00:00:00.000=0.49</property>
+    <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
   <entry in="00:00:00.000" out="00:00:00.625" producer="producer19">
@@ -5614,20 +5615,13 @@
     <property name="Scale Y">00:00:00.000=0.5</property>
     <property name="Tilt X">00:00:00.000=0.5</property>
     <property name="Tilt Y">00:00:00.000=0.5</property>
-    <property name="kdenlive:collapsed">0</property>
+    <property name="kdenlive:collapsed">1</property>
    </filter>
    <filter id="filter62">
     <property name="version">0.2</property>
-    <property name="mlt_service">frei0r.coloradj_RGB</property>
-    <property name="kdenlive_id">frei0r.coloradj_RGB</property>
-    <property name="R">00:00:00.000=0.4</property>
-    <property name="G">00:00:00.000=0.5</property>
-    <property name="B">00:00:00.000=0.5</property>
-    <property name="Action">0.5</property>
-    <property name="Keep luma">1</property>
-    <property name="Alpha controlled">0</property>
-    <property name="Luma formula">1</property>
-    <property name="kdenlive:collapsed">1</property>
+    <property name="mlt_service">frei0r.contrast0r</property>
+    <property name="kdenlive_id">frei0r.contrast0r</property>
+    <property name="Contrast">00:00:00.000=0.49</property>
    </filter>
   </entry>
   <entry in="00:00:02.542" out="00:00:04.500" producer="chain21">
@@ -5654,25 +5648,18 @@
     <property name="Scale Y">00:00:02.542=0.5</property>
     <property name="Tilt X">00:00:02.542=0.5</property>
     <property name="Tilt Y">00:00:02.542=0.5</property>
-    <property name="kdenlive:collapsed">0</property>
+    <property name="kdenlive:collapsed">1</property>
    </filter>
    <filter id="filter65">
     <property name="version">0.2</property>
-    <property name="mlt_service">frei0r.coloradj_RGB</property>
-    <property name="kdenlive_id">frei0r.coloradj_RGB</property>
-    <property name="R">00:00:02.542=0.4</property>
-    <property name="G">00:00:02.542=0.52</property>
-    <property name="B">00:00:02.542=0.5</property>
-    <property name="Action">0.5</property>
-    <property name="Keep luma">1</property>
-    <property name="Alpha controlled">0</property>
-    <property name="Luma formula">1</property>
-    <property name="kdenlive:collapsed">0</property>
+    <property name="mlt_service">frei0r.contrast0r</property>
+    <property name="kdenlive_id">frei0r.contrast0r</property>
+    <property name="Contrast">00:00:02.542=0.49</property>
    </filter>
   </entry>
   <entry in="00:00:00.000" out="00:00:06.958" producer="chain22">
    <property name="kdenlive:id">54</property>
-   <property name="kdenlive:activeeffect">2</property>
+   <property name="kdenlive:activeeffect">1</property>
    <filter id="filter66">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
@@ -5697,23 +5684,10 @@
     <property name="Tilt Y">00:00:00.000=0.5</property>
     <property name="kdenlive:collapsed">1</property>
    </filter>
-   <filter id="filter68">
-    <property name="version">0.2</property>
-    <property name="mlt_service">frei0r.coloradj_RGB</property>
-    <property name="kdenlive_id">frei0r.coloradj_RGB</property>
-    <property name="R">00:00:00.000=0.4</property>
-    <property name="G">00:00:00.000=0.5</property>
-    <property name="B">00:00:00.000=0.5</property>
-    <property name="Action">0.5</property>
-    <property name="Keep luma">1</property>
-    <property name="Alpha controlled">0</property>
-    <property name="Luma formula">1</property>
-    <property name="kdenlive:collapsed">1</property>
-   </filter>
   </entry>
   <entry in="00:00:02.542" out="00:00:05.500" producer="producer20">
    <property name="kdenlive:id">54</property>
-   <property name="kdenlive:activeeffect">2</property>
+   <property name="kdenlive:activeeffect">1</property>
    <filter id="filter69">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
@@ -5738,23 +5712,10 @@
     <property name="Tilt Y">00:00:02.542=0.5</property>
     <property name="kdenlive:collapsed">1</property>
    </filter>
-   <filter id="filter71">
-    <property name="version">0.2</property>
-    <property name="mlt_service">frei0r.coloradj_RGB</property>
-    <property name="kdenlive_id">frei0r.coloradj_RGB</property>
-    <property name="R">00:00:02.542=0.4</property>
-    <property name="G">00:00:02.542=0.5</property>
-    <property name="B">00:00:02.542=0.5</property>
-    <property name="Action">0.5</property>
-    <property name="Keep luma">1</property>
-    <property name="Alpha controlled">0</property>
-    <property name="Luma formula">1</property>
-    <property name="kdenlive:collapsed">0</property>
-   </filter>
   </entry>
   <entry in="00:00:00.083" out="00:00:02.500" producer="chain23">
    <property name="kdenlive:id">56</property>
-   <property name="kdenlive:activeeffect">2</property>
+   <property name="kdenlive:activeeffect">1</property>
    <filter id="filter72">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
@@ -5779,23 +5740,10 @@
     <property name="Tilt Y">00:00:00.083=0.5</property>
     <property name="kdenlive:collapsed">1</property>
    </filter>
-   <filter id="filter74">
-    <property name="version">0.2</property>
-    <property name="mlt_service">frei0r.coloradj_RGB</property>
-    <property name="kdenlive_id">frei0r.coloradj_RGB</property>
-    <property name="R">00:00:00.083=0.55</property>
-    <property name="G">00:00:00.083=0.55</property>
-    <property name="B">00:00:00.083=0.5</property>
-    <property name="Action">0.5</property>
-    <property name="Keep luma">1</property>
-    <property name="Alpha controlled">0</property>
-    <property name="Luma formula">1</property>
-    <property name="kdenlive:collapsed">0</property>
-   </filter>
   </entry>
   <entry in="00:00:02.542" out="00:00:03.958" producer="chain23">
    <property name="kdenlive:id">56</property>
-   <property name="kdenlive:activeeffect">3</property>
+   <property name="kdenlive:activeeffect">2</property>
    <filter id="filter75">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
@@ -5820,24 +5768,24 @@
     <property name="Tilt Y">00:00:02.542=0.5</property>
     <property name="kdenlive:collapsed">1</property>
    </filter>
-   <filter id="filter77">
-    <property name="version">0.2</property>
-    <property name="mlt_service">frei0r.brightness</property>
-    <property name="kdenlive_id">frei0r.brightness</property>
-    <property name="Brightness">00:00:02.542=0.51</property>
-    <property name="kdenlive:collapsed">0</property>
-   </filter>
    <filter id="filter78">
     <property name="version">0.2</property>
     <property name="mlt_service">frei0r.coloradj_RGB</property>
     <property name="kdenlive_id">frei0r.coloradj_RGB</property>
-    <property name="R">00:00:02.542=0.55</property>
+    <property name="R">00:00:02.542=0.5</property>
     <property name="G">00:00:02.542=0.55</property>
     <property name="B">00:00:02.542=0.5</property>
     <property name="Action">0.5</property>
     <property name="Keep luma">1</property>
     <property name="Alpha controlled">0</property>
     <property name="Luma formula">1</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+   <filter id="filter68">
+    <property name="version">0.2</property>
+    <property name="mlt_service">frei0r.contrast0r</property>
+    <property name="kdenlive_id">frei0r.contrast0r</property>
+    <property name="Contrast">00:00:02.542=0.49</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
@@ -7038,8 +6986,8 @@
     <property name="version">0.2</property>
     <property name="mlt_service">frei0r.coloradj_RGB</property>
     <property name="kdenlive_id">frei0r.coloradj_RGB</property>
-    <property name="R">00:00:00.000=0.4</property>
-    <property name="G">00:00:00.000=0.52</property>
+    <property name="R">00:00:00.000=0.5</property>
+    <property name="G">00:00:00.000=0.55</property>
     <property name="B">00:00:00.000=0.5</property>
     <property name="Action">0.5</property>
     <property name="Keep luma">1</property>
@@ -7050,7 +6998,7 @@
   </entry>
   <entry in="00:00:00.000" out="00:00:01.958" producer="producer23">
    <property name="kdenlive:id">48</property>
-   <property name="kdenlive:activeeffect">4</property>
+   <property name="kdenlive:activeeffect">2</property>
    <filter id="filter82">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
@@ -7079,8 +7027,8 @@
     <property name="version">0.2</property>
     <property name="mlt_service">frei0r.coloradj_RGB</property>
     <property name="kdenlive_id">frei0r.coloradj_RGB</property>
-    <property name="R">00:00:00.000=0.4</property>
-    <property name="G">00:00:00.000=0.52</property>
+    <property name="R">00:00:00.000=0.5</property>
+    <property name="G">00:00:00.000=0.55</property>
     <property name="B">00:00:00.000=0.5</property>
     <property name="Action">0.5</property>
     <property name="Keep luma">1</property>
@@ -7120,7 +7068,7 @@
     <property name="version">0.2</property>
     <property name="mlt_service">frei0r.coloradj_RGB</property>
     <property name="kdenlive_id">frei0r.coloradj_RGB</property>
-    <property name="R">00:00:00.000=0.4</property>
+    <property name="R">00:00:00.000=0.45</property>
     <property name="G">00:00:00.000=0.52</property>
     <property name="B">00:00:00.000=0.5</property>
     <property name="Action">0.5</property>
@@ -7141,7 +7089,7 @@
     <property name="distort">0</property>
     <property name="rect">00:00:00.000=0 0 5110 2160 1.000000</property>
     <property name="rotation">00:00:00.000=0</property>
-    <property name="kdenlive:collapsed">0</property>
+    <property name="kdenlive:collapsed">1</property>
    </filter>
    <filter id="filter89">
     <property name="version">0.1</property>
@@ -7161,7 +7109,7 @@
     <property name="version">0.2</property>
     <property name="mlt_service">frei0r.coloradj_RGB</property>
     <property name="kdenlive_id">frei0r.coloradj_RGB</property>
-    <property name="R">00:00:00.000=0.4</property>
+    <property name="R">00:00:00.000=0.45</property>
     <property name="G">00:00:00.000=0.52</property>
     <property name="B">00:00:00.000=0.5</property>
     <property name="Action">0.5</property>
@@ -7202,7 +7150,7 @@
     <property name="version">0.2</property>
     <property name="mlt_service">frei0r.coloradj_RGB</property>
     <property name="kdenlive_id">frei0r.coloradj_RGB</property>
-    <property name="R">00:00:00.000=0.4</property>
+    <property name="R">00:00:00.000=0.45</property>
     <property name="G">00:00:00.000=0.52</property>
     <property name="B">00:00:00.000=0.5</property>
     <property name="Action">0.5</property>
@@ -7243,7 +7191,7 @@
     <property name="version">0.2</property>
     <property name="mlt_service">frei0r.coloradj_RGB</property>
     <property name="kdenlive_id">frei0r.coloradj_RGB</property>
-    <property name="R">00:00:00.000=0.4</property>
+    <property name="R">00:00:00.000=0.45</property>
     <property name="G">00:00:00.000=0.52</property>
     <property name="B">00:00:00.000=0.5</property>
     <property name="Action">0.5</property>
@@ -7284,7 +7232,7 @@
     <property name="version">0.2</property>
     <property name="mlt_service">frei0r.coloradj_RGB</property>
     <property name="kdenlive_id">frei0r.coloradj_RGB</property>
-    <property name="R">00:00:00.000=0.4</property>
+    <property name="R">00:00:00.000=0.45</property>
     <property name="G">00:00:00.000=0.52</property>
     <property name="B">00:00:00.000=0.5</property>
     <property name="Action">0.5</property>
@@ -7325,7 +7273,7 @@
     <property name="version">0.2</property>
     <property name="mlt_service">frei0r.coloradj_RGB</property>
     <property name="kdenlive_id">frei0r.coloradj_RGB</property>
-    <property name="R">00:00:00.000=0.4</property>
+    <property name="R">00:00:00.000=0.45</property>
     <property name="G">00:00:00.000=0.52</property>
     <property name="B">00:00:00.000=0.5</property>
     <property name="Action">0.5</property>
@@ -7366,8 +7314,8 @@
     <property name="version">0.2</property>
     <property name="mlt_service">frei0r.coloradj_RGB</property>
     <property name="kdenlive_id">frei0r.coloradj_RGB</property>
-    <property name="R">00:00:00.000=0.4</property>
-    <property name="G">00:00:00.000=0.52</property>
+    <property name="R">00:00:00.000=0.5</property>
+    <property name="G">00:00:00.000=0.55</property>
     <property name="B">00:00:00.000=0.5</property>
     <property name="Action">0.5</property>
     <property name="Keep luma">1</property>
@@ -7378,7 +7326,7 @@
   </entry>
   <entry in="00:00:00.000" out="00:00:05.042" producer="producer28">
    <property name="kdenlive:id">46</property>
-   <property name="kdenlive:activeeffect">2</property>
+   <property name="kdenlive:activeeffect">3</property>
    <filter id="filter106">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
@@ -7403,18 +7351,25 @@
     <property name="Tilt Y">00:00:00.000=0.5</property>
     <property name="kdenlive:collapsed">1</property>
    </filter>
-   <filter id="filter108">
+   <filter id="filter71">
+    <property name="version">0.2</property>
+    <property name="mlt_service">frei0r.contrast0r</property>
+    <property name="kdenlive_id">frei0r.contrast0r</property>
+    <property name="Contrast">00:00:00.000=0.49</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+   <filter id="filter74">
     <property name="version">0.2</property>
     <property name="mlt_service">frei0r.coloradj_RGB</property>
     <property name="kdenlive_id">frei0r.coloradj_RGB</property>
-    <property name="R">00:00:00.000=0.4</property>
-    <property name="G">00:00:00.000=0.5</property>
+    <property name="R">00:00:00.000=0.45</property>
+    <property name="G">00:00:00.000=0.52</property>
     <property name="B">00:00:00.000=0.5</property>
     <property name="Action">0.5</property>
     <property name="Keep luma">1</property>
     <property name="Alpha controlled">0</property>
     <property name="Luma formula">1</property>
-    <property name="kdenlive:collapsed">0</property>
+    <property name="kdenlive:collapsed">1</property>
    </filter>
   </entry>
   <entry in="00:00:00.000" out="00:00:05.042" producer="chain71">
@@ -7444,18 +7399,12 @@
     <property name="Tilt Y">00:00:00.000=0.5</property>
     <property name="kdenlive:collapsed">1</property>
    </filter>
-   <filter id="filter111">
+   <filter id="filter77">
     <property name="version">0.2</property>
-    <property name="mlt_service">frei0r.coloradj_RGB</property>
-    <property name="kdenlive_id">frei0r.coloradj_RGB</property>
-    <property name="R">00:00:00.000=0.4</property>
-    <property name="G">00:00:00.000=0.5</property>
-    <property name="B">00:00:00.000=0.5</property>
-    <property name="Action">0.5</property>
-    <property name="Keep luma">1</property>
-    <property name="Alpha controlled">0</property>
-    <property name="Luma formula">1</property>
-    <property name="kdenlive:collapsed">1</property>
+    <property name="mlt_service">frei0r.contrast0r</property>
+    <property name="kdenlive_id">frei0r.contrast0r</property>
+    <property name="Contrast">00:00:00.000=0.49</property>
+    <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
   <entry in="00:00:00.000" out="00:00:05.042" producer="producer31">
@@ -7468,7 +7417,7 @@
     <property name="distort">0</property>
     <property name="rect">00:00:00.000=0 0 5110 2160 1.000000</property>
     <property name="rotation">00:00:00.000=0</property>
-    <property name="kdenlive:collapsed"/>
+    <property name="kdenlive:collapsed">0</property>
    </filter>
    <filter id="filter113">
     <property name="version">0.1</property>
@@ -7482,19 +7431,13 @@
     <property name="Scale Y">00:00:00.000=0.5</property>
     <property name="Tilt X">00:00:00.000=0.5</property>
     <property name="Tilt Y">00:00:00.000=0.5</property>
-    <property name="kdenlive:collapsed"/>
+    <property name="kdenlive:collapsed">1</property>
    </filter>
-   <filter id="filter114">
+   <filter id="filter108">
     <property name="version">0.2</property>
-    <property name="mlt_service">frei0r.coloradj_RGB</property>
-    <property name="kdenlive_id">frei0r.coloradj_RGB</property>
-    <property name="R">00:00:00.000=0.4</property>
-    <property name="G">00:00:00.000=0.5</property>
-    <property name="B">00:00:00.000=0.5</property>
-    <property name="Action">0.5</property>
-    <property name="Keep luma">1</property>
-    <property name="Alpha controlled">0</property>
-    <property name="Luma formula">1</property>
+    <property name="mlt_service">frei0r.contrast0r</property>
+    <property name="kdenlive_id">frei0r.contrast0r</property>
+    <property name="Contrast">00:00:00.000=0.49</property>
    </filter>
   </entry>
   <entry in="00:00:00.000" out="00:00:05.042" producer="chain72">
@@ -7524,17 +7467,11 @@
     <property name="Tilt Y">00:00:00.000=0.5</property>
     <property name="kdenlive:collapsed">1</property>
    </filter>
-   <filter id="filter117">
+   <filter id="filter111">
     <property name="version">0.2</property>
-    <property name="mlt_service">frei0r.coloradj_RGB</property>
-    <property name="kdenlive_id">frei0r.coloradj_RGB</property>
-    <property name="R">00:00:00.000=0.4</property>
-    <property name="G">00:00:00.000=0.5</property>
-    <property name="B">00:00:00.000=0.5</property>
-    <property name="Action">0.5</property>
-    <property name="Keep luma">1</property>
-    <property name="Alpha controlled">0</property>
-    <property name="Luma formula">1</property>
+    <property name="mlt_service">frei0r.contrast0r</property>
+    <property name="kdenlive_id">frei0r.contrast0r</property>
+    <property name="Contrast">00:00:00.000=0.49</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
@@ -7562,24 +7499,19 @@
     <property name="Scale Y">00:00:00.000=0.5</property>
     <property name="Tilt X">00:00:00.000=0.5</property>
     <property name="Tilt Y">00:00:00.000=0.5</property>
-    <property name="kdenlive:collapsed">0</property>
+    <property name="kdenlive:collapsed">1</property>
    </filter>
-   <filter id="filter120">
+   <filter id="filter114">
     <property name="version">0.2</property>
-    <property name="mlt_service">frei0r.coloradj_RGB</property>
-    <property name="kdenlive_id">frei0r.coloradj_RGB</property>
-    <property name="R">00:00:00.000=0.4</property>
-    <property name="G">00:00:00.000=0.5</property>
-    <property name="B">00:00:00.000=0.5</property>
-    <property name="Action">0.5</property>
-    <property name="Keep luma">1</property>
-    <property name="Alpha controlled">0</property>
-    <property name="Luma formula">1</property>
+    <property name="mlt_service">frei0r.contrast0r</property>
+    <property name="kdenlive_id">frei0r.contrast0r</property>
+    <property name="Contrast">00:00:00.000=0.49</property>
+    <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
   <entry in="00:00:02.542" out="00:00:04.500" producer="chain73">
    <property name="kdenlive:id">52</property>
-   <property name="kdenlive:activeeffect">2</property>
+   <property name="kdenlive:activeeffect">3</property>
    <filter id="filter121">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
@@ -7588,7 +7520,7 @@
     <property name="distort">0</property>
     <property name="rect">00:00:02.542=0 0 5110 2160 1.000000</property>
     <property name="rotation">00:00:02.542=0</property>
-    <property name="kdenlive:collapsed">0</property>
+    <property name="kdenlive:collapsed">1</property>
    </filter>
    <filter id="filter122">
     <property name="version">0.1</property>
@@ -7602,7 +7534,7 @@
     <property name="Scale Y">00:00:02.542=0.5</property>
     <property name="Tilt X">00:00:02.542=0.5</property>
     <property name="Tilt Y">00:00:02.542=0.5</property>
-    <property name="kdenlive:collapsed">0</property>
+    <property name="kdenlive:collapsed">1</property>
    </filter>
    <filter id="filter123">
     <property name="version">0.2</property>
@@ -7616,11 +7548,19 @@
     <property name="Alpha controlled">0</property>
     <property name="Luma formula">1</property>
     <property name="kdenlive:collapsed">0</property>
+    <property name="disable">1</property>
+   </filter>
+   <filter id="filter117">
+    <property name="version">0.2</property>
+    <property name="mlt_service">frei0r.contrast0r</property>
+    <property name="kdenlive_id">frei0r.contrast0r</property>
+    <property name="Contrast">00:00:02.542=0.49</property>
+    <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
   <entry in="00:00:00.000" out="00:00:06.958" producer="chain74">
    <property name="kdenlive:id">54</property>
-   <property name="kdenlive:activeeffect">2</property>
+   <property name="kdenlive:activeeffect">1</property>
    <filter id="filter124">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
@@ -7645,23 +7585,10 @@
     <property name="Tilt Y">00:00:00.000=0.5</property>
     <property name="kdenlive:collapsed">1</property>
    </filter>
-   <filter id="filter126">
-    <property name="version">0.2</property>
-    <property name="mlt_service">frei0r.coloradj_RGB</property>
-    <property name="kdenlive_id">frei0r.coloradj_RGB</property>
-    <property name="R">00:00:00.000=0.4</property>
-    <property name="G">00:00:00.000=0.5</property>
-    <property name="B">00:00:00.000=0.5</property>
-    <property name="Action">0.5</property>
-    <property name="Keep luma">1</property>
-    <property name="Alpha controlled">0</property>
-    <property name="Luma formula">1</property>
-    <property name="kdenlive:collapsed">0</property>
-   </filter>
   </entry>
   <entry in="00:00:02.542" out="00:00:05.500" producer="producer33">
    <property name="kdenlive:id">54</property>
-   <property name="kdenlive:activeeffect">2</property>
+   <property name="kdenlive:activeeffect">1</property>
    <filter id="filter127">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
@@ -7686,23 +7613,10 @@
     <property name="Tilt Y">00:00:02.542=0.5</property>
     <property name="kdenlive:collapsed">1</property>
    </filter>
-   <filter id="filter129">
-    <property name="version">0.2</property>
-    <property name="mlt_service">frei0r.coloradj_RGB</property>
-    <property name="kdenlive_id">frei0r.coloradj_RGB</property>
-    <property name="R">00:00:02.542=0.4</property>
-    <property name="G">00:00:02.542=0.5</property>
-    <property name="B">00:00:02.542=0.5</property>
-    <property name="Action">0.5</property>
-    <property name="Keep luma">1</property>
-    <property name="Alpha controlled">0</property>
-    <property name="Luma formula">1</property>
-    <property name="kdenlive:collapsed">0</property>
-   </filter>
   </entry>
   <entry in="00:00:00.083" out="00:00:02.500" producer="chain75">
    <property name="kdenlive:id">56</property>
-   <property name="kdenlive:activeeffect">2</property>
+   <property name="kdenlive:activeeffect">1</property>
    <filter id="filter130">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
@@ -7727,23 +7641,10 @@
     <property name="Tilt Y">00:00:00.083=0.5</property>
     <property name="kdenlive:collapsed">1</property>
    </filter>
-   <filter id="filter132">
-    <property name="version">0.2</property>
-    <property name="mlt_service">frei0r.coloradj_RGB</property>
-    <property name="kdenlive_id">frei0r.coloradj_RGB</property>
-    <property name="R">00:00:00.083=0.55</property>
-    <property name="G">00:00:00.083=0.55</property>
-    <property name="B">00:00:00.083=0.5</property>
-    <property name="Action">0.5</property>
-    <property name="Keep luma">1</property>
-    <property name="Alpha controlled">0</property>
-    <property name="Luma formula">1</property>
-    <property name="kdenlive:collapsed">0</property>
-   </filter>
   </entry>
   <entry in="00:00:02.542" out="00:00:03.958" producer="chain75">
    <property name="kdenlive:id">56</property>
-   <property name="kdenlive:activeeffect">3</property>
+   <property name="kdenlive:activeeffect">2</property>
    <filter id="filter133">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
@@ -7768,24 +7669,24 @@
     <property name="Tilt Y">00:00:02.542=0.5</property>
     <property name="kdenlive:collapsed">1</property>
    </filter>
-   <filter id="filter135">
-    <property name="version">0.2</property>
-    <property name="mlt_service">frei0r.brightness</property>
-    <property name="kdenlive_id">frei0r.brightness</property>
-    <property name="Brightness">00:00:02.542=0.51</property>
-    <property name="kdenlive:collapsed">0</property>
-   </filter>
    <filter id="filter136">
     <property name="version">0.2</property>
     <property name="mlt_service">frei0r.coloradj_RGB</property>
     <property name="kdenlive_id">frei0r.coloradj_RGB</property>
-    <property name="R">00:00:02.542=0.55</property>
+    <property name="R">00:00:02.542=0.5</property>
     <property name="G">00:00:02.542=0.55</property>
     <property name="B">00:00:02.542=0.5</property>
     <property name="Action">0.5</property>
     <property name="Keep luma">1</property>
     <property name="Alpha controlled">0</property>
     <property name="Luma formula">1</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+   <filter id="filter120">
+    <property name="version">0.2</property>
+    <property name="mlt_service">frei0r.contrast0r</property>
+    <property name="kdenlive_id">frei0r.contrast0r</property>
+    <property name="Contrast">00:00:02.542=0.49</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
@@ -7801,28 +7702,6 @@
   <track hide="audio" producer="playlist14"/>
   <track hide="audio" producer="playlist15"/>
  </tractor>
- <producer id="producer34" in="00:00:00.000" out="00:00:04.958">
-  <property name="length">00:00:05.000</property>
-  <property name="eof">pause</property>
-  <property name="resource">dialog2-wide.png</property>
-  <property name="ttl">25</property>
-  <property name="aspect_ratio">1</property>
-  <property name="meta.media.progressive">1</property>
-  <property name="seekable">1</property>
-  <property name="format">2</property>
-  <property name="meta.media.width">5160</property>
-  <property name="meta.media.height">2160</property>
-  <property name="mlt_service">qimage</property>
-  <property name="kdenlive:duration">00:00:05.000</property>
-  <property name="xml">was here</property>
-  <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:id">57</property>
-  <property name="kdenlive:control_uuid">{55e07897-4c5e-4855-b30b-8b935bab6513}</property>
-  <property name="kdenlive:clip_type">2</property>
-  <property name="kdenlive:file_size">7118590</property>
-  <property name="kdenlive:file_hash">bcbbf1cd32b9299877f2cb5cc664ccd1</property>
-  <property name="kdenlive:monitorPosition">0</property>
- </producer>
  <playlist id="playlist16">
   <blank length="00:00:04.000"/>
   <entry in="00:00:00.000" out="00:00:00.792" producer="producer14">
@@ -7839,7 +7718,6 @@
   <blank length="00:00:30.250"/>
   <entry in="00:00:00.000" out="00:00:00.375" producer="producer29">
    <property name="kdenlive:id">50</property>
-   <property name="kdenlive:activeeffect">0</property>
    <filter id="filter138" in="00:00:-0.042" out="00:00:00.375">
     <property name="start">1</property>
     <property name="level">1</property>
@@ -7852,7 +7730,6 @@
   <blank length="00:00:09.750"/>
   <entry in="00:00:00.000" out="00:00:00.375" producer="producer30">
    <property name="kdenlive:id">51</property>
-   <property name="kdenlive:activeeffect">0</property>
    <filter id="filter139" in="00:00:-0.042" out="00:00:00.375">
     <property name="start">1</property>
     <property name="level">1</property>
@@ -9654,8 +9531,8 @@
   <property name="kdenlive:sequenceproperties.hasAudio">1</property>
   <property name="kdenlive:sequenceproperties.hasVideo">1</property>
   <property name="kdenlive:sequenceproperties.hidesubtitle">0</property>
-  <property name="kdenlive:sequenceproperties.position">1599</property>
-  <property name="kdenlive:sequenceproperties.scrollPos">17695</property>
+  <property name="kdenlive:sequenceproperties.position">1591</property>
+  <property name="kdenlive:sequenceproperties.scrollPos">8841</property>
   <property name="kdenlive:sequenceproperties.subtitlesList">[
     {
         "file": "C:/dev/workspace/indy/dist/room/attic/data/attic2.kdenlive.ass",
@@ -9670,7 +9547,7 @@
   <property name="kdenlive:sequenceproperties.videoTarget">2</property>
   <property name="kdenlive:sequenceproperties.zonein">1512</property>
   <property name="kdenlive:sequenceproperties.zoneout">1608</property>
-  <property name="kdenlive:sequenceproperties.zoom">2</property>
+  <property name="kdenlive:sequenceproperties.zoom">3</property>
   <property name="kdenlive:sequenceproperties.groups">[
 ]
 </property>
@@ -9858,13 +9735,6 @@
    <property name="start">0.5</property>
    <property name="disable">1</property>
   </filter>
-  <filter id="filter182">
-   <property name="mlt_service">avfilter.subtitles</property>
-   <property name="av.alpha">1</property>
-   <property name="internal_added">237</property>
-   <property name="av.filename">attic2.kdenlive.ass</property>
-   <property name="disable">1</property>
-  </filter>
  </tractor>
  <playlist id="main_bin">
   <property name="kdenlive:folder.-1.2">Sequences</property>
@@ -9958,7 +9828,7 @@
   <property name="kdenlive:docproperties.rendertwopass">0</property>
   <property name="kdenlive:docproperties.renderurl">C:/dev/workspace/indy/deploy/wide/attic2-test7.mp4</property>
   <property name="kdenlive:docproperties.seekOffset">30000</property>
-  <property name="kdenlive:docproperties.sessionid">{8a7b5c10-303f-4df8-ba81-e9c3ef83775d}</property>
+  <property name="kdenlive:docproperties.sessionid">{9f85a7fd-197e-4a56-b193-20c5a68ef3a9}</property>
   <property name="kdenlive:docproperties.uuid">{93e8ea12-7463-4eeb-8744-610d14ce039d}</property>
   <property name="kdenlive:docproperties.version">1.1</property>
   <property name="kdenlive:expandedFolders"/>
@@ -10020,8 +9890,8 @@
   <entry in="00:00:00.000" out="00:00:09.542" producer="chain88"/>
   <entry in="00:00:00.000" out="00:00:04.958" producer="producer10"/>
   <entry in="00:00:00.000" out="00:00:03.958" producer="chain90"/>
-  <entry in="00:00:00.000" out="00:01:06.958" producer="tractor14"/>
   <entry in="00:00:00.000" out="00:00:04.958" producer="producer34"/>
+  <entry in="00:00:00.000" out="00:01:06.958" producer="tractor14"/>
  </playlist>
  <tractor id="tractor15" in="00:00:00.000" out="00:01:06.958">
   <property name="kdenlive:projectTractor">1</property>
