@@ -11,6 +11,11 @@ root="$PWD"
 bin="/c/dev/tools/kdenlive/bin"
 
 #--------------------------------------------------------------------------------------------------
+# melt
+
+crf="23"
+
+#--------------------------------------------------------------------------------------------------
 # Functions
 #--------------------------------------------------------------------------------------------------
 
@@ -66,7 +71,7 @@ render()
 
     # NOTE: These settings are extracted from the kdenlive render panel.
     ./melt "$input" -profile "$profile" -consumer avformat:"$output" \
-           ab=160k acodec=aac channels=2 crf=23 f=mp4 g=15 movflags=+faststart preset=veryfast \
+           ab=160k acodec=aac channels=2 crf=$crf f=mp4 g=15 movflags=+faststart preset=veryfast \
            real_time=-1 threads=0 vcodec=libx264 \
            -progress -verbose
 }
