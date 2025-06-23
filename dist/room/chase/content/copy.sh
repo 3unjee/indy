@@ -85,4 +85,14 @@ else
     run "dialog3-sync.mp4" iris-3 letterbox
     run "dialog4-sync.mp4" iris-3 letterbox
     run "dialog5-sync.mp4" iris-3 letterbox
+
+    run "wide/college2.mp4"    iris-3 default 5110
+    run "wide/college3.mp4"    iris-3 default 5110
+    run "wide/college4.mp4"    iris-3 default 5110 2160 30
+    run "wide/interior.mp4"    iris-3 default 5110 2160 30
+    run "wide/interior4.mp4"   iris-3 default 5110 2160 30
+    run "wide/interior5.mp4"   iris-3 default 5110 2160 30
+    run "wide/interior6.mp4"   iris-3 default 5110 2160 30
+    run "wide/interior7.mp4"   iris-3 default 5110 2160 30
+    run "wide/interior8.mp4"   iris-3 default 5110 2160 30
 fi
