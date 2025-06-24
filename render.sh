@@ -173,7 +173,7 @@ cd "$bin"
 if [ $1 = "room/intro" ]; then
 
     render "intro" "wide"
-    render "intro" "16-9"
+    #render "intro" "16-9"
 
 elif [ $1 = "room/attic" ]; then
 
