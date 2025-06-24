@@ -2064,7 +2064,7 @@
    <filter id="filter7">
     <property name="window">75</property>
     <property name="max_gain">20dB</property>
-    <property name="level">00:01:00.000=2</property>
+    <property name="level">00:01:00.000=4</property>
     <property name="mlt_service">volume</property>
     <property name="kdenlive_id">volume</property>
     <property name="kdenlive:collapsed">0</property>
@@ -6867,7 +6867,7 @@
   <property name="kdenlive:clip_type">0</property>
   <property name="kdenlive:file_hash">68d2016a3fa5e6f2ec07fd8c8b97dd3b</property>
   <property name="kdenlive:folderid">13</property>
-  <property name="kdenlive:sequenceproperties.activeTrack">7</property>
+  <property name="kdenlive:sequenceproperties.activeTrack">1</property>
   <property name="kdenlive:sequenceproperties.audioTarget">-1</property>
   <property name="kdenlive:sequenceproperties.disablepreview">0</property>
   <property name="kdenlive:sequenceproperties.documentuuid">{ac7c1121-0bd0-4526-af5f-e6338e7d1206}</property>
@@ -6877,8 +6877,8 @@
   <property name="kdenlive:sequenceproperties.hasAudio">1</property>
   <property name="kdenlive:sequenceproperties.hasVideo">1</property>
   <property name="kdenlive:sequenceproperties.hidesubtitle">0</property>
-  <property name="kdenlive:sequenceproperties.position">1264</property>
-  <property name="kdenlive:sequenceproperties.scrollPos">2797</property>
+  <property name="kdenlive:sequenceproperties.position">167</property>
+  <property name="kdenlive:sequenceproperties.scrollPos">0</property>
   <property name="kdenlive:sequenceproperties.subtitlesList">[
     {
         "file": "C:/dev/workspace/indy/dist/room/attic/data/attic.kdenlive.ass",
@@ -7102,13 +7102,6 @@
    <property name="start">0.5</property>
    <property name="disable">1</property>
   </filter>
-  <filter id="filter105">
-   <property name="mlt_service">avfilter.subtitles</property>
-   <property name="av.alpha">1</property>
-   <property name="internal_added">237</property>
-   <property name="av.filename">attic.kdenlive.ass</property>
-   <property name="disable">1</property>
-  </filter>
  </tractor>
  <playlist id="main_bin">
   <property name="kdenlive:folder.-1.13">Sequences</property>
@@ -7203,7 +7196,7 @@
   <property name="kdenlive:docproperties.rendertwopass">0</property>
   <property name="kdenlive:docproperties.renderurl">C:/dev/workspace/indy/deploy/wide/attic-test5.mp4</property>
   <property name="kdenlive:docproperties.seekOffset">30000</property>
-  <property name="kdenlive:docproperties.sessionid">{8b2e002b-4113-4838-9bb5-03b9c050a7d5}</property>
+  <property name="kdenlive:docproperties.sessionid">{038df3f0-fb47-4db3-a1d7-219d203d6ce8}</property>
   <property name="kdenlive:docproperties.uuid">{ac7c1121-0bd0-4526-af5f-e6338e7d1206}</property>
   <property name="kdenlive:docproperties.version">1.1</property>
   <property name="kdenlive:docproperties.verticalzoom">1</property>
