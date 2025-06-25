@@ -94,7 +94,7 @@ clean()
 #--------------------------------------------------------------------------------------------------
 
 updateCopy "intro"
-#updateCopy "attic"
+updateCopy "attic"
 updateCopy "attic2"
 updateCopy "chase"
 

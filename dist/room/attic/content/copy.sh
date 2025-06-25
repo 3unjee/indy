@@ -75,59 +75,54 @@ else
     #----------------------------------------------------------------------------------------------
     # NOTE: copied from upscale.sh
 
-    run "attic.mp4"     iris-3
-    run "attic2.mp4"    iris-3
-    run "attic5.mp4"    iris-3
-    run "attic6.mp4"    iris-3
-    run "attic7.mp4"    iris-3
-    run "attic8.mp4"    iris-3
-    run "attic11.mp4"   iris-3
-    run "attic12.mp4"   iris-3
-    run "attic13.mp4"   rhea-1 crop
-    run "attic14.mp4"   rhea-1 crop
-    run "attic18.mp4"   iris-3
-    run "attic19.mp4"   iris-3
-    run "attic20.mp4"   iris-3
-    run "attic22.mp4"   iris-3
-    run "attic24.mp4"   iris-3
-    run "attic25.mp4"   iris-3
-
+    run "attic.mp4"   iris-3
+    run "attic2.mp4"  iris-3
+    run "attic5.mp4"  iris-3
+    run "attic6.mp4"  iris-3
+    run "attic7.mp4"  iris-3
+    run "attic8.mp4"  iris-3
+    run "attic11.mp4" iris-3
+    run "attic12.mp4" iris-3
+    run "attic13.mp4" rhea-1 crop
+    run "attic14.mp4" rhea-1 crop
+    run "attic18.mp4" iris-3
+    run "attic19.mp4" iris-3
+    run "attic20.mp4" iris-3
+    run "attic22.mp4" iris-3
+    run "attic24.mp4" iris-3
+    run "attic25.mp4" iris-3
     run "indy4.mp4"     iris-3
     run "splash3.mp4"   iris-3
     run "desk.mp4"      iris-3
     run "cross6.mp4"    iris-3
     run "cross7.mp4"    iris-3
     run "gargoyle6.mp4" iris-3
-
     run "dialog.mp4"  iris-3
     run "dialog2.mp4" iris-3
     run "dialog3.mp4" iris-3
-
     run "dialog-sync.mp4"  iris-3 letterbox
     run "dialog2-sync.mp4" iris-3 letterbox
     run "dialog3-sync.mp4" iris-3 letterbox
-
-    run "wide/attic.mp4"     iris-3 default 5110
-    run "wide/attic2.mp4"    iris-3 default 5110
-    run "wide/attic5.mp4"    iris-3 default 5110
-    run "wide/attic6.mp4"    iris-3 default 5110
-    run "wide/attic7.mp4"    iris-3 default 5110
-    run "wide/attic12.mp4"   iris-3 default 5110
-    run "wide/attic18.mp4"   iris-3 default 5110
-    run "wide/attic19.mp4"   iris-3 default 5110
-    run "wide/attic20.mp4"   iris-3 default 5110
-    run "wide/attic22.mp4"   iris-3 default 5110
-    run "wide/attic24.mp4"   iris-3 default 5110
-    run "wide/attic25.mp4"   iris-3 default 5110
-    run "wide/indy4.mp4"     iris-3 default 5110
-    run "wide/splash3.mp4"   iris-3 default 5110
-    run "wide/cross6.mp4"    iris-3 default 5110
-    run "wide/cross7.mp4"    iris-3 default 5110
-    run "wide/gargoyle6.mp4" iris-3 default 5110
-    run "wide/dialog2.mp4"   iris-3 default 5110
-
-    run "wide/attic11-1.mp4" iris-3 default 5110
-    run "wide/attic11-2.mp4" iris-3 default 5110
-    run "wide/dialog3-1.mp4" iris-3 default 5110
-    run "wide/dialog3-2.mp4" iris-3 default 5110
+    runWide "attic.mp4"     iris-3
+    runWide "attic2.mp4"    iris-3
+    runWide "attic5.mp4"    iris-3
+    runWide "attic6.mp4"    iris-3
+    runWide "attic7.mp4"    iris-3
+    runWide "attic12.mp4"   iris-3
+    runWide "attic18.mp4"   iris-3
+    runWide "attic19.mp4"   iris-3
+    runWide "attic20.mp4"   iris-3
+    runWide "attic22.mp4"   iris-3
+    runWide "attic24.mp4"   iris-3
+    runWide "attic25.mp4"   iris-3
+    runWide "indy4.mp4"     iris-3
+    runWide "splash3.mp4"   iris-3
+    runWide "cross6.mp4"    iris-3
+    runWide "cross7.mp4"    iris-3
+    runWide "gargoyle6.mp4" iris-3
+    runWide "dialog2.mp4"   iris-3
+    runWide "attic11-1.mp4" iris-3
+    runWide "attic11-2.mp4" iris-3
+    runWide "dialog3-1.mp4" iris-3
+    runWide "dialog3-2.mp4" iris-3
 fi
