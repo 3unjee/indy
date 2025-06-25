@@ -18,6 +18,11 @@ run()
     cp "$1" "$upscale/$1"
 }
 
+runWide()
+{
+    run "$1"
+}
+
 exists()
 {
     ls "$1" 1> /dev/null 2>&1
@@ -77,8 +82,10 @@ else
     run "college2.mp4" iris-3
     run "college3.mp4" iris-3
 
-    run "wide/intro.mp4"    iris-3 default 5110
-    run "wide/intro2.mp4"   iris-3 default 5110
-    run "wide/college.mp4"  iris-3 default 5110
-    run "wide/college2.mp4" iris-3 default 5110
+    runWide "wide/intro.mp4"      iris-3
+    runWide "wide/intro2.mp4"     iris-3
+    runWide "wide/college.mp4"    iris-3
+    runWide "wide/college2.mp4"   iris-3
+    runWide "wide/college3-1.mp4" iris-3
+    runWide "wide/college3-2.mp4" iris-3
 fi

@@ -18,6 +18,11 @@ run()
     cp "$1" "$upscale/$1"
 }
 
+runWide()
+{
+    run "$1"
+}
+
 exists()
 {
     ls "$1" 1> /dev/null 2>&1

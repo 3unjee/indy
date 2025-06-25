@@ -19,12 +19,22 @@ output="$PWD/upscale"
 
 run()
 {
-    local pathA="$input/$1"
-    local pathB="$output/$1"
+    if [ $# = 3 ]; then
 
-    shift
+        sh topaz.sh "$input/$1" "$output/$1" "$2" "$3" 3840 2160 60
+    else
+        sh topaz.sh "$input/$1" "$output/$1" "$2" default 3840 2160 60
+    fi
+}
 
-    sh topaz.sh "$pathA" "$pathB" "$@"
+runWide()
+{
+    if [ $# = 3 ]; then
+
+        sh topaz.sh "$input/$1" "$output/$1" "$2" "$3" 5110 2160 60
+    else
+        sh topaz.sh "$input/$1" "$output/$1" "$2" default 5110 2160 60
+    fi
 }
 
 #--------------------------------------------------------------------------------------------------
@@ -32,9 +42,6 @@ run()
 #--------------------------------------------------------------------------------------------------
 
 cd "$ffmpeg"
-
-run "attic25.mp4" iris-3 default 3840 2160 60
-exit 0
 
 run "attic.mp4"   iris-3
 run "attic2.mp4"  iris-3
@@ -64,30 +71,30 @@ run "dialog.mp4"  iris-3
 run "dialog2.mp4" iris-3
 run "dialog3.mp4" iris-3
 
-run "dialog-sync.mp4"  iris-3 letterbox
-run "dialog2-sync.mp4" iris-3 letterbox
-run "dialog3-sync.mp4" iris-3 letterbox
+runWide "dialog-sync.mp4"  iris-3 letterbox
+runWide "dialog2-sync.mp4" iris-3 letterbox
+runWide "dialog3-sync.mp4" iris-3 letterbox
 
-run "wide/attic.mp4"     iris-3 default 5110
-run "wide/attic2.mp4"    iris-3 default 5110
-run "wide/attic5.mp4"    iris-3 default 5110
-run "wide/attic6.mp4"    iris-3 default 5110
-run "wide/attic7.mp4"    iris-3 default 5110
-run "wide/attic12.mp4"   iris-3 default 5110
-run "wide/attic18.mp4"   iris-3 default 5110
-run "wide/attic19.mp4"   iris-3 default 5110
-run "wide/attic20.mp4"   iris-3 default 5110
-run "wide/attic22.mp4"   iris-3 default 5110
-run "wide/attic24.mp4"   iris-3 default 5110
-run "wide/attic25.mp4"   iris-3 default 5110
-run "wide/indy4.mp4"     iris-3 default 5110
-run "wide/splash3.mp4"   iris-3 default 5110
-run "wide/cross6.mp4"    iris-3 default 5110
-run "wide/cross7.mp4"    iris-3 default 5110
-run "wide/gargoyle6.mp4" iris-3 default 5110
-run "wide/dialog2.mp4"   iris-3 default 5110
+runWide "wide/attic.mp4"     iris-3
+runWide "wide/attic2.mp4"    iris-3
+runWide "wide/attic5.mp4"    iris-3
+runWide "wide/attic6.mp4"    iris-3
+runWide "wide/attic7.mp4"    iris-3
+runWide "wide/attic12.mp4"   iris-3
+runWide "wide/attic18.mp4"   iris-3
+runWide "wide/attic19.mp4"   iris-3
+runWide "wide/attic20.mp4"   iris-3
+runWide "wide/attic22.mp4"   iris-3
+runWide "wide/attic24.mp4"   iris-3
+runWide "wide/attic25.mp4"   iris-3
+runWide "wide/indy4.mp4"     iris-3
+runWide "wide/splash3.mp4"   iris-3
+runWide "wide/cross6.mp4"    iris-3
+runWide "wide/cross7.mp4"    iris-3
+runWide "wide/gargoyle6.mp4" iris-3
+runWide "wide/dialog2.mp4"   iris-3
 
-run "wide/attic11-1.mp4" iris-3 default 5110
-run "wide/attic11-2.mp4" iris-3 default 5110
-run "wide/dialog3-1.mp4" iris-3 default 5110
-run "wide/dialog3-2.mp4" iris-3 default 5110
+runWide "wide/attic11-1.mp4" iris-3
+runWide "wide/attic11-2.mp4" iris-3
+runWide "wide/dialog3-1.mp4" iris-3
+runWide "wide/dialog3-2.mp4" iris-3
