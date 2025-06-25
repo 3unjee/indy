@@ -25,14 +25,17 @@ updateCopy()
 
     awk -v marker="$marker" -v block="$block" '
     {
-        if (printed_block) {
-            if ($0 ~ /^ *run( |Wide)/) next
-            printed_block = 0
+        if (in_block) {
+            if ($0 ~ /^fi$/) {
+                print "fi"
+                in_block = 0
+            }
+            next
         }
 
         if ($0 ~ marker) {
-            print block
-            printed_block = 1
+            printf "%s", block
+            in_block = 1
             next
         }
 
@@ -91,8 +94,7 @@ clean()
 #--------------------------------------------------------------------------------------------------
 
 updateCopy "intro"
-exit 0
-updateCopy "attic"
+#updateCopy "attic"
 updateCopy "attic2"
 updateCopy "chase"
 
