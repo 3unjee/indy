@@ -19,12 +19,22 @@ output="$PWD/upscale"
 
 run()
 {
-    local pathA="$input/$1"
-    local pathB="$output/$1"
+    if [ $# = 3 ]; then
 
-    shift
+        sh topaz.sh "$input/$1" "$output/$1" "$2" "$3" 3840 2160 60
+    else
+        sh topaz.sh "$input/$1" "$output/$1" "$2" default 3840 2160 60
+    fi
+}
 
-    sh topaz.sh "$pathA" "$pathB" "$@"
+runWide()
+{
+    if [ $# = 3 ]; then
+
+        sh topaz.sh "$input/wide/$1" "$output/wide/$1" "$2" "$3" 5110 2160 60
+    else
+        sh topaz.sh "$input/wide/$1" "$output/wide/$1" "$2" default 5110 2160 60
+    fi
 }
 
 #--------------------------------------------------------------------------------------------------
@@ -49,12 +59,12 @@ run "dialog3-sync.mp4" iris-3 letterbox
 run "dialog4-sync.mp4" iris-3 letterbox
 run "dialog5-sync.mp4" iris-3 letterbox
 
-run "wide/college2.mp4"    iris-3 default 5110
-run "wide/college3.mp4"    iris-3 default 5110
-run "wide/college4.mp4"    iris-3 default 5110 2160 30
-run "wide/interior.mp4"    iris-3 default 5110 2160 30
-run "wide/interior4.mp4"   iris-3 default 5110 2160 30
-run "wide/interior5.mp4"   iris-3 default 5110 2160 30
-run "wide/interior6.mp4"   iris-3 default 5110 2160 30
-run "wide/interior7.mp4"   iris-3 default 5110 2160 30
-run "wide/interior8.mp4"   iris-3 default 5110 2160 30
+runWide "wide/college2.mp4"  iris-3 default
+runWide "wide/college3.mp4"  iris-3 default
+runWide "wide/college4.mp4"  iris-3 default
+runWide "wide/interior.mp4"  iris-3 default
+runWide "wide/interior4.mp4" iris-3 default
+runWide "wide/interior5.mp4" iris-3 default
+runWide "wide/interior6.mp4" iris-3 default
+runWide "wide/interior7.mp4" iris-3 default
+runWide "wide/interior8.mp4" iris-3 default

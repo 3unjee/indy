@@ -5,12 +5,47 @@ set -e
 # Functions
 #--------------------------------------------------------------------------------------------------
 
+updateCopy()
+{
+    local path="$PWD/$1/content"
+
+    local upscale="$path/upscale.sh"
+
+    local copy="$path/copy.sh"
+
+    local marker="# NOTE: copied from upscale.sh"
+
+    local indent="    "
+
+    local block="${indent}${marker}\n\n"
+
+    while IFS= read -r line; do
+        block+="${indent}${line}\n"
+    done < <(awk '/^run / || /^runWide /' "$upscale")
+
+    awk -v marker="$marker" -v block="$block" '
+    {
+        if (printed_block) {
+            if ($0 ~ /^ *run( |Wide)/) next
+            printed_block = 0
+        }
+
+        if ($0 ~ marker) {
+            print block
+            printed_block = 1
+            next
+        }
+
+        print
+    }
+    ' "$copy" > "$copy.tmp" && mv "$copy.tmp" "$copy"
+}
+
 generate()
 {
-    local path
-    local input
+    local path="$PWD/$1/data"
 
-    path="$PWD/$1/data"
+    local input
 
     if [ $# = 2 ]; then
 
@@ -50,6 +85,16 @@ clean()
 
     rm -f "$PWD/$1"/data/*.kdenlive.ass
 }
+
+#--------------------------------------------------------------------------------------------------
+# Copy
+#--------------------------------------------------------------------------------------------------
+
+updateCopy "intro"
+exit 0
+updateCopy "attic"
+updateCopy "attic2"
+updateCopy "chase"
 
 #--------------------------------------------------------------------------------------------------
 # 16-9

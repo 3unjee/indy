@@ -19,12 +19,22 @@ output="$PWD/upscale"
 
 run()
 {
-    local pathA="$input/$1"
-    local pathB="$output/$1"
+    if [ $# = 3 ]; then
 
-    shift
+        sh topaz.sh "$input/$1" "$output/$1" "$2" "$3" 3840 2160 60
+    else
+        sh topaz.sh "$input/$1" "$output/$1" "$2" default 3840 2160 60
+    fi
+}
 
-    sh topaz.sh "$pathA" "$pathB" "$@"
+runWide()
+{
+    if [ $# = 3 ]; then
+
+        sh topaz.sh "$input/wide/$1" "$output/wide/$1" "$2" "$3" 5110 2160 60
+    else
+        sh topaz.sh "$input/wide/$1" "$output/wide/$1" "$2" default 5110 2160 60
+    fi
 }
 
 #--------------------------------------------------------------------------------------------------
@@ -46,10 +56,10 @@ run "indy6.mp4"  iris-3
 run "book.mp4"   iris-3
 run "book2.mp4"  iris-3
 
-run "wide/attic.mp4"  iris-3 default 5110
-run "wide/attic2.mp4" iris-3 default 5110
-run "wide/indy.mp4"   iris-3 default 5110
-run "wide/indy2.mp4"  rhea-1 default 5110
-run "wide/indy4.mp4"  rhea-1 default 5110
-run "wide/book.mp4"   iris-3 default 5110
-run "wide/book2.mp4"  iris-3 default 5110
+runWide "attic.mp4"  iris-3
+runWide "attic2.mp4" iris-3
+runWide "indy.mp4"   iris-3
+runWide "indy2.mp4"  rhea-1
+runWide "indy4.mp4"  rhea-1
+runWide "book.mp4"   iris-3
+runWide "book2.mp4"  iris-3
