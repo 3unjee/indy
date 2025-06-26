@@ -1281,9 +1281,9 @@
   <property name="kdenlive:control_uuid">{63a84f15-402a-417c-80a7-c179a9f6a623}</property>
   <property name="mute_on_pause">0</property>
   <property name="kdenlive:clip_type">0</property>
-  <property name="kdenlive:file_size">17779523</property>
+  <property name="kdenlive:file_size">15331282</property>
   <property name="kdenlive:monitorPosition">0</property>
-  <property name="kdenlive:file_hash">bb2cf77834ee3ec18a57b35afa07437b</property>
+  <property name="kdenlive:file_hash">7fe12b06d8e28bf0738cb4603027d779</property>
  </chain>
  <chain id="chain50" out="00:00:04.958">
   <property name="length">120</property>
@@ -6220,6 +6220,7 @@
   <blank length="00:00:13.000"/>
   <entry in="00:00:05.000" out="00:00:09.958" producer="chain67">
    <property name="kdenlive:id">33</property>
+   <property name="kdenlive:activeeffect">2</property>
    <filter id="filter151">
     <property name="filter">frei0r.select0r</property>
     <property name="mlt_service">mask_start</property>
@@ -6234,7 +6235,8 @@
     <property name="filter.Delta B / I / I">120=0.2</property>
     <property name="filter.Slope">120=0.5</property>
     <property name="filter.Operation">0</property>
-    <property name="kdenlive:collapsed">0</property>
+    <property name="kdenlive:collapsed">1</property>
+    <property name="disable">1</property>
    </filter>
    <filter id="filter152">
     <property name="version">0.2</property>
@@ -6248,6 +6250,7 @@
     <property name="Alpha controlled">0</property>
     <property name="Luma formula">1</property>
     <property name="kdenlive:collapsed">1</property>
+    <property name="disable">1</property>
    </filter>
    <filter id="filter153">
     <property name="transition">frei0r.composition</property>
@@ -6255,6 +6258,7 @@
     <property name="mlt_service">mask_apply</property>
     <property name="kdenlive_id">mask_apply</property>
     <property name="kdenlive:collapsed">0</property>
+    <property name="disable">1</property>
    </filter>
   </entry>
  </playlist>
@@ -6812,6 +6816,7 @@
   <blank length="00:00:13.000"/>
   <entry in="00:00:05.000" out="00:00:09.958" producer="chain76">
    <property name="kdenlive:id">33</property>
+   <property name="kdenlive:activeeffect">2</property>
    <filter id="filter100">
     <property name="filter">frei0r.select0r</property>
     <property name="mlt_service">mask_start</property>
@@ -6826,7 +6831,8 @@
     <property name="filter.Delta B / I / I">120=0.2</property>
     <property name="filter.Slope">120=0.5</property>
     <property name="filter.Operation">0</property>
-    <property name="kdenlive:collapsed">0</property>
+    <property name="kdenlive:collapsed">1</property>
+    <property name="disable">1</property>
    </filter>
    <filter id="filter101">
     <property name="version">0.2</property>
@@ -6840,6 +6846,7 @@
     <property name="Alpha controlled">0</property>
     <property name="Luma formula">1</property>
     <property name="kdenlive:collapsed">1</property>
+    <property name="disable">1</property>
    </filter>
    <filter id="filter102">
     <property name="transition">frei0r.composition</property>
@@ -6847,6 +6854,7 @@
     <property name="mlt_service">mask_apply</property>
     <property name="kdenlive_id">mask_apply</property>
     <property name="kdenlive:collapsed">0</property>
+    <property name="disable">1</property>
    </filter>
   </entry>
  </playlist>
@@ -6897,7 +6905,7 @@
   <property name="kdenlive:clip_type">0</property>
   <property name="kdenlive:file_hash">68d2016a3fa5e6f2ec07fd8c8b97dd3b</property>
   <property name="kdenlive:folderid">13</property>
-  <property name="kdenlive:sequenceproperties.activeTrack">1</property>
+  <property name="kdenlive:sequenceproperties.activeTrack">13</property>
   <property name="kdenlive:sequenceproperties.audioTarget">-1</property>
   <property name="kdenlive:sequenceproperties.disablepreview">0</property>
   <property name="kdenlive:sequenceproperties.documentuuid">{ac7c1121-0bd0-4526-af5f-e6338e7d1206}</property>
@@ -6907,8 +6915,8 @@
   <property name="kdenlive:sequenceproperties.hasAudio">1</property>
   <property name="kdenlive:sequenceproperties.hasVideo">1</property>
   <property name="kdenlive:sequenceproperties.hidesubtitle">0</property>
-  <property name="kdenlive:sequenceproperties.position">383</property>
-  <property name="kdenlive:sequenceproperties.scrollPos">729</property>
+  <property name="kdenlive:sequenceproperties.position">423</property>
+  <property name="kdenlive:sequenceproperties.scrollPos">1337</property>
   <property name="kdenlive:sequenceproperties.subtitlesList">[
     {
         "file": "C:/dev/workspace/indy/dist/room/attic/data/attic.kdenlive.ass",
@@ -7226,7 +7234,7 @@
   <property name="kdenlive:docproperties.rendertwopass">0</property>
   <property name="kdenlive:docproperties.renderurl">C:/dev/workspace/indy/deploy/wide/attic-test5.mp4</property>
   <property name="kdenlive:docproperties.seekOffset">30000</property>
-  <property name="kdenlive:docproperties.sessionid">{8b02033e-20ba-4f00-8c12-953ca9cb8679}</property>
+  <property name="kdenlive:docproperties.sessionid">{f368dd26-7c52-4d9a-a876-4a52185a4e90}</property>
   <property name="kdenlive:docproperties.uuid">{ac7c1121-0bd0-4526-af5f-e6338e7d1206}</property>
   <property name="kdenlive:docproperties.version">1.1</property>
   <property name="kdenlive:docproperties.verticalzoom">1</property>
