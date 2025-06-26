@@ -43,9 +43,9 @@ runWide()
 
 cd "$ffmpeg"
 
-run "attic.mp4"  iris-3
-run "attic2.mp4" iris-3
-run "attic3.mp4" iris-3
+#run "attic.mp4"  iris-3
+#run "attic2.mp4" iris-3
+#run "attic3.mp4" iris-3
 run "attic4.mp4" iris-3
 run "indy.mp4"   iris-3
 run "indy2.mp4"  rhea-1 crop
