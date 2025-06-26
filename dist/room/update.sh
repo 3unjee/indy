@@ -13,7 +13,7 @@ updateCopy()
 
     local copy="$path/copy.sh"
 
-    local marker="# NOTE: copied from upscale.sh"
+    local marker="# BEGIN copy"
 
     local indent="    "
 

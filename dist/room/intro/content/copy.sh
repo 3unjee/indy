@@ -73,7 +73,7 @@ else
     move "$upscale/wide" "$temp/wide"
 
     #----------------------------------------------------------------------------------------------
-    # NOTE: copied from upscale.sh
+    # BEGIN copy
 
     run "intro.mp4"    iris-3 60
     run "intro2.mp4"   iris-3 60
