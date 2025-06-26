@@ -362,10 +362,10 @@
   <property name="kdenlive:control_uuid">{ccd46c49-f11c-4ff7-b743-8ed50172a6a3}</property>
   <property name="kdenlive:id">13</property>
   <property name="kdenlive:clip_type">2</property>
-  <property name="kdenlive:file_size">48910342</property>
+  <property name="kdenlive:file_size">48911032</property>
   <property name="kdenlive:folderid">-1</property>
   <property name="mute_on_pause">0</property>
-  <property name="kdenlive:file_hash">ffb9c92d30382fbc26022d227c0639e6</property>
+  <property name="kdenlive:file_hash">ba66c542fad06a6ac9453b43d11f7ac0</property>
  </chain>
  <chain id="chain18" out="00:00:09.542">
   <property name="length">230</property>
@@ -6150,7 +6150,7 @@
   <property name="kdenlive:sequenceproperties.documentuuid">{d09bf746-7f89-4039-8eea-ba2491e27b90}</property>
   <property name="kdenlive:sequenceproperties.hasAudio">1</property>
   <property name="kdenlive:sequenceproperties.hasVideo">1</property>
-  <property name="kdenlive:sequenceproperties.position">2371</property>
+  <property name="kdenlive:sequenceproperties.position">2414</property>
   <property name="kdenlive:sequenceproperties.scrollPos">13875</property>
   <property name="kdenlive:sequenceproperties.tracks">4</property>
   <property name="kdenlive:sequenceproperties.tracksCount">14</property>
@@ -6439,7 +6439,7 @@
   <property name="kdenlive:docproperties.rendertwopass">0</property>
   <property name="kdenlive:docproperties.renderurl">C:/dev/workspace/indy/deploy/wide/intro-test.mp4</property>
   <property name="kdenlive:docproperties.seekOffset">30000</property>
-  <property name="kdenlive:docproperties.sessionid">{80b7562c-610e-4506-a0da-7d6c50444213}</property>
+  <property name="kdenlive:docproperties.sessionid">{a34f1d30-5251-401f-8f7f-20e9216a9ed8}</property>
   <property name="kdenlive:docproperties.uuid">{d09bf746-7f89-4039-8eea-ba2491e27b90}</property>
   <property name="kdenlive:docproperties.version">1.1</property>
   <property name="kdenlive:expandedFolders"/>
