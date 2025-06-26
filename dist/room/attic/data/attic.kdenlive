@@ -1891,7 +1891,7 @@
  <producer id="producer13" in="00:00:00.000" out="00:00:04.958">
   <property name="length">00:00:05.000</property>
   <property name="eof">pause</property>
-  <property name="resource">indy4-wide.png</property>
+  <property name="resource">C:/dev/workspace/indy/dist/room/attic/content/indy4-wide.png</property>
   <property name="ttl">25</property>
   <property name="aspect_ratio">1</property>
   <property name="meta.media.progressive">1</property>
@@ -6893,8 +6893,8 @@
   <track hide="audio" producer="playlist28"/>
   <track hide="audio" producer="playlist29"/>
  </tractor>
- <tractor id="tractor15" in="00:00:00.000" out="00:00:53.958">
-  <property name="kdenlive:duration">00:00:54.000</property>
+ <tractor id="tractor15" in="00:00:00.000" out="00:05:54.000">
+  <property name="kdenlive:duration">00:00:54:00</property>
   <property name="kdenlive:maxduration">1296</property>
   <property name="kdenlive:clipname">Sequence 1</property>
   <property name="kdenlive:description"/>
@@ -7234,7 +7234,7 @@
   <property name="kdenlive:docproperties.rendertwopass">0</property>
   <property name="kdenlive:docproperties.renderurl">C:/dev/workspace/indy/deploy/wide/attic-test5.mp4</property>
   <property name="kdenlive:docproperties.seekOffset">30000</property>
-  <property name="kdenlive:docproperties.sessionid">{f368dd26-7c52-4d9a-a876-4a52185a4e90}</property>
+  <property name="kdenlive:docproperties.sessionid">{bed38759-3dd8-4ba5-94ac-2886a9c23015}</property>
   <property name="kdenlive:docproperties.uuid">{ac7c1121-0bd0-4526-af5f-e6338e7d1206}</property>
   <property name="kdenlive:docproperties.version">1.1</property>
   <property name="kdenlive:docproperties.verticalzoom">1</property>
@@ -7290,8 +7290,8 @@
   <entry in="00:00:00.000" out="00:00:04.958" producer="producer13"/>
   <entry in="00:00:00.000" out="00:00:53.958" producer="tractor15"/>
  </playlist>
- <tractor id="tractor16" in="00:00:00.000" out="00:00:53.958">
+ <tractor id="tractor16" in="00:00:00.000" out="00:00:54.000">
   <property name="kdenlive:projectTractor">1</property>
-  <track in="00:00:00.000" out="00:00:53.958" producer="tractor15"/>
+  <track in="00:00:00.000" out="00:00:54.000" producer="tractor15"/>
  </tractor>
 </mlt>
