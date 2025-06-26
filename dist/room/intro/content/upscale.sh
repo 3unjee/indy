@@ -19,21 +19,21 @@ output="$PWD/upscale"
 
 run()
 {
-    if [ $# = 3 ]; then
+    if [ $# = 4 ]; then
 
-        sh topaz.sh "$input/$1" "$output/$1" "$2" "$3" 3840 2160 60
+        sh topaz.sh "$input/$1" "$output/$1" "$2" "$4" 3840 2160 "$3"
     else
-        sh topaz.sh "$input/$1" "$output/$1" "$2" default 3840 2160 60
+        sh topaz.sh "$input/$1" "$output/$1" "$2" default 3840 2160 "$3"
     fi
 }
 
 runWide()
 {
-    if [ $# = 3 ]; then
+    if [ $# = 4 ]; then
 
-        sh topaz.sh "$input/wide/$1" "$output/wide/$1" "$2" "$3" 5110 2160 60
+        sh topaz.sh "$input/wide/$1" "$output/wide/$1" "$2" "$4" 5110 2160 "$3"
     else
-        sh topaz.sh "$input/wide/$1" "$output/wide/$1" "$2" default 5110 2160 60
+        sh topaz.sh "$input/wide/$1" "$output/wide/$1" "$2" default 5110 2160 "$3"
     fi
 }
 
@@ -43,16 +43,16 @@ runWide()
 
 cd "$ffmpeg"
 
-run "intro.mp4"    iris-3
-run "intro2.mp4"   iris-3
-run "intro3.mp4"   iris-3 letterbox
-run "college.mp4"  iris-3
-run "college2.mp4" iris-3
-run "college3.mp4" iris-3
+run "intro.mp4"    iris-3 60
+run "intro2.mp4"   iris-3 60
+run "intro3.mp4"   iris-3 60 letterbox
+run "college.mp4"  iris-3 60
+run "college2.mp4" iris-3 60
+run "college3.mp4" iris-3 60
 
-runWide "intro.mp4"      iris-3
-runWide "intro2.mp4"     iris-3
-runWide "college.mp4"    iris-3
-runWide "college2.mp4"   iris-3
-runWide "college3-1.mp4" iris-3
-runWide "college3-2.mp4" iris-3
+runWide "intro.mp4"      iris-3 60
+runWide "intro2.mp4"     iris-3 60
+runWide "college.mp4"    iris-3 60
+runWide "college2.mp4"   iris-3 60
+runWide "college3-1.mp4" iris-3 60
+runWide "college3-2.mp4" iris-3 60
