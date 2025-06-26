@@ -75,16 +75,16 @@ else
     #----------------------------------------------------------------------------------------------
     # NOTE: copied from upscale.sh
 
-    run "intro.mp4"    iris-3
-    run "intro2.mp4"   iris-3
-    run "intro3.mp4"   iris-3 letterbox
-    run "college.mp4"  iris-3
-    run "college2.mp4" iris-3
-    run "college3.mp4" iris-3
-    runWide "intro.mp4"      iris-3
-    runWide "intro2.mp4"     iris-3
-    runWide "college.mp4"    iris-3
-    runWide "college2.mp4"   iris-3
-    runWide "college3-1.mp4" iris-3
-    runWide "college3-2.mp4" iris-3
+    run "intro.mp4"    iris-3 60
+    run "intro2.mp4"   iris-3 60
+    run "intro3.mp4"   iris-3 60 letterbox
+    run "college.mp4"  iris-3 60
+    run "college2.mp4" iris-3 60
+    run "college3.mp4" iris-3 60
+    runWide "intro.mp4"      iris-3 60
+    runWide "intro2.mp4"     iris-3 60
+    runWide "college.mp4"    iris-3 60
+    runWide "college2.mp4"   iris-3 60
+    runWide "college3-1.mp4" iris-3 60
+    runWide "college3-2.mp4" iris-3 60
 fi
