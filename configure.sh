@@ -180,6 +180,17 @@ if [ $1 = "movie" -o \
         fi
     fi
 
+    source="$extra/$1/music"
+
+    if [ -d "$source" ]; then
+
+        echo "$source"
+
+        path="$PWD/dist/$1/content/music/extra"
+
+        cp "$source"/*.webm "$path"
+    fi
+
     exit 0
 fi
 
