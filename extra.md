@@ -18,6 +18,12 @@ path: assets/extra/indy/movie/indy5.mp4
 title: Indiana Jones and the Dial of Destiny
 length: 2:34:34
 
+path: assets/extra/indy/movie/music/indy.webm
+
+source: https://www.youtube.com/watch?v=3dmRtTJrz5k
+title: Indiana Jones and the Dial of Destiny | Crafting Indy
+length: 4:19
+
 ### intro
 
 path: assets/extra/indy/room/intro/music/intro.webm
