@@ -59,12 +59,12 @@ run "dialog3-sync.mp4" iris-3 60 letterbox
 run "dialog4-sync.mp4" iris-3 60 letterbox
 run "dialog5-sync.mp4" iris-3 60 letterbox
 
-runWide "wide/college2.mp4"  iris-3 60 default
-runWide "wide/college3.mp4"  iris-3 60 default
-runWide "wide/college4.mp4"  iris-3 60 default
-runWide "wide/interior.mp4"  iris-3 60 default
-runWide "wide/interior4.mp4" iris-3 60 default
-runWide "wide/interior5.mp4" iris-3 60 default
-runWide "wide/interior6.mp4" iris-3 60 default
-runWide "wide/interior7.mp4" iris-3 60 default
-runWide "wide/interior8.mp4" iris-3 60 default
+runWide "college2.mp4"  iris-3 60 default
+runWide "college3.mp4"  iris-3 60 default
+runWide "college4.mp4"  iris-3 60 default
+runWide "interior.mp4"  iris-3 60 default
+runWide "interior4.mp4" iris-3 60 default
+runWide "interior5.mp4" iris-3 60 default
+runWide "interior6.mp4" iris-3 60 default
+runWide "interior7.mp4" iris-3 60 default
+runWide "interior8.mp4" iris-3 60 default
