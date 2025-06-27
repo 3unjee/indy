@@ -86,7 +86,7 @@ clean()
 {
     rm -f "$PWD/$1"/data/*_backup*.kdenlive
 
-    rm -f "$PWD/$1"/data/*.kdenlive.ass
+    #rm -f "$PWD/$1"/data/*.kdenlive.ass
 }
 
 #--------------------------------------------------------------------------------------------------

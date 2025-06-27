@@ -8,11 +8,10 @@ OTHER_FILES += configure.sh \
                videos.md \
                indy.vbml \
                local.vbml \
-               deploy/subtitle/attic-eng.srt \
-               deploy/subtitle/attic2-eng.srt \
                dist/profile/default.mlt \
                dist/profile/cinemascope.mlt \
                dist/reference/reference.md \
+               dist/movie/movie.kdenlive.ass \
                dist/room/update.sh \
                dist/room/upscale.sh \
                dist/room/room.md \
@@ -26,6 +25,8 @@ OTHER_FILES += configure.sh \
                dist/room/attic/data/voice.sh \
                dist/room/attic/data/sync.sh \
                dist/room/attic/data/copy.sh \
+               dist/room/attic/data/attic.kdenlive.ass \
+               dist/room/attic/data/attic2.kdenlive.ass \
                dist/room/attic/content/upscale.sh \
                dist/room/attic/content/copy.sh \
                dist/room/attic/content/wide/fix.sh \
@@ -39,6 +40,7 @@ OTHER_FILES += configure.sh \
                dist/room/chase/data/voice.sh \
                dist/room/chase/data/sync.sh \
                dist/room/chase/data/copy.sh \
+               dist/room/chase/data/chase.kdenlive.ass \
                dist/room/chase/content/upscale.sh \
                dist/room/chase/content/copy.sh \
                dist/room/chase/content/wide/fix.sh \
