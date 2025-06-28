@@ -5149,37 +5149,6 @@
   <property name="kdenlive:folderid">-1</property>
   <property name="mute_on_pause">0</property>
  </chain>
- <chain id="chain165" out="00:05:24.042">
-  <property name="length">7778</property>
-  <property name="eof">pause</property>
-  <property name="resource">content/music/extra/indy2.webm</property>
-  <property name="mlt_service">avformat</property>
-  <property name="meta.media.nb_streams">1</property>
-  <property name="meta.media.0.stream.type">audio</property>
-  <property name="meta.media.0.codec.sample_fmt">fltp</property>
-  <property name="meta.media.0.codec.sample_rate">48000</property>
-  <property name="meta.media.0.codec.channels">2</property>
-  <property name="meta.media.0.codec.layout">stereo</property>
-  <property name="meta.media.0.codec.name">opus</property>
-  <property name="meta.media.0.codec.long_name">Opus</property>
-  <property name="meta.media.0.codec.bit_rate">0</property>
-  <property name="meta.attr.0.stream.language.markup">eng</property>
-  <property name="meta.attr.0.stream.ENCODER.markup">Lavc61.19.101 libopus</property>
-  <property name="meta.attr.0.stream.DURATION.markup">00:05:24.090000000</property>
-  <property name="meta.attr.ENCODER.markup">Lavf61.7.100</property>
-  <property name="seekable">1</property>
-  <property name="audio_index">0</property>
-  <property name="video_index">-1</property>
-  <property name="astream">0</property>
-  <property name="kdenlive:control_uuid">{e6d8f899-7697-4ec1-b560-e98e0ccb82a3}</property>
-  <property name="kdenlive:proxy">-</property>
-  <property name="kdenlive:originalurl">content/music/extra/indy2.webm</property>
-  <property name="kdenlive:id">113</property>
-  <property name="kdenlive:clip_type">1</property>
-  <property name="kdenlive:file_size">3941938</property>
-  <property name="kdenlive:file_hash">5345198042797ddc29c8bb2b71c12c87</property>
-  <property name="kdenlive:folderid">-1</property>
- </chain>
  <producer id="producer39" in="00:00:00.000" out="00:00:07.417">
   <property name="length">179</property>
   <property name="eof">pause</property>
@@ -5390,7 +5359,7 @@
  <chain id="chain0" out="00:05:24.042">
   <property name="length">7778</property>
   <property name="eof">pause</property>
-  <property name="resource">content/music/extra/indy2.webm</property>
+  <property name="resource">content/music/extra/indy-80.webm</property>
   <property name="mlt_service">avformat-novalidate</property>
   <property name="seekable">1</property>
   <property name="audio_index">0</property>
@@ -5398,7 +5367,7 @@
   <property name="astream">0</property>
   <property name="kdenlive:control_uuid">{e6d8f899-7697-4ec1-b560-e98e0ccb82a3}</property>
   <property name="kdenlive:proxy">-</property>
-  <property name="kdenlive:originalurl">content/music/extra/indy2.webm</property>
+  <property name="kdenlive:originalurl">content/music/extra/indy-80.webm</property>
   <property name="kdenlive:id">113</property>
   <property name="kdenlive:clip_type">1</property>
   <property name="kdenlive:file_size">3941938</property>
@@ -5608,7 +5577,7 @@
  <chain id="chain3" out="00:05:24.042">
   <property name="length">7778</property>
   <property name="eof">pause</property>
-  <property name="resource">content/music/extra/indy2.webm</property>
+  <property name="resource">content/music/extra/indy-80.webm</property>
   <property name="mlt_service">avformat-novalidate</property>
   <property name="seekable">1</property>
   <property name="audio_index">0</property>
@@ -5616,7 +5585,7 @@
   <property name="astream">0</property>
   <property name="kdenlive:control_uuid">{e6d8f899-7697-4ec1-b560-e98e0ccb82a3}</property>
   <property name="kdenlive:proxy">-</property>
-  <property name="kdenlive:originalurl">content/music/extra/indy2.webm</property>
+  <property name="kdenlive:originalurl">content/music/extra/indy-80.webm</property>
   <property name="kdenlive:id">113</property>
   <property name="kdenlive:clip_type">1</property>
   <property name="kdenlive:file_size">3941938</property>
@@ -5718,7 +5687,7 @@
    <filter id="filter15">
     <property name="window">75</property>
     <property name="max_gain">20dB</property>
-    <property name="level">00:00:04.125=5</property>
+    <property name="level">00:00:04.125=4</property>
     <property name="mlt_service">volume</property>
     <property name="kdenlive_id">volume</property>
     <property name="kdenlive:collapsed">0</property>
@@ -5907,7 +5876,7 @@
  <chain id="chain9" out="00:05:24.042">
   <property name="length">7778</property>
   <property name="eof">pause</property>
-  <property name="resource">content/music/extra/indy2.webm</property>
+  <property name="resource">content/music/extra/indy-80.webm</property>
   <property name="mlt_service">avformat-novalidate</property>
   <property name="seekable">1</property>
   <property name="audio_index">0</property>
@@ -5915,7 +5884,7 @@
   <property name="astream">0</property>
   <property name="kdenlive:control_uuid">{e6d8f899-7697-4ec1-b560-e98e0ccb82a3}</property>
   <property name="kdenlive:proxy">-</property>
-  <property name="kdenlive:originalurl">content/music/extra/indy2.webm</property>
+  <property name="kdenlive:originalurl">content/music/extra/indy-80.webm</property>
   <property name="kdenlive:id">113</property>
   <property name="kdenlive:clip_type">1</property>
   <property name="kdenlive:file_size">3941938</property>
@@ -6031,7 +6000,7 @@
   <entry in="00:00:02.958" out="00:00:08.542" producer="chain9">
    <property name="kdenlive:id">113</property>
    <property name="kdenlive:activeeffect">2</property>
-   <filter id="filter34" in="00:00:06.583" out="00:00:08.583">
+   <filter id="filter34" in="00:00:06.542" out="00:00:08.542">
     <property name="window">75</property>
     <property name="max_gain">20dB</property>
     <property name="mlt_service">volume</property>
@@ -6052,7 +6021,7 @@
    <filter id="filter32">
     <property name="window">75</property>
     <property name="max_gain">20dB</property>
-    <property name="level">00:00:02.958=5</property>
+    <property name="level">00:00:02.958=4</property>
     <property name="mlt_service">volume</property>
     <property name="kdenlive_id">volume</property>
     <property name="kdenlive:collapsed">0</property>
@@ -15270,7 +15239,7 @@
   <property name="kdenlive:clip_type">0</property>
   <property name="kdenlive:file_hash">f88498c2274988ac75573dfdb6c520d7</property>
   <property name="kdenlive:folderid">2</property>
-  <property name="kdenlive:sequenceproperties.activeTrack">2</property>
+  <property name="kdenlive:sequenceproperties.activeTrack">3</property>
   <property name="kdenlive:sequenceproperties.audioTarget">1</property>
   <property name="kdenlive:sequenceproperties.disablepreview">0</property>
   <property name="kdenlive:sequenceproperties.documentuuid">{e2856d23-19ee-42d4-8454-a30a4474724e}</property>
@@ -15281,7 +15250,7 @@
   <property name="kdenlive:sequenceproperties.hasVideo">1</property>
   <property name="kdenlive:sequenceproperties.hidesubtitle">0</property>
   <property name="kdenlive:sequenceproperties.position">3408</property>
-  <property name="kdenlive:sequenceproperties.scrollPos">10175</property>
+  <property name="kdenlive:sequenceproperties.scrollPos">38337</property>
   <property name="kdenlive:sequenceproperties.subtitlesList">[
     {
         "file": "C:/dev/workspace/indy/dist/movie/movie.kdenlive.ass",
@@ -15296,7 +15265,7 @@
   <property name="kdenlive:sequenceproperties.videoTarget">2</property>
   <property name="kdenlive:sequenceproperties.zonein">3144</property>
   <property name="kdenlive:sequenceproperties.zoneout">3408</property>
-  <property name="kdenlive:sequenceproperties.zoom">4</property>
+  <property name="kdenlive:sequenceproperties.zoom">2</property>
   <property name="kdenlive:sequenceproperties.groups">[
 ]
 </property>
@@ -15536,6 +15505,37 @@
    <property name="disable">1</property>
   </filter>
  </tractor>
+ <chain id="chain13" out="00:05:24.042">
+  <property name="length">7778</property>
+  <property name="eof">pause</property>
+  <property name="resource">content/music/extra/indy-80.webm</property>
+  <property name="mlt_service">avformat</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">fltp</property>
+  <property name="meta.media.0.codec.sample_rate">48000</property>
+  <property name="meta.media.0.codec.channels">2</property>
+  <property name="meta.media.0.codec.layout">stereo</property>
+  <property name="meta.media.0.codec.name">opus</property>
+  <property name="meta.media.0.codec.long_name">Opus</property>
+  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.attr.0.stream.ENCODER.markup">Lavc61.19.101 libopus</property>
+  <property name="meta.attr.0.stream.DURATION.markup">00:05:24.090000000</property>
+  <property name="meta.attr.ENCODER.markup">Lavf61.7.100</property>
+  <property name="seekable">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="astream">0</property>
+  <property name="kdenlive:control_uuid">{e6d8f899-7697-4ec1-b560-e98e0ccb82a3}</property>
+  <property name="kdenlive:proxy">-</property>
+  <property name="kdenlive:originalurl">content/music/extra/indy-80.webm</property>
+  <property name="kdenlive:id">113</property>
+  <property name="kdenlive:clip_type">1</property>
+  <property name="kdenlive:file_size">3941938</property>
+  <property name="kdenlive:file_hash">5345198042797ddc29c8bb2b71c12c87</property>
+  <property name="kdenlive:folderid">-1</property>
+ </chain>
  <playlist id="main_bin">
   <property name="kdenlive:folder.-1.2">Sequences</property>
   <property name="kdenlive:sequenceFolder">2</property>
@@ -15627,9 +15627,9 @@
   <property name="kdenlive:docproperties.rendertcoverlay">0</property>
   <property name="kdenlive:docproperties.rendertctype">-1</property>
   <property name="kdenlive:docproperties.rendertwopass">0</property>
-  <property name="kdenlive:docproperties.renderurl">C:/dev/workspace/indy/deploy/wide/movie-test4.mp4</property>
+  <property name="kdenlive:docproperties.renderurl">C:/dev/workspace/indy/deploy/wide/movie-test5.mp4</property>
   <property name="kdenlive:docproperties.seekOffset">30000</property>
-  <property name="kdenlive:docproperties.sessionid">{86f354ea-a7b0-4f4b-bfc7-b98dfa64a6f8}</property>
+  <property name="kdenlive:docproperties.sessionid">{e1040e57-ae98-4a0f-a4fc-619f02d32509}</property>
   <property name="kdenlive:docproperties.uuid">{e2856d23-19ee-42d4-8454-a30a4474724e}</property>
   <property name="kdenlive:docproperties.version">1.1</property>
   <property name="kdenlive:expandedFolders"/>
@@ -15747,7 +15747,6 @@
   <entry in="00:00:00.000" out="00:00:05.042" producer="chain163"/>
   <entry in="00:00:00.000" out="00:00:04.625" producer="chain175"/>
   <entry in="00:00:00.000" out="00:00:04.625" producer="chain172"/>
-  <entry in="00:00:00.000" out="00:05:24.042" producer="chain165"/>
   <entry in="00:00:00.000" out="00:00:07.417" producer="producer39"/>
   <entry in="00:00:00.000" out="00:00:15.167" producer="chain149"/>
   <entry in="00:00:00.000" out="00:06:00.458" producer="chain127"/>
@@ -15755,7 +15754,8 @@
   <entry in="00:00:00.000" out="00:00:15.167" producer="chain150"/>
   <entry in="00:00:00.000" out="00:06:00.458" producer="chain128"/>
   <entry in="00:00:00.000" out="00:00:07.417" producer="producer40"/>
-  <entry in="00:00:00.000" out="00:02:44.250" producer="tractor18"/>
+  <entry in="00:00:00.000" out="00:02:21.958" producer="tractor18"/>
+  <entry in="00:00:00.000" out="00:05:24.042" producer="chain13"/>
  </playlist>
  <tractor id="tractor19" in="00:00:00.000" out="00:02:21.958">
   <property name="kdenlive:projectTractor">1</property>
