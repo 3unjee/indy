@@ -7,19 +7,19 @@ set -e
 
 root="$PWD"
 
-ffmpeg="$PWD/../../../../../Sky/tools/ffmpeg"
+ffmpeg="$PWD/../../../../Sky/tools/ffmpeg"
 
-input="$PWD/voice"
+input="$PWD/music/extra"
 
-output="$PWD/../content/voice"
+output="$PWD/music/extra"
 
 #--------------------------------------------------------------------------------------------------
 # Functions
 #--------------------------------------------------------------------------------------------------
 
-volume()
+tempo()
 {
-    sh volume.sh "$input/$1" "$output/$1" "$2"
+    sh tempo.sh "$input/$1" "$output/$2" "$3" "$4"
 }
 
 #--------------------------------------------------------------------------------------------------
@@ -28,17 +28,4 @@ volume()
 
 cd "$ffmpeg"
 
-volume "attic.mp3"  20
-volume "attic2.mp3" 20
-volume "attic3.mp3" 20
-volume "attic4.mp3" 20
-volume "attic5.mp3" 20
-volume "attic6.mp3" 20
-
-volume "cross.mp3"  20
-volume "cross2.mp3" 20
-volume "cross3.mp3" 20
-
-volume "gargoyle.mp3"  20
-volume "gargoyle2.mp3" 20
-volume "gargoyle3.mp3" 20
+tempo "indy.webm" "indy2.webm" 0.8 20

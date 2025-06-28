@@ -12,6 +12,7 @@ OTHER_FILES += configure.sh \
                dist/profile/cinemascope.mlt \
                dist/reference/reference.md \
                dist/movie/movie.kdenlive.ass \
+               dist/movie/content/tempo.sh \
                dist/room/update.sh \
                dist/room/upscale.sh \
                dist/room/room.md \
