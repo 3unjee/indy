@@ -19,7 +19,7 @@ output="$PWD/music/extra"
 
 tempo()
 {
-    sh tempo.sh "$input/$1" "$output/$2" "$3" "$4"
+    sh tempo.sh "$input/$1" "$output/$2" "$3"
 }
 
 #--------------------------------------------------------------------------------------------------
@@ -28,4 +28,4 @@ tempo()
 
 cd "$ffmpeg"
 
-tempo "indy.webm" "indy2.webm" 0.8 20
+tempo "indy.webm" "indy-80.webm" 0.8
