@@ -18,9 +18,14 @@ render()
 {
     cd "$PWD"/../..
 
-    sh render.sh "room/$1"
+    sh render.sh "$1"
 
     cd -
+}
+
+room()
+{
+    render "room/$1"
 }
 
 #--------------------------------------------------------------------------------------------------
@@ -30,11 +35,14 @@ render()
 #upscale "intro"
 #upscale "attic"
 #upscale "attic2"
-upscale "chase"
+#upscale "chase"
 
 #--------------------------------------------------------------------------------------------------
 # Render
 #--------------------------------------------------------------------------------------------------
 
-#render "attic2"
-#render "chase"
+render "movie"
+
+room "attic"
+#room "attic2"
+#room "chase"

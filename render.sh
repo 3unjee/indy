@@ -59,7 +59,7 @@ render()
         nameOutput="wide/$nameOutput"
     fi
 
-    local input=$(getPath "$root/dist/room/$path/data/$nameInput.kdenlive")
+    local input=$(getPath "$root/dist/$path/$nameInput.kdenlive")
 
     local output=$(getPath "$root/deploy/$nameOutput.mp4")
 
@@ -74,6 +74,22 @@ render()
            ab=160k acodec=aac channels=2 crf=$crf f=mp4 g=15 movflags=+faststart preset=veryfast \
            real_time=-1 threads=0 vcodec=libx264 \
            -progress -verbose
+}
+
+room()
+{
+    local name="$1"
+
+    shift
+
+    local path="room/$name/data"
+
+    if [ $# = 1 ]; then
+
+        render "$path" "$name" "$@"
+    else
+        render "$path" "$@"
+    fi
 }
 
 getOs()
@@ -119,12 +135,14 @@ getPath()
 #--------------------------------------------------------------------------------------------------
 
 if [ $# != 1 ] || [ $1 != "all"         -a \
+                    $1 != "movie"       -a \
                     $1 != "room/intro"  -a \
                     $1 != "room/attic"  -a \
                     $1 != "room/attic2" -a \
                     $1 != "room/chase" ]; then
 
     echo "Usage: render <all>"
+    echo "              <movie>"
     echo "              <room/intro>"
     echo "              <room/attic>"
     echo "              <room/attic2>"
@@ -133,9 +151,9 @@ if [ $# != 1 ] || [ $1 != "all"         -a \
     exit 1
 fi
 
-read -p "Run render for $1 ? (yes/no) " REPLY
+#read -p "Run render for $1 ? (yes/no) " REPLY
 
-if [ "$REPLY" != "yes" ]; then exit 1; fi
+#if [ "$REPLY" != "yes" ]; then exit 1; fi
 
 #--------------------------------------------------------------------------------------------------
 # All
@@ -143,6 +161,7 @@ if [ "$REPLY" != "yes" ]; then exit 1; fi
 
 if [ $1 = "all" ]; then
 
+    sh render.sh "movie"
     sh render.sh "room/intro"
     sh render.sh "room/attic"
     sh render.sh "room/attic2"
@@ -170,26 +189,30 @@ fi
 
 cd "$bin"
 
-if [ $1 = "room/intro" ]; then
+if [ $1 = "movie" ]; then
 
-    render "intro" "wide"
-    render "intro" "16-9"
+    render "movie" "wide"
+
+elif [ $1 = "room/intro" ]; then
+
+    room "intro" "wide"
+    room "intro" "16-9"
 
 elif [ $1 = "room/attic" ]; then
 
-    render "attic" "wide"
-    render "attic" "16-9"
+    room "attic" "wide"
+    room "attic" "16-9"
 
-    render "attic" "attic2" "wide"
-    render "attic" "attic2" "16-9"
+    room "attic" "attic2" "wide"
+    room "attic" "attic2" "16-9"
 
 elif [ $1 = "room/attic2" ]; then
 
-    render "attic2" "attic2" "attic2-1" "wide"
-    render "attic2" "attic2" "attic2-1" "16-9"
+    room "attic2" "attic2" "attic2-1" "wide"
+    room "attic2" "attic2" "attic2-1" "16-9"
 
 elif [ $1 = "room/chase" ]; then
 
-    render "chase" "wide"
-    render "chase" "16-9"
+    room "chase" "wide"
+    #room "chase" "16-9"
 fi
