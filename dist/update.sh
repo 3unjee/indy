@@ -7,7 +7,7 @@ set -e
 
 updateCopy()
 {
-    local path="$PWD/$1/content"
+    local path="$PWD/room/$1/content"
 
     local upscale="$path/upscale.sh"
 
@@ -44,7 +44,7 @@ updateCopy()
     ' "$copy" > "$copy.tmp" && mv "$copy.tmp" "$copy"
 }
 
-generate()
+generateBase()
 {
     local path="$PWD/$1/data"
 
@@ -82,11 +82,21 @@ generate()
     ' "$path/$input" > "$path/16-9/$input"
 }
 
-clean()
+generate()
+{
+    generateBase "room/$1"
+}
+
+cleanBase()
 {
     rm -f "$PWD/$1"/data/*_backup*.kdenlive
 
     #rm -f "$PWD/$1"/data/*.kdenlive.ass
+}
+
+clean()
+{
+    clean "room/$1"
 }
 
 #--------------------------------------------------------------------------------------------------
@@ -102,6 +112,8 @@ updateCopy "chase"
 # 16-9
 #--------------------------------------------------------------------------------------------------
 
+#generateBase "movie"
+
 #generate "intro"
 
 #generate "attic"
@@ -114,6 +126,8 @@ updateCopy "chase"
 #--------------------------------------------------------------------------------------------------
 # Clean
 #--------------------------------------------------------------------------------------------------
+
+cleanBase "movie"
 
 clean "intro"
 clean "attic"

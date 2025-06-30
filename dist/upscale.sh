@@ -7,25 +7,25 @@ set -e
 
 upscale()
 {
-    cd "$PWD/$1"/content
+    cd "$PWD/room/$1"/content
 
     sh upscale.sh
 
     cd -
 }
 
-render()
+renderBase()
 {
-    cd "$PWD"/../..
+    cd "$PWD"/..
 
     sh render.sh "$1"
 
     cd -
 }
 
-room()
+render()
 {
-    render "room/$1"
+    renderBase "room/$1"
 }
 
 #--------------------------------------------------------------------------------------------------
@@ -41,8 +41,8 @@ room()
 # Render
 #--------------------------------------------------------------------------------------------------
 
-#render "movie"
+#renderBase "movie"
 
-#room "attic"
-#room "attic2"
-#room "chase"
+#render "attic"
+#render "attic2"
+#render "chase"

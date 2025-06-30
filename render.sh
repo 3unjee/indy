@@ -19,7 +19,7 @@ crf="23"
 # Functions
 #--------------------------------------------------------------------------------------------------
 
-render()
+renderBase()
 {
     local path="$1"
 
@@ -84,7 +84,7 @@ render()
     rm -f "$temp"
 }
 
-room()
+render()
 {
     local name="$1"
 
@@ -94,9 +94,9 @@ room()
 
     if [ $# = 1 ]; then
 
-        render "$path" "$name" "$@"
+        renderBase "$path" "$name" "$@"
     else
-        render "$path" "$@"
+        renderBase "$path" "$@"
     fi
 }
 
@@ -199,28 +199,28 @@ cd "$bin"
 
 if [ $1 = "movie" ]; then
 
-    render "movie" "wide"
+    renderBase "movie" "wide"
 
 elif [ $1 = "room/intro" ]; then
 
-    room "intro" "wide"
-    room "intro" "16-9"
+    render "intro" "wide"
+    render "intro" "16-9"
 
 elif [ $1 = "room/attic" ]; then
 
-    room "attic" "wide"
-    room "attic" "16-9"
+    render "attic" "wide"
+    render "attic" "16-9"
 
-    room "attic" "attic2" "wide"
-    room "attic" "attic2" "16-9"
+    render "attic" "attic2" "wide"
+    render "attic" "attic2" "16-9"
 
 elif [ $1 = "room/attic2" ]; then
 
-    room "attic2" "attic2" "attic2-1" "wide"
-    room "attic2" "attic2" "attic2-1" "16-9"
+    render "attic2" "attic2" "attic2-1" "wide"
+    render "attic2" "attic2" "attic2-1" "16-9"
 
 elif [ $1 = "room/chase" ]; then
 
-    room "chase" "wide"
-    #room "chase" "16-9"
+    render "chase" "wide"
+    render "chase" "16-9"
 fi

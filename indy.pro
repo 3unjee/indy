@@ -8,13 +8,13 @@ OTHER_FILES += configure.sh \
                videos.md \
                indy.vbml \
                local.vbml \
+               dist/update.sh \
+               dist/upscale.sh \
                dist/profile/default.mlt \
                dist/profile/cinemascope.mlt \
                dist/reference/reference.md \
                dist/movie/movie.kdenlive.ass \
                dist/movie/content/tempo.sh \
-               dist/room/update.sh \
-               dist/room/upscale.sh \
                dist/room/room.md \
                dist/room/intro/intro.md \
                dist/room/intro/data/upscale.sh \
