@@ -41,8 +41,8 @@ room()
 # Render
 #--------------------------------------------------------------------------------------------------
 
-render "movie"
+#render "movie"
 
-room "attic"
+#room "attic"
 #room "attic2"
 #room "chase"
