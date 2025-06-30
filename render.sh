@@ -59,21 +59,29 @@ render()
         nameOutput="wide/$nameOutput"
     fi
 
-    local input=$(getPath "$root/dist/$path/$nameInput.kdenlive")
+    local input=$(getPath "$root/dist/$path/data/$nameInput.kdenlive")
 
     local output=$(getPath "$root/deploy/$nameOutput.mp4")
 
     local profile=$(getPath "$root/dist/profile/$nameProfile.mlt")
 
+    local temp=$(getPath "$root/deploy/temp.mp4")
+
     echo "Rendering from: $input"
     echo "Output:         $output"
     echo "Profile:        $profile"
 
+    rm -f "$temp"
+
     # NOTE: These settings are extracted from the kdenlive render panel.
-    ./melt "$input" -profile "$profile" -consumer avformat:"$output" \
+    ./melt "$input" -profile "$profile" -consumer avformat:"$temp" \
            ab=160k acodec=aac channels=2 crf=$crf f=mp4 g=15 movflags=+faststart preset=veryfast \
            real_time=-1 threads=0 vcodec=libx264 \
            -progress -verbose
+
+    mv "$temp" "$output"
+
+    rm -f "$temp"
 }
 
 room()
@@ -82,7 +90,7 @@ room()
 
     shift
 
-    local path="room/$name/data"
+    local path="room/$name"
 
     if [ $# = 1 ]; then
 
