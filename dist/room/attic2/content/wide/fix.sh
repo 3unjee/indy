@@ -44,12 +44,12 @@ runBase()
 
 cd "$ffmpeg"
 
-run "attic.mp4"  1
-run "attic2.mp4" 1
+run "attic.mp4"    1
+run "attic2.mp4"   1
 run "indy.mp4"
-run "indy2.mp4"  1
-run "indy4.mp4"  1
-run "indy5.mp4"  1
-run "indy6.mp4"  1
-run "book.mp4"   1
-run "book2.mp4"  1
+run "indy2-v2.mp4" 1
+run "indy4-v2.mp4" 1
+run "indy5.mp4"    1
+run "indy6.mp4"    1
+run "book.mp4"     1
+run "book2.mp4"    1
