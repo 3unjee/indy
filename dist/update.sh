@@ -2,11 +2,82 @@
 set -e
 
 #--------------------------------------------------------------------------------------------------
+# Documents
+#--------------------------------------------------------------------------------------------------
+
+code_upscale=$(cat <<'EOF'
+root="$PWD"
+
+ffmpeg="$PWD/../../../../../Sky/tools/ffmpeg"
+
+input="$PWD"
+
+output="$PWD/upscale"
+
+#--------------------------------------------------------------------------------------------------
 # Functions
 #--------------------------------------------------------------------------------------------------
 
-updateCopy()
+run()
 {
+    if [ $# = 4 ]; then
+
+        sh topaz.sh "$input/$1" "$output/$1" "$2" "$4" 3840 2160 "$3"
+    else
+        sh topaz.sh "$input/$1" "$output/$1" "$2" default 3840 2160 "$3"
+    fi
+}
+
+runWide()
+{
+    if [ $# = 4 ]; then
+
+        sh topaz.sh "$input/wide/$1" "$output/wide/$1" "$2" "$4" 5110 2160 "$3"
+    else
+        sh topaz.sh "$input/wide/$1" "$output/wide/$1" "$2" default 5110 2160 "$3"
+    fi
+}
+
+#--------------------------------------------------------------------------------------------------
+# Run
+#--------------------------------------------------------------------------------------------------
+
+cd "$ffmpeg"
+EOF
+)
+
+#--------------------------------------------------------------------------------------------------
+# Functions
+#--------------------------------------------------------------------------------------------------
+
+replace()
+{
+    local file="$PWD/room/$1/content/$2.sh"
+
+    # Use awk to replace block
+    awk -v content="$3" '
+        BEGIN { in_block=0 }
+        {
+            if ($0 ~ /^# BEGIN code/) {
+                print $0
+                print content
+                in_block=1
+                next
+            }
+            if ($0 ~ /^# END code/) {
+                in_block=0
+            }
+            if (!in_block) {
+                print $0
+            }
+        }
+    ' "$file" > "file.tmp" && mv "file.tmp" "$file"
+}
+
+updateScript()
+{
+    replace "$1" "upscale.sh" "$code_upscale"
+
     local path="$PWD/room/$1/content"
 
     local upscale="$path/upscale.sh"
@@ -103,10 +174,10 @@ clean()
 # Copy
 #--------------------------------------------------------------------------------------------------
 
-updateCopy "intro"
-updateCopy "attic"
-updateCopy "attic2"
-updateCopy "chase"
+updateScript "intro"
+updateScript "attic"
+updateScript "attic2"
+updateScript "chase"
 
 #--------------------------------------------------------------------------------------------------
 # 16-9
