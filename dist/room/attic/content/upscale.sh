@@ -43,12 +43,6 @@ runWide()
 
 cd "$ffmpeg"
 
-run "dialog2.mp4" iris-3 60
-run "dialog2-sync.mp4" iris-3 60 letterbox
-runWide "dialog2.mp4"   iris-3 60
-
-exit 0
-
 run "attic.mp4"   iris-3 60
 run "attic2.mp4"  iris-3 60
 run "attic5.mp4"  iris-3 60
