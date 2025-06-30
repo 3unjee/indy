@@ -76,7 +76,7 @@ replace()
 
 updateScript()
 {
-    replace "$1" "upscale.sh" "$code_upscale"
+    replace "$1" "upscale" "$code_upscale"
 
     local path="$PWD/room/$1/content"
 

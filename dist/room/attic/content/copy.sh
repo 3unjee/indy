@@ -94,10 +94,10 @@ else
     run "cross7.mp4"    iris-3 60
     run "gargoyle6.mp4" iris-3 60
     run "dialog.mp4"  iris-3 30
-    run "dialog2.mp4" iris-3 30
+    run "dialog2.mp4" iris-3 60
     run "dialog3.mp4" iris-3 24
     run "dialog-sync.mp4"  iris-3 30 letterbox
-    run "dialog2-sync.mp4" iris-3 30 letterbox
+    run "dialog2-sync.mp4" iris-3 60 letterbox
     run "dialog3-sync.mp4" iris-3 24 letterbox
     runWide "attic.mp4"     iris-3 60
     runWide "attic2.mp4"    iris-3 60
@@ -116,7 +116,7 @@ else
     runWide "cross6.mp4"    iris-3 60
     runWide "cross7.mp4"    iris-3 60
     runWide "gargoyle6.mp4" iris-3 60
-    runWide "dialog2.mp4"   iris-3 30
+    runWide "dialog2.mp4"   iris-3 60
     runWide "attic11-1.mp4" iris-3 60
     runWide "attic11-2.mp4" iris-3 60
     runWide "dialog3-1.mp4" iris-3 24
