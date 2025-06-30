@@ -153,56 +153,6 @@
   <property name="kdenlive:file_hash">36d164c49fb6c335705e1bb0cac89853</property>
   <property name="kdenlive:monitorPosition">0</property>
  </chain>
- <chain id="chain9" out="00:00:04.625">
-  <property name="length">112</property>
-  <property name="eof">pause</property>
-  <property name="resource">C:/dev/workspace/indy/dist/room/attic2/content/indy4.mp4</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="meta.media.nb_streams">1</property>
-  <property name="meta.media.0.stream.type">video</property>
-  <property name="meta.media.0.stream.frame_rate">24</property>
-  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
-  <property name="meta.media.0.codec.width">1360</property>
-  <property name="meta.media.0.codec.height">752</property>
-  <property name="meta.media.0.codec.rotate">0</property>
-  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
-  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
-  <property name="meta.media.0.codec.colorspace">709</property>
-  <property name="meta.media.0.codec.name">h264</property>
-  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
-  <property name="meta.media.0.codec.bit_rate">5774794</property>
-  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
-  <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
-  <property name="meta.attr.major_brand.markup">isom</property>
-  <property name="meta.attr.minor_version.markup">512</property>
-  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
-  <property name="meta.attr.encoder.markup">Lavf58.76.100</property>
-  <property name="seekable">1</property>
-  <property name="meta.media.sample_aspect_num">1</property>
-  <property name="meta.media.sample_aspect_den">1</property>
-  <property name="audio_index">-1</property>
-  <property name="video_index">0</property>
-  <property name="vstream">0</property>
-  <property name="meta.media.frame_rate_num">24</property>
-  <property name="meta.media.frame_rate_den">1</property>
-  <property name="meta.media.colorspace">709</property>
-  <property name="meta.media.color_trc">2</property>
-  <property name="meta.media.has_b_frames">2</property>
-  <property name="meta.media.width">1360</property>
-  <property name="meta.media.height">752</property>
-  <property name="meta.media.aspect_ratio">1</property>
-  <property name="meta.media.color_range">mpeg</property>
-  <property name="meta.media.top_field_first">0</property>
-  <property name="meta.media.progressive">1</property>
-  <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:id">7</property>
-  <property name="kdenlive:control_uuid">{7831d47e-2c15-4a8c-84d5-aa4ee9478942}</property>
-  <property name="mute_on_pause">0</property>
-  <property name="kdenlive:clip_type">2</property>
-  <property name="kdenlive:file_size">3370872</property>
-  <property name="kdenlive:file_hash">265a51f462b53a450a35149723dceea1</property>
-  <property name="kdenlive:monitorPosition">0</property>
- </chain>
  <chain id="chain10" out="00:00:03.958">
   <property name="length">96</property>
   <property name="eof">pause</property>
@@ -411,8 +361,112 @@
   <property name="kdenlive:clip_type">2</property>
   <property name="kdenlive:file_size">7196144</property>
   <property name="kdenlive:file_hash">eb1b8be4979cd33facc032381a028ed4</property>
+  <property name="kdenlive:monitorPosition">0</property>
  </producer>
- <producer id="producer0" in="00:00:00.000" out="00:05:38.667">
+ <chain id="chain15" out="00:00:05.042">
+  <property name="length">122</property>
+  <property name="eof">pause</property>
+  <property name="resource">C:/dev/workspace/indy/dist/room/attic2/content/indy6.mp4</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">30</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1280</property>
+  <property name="meta.media.0.codec.height">720</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">10027312</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.metadata1.markup">OQF8A2a9aqz6yEYyeWKLZ4OYVDBZ7SvaqHkJBgqydeENYWxRFdVKPmP+/lukJg5m8cjPYJ9dd2PHbuWkIrJeRutVnGOT3IYVZ4gydeBEVBNgaEsa+Rxb3jC1haEFdgOzxMijPASIg+XuX662gbkw9jss79dGXigNDNvFmpzFkfuDq5fnQ29UoBTAB</property>
+  <property name="meta.attr.metadata0.markup">ChtzZWN1cml0eS5rbGluZy5tZXRhX2VuY3J5cHQS8AF+xtm3IqO36YRY972lbLMYYpcxpRP3u9d9jsy2UREb2g/1pqRRht9GAIiIXQfIfnVNpJM/mrdjneNWqbzQaeIgknfJT1G1eFSW1kDobwyPvBN534NLVrlQo14xXGP3JxQk8BtKhWu510zvXzozkqdz8QFxBjWcYoyb0CohdJXNB1YflYRX+SdV7pBOC8UaE7jdGChXvNlTk5Z9B1ET2DV</property>
+  <property name="meta.attr.encoder.markup">Lavf58.45.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="vstream">0</property>
+  <property name="meta.media.frame_rate_num">30</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.has_b_frames">2</property>
+  <property name="meta.media.width">1280</property>
+  <property name="meta.media.height">720</property>
+  <property name="meta.media.aspect_ratio">1</property>
+  <property name="meta.media.color_range">mpeg</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">16</property>
+  <property name="kdenlive:control_uuid">{2c1b7376-636e-4cb8-b829-830ad2ca13b5}</property>
+  <property name="mute_on_pause">0</property>
+  <property name="kdenlive:clip_type">2</property>
+  <property name="kdenlive:file_size">6395892</property>
+  <property name="kdenlive:file_hash">2c67ee3963c1005a17826b1408665e6f</property>
+  <property name="kdenlive:monitorPosition">0</property>
+ </chain>
+ <chain id="chain16" out="00:00:09.542">
+  <property name="length">230</property>
+  <property name="eof">pause</property>
+  <property name="resource">C:/dev/workspace/indy/dist/room/attic2/content/indy5.mp4</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">30</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1280</property>
+  <property name="meta.media.0.codec.height">720</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">6283764</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.metadata1.markup">R8gfvMHAnH+TuDdc/jqieqE1Ul6b5qEsmPVEGcIja3rGCsSF3L+etLggtJnyPZ5wUMK2SYgvOLBiJvNkhks2jQCQemaOK10P7Q3Qyrbyp2yMaEtgwYXwSZZrANFTt/HfNjE8c1yIgRRNgdWphEgKIEh3pGpSiN7uzPwClolKTtyXU7dOXC1soBTAB</property>
+  <property name="meta.attr.metadata0.markup">ChtzZWN1cml0eS5rbGluZy5tZXRhX2VuY3J5cHQS8AEAtHsHWXu0LL3wEabyV8lBX47wUovZVeZVOzAXH5WvpvcBNdxCPXPVtxoOgM8oMrOcekA4+vt2CENyJXz9p90lvYEKU2V4Jbd1xiCpBByuan37pG+HPnKVIvPLrIbTxMVIkJjmS1alDdVScCo+mknODy4yyKQMZMcE5upQIT296ZgFN9azlZUhrOhaUA9LmUwmYANA/qKAYrvoKG5fQsU</property>
+  <property name="meta.attr.encoder.markup">Lavf58.45.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="vstream">0</property>
+  <property name="meta.media.frame_rate_num">30</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.has_b_frames">2</property>
+  <property name="meta.media.width">1280</property>
+  <property name="meta.media.height">720</property>
+  <property name="meta.media.aspect_ratio">1</property>
+  <property name="meta.media.color_range">mpeg</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">17</property>
+  <property name="kdenlive:control_uuid">{b804c472-cc0b-466f-b162-7d81c91ea7b8}</property>
+  <property name="mute_on_pause">0</property>
+  <property name="kdenlive:clip_type">2</property>
+  <property name="kdenlive:file_size">7545589</property>
+  <property name="kdenlive:file_hash">8da53e32cf0d43ce82b67b10abb475ee</property>
+ </chain>
+ <producer id="producer0" in="00:00:00.000" out="00:05:56.583">
   <property name="length">2147483647</property>
   <property name="eof">continue</property>
   <property name="resource">black</property>
@@ -657,39 +711,40 @@
  <chain id="chain3" out="00:00:04.625">
   <property name="length">112</property>
   <property name="eof">pause</property>
-  <property name="resource">C:/dev/workspace/indy/dist/room/attic2/content/indy4.mp4</property>
+  <property name="resource">C:/dev/workspace/indy/dist/room/attic2/content/indy4-v2.mp4</property>
   <property name="mlt_service">avformat-novalidate</property>
   <property name="seekable">1</property>
   <property name="audio_index">-1</property>
   <property name="video_index">0</property>
   <property name="vstream">0</property>
-  <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:id">7</property>
   <property name="kdenlive:control_uuid">{7831d47e-2c15-4a8c-84d5-aa4ee9478942}</property>
+  <property name="kdenlive:proxy">-</property>
+  <property name="kdenlive:originalurl">C:/dev/workspace/indy/dist/room/attic2/content/indy4-v2.mp4</property>
+  <property name="kdenlive:id">7</property>
   <property name="mute_on_pause">0</property>
   <property name="kdenlive:clip_type">2</property>
-  <property name="kdenlive:file_size">3370872</property>
-  <property name="kdenlive:file_hash">265a51f462b53a450a35149723dceea1</property>
-  <property name="kdenlive:monitorPosition">0</property>
+  <property name="kdenlive:file_size">8007452</property>
+  <property name="kdenlive:file_hash">b77b4969ccc6583ce2b70de33b891c3f</property>
+  <property name="kdenlive:folderid">-1</property>
   <property name="meta.media.nb_streams">1</property>
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">24</property>
   <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
-  <property name="meta.media.0.codec.width">1360</property>
-  <property name="meta.media.0.codec.height">752</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1060</property>
   <property name="meta.media.0.codec.rotate">0</property>
   <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
   <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
   <property name="meta.media.0.codec.colorspace">709</property>
   <property name="meta.media.0.codec.name">h264</property>
   <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
-  <property name="meta.media.0.codec.bit_rate">5774794</property>
+  <property name="meta.media.0.codec.bit_rate">13723126</property>
   <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
   <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
   <property name="meta.attr.major_brand.markup">isom</property>
   <property name="meta.attr.minor_version.markup">512</property>
   <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
-  <property name="meta.attr.encoder.markup">Lavf58.76.100</property>
+  <property name="meta.attr.encoder.markup">Lavf61.7.100</property>
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="meta.media.frame_rate_num">24</property>
@@ -697,8 +752,8 @@
   <property name="meta.media.colorspace">709</property>
   <property name="meta.media.color_trc">2</property>
   <property name="meta.media.has_b_frames">2</property>
-  <property name="meta.media.width">1360</property>
-  <property name="meta.media.height">752</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1060</property>
   <property name="meta.media.aspect_ratio">1</property>
   <property name="meta.media.color_range">mpeg</property>
   <property name="xml">was here</property>
@@ -816,36 +871,38 @@
  <producer id="producer6" in="00:00:00.000" out="00:00:04.625">
   <property name="length">112</property>
   <property name="eof">pause</property>
-  <property name="resource">-1.000000:C:/dev/workspace/indy/dist/room/attic2/content/indy2.mp4</property>
+  <property name="resource">-1.000000:C:/dev/workspace/indy/dist/room/attic2/content/indy2-v2.mp4</property>
   <property name="aspect_ratio">1</property>
   <property name="meta.media.nb_streams">1</property>
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">24</property>
   <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
-  <property name="meta.media.0.codec.width">1360</property>
-  <property name="meta.media.0.codec.height">752</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1060</property>
   <property name="meta.media.0.codec.rotate">0</property>
   <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
   <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
   <property name="meta.media.0.codec.colorspace">709</property>
   <property name="meta.media.0.codec.name">h264</property>
   <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
-  <property name="meta.media.0.codec.bit_rate">4313744</property>
+  <property name="meta.media.0.codec.bit_rate">10939236</property>
   <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
   <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
   <property name="meta.attr.major_brand.markup">isom</property>
   <property name="meta.attr.minor_version.markup">512</property>
   <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
-  <property name="meta.attr.encoder.markup">Lavf58.76.100</property>
+  <property name="meta.attr.encoder.markup">Lavf61.7.100</property>
   <property name="seekable">1</property>
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="audio_index">-1</property>
   <property name="video_index">0</property>
   <property name="warp_speed">-1</property>
-  <property name="warp_resource">C:/dev/workspace/indy/dist/room/attic2/content/indy2.mp4</property>
+  <property name="warp_resource">C:/dev/workspace/indy/dist/room/attic2/content/indy2-v2.mp4</property>
   <property name="mlt_service">timewarp</property>
   <property name="kdenlive:control_uuid">{bdf697e6-e8f6-4687-bfc8-17671cf12f16}</property>
+  <property name="kdenlive:proxy">-</property>
+  <property name="kdenlive:originalurl">C:/dev/workspace/indy/dist/room/attic2/content/indy2-v2.mp4</property>
   <property name="vstream">0</property>
   <property name="astream">-1</property>
   <property name="set.test_audio">1</property>
@@ -857,13 +914,121 @@
   <property name="meta.media.colorspace">709</property>
   <property name="meta.media.color_trc">2</property>
   <property name="meta.media.has_b_frames">2</property>
-  <property name="meta.media.width">1360</property>
-  <property name="meta.media.height">752</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1060</property>
   <property name="meta.media.aspect_ratio">1</property>
   <property name="meta.media.color_range">mpeg</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
  </producer>
+ <chain id="chain13" out="00:00:05.042">
+  <property name="length">122</property>
+  <property name="eof">pause</property>
+  <property name="resource">C:/dev/workspace/indy/dist/room/attic2/content/indy6.mp4</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="seekable">1</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="vstream">0</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">16</property>
+  <property name="kdenlive:control_uuid">{2c1b7376-636e-4cb8-b829-830ad2ca13b5}</property>
+  <property name="mute_on_pause">0</property>
+  <property name="kdenlive:clip_type">2</property>
+  <property name="kdenlive:file_size">6395892</property>
+  <property name="kdenlive:file_hash">2c67ee3963c1005a17826b1408665e6f</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">30</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1280</property>
+  <property name="meta.media.0.codec.height">720</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">10027312</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.metadata1.markup">OQF8A2a9aqz6yEYyeWKLZ4OYVDBZ7SvaqHkJBgqydeENYWxRFdVKPmP+/lukJg5m8cjPYJ9dd2PHbuWkIrJeRutVnGOT3IYVZ4gydeBEVBNgaEsa+Rxb3jC1haEFdgOzxMijPASIg+XuX662gbkw9jss79dGXigNDNvFmpzFkfuDq5fnQ29UoBTAB</property>
+  <property name="meta.attr.metadata0.markup">ChtzZWN1cml0eS5rbGluZy5tZXRhX2VuY3J5cHQS8AF+xtm3IqO36YRY972lbLMYYpcxpRP3u9d9jsy2UREb2g/1pqRRht9GAIiIXQfIfnVNpJM/mrdjneNWqbzQaeIgknfJT1G1eFSW1kDobwyPvBN534NLVrlQo14xXGP3JxQk8BtKhWu510zvXzozkqdz8QFxBjWcYoyb0CohdJXNB1YflYRX+SdV7pBOC8UaE7jdGChXvNlTk5Z9B1ET2DV</property>
+  <property name="meta.attr.encoder.markup">Lavf58.45.100</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="meta.media.frame_rate_num">30</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.has_b_frames">2</property>
+  <property name="meta.media.width">1280</property>
+  <property name="meta.media.height">720</property>
+  <property name="meta.media.aspect_ratio">1</property>
+  <property name="meta.media.color_range">mpeg</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+  <property name="set.test_audio">1</property>
+  <property name="set.test_image">0</property>
+ </chain>
+ <chain id="chain14" out="00:00:09.542">
+  <property name="length">230</property>
+  <property name="eof">pause</property>
+  <property name="resource">C:/dev/workspace/indy/dist/room/attic2/content/indy5.mp4</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="seekable">1</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="vstream">0</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">17</property>
+  <property name="kdenlive:control_uuid">{b804c472-cc0b-466f-b162-7d81c91ea7b8}</property>
+  <property name="mute_on_pause">0</property>
+  <property name="kdenlive:clip_type">2</property>
+  <property name="kdenlive:file_size">7545589</property>
+  <property name="kdenlive:file_hash">8da53e32cf0d43ce82b67b10abb475ee</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">30</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1280</property>
+  <property name="meta.media.0.codec.height">720</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">6283764</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.metadata1.markup">R8gfvMHAnH+TuDdc/jqieqE1Ul6b5qEsmPVEGcIja3rGCsSF3L+etLggtJnyPZ5wUMK2SYgvOLBiJvNkhks2jQCQemaOK10P7Q3Qyrbyp2yMaEtgwYXwSZZrANFTt/HfNjE8c1yIgRRNgdWphEgKIEh3pGpSiN7uzPwClolKTtyXU7dOXC1soBTAB</property>
+  <property name="meta.attr.metadata0.markup">ChtzZWN1cml0eS5rbGluZy5tZXRhX2VuY3J5cHQS8AEAtHsHWXu0LL3wEabyV8lBX47wUovZVeZVOzAXH5WvpvcBNdxCPXPVtxoOgM8oMrOcekA4+vt2CENyJXz9p90lvYEKU2V4Jbd1xiCpBByuan37pG+HPnKVIvPLrIbTxMVIkJjmS1alDdVScCo+mknODy4yyKQMZMcE5upQIT296ZgFN9azlZUhrOhaUA9LmUwmYANA/qKAYrvoKG5fQsU</property>
+  <property name="meta.attr.encoder.markup">Lavf58.45.100</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="meta.media.frame_rate_num">30</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.has_b_frames">2</property>
+  <property name="meta.media.width">1280</property>
+  <property name="meta.media.height">720</property>
+  <property name="meta.media.aspect_ratio">1</property>
+  <property name="meta.media.color_range">mpeg</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+  <property name="set.test_audio">1</property>
+  <property name="set.test_image">0</property>
+ </chain>
  <playlist id="playlist4">
   <entry in="00:00:00.000" out="00:00:00.958" producer="producer1">
    <property name="kdenlive:id">13</property>
@@ -1021,11 +1186,11 @@
     <property name="distort">0</property>
     <property name="rect">00:00:00.000=0 0 1920 1080 1.000000;00:00:00.958=-316 -178 2553 1436 1.000000</property>
     <property name="rotation">00:00:00.000=0;00:00:00.958=0</property>
+    <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
   <entry in="00:00:00.000" out="00:00:04.625" producer="producer6">
    <property name="kdenlive:id">15</property>
-   <property name="kdenlive:activeeffect">0</property>
    <filter id="filter18">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
@@ -1037,9 +1202,42 @@
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
+  <blank length="00:00:00.333"/>
+  <entry in="00:00:00.000" out="00:00:00.958" producer="producer5">
+   <property name="kdenlive:id">14</property>
+   <filter id="filter19">
+    <property name="rotate_center">1</property>
+    <property name="mlt_service">qtblend</property>
+    <property name="kdenlive_id">qtblend</property>
+    <property name="compositing">0</property>
+    <property name="distort">0</property>
+    <property name="rect">00:00:00.000=0 0 1920 1080 1.000000;00:00:00.958=-316 -178 2553 1436 1.000000</property>
+    <property name="rotation">00:00:00.000=0;00:00:00.958=0</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+  </entry>
+  <entry in="00:00:00.000" out="00:00:05.042" producer="chain13">
+   <property name="kdenlive:id">16</property>
+  </entry>
+  <blank length="00:00:00.917"/>
+  <entry in="00:00:00.000" out="00:00:00.958" producer="producer4">
+   <property name="kdenlive:id">12</property>
+   <filter id="filter20">
+    <property name="rotate_center">1</property>
+    <property name="mlt_service">qtblend</property>
+    <property name="kdenlive_id">qtblend</property>
+    <property name="compositing">0</property>
+    <property name="distort">0</property>
+    <property name="rect">00:00:00.000=0 0 1920 1080 1.000000;00:00:00.958=-316 -178 2553 1436 1.000000</property>
+    <property name="rotation">00:00:00.000=0;00:00:00.958=0</property>
+   </filter>
+  </entry>
+  <entry in="00:00:00.000" out="00:00:09.542" producer="chain14">
+   <property name="kdenlive:id">17</property>
+  </entry>
  </playlist>
  <playlist id="playlist5"/>
- <tractor id="tractor2" in="00:00:00.000" out="00:00:38.625">
+ <tractor id="tractor2" in="00:00:00.000" out="00:00:56.542">
   <property name="kdenlive:trackheight">67</property>
   <property name="kdenlive:timeline_active">1</property>
   <property name="kdenlive:collapsed">0</property>
@@ -1059,9 +1257,9 @@
   <track hide="audio" producer="playlist6"/>
   <track hide="audio" producer="playlist7"/>
  </tractor>
- <tractor id="tractor4" in="00:00:00.000" out="00:00:38.625">
-  <property name="kdenlive:duration">00:00:38.667</property>
-  <property name="kdenlive:maxduration">928</property>
+ <tractor id="tractor4" in="00:00:00.000" out="00:00:56.542">
+  <property name="kdenlive:duration">00:00:56.583</property>
+  <property name="kdenlive:maxduration">1358</property>
   <property name="kdenlive:clipname">Sequence 1</property>
   <property name="kdenlive:description"/>
   <property name="kdenlive:uuid">{84168138-d310-49da-8387-2d4b887d3409}</property>
@@ -1077,8 +1275,8 @@
   <property name="kdenlive:sequenceproperties.documentuuid">{84168138-d310-49da-8387-2d4b887d3409}</property>
   <property name="kdenlive:sequenceproperties.hasAudio">1</property>
   <property name="kdenlive:sequenceproperties.hasVideo">1</property>
-  <property name="kdenlive:sequenceproperties.position">792</property>
-  <property name="kdenlive:sequenceproperties.scrollPos">3779</property>
+  <property name="kdenlive:sequenceproperties.position">891</property>
+  <property name="kdenlive:sequenceproperties.scrollPos">3974</property>
   <property name="kdenlive:sequenceproperties.tracks">4</property>
   <property name="kdenlive:sequenceproperties.tracksCount">4</property>
   <property name="kdenlive:sequenceproperties.verticalzoom">1</property>
@@ -1139,14 +1337,14 @@
    <property name="internal_added">237</property>
    <property name="always_active">1</property>
   </transition>
-  <filter id="filter19">
+  <filter id="filter21">
    <property name="window">75</property>
    <property name="max_gain">20dB</property>
    <property name="mlt_service">volume</property>
    <property name="internal_added">237</property>
    <property name="disable">1</property>
   </filter>
-  <filter id="filter20">
+  <filter id="filter22">
    <property name="channel">-1</property>
    <property name="mlt_service">panner</property>
    <property name="internal_added">237</property>
@@ -1154,30 +1352,30 @@
    <property name="disable">1</property>
   </filter>
  </tractor>
- <chain id="chain12" out="00:00:04.625">
+ <chain id="chain9" out="00:00:04.625">
   <property name="length">112</property>
   <property name="eof">pause</property>
-  <property name="resource">C:/dev/workspace/indy/dist/room/attic2/content/indy2.mp4</property>
+  <property name="resource">C:/dev/workspace/indy/dist/room/attic2/content/indy2-v2.mp4</property>
   <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">1</property>
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">24</property>
   <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
-  <property name="meta.media.0.codec.width">1360</property>
-  <property name="meta.media.0.codec.height">752</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1060</property>
   <property name="meta.media.0.codec.rotate">0</property>
   <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
   <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
   <property name="meta.media.0.codec.colorspace">709</property>
   <property name="meta.media.0.codec.name">h264</property>
   <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
-  <property name="meta.media.0.codec.bit_rate">4313744</property>
+  <property name="meta.media.0.codec.bit_rate">10939236</property>
   <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
   <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
   <property name="meta.attr.major_brand.markup">isom</property>
   <property name="meta.attr.minor_version.markup">512</property>
   <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
-  <property name="meta.attr.encoder.markup">Lavf58.76.100</property>
+  <property name="meta.attr.encoder.markup">Lavf61.7.100</property>
   <property name="seekable">1</property>
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
@@ -1189,19 +1387,73 @@
   <property name="meta.media.colorspace">709</property>
   <property name="meta.media.color_trc">2</property>
   <property name="meta.media.has_b_frames">2</property>
-  <property name="meta.media.width">1360</property>
-  <property name="meta.media.height">752</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1060</property>
   <property name="meta.media.aspect_ratio">1</property>
   <property name="meta.media.color_range">mpeg</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:id">15</property>
   <property name="kdenlive:control_uuid">{bdf697e6-e8f6-4687-bfc8-17671cf12f16}</property>
+  <property name="kdenlive:proxy">-</property>
+  <property name="kdenlive:originalurl">C:/dev/workspace/indy/dist/room/attic2/content/indy2-v2.mp4</property>
+  <property name="kdenlive:id">15</property>
   <property name="mute_on_pause">0</property>
   <property name="kdenlive:clip_type">2</property>
-  <property name="kdenlive:file_size">2518577</property>
-  <property name="kdenlive:file_hash">f0ed7cf78952f487787a944e60d5d9d7</property>
+  <property name="kdenlive:file_size">6383508</property>
+  <property name="kdenlive:file_hash">2c9dc724ef058b36ca00989ef2cc43ac</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:monitorPosition">0</property>
+ </chain>
+ <chain id="chain12" out="00:00:04.625">
+  <property name="length">112</property>
+  <property name="eof">pause</property>
+  <property name="resource">C:/dev/workspace/indy/dist/room/attic2/content/indy4-v2.mp4</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">24</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1060</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">13723126</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf61.7.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="vstream">0</property>
+  <property name="meta.media.frame_rate_num">24</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.has_b_frames">2</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1060</property>
+  <property name="meta.media.aspect_ratio">1</property>
+  <property name="meta.media.color_range">mpeg</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+  <property name="kdenlive:control_uuid">{7831d47e-2c15-4a8c-84d5-aa4ee9478942}</property>
+  <property name="kdenlive:proxy">-</property>
+  <property name="kdenlive:originalurl">C:/dev/workspace/indy/dist/room/attic2/content/indy4-v2.mp4</property>
+  <property name="kdenlive:id">7</property>
+  <property name="mute_on_pause">0</property>
+  <property name="kdenlive:clip_type">2</property>
+  <property name="kdenlive:file_size">8007452</property>
+  <property name="kdenlive:file_hash">b77b4969ccc6583ce2b70de33b891c3f</property>
+  <property name="kdenlive:folderid">-1</property>
  </chain>
  <playlist id="main_bin">
   <property name="kdenlive:folder.-1.2">Sequences</property>
@@ -1295,7 +1547,7 @@
   <property name="kdenlive:docproperties.rendertwopass">0</property>
   <property name="kdenlive:docproperties.renderurl">C:/dev/workspace/indy/dist/room/attic2/content/wide/base/indy2.mp4</property>
   <property name="kdenlive:docproperties.seekOffset">7200</property>
-  <property name="kdenlive:docproperties.sessionid">{ed25edb9-99c4-4d3d-b0c7-fcfec753ed39}</property>
+  <property name="kdenlive:docproperties.sessionid">{fd8288bc-0338-4673-b445-8c033afcb91a}</property>
   <property name="kdenlive:docproperties.uuid">{84168138-d310-49da-8387-2d4b887d3409}</property>
   <property name="kdenlive:docproperties.version">1.1</property>
   <property name="kdenlive:expandedFolders"/>
@@ -1307,7 +1559,6 @@
   <entry in="00:00:00.000" out="00:00:05.042" producer="chain6"/>
   <entry in="00:00:00.000" out="00:00:03.958" producer="chain7"/>
   <entry in="00:00:00.000" out="00:00:03.958" producer="chain8"/>
-  <entry in="00:00:00.000" out="00:00:04.625" producer="chain9"/>
   <entry in="00:00:00.000" out="00:00:03.958" producer="chain10"/>
   <entry in="00:00:00.000" out="00:00:03.958" producer="chain11"/>
   <entry in="00:00:00.000" out="00:00:04.958" producer="producer2"/>
@@ -1315,11 +1566,14 @@
   <entry in="00:00:00.000" out="00:00:04.958" producer="producer4"/>
   <entry in="00:00:00.000" out="00:00:04.958" producer="producer1"/>
   <entry in="00:00:00.000" out="00:00:04.958" producer="producer5"/>
-  <entry in="00:00:00.000" out="00:00:32.958" producer="tractor4"/>
+  <entry in="00:00:00.000" out="00:00:05.042" producer="chain15"/>
+  <entry in="00:00:00.000" out="00:00:09.542" producer="chain16"/>
+  <entry in="00:00:00.000" out="00:00:56.542" producer="tractor4"/>
+  <entry in="00:00:00.000" out="00:00:04.625" producer="chain9"/>
   <entry in="00:00:00.000" out="00:00:04.625" producer="chain12"/>
  </playlist>
- <tractor id="tractor5" in="00:00:00.000" out="00:00:38.625">
+ <tractor id="tractor5" in="00:00:00.000" out="00:00:56.542">
   <property name="kdenlive:projectTractor">1</property>
-  <track in="00:00:00.000" out="00:00:38.625" producer="tractor4"/>
+  <track in="00:00:00.000" out="00:00:56.542" producer="tractor4"/>
  </tractor>
 </mlt>
