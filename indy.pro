@@ -13,7 +13,9 @@ OTHER_FILES += configure.sh \
                dist/profile/default.mlt \
                dist/profile/cinemascope.mlt \
                dist/reference/reference.md \
+               dist/movie/movie.md \
                dist/movie/movie.kdenlive.ass \
+               dist/movie/data/voice.sh \
                dist/movie/content/tempo.sh \
                dist/room/room.md \
                dist/room/intro/intro.md \
