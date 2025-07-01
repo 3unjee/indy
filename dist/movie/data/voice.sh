@@ -28,6 +28,6 @@ volume()
 
 cd "$ffmpeg"
 
-volume "kerner.wav"  4
-volume "kerner2.wav" 4
-volume "kerner3.wav" 4
+volume "kerner.wav"  2
+volume "kerner2.wav" 2
+volume "kerner3.wav" 2

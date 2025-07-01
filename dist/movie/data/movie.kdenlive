@@ -5791,7 +5791,7 @@
     <property name="kdenlive_id">volume</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter12" in="00:00:07.250" out="00:00:07.667">
+   <filter id="filter12" in="00:00:07.208" out="00:00:07.625">
     <property name="window">75</property>
     <property name="max_gain">20dB</property>
     <property name="mlt_service">volume</property>
@@ -15484,7 +15484,7 @@
   <property name="kdenlive:sequenceproperties.hasVideo">1</property>
   <property name="kdenlive:sequenceproperties.hidesubtitle">0</property>
   <property name="kdenlive:sequenceproperties.position">3203</property>
-  <property name="kdenlive:sequenceproperties.scrollPos">153445</property>
+  <property name="kdenlive:sequenceproperties.scrollPos">9228</property>
   <property name="kdenlive:sequenceproperties.subtitlesList">[
     {
         "file": "C:/dev/workspace/indy/dist/movie/movie.kdenlive.ass",
@@ -15499,7 +15499,7 @@
   <property name="kdenlive:sequenceproperties.videoTarget">2</property>
   <property name="kdenlive:sequenceproperties.zonein">3144</property>
   <property name="kdenlive:sequenceproperties.zoneout">3408</property>
-  <property name="kdenlive:sequenceproperties.zoom">0</property>
+  <property name="kdenlive:sequenceproperties.zoom">4</property>
   <property name="kdenlive:sequenceproperties.groups">[
 ]
 </property>
@@ -15736,7 +15736,7 @@
    <property name="av.alpha">1</property>
    <property name="internal_added">237</property>
    <property name="av.filename">movie.kdenlive.ass</property>
-   <property name="disable">1</property>
+   <property name="disable">0</property>
   </filter>
  </tractor>
  <playlist id="main_bin">
@@ -15832,7 +15832,7 @@
   <property name="kdenlive:docproperties.rendertwopass">0</property>
   <property name="kdenlive:docproperties.renderurl">C:/dev/workspace/indy/deploy/wide/movie-test10.mp4</property>
   <property name="kdenlive:docproperties.seekOffset">30000</property>
-  <property name="kdenlive:docproperties.sessionid">{d23e77e6-b9af-4edd-a21b-36324abb8c5a}</property>
+  <property name="kdenlive:docproperties.sessionid">{88a61ed7-ceb2-4d0f-ae0d-d168eb018a94}</property>
   <property name="kdenlive:docproperties.uuid">{e2856d23-19ee-42d4-8454-a30a4474724e}</property>
   <property name="kdenlive:docproperties.version">1.1</property>
   <property name="kdenlive:expandedFolders"/>
