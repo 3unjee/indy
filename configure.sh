@@ -138,63 +138,6 @@ if [ $1 = "screens" ]; then
 fi
 
 #--------------------------------------------------------------------------------------------------
-# Trailer
-#--------------------------------------------------------------------------------------------------
-
-if [ $1 = "movie" -o \
-     $1 = "trailer" ]; then
-
-    source="$assets/$1/content"
-
-    echo "$source"
-
-    path="$PWD/dist/$1/content"
-
-    cp "$source"/*.mp4 "$path"
-
-    source="$assets/$1/reference"
-
-    if [ -d "$source" ]; then
-
-        echo "$source"
-
-        path="$PWD/dist/$1/reference"
-
-        if exists "$source"/*.png; then
-
-            cp "$source"/*.png "$path"
-        fi
-    fi
-
-    source="$extra/$1"
-
-    if [ -d "$source" ]; then
-
-        echo "$source"
-
-        path="$PWD/dist/$1/content/extra"
-
-        if exists "$source"/*.mp4; then
-
-            cp "$source"/*.mp4 "$path"
-        fi
-    fi
-
-    source="$extra/$1/music"
-
-    if [ -d "$source" ]; then
-
-        echo "$source"
-
-        path="$PWD/dist/$1/content/music/extra"
-
-        cp "$source"/*.webm "$path"
-    fi
-
-    exit 0
-fi
-
-#--------------------------------------------------------------------------------------------------
 # Characters
 #--------------------------------------------------------------------------------------------------
 
@@ -262,7 +205,9 @@ fi
 # Rooms
 #--------------------------------------------------------------------------------------------------
 
-if [ $1 = "room/intro"  -o \
+if [ $1 = "movie"       -o \
+     $1 = "trailer"     -o \
+     $1 = "room/intro"  -o \
      $1 = "room/attic"  -o \
      $1 = "room/attic2" -o \
      $1 = "room/chase" ]; then

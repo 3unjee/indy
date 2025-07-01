@@ -113,38 +113,6 @@ if [ $1 = "screens" ]; then
 fi
 
 #--------------------------------------------------------------------------------------------------
-# Trailer
-#--------------------------------------------------------------------------------------------------
-
-if [ $1 = "movie" -o \
-     $1 = "trailer" ]; then
-
-    source="$PWD/dist/$1/content"
-
-    echo "$source"
-
-    path="$assets/$1/content"
-    mkdir -p "$path"
-
-    cp "$source"/*.mp4 "$path"
-
-    source="$PWD/dist/$1/reference"
-
-    if [ -d "$source" ]; then
-
-        echo "$source"
-
-        path="$assets/$1/reference"
-        mkdir -p "$path"
-
-        if exists "$source"/*.png; then
-
-            cp "$source"/*.png "$path"
-        fi
-    fi
-fi
-
-#--------------------------------------------------------------------------------------------------
 # Characters
 #--------------------------------------------------------------------------------------------------
 
@@ -210,7 +178,9 @@ fi
 # Rooms
 #--------------------------------------------------------------------------------------------------
 
-if [ $1 = "room/intro"  -o \
+if [ $1 = "movie"       -o \
+     $1 = "trailer"     -o \
+     $1 = "room/intro"  -o \
      $1 = "room/attic"  -o \
      $1 = "room/attic2" -o \
      $1 = "room/chase" ]; then

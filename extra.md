@@ -24,6 +24,12 @@ source: https://www.youtube.com/watch?v=3dmRtTJrz5k
 title: Indiana Jones and the Dial of Destiny | Crafting Indy
 length: 4:19
 
+path: assets/extra/indy/movie/music/fate.webm
+
+source: https://www.youtube.com/watch?v=OI2p2Wq4VNE
+title: Indiana Jones and the Fate of Atlantis - Crab Raft (ost remastered)
+length: 2:56
+
 ### intro
 
 path: assets/extra/indy/room/intro/music/intro.webm
