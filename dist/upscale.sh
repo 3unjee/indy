@@ -34,14 +34,14 @@ render()
 
 #upscale "intro"
 #upscale "attic"
-#upscale "attic2"
+upscale "attic2"
 #upscale "chase"
 
 #--------------------------------------------------------------------------------------------------
 # Render
 #--------------------------------------------------------------------------------------------------
 
-#renderBase "movie"
+renderBase "movie"
 
 #render "attic"
 #render "attic2"
