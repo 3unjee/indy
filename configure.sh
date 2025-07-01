@@ -357,7 +357,15 @@ if [ $1 = "movie"       -o \
 
         path="$PWD/dist/$1/data/voice"
 
-        cp "$source"/*.mp3 "$path"
+        if exists "$source"/*.wav; then
+
+            cp "$source"/*.wav "$path"
+        fi
+
+        if exists "$source"/*.mp3; then
+
+            cp "$source"/*.mp3 "$path"
+        fi
     fi
 
     source="$assets/$1/content"
@@ -462,7 +470,15 @@ if [ $1 = "movie"       -o \
 
         path="$PWD/dist/$1/content/voice"
 
-        cp "$source"/*.mp3 "$path"
+        if exists "$source"/*.wav; then
+
+            cp "$source"/*.wav "$path"
+        fi
+
+        if exists "$source"/*.mp3; then
+
+            cp "$source"/*.mp3 "$path"
+        fi
     fi
 
     source="$assets/$1/content/music"

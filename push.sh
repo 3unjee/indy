@@ -340,7 +340,15 @@ if [ $1 = "movie"       -o \
         path="$assets/$1/data/voice"
         mkdir -p "$path"
 
-        cp "$source"/*.mp3 "$path"
+        if exists "$source"/*.wav; then
+
+            cp "$source"/*.wav "$path"
+        fi
+
+        if exists "$source"/*.mp3; then
+
+            cp "$source"/*.mp3 "$path"
+        fi
     fi
 
     source="$PWD/dist/$1/content"
@@ -452,7 +460,15 @@ if [ $1 = "movie"       -o \
         path="$assets/$1/content/voice"
         mkdir -p "$path"
 
-        cp "$source"/*.mp3 "$path"
+        if exists "$source"/*.wav; then
+
+            cp "$source"/*.wav "$path"
+        fi
+
+        if exists "$source"/*.mp3; then
+
+            cp "$source"/*.mp3 "$path"
+        fi
     fi
 
     source="$PWD/dist/$1/content/music"
