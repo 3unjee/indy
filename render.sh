@@ -201,6 +201,7 @@ if [ $1 = "movie" ]; then
 
     renderBase "movie"            "wide"
     renderBase "movie" "movie2"   "wide"
+    renderBase "movie" "movie3"   "wide"
     renderBase "movie" "movieEnd" "wide"
 
 elif [ $1 = "room/intro" ]; then
