@@ -9687,7 +9687,7 @@
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
-    <property name="alpha">0=1;-1=0</property>
+    <property name="alpha">00:00:00.000=1;00:00:00.250=0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
@@ -11391,7 +11391,7 @@
   <blank length="00:00:03.000"/>
   <entry in="00:00:00.000" out="00:00:00.167" producer="producer16">
    <property name="kdenlive:id">77</property>
-   <filter id="filter65" out="00:00:00.208">
+   <filter id="filter65" in="00:00:-0.042" out="00:00:00.167">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -11865,7 +11865,7 @@
   <property name="kdenlive:sequenceproperties.hasVideo">1</property>
   <property name="kdenlive:sequenceproperties.hidesubtitle">0</property>
   <property name="kdenlive:sequenceproperties.position">2136</property>
-  <property name="kdenlive:sequenceproperties.scrollPos">101834</property>
+  <property name="kdenlive:sequenceproperties.scrollPos">2546</property>
   <property name="kdenlive:sequenceproperties.subtitlesList">[
     {
         "file": "C:/dev/workspace/indy/dist/movie/movie.kdenlive.ass",
@@ -11880,7 +11880,7 @@
   <property name="kdenlive:sequenceproperties.videoTarget">2</property>
   <property name="kdenlive:sequenceproperties.zonein">2064</property>
   <property name="kdenlive:sequenceproperties.zoneout">2232</property>
-  <property name="kdenlive:sequenceproperties.zoom">0</property>
+  <property name="kdenlive:sequenceproperties.zoom">5</property>
   <property name="kdenlive:sequenceproperties.groups">[
 ]
 </property>
@@ -12117,7 +12117,7 @@
    <property name="av.alpha">1</property>
    <property name="internal_added">237</property>
    <property name="av.filename">movie2.kdenlive.ass</property>
-   <property name="disable">0</property>
+   <property name="disable">1</property>
   </filter>
  </tractor>
  <playlist id="main_bin">
@@ -12213,7 +12213,7 @@
   <property name="kdenlive:docproperties.rendertwopass">0</property>
   <property name="kdenlive:docproperties.renderurl">C:/dev/workspace/indy/deploy/wide/movie-test13.mp4</property>
   <property name="kdenlive:docproperties.seekOffset">30000</property>
-  <property name="kdenlive:docproperties.sessionid">{052ea368-6466-43a4-a0f2-73492efc0411}</property>
+  <property name="kdenlive:docproperties.sessionid">{d83490a0-28f4-43c5-a595-ecd3eecc706b}</property>
   <property name="kdenlive:docproperties.uuid">{e2856d23-19ee-42d4-8454-a30a4474724e}</property>
   <property name="kdenlive:docproperties.version">1.1</property>
   <property name="kdenlive:expandedFolders"/>
