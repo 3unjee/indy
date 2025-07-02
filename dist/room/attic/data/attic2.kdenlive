@@ -2510,9 +2510,9 @@
   <property name="kdenlive:control_uuid">{5e279771-c57f-49fc-bb69-67783c0d79f0}</property>
   <property name="mute_on_pause">0</property>
   <property name="kdenlive:clip_type">0</property>
-  <property name="kdenlive:file_size">14903078</property>
+  <property name="kdenlive:file_size">14929173</property>
   <property name="kdenlive:monitorPosition">0</property>
-  <property name="kdenlive:file_hash">ad9b36e465a7ff9e361792370a9fb3bc</property>
+  <property name="kdenlive:file_hash">1f69f92d53d1c28efe7472adadf5b85f</property>
  </chain>
  <producer id="producer34" in="00:00:00.000" out="00:00:04.958">
   <property name="length">00:00:05.000</property>
@@ -5045,7 +5045,7 @@
   <property name="meta.media.0.codec.colorspace">709</property>
   <property name="meta.media.0.codec.name">h264</property>
   <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
-  <property name="meta.media.0.codec.bit_rate">29665762</property>
+  <property name="meta.media.0.codec.bit_rate">29717736</property>
   <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
   <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
   <property name="meta.attr.0.stream.encoder.markup">Lavc61.19.101 libx264</property>
@@ -6917,7 +6917,7 @@
   <property name="meta.media.0.codec.colorspace">709</property>
   <property name="meta.media.0.codec.name">h264</property>
   <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
-  <property name="meta.media.0.codec.bit_rate">29665762</property>
+  <property name="meta.media.0.codec.bit_rate">29717736</property>
   <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
   <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
   <property name="meta.attr.0.stream.encoder.markup">Lavc61.19.101 libx264</property>
@@ -9505,8 +9505,8 @@
   <track hide="audio" producer="playlist26"/>
   <track hide="audio" producer="playlist27"/>
  </tractor>
- <tractor id="tractor14" in="00:00:00.000" out="00:01:06.958">
-  <property name="kdenlive:duration">00:01:07.000</property>
+ <tractor id="tractor14" in="00:00:00.000" out="00:06:07.000">
+  <property name="kdenlive:duration">00:01:07:00</property>
   <property name="kdenlive:maxduration">1608</property>
   <property name="kdenlive:clipname">Sequence 1</property>
   <property name="kdenlive:description"/>
@@ -9831,7 +9831,7 @@
   <property name="kdenlive:docproperties.rendertwopass">0</property>
   <property name="kdenlive:docproperties.renderurl">C:/dev/workspace/indy/deploy/wide/attic2-test8.mp4</property>
   <property name="kdenlive:docproperties.seekOffset">30000</property>
-  <property name="kdenlive:docproperties.sessionid">{51efc79d-f9e7-4ab4-8a6f-6a6514d16e15}</property>
+  <property name="kdenlive:docproperties.sessionid">{9dfbe2c8-b9ca-4ee8-8321-8256554970c3}</property>
   <property name="kdenlive:docproperties.uuid">{93e8ea12-7463-4eeb-8744-610d14ce039d}</property>
   <property name="kdenlive:docproperties.version">1.1</property>
   <property name="kdenlive:expandedFolders"/>
@@ -9896,8 +9896,8 @@
   <entry in="00:00:00.000" out="00:00:04.958" producer="producer34"/>
   <entry in="00:00:00.000" out="00:01:06.958" producer="tractor14"/>
  </playlist>
- <tractor id="tractor15" in="00:00:00.000" out="00:01:06.958">
+ <tractor id="tractor15" in="00:00:00.000" out="00:01:07.000">
   <property name="kdenlive:projectTractor">1</property>
-  <track in="00:00:00.000" out="00:01:06.958" producer="tractor14"/>
+  <track in="00:00:00.000" out="00:01:07.000" producer="tractor14"/>
  </tractor>
 </mlt>
