@@ -1896,17 +1896,18 @@
  </chain>
  <playlist id="playlist8">
   <property name="kdenlive:audio_track">1</property>
-  <entry in="00:00:00.000" out="00:00:23.792" producer="chain3">
+  <entry in="00:00:00.417" out="00:00:23.792" producer="chain3">
    <property name="kdenlive:id">7</property>
    <filter id="filter25">
     <property name="window">75</property>
     <property name="max_gain">20dB</property>
-    <property name="level">00:00:00.000=0;00:00:14.750=-0.0501267;00:00:15.625=-8.0125</property>
+    <property name="level">00:00:00.417=-0.00141601;00:00:14.750=-0.0501267;00:00:15.625=-8.0125</property>
     <property name="mlt_service">volume</property>
     <property name="kdenlive_id">volume</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
+  <blank length="00:00:00.417"/>
   <entry in="00:00:00.375" out="00:00:17.708" producer="chain3">
    <property name="kdenlive:id">7</property>
    <filter id="filter26">
@@ -5115,8 +5116,8 @@
   <track hide="both" producer="playlist20"/>
   <track hide="both" producer="playlist21"/>
  </tractor>
- <tractor id="tractor11" in="00:00:00.000" out="00:05:41.208">
-  <property name="kdenlive:duration">00:00:41:05</property>
+ <tractor id="tractor11" in="00:00:00.000" out="00:00:41.167">
+  <property name="kdenlive:duration">00:00:41.208</property>
   <property name="kdenlive:maxduration">989</property>
   <property name="kdenlive:clipname">Sequence 1</property>
   <property name="kdenlive:description"/>
@@ -5127,7 +5128,7 @@
   <property name="kdenlive:clip_type">0</property>
   <property name="kdenlive:file_hash">74b6a680a83f7569ac752b9eb97f66cf</property>
   <property name="kdenlive:folderid">2</property>
-  <property name="kdenlive:sequenceproperties.activeTrack">9</property>
+  <property name="kdenlive:sequenceproperties.activeTrack">4</property>
   <property name="kdenlive:sequenceproperties.audioTarget">1</property>
   <property name="kdenlive:sequenceproperties.disablepreview">0</property>
   <property name="kdenlive:sequenceproperties.documentuuid">{aa139657-db45-4393-bf1f-fa3aee83be3b}</property>
@@ -5138,7 +5139,7 @@
   <property name="kdenlive:sequenceproperties.hasVideo">1</property>
   <property name="kdenlive:sequenceproperties.hidesubtitle">0</property>
   <property name="kdenlive:sequenceproperties.position">849</property>
-  <property name="kdenlive:sequenceproperties.scrollPos">4538</property>
+  <property name="kdenlive:sequenceproperties.scrollPos">0</property>
   <property name="kdenlive:sequenceproperties.subtitlesList">[
     {
         "file": "C:/dev/workspace/indy/dist/room/chase/data/chase.kdenlive.ass",
@@ -5403,7 +5404,7 @@
   <property name="kdenlive:docproperties.rendertwopass">0</property>
   <property name="kdenlive:docproperties.renderurl">C:/dev/workspace/indy/deploy/wide/chase-test9.mp4</property>
   <property name="kdenlive:docproperties.seekOffset">30000</property>
-  <property name="kdenlive:docproperties.sessionid">{9d5eafd3-4745-4e59-9aec-47297166bdda}</property>
+  <property name="kdenlive:docproperties.sessionid">{230294da-6d16-4de7-a4eb-2900c3db58f7}</property>
   <property name="kdenlive:docproperties.uuid">{aa139657-db45-4393-bf1f-fa3aee83be3b}</property>
   <property name="kdenlive:docproperties.version">1.1</property>
   <property name="kdenlive:expandedFolders">35</property>
@@ -5449,8 +5450,8 @@
   <entry in="00:00:00.000" out="00:00:12.083" producer="producer1"/>
   <entry in="00:00:00.000" out="00:00:41.167" producer="tractor11"/>
  </playlist>
- <tractor id="tractor12" in="00:00:00.000" out="00:00:41.208">
+ <tractor id="tractor12" in="00:00:00.000" out="00:00:41.167">
   <property name="kdenlive:projectTractor">1</property>
-  <track in="00:00:00.000" out="00:00:41.208" producer="tractor11"/>
+  <track in="00:00:00.000" out="00:00:41.167" producer="tractor11"/>
  </tractor>
 </mlt>
