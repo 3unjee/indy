@@ -102,6 +102,11 @@ render()
     fi
 }
 
+append()
+{
+    echo "file '$(getPath "$1.mp4")'" >> videos.txt
+}
+
 getOs()
 {
     case `uname` in
@@ -201,21 +206,21 @@ cd "$bin"
 
 if [ $1 = "movie" ]; then
 
-#    renderBase "movie" "movieIntro" "wide"
-#    renderBase "movie" "movieAttic" "wide"
-#    renderBase "movie" "movieChase" "wide"
-#    renderBase "movie" "movieOutro" "wide"
+    #renderBase "movie" "movieIntro" "wide"
+    #renderBase "movie" "movieAttic" "wide"
+    renderBase "movie" "movieChase" "wide"
+    #renderBase "movie" "movieOutro" "wide"
 
     cd "$root"
 
     path="$root/deploy/wide"
 
-    echo "file '$(getPath "$path/movieIntro.mp4")'" >  videos.txt
-    echo "file '$(getPath "$path/movieAttic.mp4")'" >> videos.txt
-    echo "file '$(getPath "$path/movieChase.mp4")'" >> videos.txt
-    echo "file '$(getPath "$path/movieOutro.mp4")'" >> videos.txt
+    rm -f videos.txt
 
-    cat videos.txt
+    append "$path/movieIntro"
+    append "$path/movieAttic"
+    append "$path/movieChase"
+    append "$path/movieOutro"
 
     "$ffmpeg" -y -f concat -safe 0 -i videos.txt -c copy "$path/movie.mp4"
 
