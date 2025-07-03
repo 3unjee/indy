@@ -3585,7 +3585,7 @@
    <filter id="filter12">
     <property name="window">75</property>
     <property name="max_gain">20dB</property>
-    <property name="level">00:00:04.083=5</property>
+    <property name="level">00:00:04.083=4</property>
     <property name="mlt_service">volume</property>
     <property name="kdenlive_id">volume</property>
     <property name="kdenlive:collapsed">0</property>
@@ -3606,6 +3606,7 @@
     <property name="kdenlive_id">fadein</property>
     <property name="gain">0</property>
     <property name="end">1</property>
+    <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
   <blank length="00:00:03.167"/>
@@ -3878,6 +3879,7 @@
   <blank length="00:00:02.958"/>
   <entry in="00:00:02.958" out="00:00:08.500" producer="chain9">
    <property name="kdenlive:id">64</property>
+   <property name="kdenlive:activeeffect">2</property>
    <filter id="filter34" in="00:00:06.500" out="00:00:08.500">
     <property name="window">75</property>
     <property name="max_gain">20dB</property>
@@ -3899,7 +3901,7 @@
    <filter id="filter32">
     <property name="window">75</property>
     <property name="max_gain">20dB</property>
-    <property name="level">00:00:02.958=5</property>
+    <property name="level">00:00:02.958=4</property>
     <property name="mlt_service">volume</property>
     <property name="kdenlive_id">volume</property>
     <property name="kdenlive:collapsed">0</property>
@@ -11854,7 +11856,7 @@
   <property name="kdenlive:clip_type">0</property>
   <property name="kdenlive:file_hash">f88498c2274988ac75573dfdb6c520d7</property>
   <property name="kdenlive:folderid">2</property>
-  <property name="kdenlive:sequenceproperties.activeTrack">10</property>
+  <property name="kdenlive:sequenceproperties.activeTrack">3</property>
   <property name="kdenlive:sequenceproperties.audioTarget">1</property>
   <property name="kdenlive:sequenceproperties.disablepreview">0</property>
   <property name="kdenlive:sequenceproperties.documentuuid">{e2856d23-19ee-42d4-8454-a30a4474724e}</property>
@@ -11864,8 +11866,8 @@
   <property name="kdenlive:sequenceproperties.hasAudio">1</property>
   <property name="kdenlive:sequenceproperties.hasVideo">1</property>
   <property name="kdenlive:sequenceproperties.hidesubtitle">0</property>
-  <property name="kdenlive:sequenceproperties.position">2136</property>
-  <property name="kdenlive:sequenceproperties.scrollPos">2546</property>
+  <property name="kdenlive:sequenceproperties.position">2442</property>
+  <property name="kdenlive:sequenceproperties.scrollPos">13148</property>
   <property name="kdenlive:sequenceproperties.subtitlesList">[
     {
         "file": "C:/dev/workspace/indy/dist/movie/movie.kdenlive.ass",
@@ -11880,7 +11882,7 @@
   <property name="kdenlive:sequenceproperties.videoTarget">2</property>
   <property name="kdenlive:sequenceproperties.zonein">2064</property>
   <property name="kdenlive:sequenceproperties.zoneout">2232</property>
-  <property name="kdenlive:sequenceproperties.zoom">5</property>
+  <property name="kdenlive:sequenceproperties.zoom">3</property>
   <property name="kdenlive:sequenceproperties.groups">[
 ]
 </property>
@@ -12116,7 +12118,7 @@
    <property name="mlt_service">avfilter.subtitles</property>
    <property name="av.alpha">1</property>
    <property name="internal_added">237</property>
-   <property name="av.filename">movie2.kdenlive.ass</property>
+   <property name="av.filename">movieAttic.kdenlive.ass</property>
    <property name="disable">1</property>
   </filter>
  </tractor>
@@ -12213,7 +12215,7 @@
   <property name="kdenlive:docproperties.rendertwopass">0</property>
   <property name="kdenlive:docproperties.renderurl">C:/dev/workspace/indy/deploy/wide/movie-test13.mp4</property>
   <property name="kdenlive:docproperties.seekOffset">30000</property>
-  <property name="kdenlive:docproperties.sessionid">{d83490a0-28f4-43c5-a595-ecd3eecc706b}</property>
+  <property name="kdenlive:docproperties.sessionid">{4f6dbc9e-21c9-42c8-9906-945d03545157}</property>
   <property name="kdenlive:docproperties.uuid">{e2856d23-19ee-42d4-8454-a30a4474724e}</property>
   <property name="kdenlive:docproperties.version">1.1</property>
   <property name="kdenlive:expandedFolders"/>
