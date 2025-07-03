@@ -10,6 +10,8 @@ root="$PWD"
 # NOTE windows: It seems the Program Files path is messing up the melt command line.
 bin="/c/dev/tools/kdenlive/bin"
 
+ffmpeg="$PWD/../Sky/tools/ffmpeg/bin/ffmpeg"
+
 #--------------------------------------------------------------------------------------------------
 # melt
 
@@ -199,10 +201,25 @@ cd "$bin"
 
 if [ $1 = "movie" ]; then
 
-    renderBase "movie" "movieIntro" "wide"
-    renderBase "movie" "movieAttic" "wide"
-    renderBase "movie" "movieChase" "wide"
-    renderBase "movie" "movieOutro" "wide"
+#    renderBase "movie" "movieIntro" "wide"
+#    renderBase "movie" "movieAttic" "wide"
+#    renderBase "movie" "movieChase" "wide"
+#    renderBase "movie" "movieOutro" "wide"
+
+    cd "$root"
+
+    path="$root/deploy/wide"
+
+    echo "file '$(getPath "$path/movieIntro.mp4")'" >  videos.txt
+    echo "file '$(getPath "$path/movieAttic.mp4")'" >> videos.txt
+    echo "file '$(getPath "$path/movieChase.mp4")'" >> videos.txt
+    echo "file '$(getPath "$path/movieOutro.mp4")'" >> videos.txt
+
+    cat videos.txt
+
+    "$ffmpeg" -y -f concat -safe 0 -i videos.txt -c copy "$path/movie.mp4"
+
+    rm videos.txt
 
 elif [ $1 = "room/intro" ]; then
 
