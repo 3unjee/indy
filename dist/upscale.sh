@@ -34,7 +34,7 @@ render()
 
 #upscale "intro"
 #upscale "attic"
-upscale "attic2"
+#upscale "attic2"
 #upscale "chase"
 
 #--------------------------------------------------------------------------------------------------
