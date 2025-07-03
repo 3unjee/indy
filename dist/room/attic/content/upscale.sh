@@ -45,10 +45,6 @@ runWide()
 cd "$ffmpeg"
 # END code
 
-run "attic17.mp4" iris-3 60
-runWide "attic17.mp4"   iris-3 60
-exit 0
-
 run "attic.mp4"   iris-3 60
 run "attic2.mp4"  iris-3 60
 run "attic5.mp4"  iris-3 60
