@@ -3592,7 +3592,7 @@
    <filter id="filter12">
     <property name="window">75</property>
     <property name="max_gain">20dB</property>
-    <property name="level">00:00:04.083=4</property>
+    <property name="level">00:00:04.083=5</property>
     <property name="mlt_service">volume</property>
     <property name="kdenlive_id">volume</property>
     <property name="kdenlive:collapsed">0</property>
@@ -3908,7 +3908,7 @@
    <filter id="filter32">
     <property name="window">75</property>
     <property name="max_gain">20dB</property>
-    <property name="level">00:00:02.958=4</property>
+    <property name="level">00:00:02.958=5</property>
     <property name="mlt_service">volume</property>
     <property name="kdenlive_id">volume</property>
     <property name="kdenlive:collapsed">0</property>
@@ -6433,7 +6433,6 @@
   </entry>
   <entry in="00:00:03.042" out="00:00:05.000" producer="producer3">
    <property name="kdenlive:id">37</property>
-   <property name="kdenlive:activeeffect">-1</property>
    <filter id="filter46">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
@@ -8877,7 +8876,6 @@
   </entry>
   <entry in="00:00:03.042" out="00:00:05.000" producer="producer4">
    <property name="kdenlive:id">37</property>
-   <property name="kdenlive:activeeffect">-1</property>
    <filter id="filter64">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
@@ -11858,7 +11856,7 @@
   <property name="kdenlive:clip_type">0</property>
   <property name="kdenlive:file_hash">f88498c2274988ac75573dfdb6c520d7</property>
   <property name="kdenlive:folderid">2</property>
-  <property name="kdenlive:sequenceproperties.activeTrack">6</property>
+  <property name="kdenlive:sequenceproperties.activeTrack">3</property>
   <property name="kdenlive:sequenceproperties.audioTarget">1</property>
   <property name="kdenlive:sequenceproperties.disablepreview">0</property>
   <property name="kdenlive:sequenceproperties.documentuuid">{e2856d23-19ee-42d4-8454-a30a4474724e}</property>
@@ -11868,8 +11866,8 @@
   <property name="kdenlive:sequenceproperties.hasAudio">1</property>
   <property name="kdenlive:sequenceproperties.hasVideo">1</property>
   <property name="kdenlive:sequenceproperties.hidesubtitle">0</property>
-  <property name="kdenlive:sequenceproperties.position">671</property>
-  <property name="kdenlive:sequenceproperties.scrollPos">15223</property>
+  <property name="kdenlive:sequenceproperties.position">2472</property>
+  <property name="kdenlive:sequenceproperties.scrollPos">13292</property>
   <property name="kdenlive:sequenceproperties.subtitlesList">[
     {
         "file": "C:/dev/workspace/indy/dist/movie/movie.kdenlive.ass",
@@ -11884,7 +11882,7 @@
   <property name="kdenlive:sequenceproperties.videoTarget">2</property>
   <property name="kdenlive:sequenceproperties.zonein">504</property>
   <property name="kdenlive:sequenceproperties.zoneout">648</property>
-  <property name="kdenlive:sequenceproperties.zoom">1</property>
+  <property name="kdenlive:sequenceproperties.zoom">3</property>
   <property name="kdenlive:sequenceproperties.groups">[
 ]
 </property>
@@ -12217,7 +12215,7 @@
   <property name="kdenlive:docproperties.rendertwopass">0</property>
   <property name="kdenlive:docproperties.renderurl">C:/dev/workspace/indy/deploy/wide/movieAttic-test5.mp4</property>
   <property name="kdenlive:docproperties.seekOffset">30000</property>
-  <property name="kdenlive:docproperties.sessionid">{8e60c9d9-63c6-4527-9ab1-b279e9c3b7a1}</property>
+  <property name="kdenlive:docproperties.sessionid">{408cb373-5afb-46b2-9f85-bac69e17955f}</property>
   <property name="kdenlive:docproperties.uuid">{e2856d23-19ee-42d4-8454-a30a4474724e}</property>
   <property name="kdenlive:docproperties.version">1.1</property>
   <property name="kdenlive:expandedFolders"/>
