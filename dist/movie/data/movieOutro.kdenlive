@@ -1199,7 +1199,7 @@
    <filter id="filter16">
     <property name="window">75</property>
     <property name="max_gain">20dB</property>
-    <property name="level">00:01:31.458=-40;00:01:35.750=-10;00:01:37.875=0</property>
+    <property name="level">00:01:31.458=-40;00:01:35.750=-10;00:01:37.875=2;00:02:00.833=0</property>
     <property name="mlt_service">volume</property>
     <property name="kdenlive_id">volume</property>
     <property name="kdenlive:collapsed">0</property>
@@ -1928,7 +1928,6 @@
   <blank length="00:00:02.958"/>
   <entry in="00:00:02.958" out="00:00:04.250" producer="chain19">
    <property name="kdenlive:id">11</property>
-   <property name="kdenlive:activeeffect">1</property>
    <filter id="filter52" in="00:00:02.958" out="00:00:03.375">
     <property name="window">75</property>
     <property name="max_gain">20dB</property>
@@ -1959,7 +1958,6 @@
   <blank length="00:00:02.958"/>
   <entry in="00:00:02.958" out="00:00:04.250" producer="chain19">
    <property name="kdenlive:id">11</property>
-   <property name="kdenlive:activeeffect">1</property>
    <filter id="filter55" in="00:00:02.958" out="00:00:03.375">
     <property name="window">75</property>
     <property name="max_gain">20dB</property>
@@ -4024,14 +4022,14 @@
   <property name="kdenlive:clip_type">0</property>
   <property name="kdenlive:file_hash">8366c23b914587240cfb3408b0b36cf2</property>
   <property name="kdenlive:folderid">2</property>
-  <property name="kdenlive:sequenceproperties.activeTrack">9</property>
+  <property name="kdenlive:sequenceproperties.activeTrack">4</property>
   <property name="kdenlive:sequenceproperties.audioTarget">1</property>
   <property name="kdenlive:sequenceproperties.disablepreview">0</property>
   <property name="kdenlive:sequenceproperties.documentuuid">{435c2bb5-2cb0-4e72-9105-87397c5ef000}</property>
   <property name="kdenlive:sequenceproperties.hasAudio">1</property>
   <property name="kdenlive:sequenceproperties.hasVideo">1</property>
-  <property name="kdenlive:sequenceproperties.position">644</property>
-  <property name="kdenlive:sequenceproperties.scrollPos">488</property>
+  <property name="kdenlive:sequenceproperties.position">360</property>
+  <property name="kdenlive:sequenceproperties.scrollPos">2110</property>
   <property name="kdenlive:sequenceproperties.tracks">4</property>
   <property name="kdenlive:sequenceproperties.tracksCount">20</property>
   <property name="kdenlive:sequenceproperties.verticalzoom">1</property>
@@ -4388,7 +4386,7 @@
   <property name="kdenlive:docproperties.rendertwopass">0</property>
   <property name="kdenlive:docproperties.renderurl">C:/dev/workspace/indy/deploy/wide/movieEnd-test11.mp4</property>
   <property name="kdenlive:docproperties.seekOffset">7200</property>
-  <property name="kdenlive:docproperties.sessionid">{7d75859a-2e2e-45e8-8e73-d9da1a96dfa1}</property>
+  <property name="kdenlive:docproperties.sessionid">{4359243c-c656-4b82-a90e-327cd3fa8e3a}</property>
   <property name="kdenlive:docproperties.uuid">{435c2bb5-2cb0-4e72-9105-87397c5ef000}</property>
   <property name="kdenlive:docproperties.version">1.1</property>
   <property name="kdenlive:expandedFolders"/>
