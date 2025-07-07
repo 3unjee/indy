@@ -1720,7 +1720,7 @@
   <property name="meta.media.0.codec.colorspace">709</property>
   <property name="meta.media.0.codec.name">h264</property>
   <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
-  <property name="meta.media.0.codec.bit_rate">37200646</property>
+  <property name="meta.media.0.codec.bit_rate">46310256</property>
   <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
   <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
   <property name="meta.attr.0.stream.encoder.markup">Lavc61.19.101 libx264</property>
@@ -2085,7 +2085,7 @@
     <property name="version">0.2</property>
     <property name="mlt_service">frei0r.brightness</property>
     <property name="kdenlive_id">frei0r.brightness</property>
-    <property name="Brightness">00:00:01.667=0.46</property>
+    <property name="Brightness">00:00:01.667=0.48</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
    <filter id="filter21">
@@ -2296,6 +2296,7 @@
   </entry>
   <entry in="00:00:00.000" out="00:00:03.958" producer="producer8">
    <property name="kdenlive:id">22</property>
+   <property name="kdenlive:activeeffect">2</property>
    <filter id="filter38">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
@@ -2324,8 +2325,8 @@
     <property name="version">0.2</property>
     <property name="mlt_service">frei0r.brightness</property>
     <property name="kdenlive_id">frei0r.brightness</property>
-    <property name="Brightness">00:00:00.000=0.46</property>
-    <property name="kdenlive:collapsed">1</property>
+    <property name="Brightness">00:00:00.000=0.48</property>
+    <property name="kdenlive:collapsed">0</property>
    </filter>
    <filter id="filter41">
     <property name="version">0.2</property>
@@ -2852,7 +2853,7 @@
   <property name="meta.media.0.codec.colorspace">709</property>
   <property name="meta.media.0.codec.name">h264</property>
   <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
-  <property name="meta.media.0.codec.bit_rate">37200646</property>
+  <property name="meta.media.0.codec.bit_rate">46310256</property>
   <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
   <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
   <property name="meta.attr.0.stream.encoder.markup">Lavc61.19.101 libx264</property>
@@ -3217,7 +3218,7 @@
     <property name="version">0.2</property>
     <property name="mlt_service">frei0r.brightness</property>
     <property name="kdenlive_id">frei0r.brightness</property>
-    <property name="Brightness">00:00:01.667=0.46</property>
+    <property name="Brightness">00:00:01.667=0.48</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
    <filter id="filter56">
@@ -3428,7 +3429,7 @@
   </entry>
   <entry in="00:00:00.000" out="00:00:03.958" producer="producer14">
    <property name="kdenlive:id">22</property>
-   <property name="kdenlive:activeeffect">1</property>
+   <property name="kdenlive:activeeffect">2</property>
    <filter id="filter73">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
@@ -3457,7 +3458,7 @@
     <property name="version">0.2</property>
     <property name="mlt_service">frei0r.brightness</property>
     <property name="kdenlive_id">frei0r.brightness</property>
-    <property name="Brightness">00:00:00.000=0.46</property>
+    <property name="Brightness">00:00:00.000=0.48</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
    <filter id="filter76">
@@ -3850,7 +3851,7 @@
   <property name="meta.media.0.codec.colorspace">709</property>
   <property name="meta.media.0.codec.name">h264</property>
   <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
-  <property name="meta.media.0.codec.bit_rate">32343522</property>
+  <property name="meta.media.0.codec.bit_rate">41676214</property>
   <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
   <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
   <property name="meta.attr.0.stream.encoder.markup">Lavc61.19.101 libx264</property>
@@ -4307,6 +4308,7 @@
   </entry>
   <entry in="00:00:01.667" out="00:00:04.625" producer="chain16">
    <property name="kdenlive:id">9</property>
+   <property name="kdenlive:activeeffect">0</property>
    <filter id="filter91">
     <property name="version">0.2</property>
     <property name="mlt_service">frei0r.contrast0r</property>
@@ -4512,14 +4514,14 @@
   <property name="kdenlive:clip_type">0</property>
   <property name="kdenlive:file_hash">8adfb33fab2c66668c9209532826fcc5</property>
   <property name="kdenlive:folderid">2</property>
-  <property name="kdenlive:sequenceproperties.activeTrack">9</property>
+  <property name="kdenlive:sequenceproperties.activeTrack">4</property>
   <property name="kdenlive:sequenceproperties.audioTarget">1</property>
   <property name="kdenlive:sequenceproperties.disablepreview">0</property>
   <property name="kdenlive:sequenceproperties.documentuuid">{ed4ce6b4-837f-48d9-a74e-f669c4ffa62b}</property>
   <property name="kdenlive:sequenceproperties.hasAudio">1</property>
   <property name="kdenlive:sequenceproperties.hasVideo">1</property>
-  <property name="kdenlive:sequenceproperties.position">178</property>
-  <property name="kdenlive:sequenceproperties.scrollPos">0</property>
+  <property name="kdenlive:sequenceproperties.position">663</property>
+  <property name="kdenlive:sequenceproperties.scrollPos">2605</property>
   <property name="kdenlive:sequenceproperties.tracks">4</property>
   <property name="kdenlive:sequenceproperties.tracksCount">11</property>
   <property name="kdenlive:sequenceproperties.verticalzoom">1</property>
@@ -4772,7 +4774,7 @@
   <property name="kdenlive:docproperties.rendertwopass">0</property>
   <property name="kdenlive:docproperties.renderurl">C:/dev/workspace/indy/deploy/wide/attic2-1-test7.mp4</property>
   <property name="kdenlive:docproperties.seekOffset">30000</property>
-  <property name="kdenlive:docproperties.sessionid">{49782c22-d698-4523-9119-cb4109fa96a1}</property>
+  <property name="kdenlive:docproperties.sessionid">{c8b0610a-3638-4bfa-ad3d-db3cdb90d99f}</property>
   <property name="kdenlive:docproperties.uuid">{ed4ce6b4-837f-48d9-a74e-f669c4ffa62b}</property>
   <property name="kdenlive:docproperties.version">1.1</property>
   <property name="kdenlive:expandedFolders"/>
