@@ -45,12 +45,6 @@ runWide()
 cd "$ffmpeg"
 # END code
 
-run "indy2.mp4"  rhea-1 60 crop
-run "indy4.mp4"  rhea-1 60 crop
-runWide "indy2.mp4" rhea-1 60
-runWide "indy4.mp4" rhea-1 60
-exit 0
-
 run "attic.mp4"  iris-3 60
 run "attic2.mp4" iris-3 60
 run "indy.mp4"   iris-3 60
