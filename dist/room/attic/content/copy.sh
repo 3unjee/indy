@@ -82,12 +82,12 @@ else
     run "attic7.mp4"  iris-3 60
     run "attic11.mp4" iris-3 60
     run "attic12.mp4" iris-3 60
+    run "attic17.mp4" iris-3 60
     run "attic18.mp4" iris-3 60
     run "attic19.mp4" iris-3 60
     run "attic20.mp4" iris-3 60
     run "attic22.mp4" iris-3 24
     run "attic24.mp4" iris-3 60
-    run "attic25.mp4" iris-3 60
     run "indy4.mp4"     iris-3 60
     run "splash3.mp4"   iris-3 60
     run "cross6.mp4"    iris-3 60
@@ -105,12 +105,12 @@ else
     runWide "attic6.mp4"    iris-3 60
     runWide "attic7.mp4"    iris-3 60
     runWide "attic12.mp4"   iris-3 60
+    runWide "attic17.mp4"   iris-3 60
     runWide "attic18.mp4"   iris-3 60
     runWide "attic19.mp4"   iris-3 60
     runWide "attic20.mp4"   iris-3 60
     runWide "attic22.mp4"   iris-3 24
     runWide "attic24.mp4"   iris-3 60
-    runWide "attic25.mp4"   iris-3 60
     runWide "indy4.mp4"     iris-3 60
     runWide "splash3.mp4"   iris-3 60
     runWide "cross6.mp4"    iris-3 60

@@ -89,6 +89,8 @@ else
     runWide "indy.mp4"   iris-3 60
     runWide "indy2.mp4"  rhea-1 60
     runWide "indy4.mp4"  rhea-1 60
+    runWide "indy5.mp4"  iris-3 60
+    runWide "indy6.mp4"  iris-3 60
     runWide "book.mp4"   iris-3 60
     runWide "book2.mp4"  iris-3 60
 fi
