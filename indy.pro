@@ -11,7 +11,7 @@ OTHER_FILES += configure.sh \
                dist/update.sh \
                dist/upscale.sh \
                dist/profile/default.mlt \
-               dist/profile/cinemascope.mlt \
+               dist/profile/wide.mlt \
                dist/reference/reference.md \
                dist/movie/movie.md \
                dist/movie/movie.kdenlive.ass \
