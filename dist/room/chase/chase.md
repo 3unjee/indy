@@ -62,9 +62,12 @@ https://raw.githubusercontent.com/3unjee/indy/master/dist/character/kerner/refer
 https://raw.githubusercontent.com/3unjee/indy/master/dist/character/kerner/reference/neutral/kerner3.jpg
 --sref https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/reference/college3.jpg
 
-Wide view of Christoph Waltz from Indiana jones and the last crusade facing the camera with a menacing look and a dark trenchcoat and holding the wheel of a Ford V8 De Luxe Fordor, rainy night and low blue light filtering through the clouds CINEMATIC STILL --ar 16:9 --v 7.0 --iw 3 --no hat
+Wide view of Christoph Waltz from Indiana jones and the last crusade facing the camera with a menacing look and a dark trenchcoat and holding the wheel of a Ford V8 De Luxe Fordor, rainy night and low blue light filtering through the clouds CINEMATIC STILL --ar 16:9 --v 7.0 --iw 3 --cw 50 --no hat
 https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/reference/interior3.png
 --cref https://raw.githubusercontent.com/3unjee/indy/master/dist/character/kerner/reference/neutral/kerner.jpg
+
+Side view of Christoph Waltz from Indiana jones and the last crusade facing the camera with a menacing look and a dark trenchcoat sitting on the driver seat and holding the wheel of a Ford V8 De Luxe Fordor, rainy night and low blue light filtering through the clouds CINEMATIC STILL --ar 16:9 --v 7.0 --iw 3 --no hat
+https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/reference/interior3.png
 
 Wide view of Marcus Brody from Indiana jones and the last crusade facing the camera with messy hairs and sitting in a Ford V8 De Luxe Fordor, rainy night and low blue light filtering through the clouds CINEMATIC STILL --ar 16:9 --v 6.0 --cw 50 --sw 50
 --cref https://raw.githubusercontent.com/3unjee/indy/master/dist/character/marcus/reference/neutral/marcus.jpg
@@ -84,7 +87,7 @@ https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/reference/c
 https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/reference/car2.jpg
 https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/reference/car3.jpg
 
-A rainy night side view of an 1939 Ford V8 De Luxe Fordor, low blue light filtering through the clouds CINEMATIC STILL --ar 16:9 --v 6.0
+A rainy night side view of an 1939 Ford V8 De Luxe Fordor, low blue light filtering through the clouds CINEMATIC STILL --ar 16:9 --v 7.0
 https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/reference/car.jpg
 https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/reference/car2.jpg
 https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/reference/car3.jpg
@@ -105,6 +108,9 @@ https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/data/upscal
 
 The car is running at full speed while the characters stay silent. The camera stays on the characters
 https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/data/upscale/interior2.png
+
+Orbit horizontally around the building while the camera is zooming out
+https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/data/upscale/college2.png
 
 ## Dialogs
 
