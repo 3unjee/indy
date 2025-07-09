@@ -110,6 +110,11 @@ if [ $1 = "screens" ]; then
     mkdir -p "$path"
 
     cp "$source"/*.psd "$path"
+
+    if exists "$source"/*.png; then
+
+        cp "$source"/*.png "$path"
+    fi
 fi
 
 #--------------------------------------------------------------------------------------------------

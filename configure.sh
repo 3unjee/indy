@@ -134,6 +134,11 @@ if [ $1 = "screens" ]; then
 
     cp "$source"/*.psd "$path"
 
+    if exists "$source"/*.png; then
+
+        cp "$source"/*.png "$path"
+    fi
+
     exit 0
 fi
 
