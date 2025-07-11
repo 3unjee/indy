@@ -45,15 +45,15 @@ runWide()
 cd "$ffmpeg"
 # END code
 
-run "intro.mp4"    iris-3 60
-run "intro2.mp4"   iris-3 60
-run "intro3.mp4"   iris-3 60 letterbox
+run "intro.mp4"    iris-3 72
+run "intro2.mp4"   iris-3 72
+run "intro3.mp4"   iris-3 72 letterbox
 run "college.mp4"  iris-3 60
 run "college2.mp4" iris-3 60
 run "college3.mp4" iris-3 60
 
-runWide "intro.mp4"      iris-3 60
-runWide "intro2.mp4"     iris-3 60
+runWide "intro.mp4"      iris-3 72
+runWide "intro2.mp4"     iris-3 72
 runWide "college.mp4"    iris-3 60
 runWide "college2.mp4"   iris-3 60
 runWide "college3-1.mp4" iris-3 60
