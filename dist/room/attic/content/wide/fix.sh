@@ -44,9 +44,6 @@ runBase()
 
 cd "$ffmpeg"
 
-run "attic17.mp4"   1
-exit 0
-
 run "attic.mp4"     1
 run "attic2.mp4"    1
 run "attic5.mp4"    1
