@@ -22,7 +22,9 @@ https://raw.githubusercontent.com/3unjee/indy/master/dist/room/intro/reference/c
 
 A rainy night aerial view of an old university from Indiana jones and the last crusade in 1939, low blue light filtering through the clouds CINEMATIC STILL --ar 16:9 --v 6.0
 https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/reference/college2.jpg
-https://raw.githubusercontent.com/3unjee/indy/master/dist/room/intro/reference/college.jpg  https://raw.githubusercontent.com/3unjee/indy/master/dist/room/intro/reference/college3.jpg https://raw.githubusercontent.com/3unjee/indy/master/dist/room/intro/reference/college4.jpg
+https://raw.githubusercontent.com/3unjee/indy/master/dist/room/intro/reference/college.jpg
+https://raw.githubusercontent.com/3unjee/indy/master/dist/room/intro/reference/college3.jpg
+https://raw.githubusercontent.com/3unjee/indy/master/dist/room/intro/reference/college4.jpg
 
 A rainy night view of an old university with fire exploding through the windows and heavy smoke coming out, low blue light filtering through the clouds CINEMATIC STILL --ar 16:9 --v 6.0
 https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/reference/college.jpg
@@ -34,6 +36,9 @@ https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/reference/i
 A wide angle shot, facing the front seats of a black Ford V8 De Luxe Fordor from Indiana jones and the last crusade in 1939, rainy night and low blue light filtering through the clouds CINEMATIC STILL --ar 16:9 --v 6.0 --sw 50
 https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/reference/interior2.jpg
 --sref https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/reference/college3.jpg
+
+A rainy night view of an old 1930s university, camera now rotated right and descending toward the main entrance, blue light still filtering through storm clouds, cinematic shadows, wet pavement reflections, fire glow in some windows, inspired by Indiana Jones --ar 16:9 --style raw --v 7 --iw 1.5
+https://raw.githubusercontent.com/3unjee/indy/master/dist/room/chase/data/upscale/base/college2.png
 
 ## Characters
 
