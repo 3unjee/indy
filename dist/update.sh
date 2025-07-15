@@ -155,7 +155,12 @@ generateBase()
 
 generate()
 {
-    generateBase "room/$1"
+    if [ $# = 2 ]; then
+
+        generateBase "room/$1" "$2"
+    else
+        generateBase "room/$1" "$1"
+    fi
 }
 
 cleanBase()

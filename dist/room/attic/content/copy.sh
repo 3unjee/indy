@@ -75,19 +75,19 @@ else
     #----------------------------------------------------------------------------------------------
     # BEGIN copy
 
-    run "attic.mp4"   iris-3 60
-    run "attic2.mp4"  iris-3 60
-    run "attic5.mp4"  iris-3 60
-    run "attic6.mp4"  iris-3 60
-    run "attic7.mp4"  iris-3 60
+    run "attic.mp4"   iris-3 48
+    run "attic2.mp4"  iris-3 48
+    run "attic5.mp4"  iris-3 48
+    run "attic6.mp4"  iris-3 48
+    run "attic7.mp4"  iris-3 48
     run "attic11.mp4" iris-3 60
     run "attic12.mp4" iris-3 60
     run "attic17.mp4" iris-3 60
     run "attic18.mp4" iris-3 60
     run "attic19.mp4" iris-3 60
     run "attic20.mp4" iris-3 60
-    run "attic22.mp4" iris-3 24
-    run "attic24.mp4" iris-3 60
+    run "attic22.mp4" iris-3 48
+    run "attic24.mp4" iris-3 48
     run "indy4.mp4"     iris-3 60
     run "splash3.mp4"   iris-3 60
     run "cross6.mp4"    iris-3 60
@@ -99,18 +99,18 @@ else
     run "dialog-sync.mp4"  iris-3 30 letterbox
     run "dialog2-sync.mp4" iris-3 60 letterbox
     run "dialog3-sync.mp4" iris-3 24 letterbox
-    runWide "attic.mp4"     iris-3 60
-    runWide "attic2.mp4"    iris-3 60
-    runWide "attic5.mp4"    iris-3 60
-    runWide "attic6.mp4"    iris-3 60
-    runWide "attic7.mp4"    iris-3 60
+    runWide "attic.mp4"     iris-3 48
+    runWide "attic2.mp4"    iris-3 48
+    runWide "attic5.mp4"    iris-3 48
+    runWide "attic6.mp4"    iris-3 48
+    runWide "attic7.mp4"    iris-3 48
     runWide "attic12.mp4"   iris-3 60
     runWide "attic17.mp4"   iris-3 60
     runWide "attic18.mp4"   iris-3 60
     runWide "attic19.mp4"   iris-3 60
     runWide "attic20.mp4"   iris-3 60
-    runWide "attic22.mp4"   iris-3 24
-    runWide "attic24.mp4"   iris-3 60
+    runWide "attic22.mp4"   iris-3 48
+    runWide "attic24.mp4"   iris-3 48
     runWide "indy4.mp4"     iris-3 60
     runWide "splash3.mp4"   iris-3 60
     runWide "cross6.mp4"    iris-3 60
