@@ -35,7 +35,7 @@ render()
 #upscale "intro"
 #upscale "attic"
 upscale "attic2"
-upscale "chase"
+#upscale "chase"
 
 #--------------------------------------------------------------------------------------------------
 # Render
@@ -43,7 +43,7 @@ upscale "chase"
 
 #renderBase "movie"
 
-#render "intro"
-#render "attic"
-#render "attic2"
-#render "chase"
+render "intro"
+render "attic"
+render "attic2"
+render "chase"
