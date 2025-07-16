@@ -5,7 +5,7 @@ set -e
 # Settings
 #--------------------------------------------------------------------------------------------------
 
-Magnific="$PWD/../../../../../Sky/tools/Magnific"
+Freepik="$PWD/../../../../../Sky/tools/Freepik"
 
 imageConverter="$PWD/../../../../../Sky/deploy/imageConverter"
 
@@ -40,7 +40,7 @@ copy()
 # Run
 #--------------------------------------------------------------------------------------------------
 
-cd "$Magnific"
+cd "$Freepik"
 
 run "attic"     2x
 run "attic5"    2x

@@ -5,7 +5,7 @@ set -e
 # Settings
 #--------------------------------------------------------------------------------------------------
 
-Magnific="$PWD/../../../../../Sky/tools/Magnific"
+Freepik="$PWD/../../../../../Sky/tools/Freepik"
 
 imageConverter="$PWD/../../../../../Sky/deploy/imageConverter"
 
@@ -40,7 +40,7 @@ copy()
 # Run
 #--------------------------------------------------------------------------------------------------
 
-cd "$Magnific"
+cd "$Freepik"
 
 run "college"   2x
 run "college2"  2x

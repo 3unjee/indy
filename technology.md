@@ -13,6 +13,14 @@
 
 ## Generative tools
 
+### API toolbox
+
+Freepik: https://www.freepik.com
+    - Magnific upscaling
+
+fal.ai: https://fal.ai/dashboard
+    - Flux Kontext
+
 ### Image generation
 
 Midjourney: https://www.midjourney.com
