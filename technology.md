@@ -39,11 +39,15 @@ Topaz Video AI: https://topazlabs.com
 
 ElevenLabs: https://elevenlabs.io
 
+videotosoundeffects: https://www.videotosoundeffects.com
+
+MMAudio:
+    - https://huggingface.co/spaces/hkchengrex/MMAudio
+    - https://github.com/hkchengrex/MMAudio
+
 ### Voice generation
 
 ElevenLabs: https://elevenlabs.io
-
-videotosoundeffects: https://www.videotosoundeffects.com
 
 ### Lipsync
 

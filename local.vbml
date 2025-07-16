@@ -18,12 +18,12 @@ source:
     track:
         id: intro
         duration: 1:25
-        source: /deploy/intro.mp4
+        source: /deploy/wide/intro.mp4
     track:
         id: intro2
         at: 1:26
         end: 1:49
-        source: /deploy/intro.mp4
+        source: /deploy/wide/intro.mp4
     #----------------------------------------------------------------------------------------------
     # Room: attic
     #----------------------------------------------------------------------------------------------
@@ -35,13 +35,12 @@ source:
         id: attic2
         at: 0:24
         end: 0:39
-        template: attic
+        template: attic-2
     track:
         id: attic3
         at: 0:39
         end: 0:54
-        source: /deploy/attic.mp4
-        subtitles: /deploy/subtitle/attic-eng.srt
+        template: attic
     track:
         id: attic4
         duration: 0:04
@@ -55,7 +54,7 @@ source:
         id: attic6
         at: 0:28
         end: 0:51
-        source: /deploy/attic2.mp4
+        source: /deploy/wide/attic2.mp4
         subtitles: /deploy/subtitle/attic2-eng.srt
     track:
         id: attic7
@@ -68,39 +67,43 @@ source:
     track:
         id: attic8
         duration: 0:08
-        source: /deploy/attic2-0.mp4
+        source: /deploy/wide/attic2-1.mp4
     hub:
         id: attic9
         at: 0:08
         end: 0:24
-        template: attic3
+        template: attic2-1
     track:
         id: attic10
         at: 0:24
         end: 0:28
-        template: attic3
+        template: attic2-1
     hub:
         id: attic11
         at: 0:28
         end: 0:44
-        template: attic3
+        template: attic2-1
 
 templates:
     template:
         id: attic
-        source: /deploy/attic.mp4
+        source: /deploy/wide/attic.mp4
+        subtitles: /deploy/subtitle/attic-eng.srt
+    template:
+        id: attic-2
+        source: /deploy/wide/attic.mp4
         ambient: /deploy/ambient/attic.mp4
         subtitles: /deploy/subtitle/attic-eng.srt
     template:
         id: attic2
-        source: /deploy/attic2.mp4
+        source: /deploy/wide/attic2.mp4
         ambient: /deploy/ambient/attic.mp4
         subtitles: /deploy/subtitle/attic2-eng.srt
     template:
-        id: attic3
-        source: /deploy/attic2-0.mp4
+        id: attic2-1
+        source: /deploy/wide/attic2-1.mp4
         ambient: /deploy/ambient/attic.mp4
-        subtitles: /deploy/subtitle/attic2-0-eng.srt
+        subtitles: /deploy/subtitle/attic2-1-eng.srt
 
 START: RETURN "intro2,attic,attic2"
 
@@ -111,10 +114,8 @@ ATTIC: |
         RETURN "attic6,attic5"
     ELIF (EQUAL argument "gargoyle")
         RETURN "attic7,attic5"
-    ELIF (EQUAL id "attic2")
-        RETURN "attic3,attic8,attic9"
     ELSE
-        RETURN "attic2"
+        RETURN "attic3,attic8,attic9"
     FI
 
 ATTIC2: |
