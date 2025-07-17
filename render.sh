@@ -206,10 +206,10 @@ cd "$bin"
 
 if [ $1 = "movie" ]; then
 
-    #renderBase "movie" "movieIntro" "wide"
+    renderBase "movie" "movieIntro" "wide"
     renderBase "movie" "movieAttic" "wide"
-    #renderBase "movie" "movieChase" "wide"
-    #renderBase "movie" "movieOutro" "wide"
+    renderBase "movie" "movieChase" "wide"
+    renderBase "movie" "movieOutro" "wide"
 
     cd "$root"
 
