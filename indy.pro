@@ -46,6 +46,7 @@ OTHER_FILES += configure.sh \
                dist/room/chase/data/chase.kdenlive.ass \
                dist/room/chase/content/upscale.sh \
                dist/room/chase/content/copy.sh \
+               dist/room/chase/content/wide.sh \
                dist/room/chase/content/wide/fix.sh \
                dist/character/character.md \
                dist/character/indy/indy.md \
