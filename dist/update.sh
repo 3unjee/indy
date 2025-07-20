@@ -46,13 +46,42 @@ cd "$ffmpeg"
 EOF
 )
 
+code_sync=$(cat <<'EOF'
+LivePortrait="$PWD/../../../../../Sky/tools/LivePortrait"
+
+input="$PWD/video/base"
+
+output="$PWD/../content"
+
+#--------------------------------------------------------------------------------------------------
+# Functions
+#--------------------------------------------------------------------------------------------------
+
+run()
+{
+    if [ $# = 2 ]; then
+
+        sh sync.sh "$1" "$input" "$output" $2
+    else
+        sh sync.sh "$1" "$input" "$output"
+    fi
+}
+
+#--------------------------------------------------------------------------------------------------
+# Run
+#--------------------------------------------------------------------------------------------------
+
+cd "$LivePortrait"
+EOF
+)
+
 #--------------------------------------------------------------------------------------------------
 # Functions
 #--------------------------------------------------------------------------------------------------
 
 replace()
 {
-    local file="$PWD/room/$1/content/$2.sh"
+    local file="$PWD/room/$1/$2"
 
     if [ ! -f "$file" ]; then
         return
@@ -80,7 +109,8 @@ replace()
 
 updateScript()
 {
-    replace "$1" "upscale" "$code_upscale"
+    replace "$1" "data/sync.sh"       "$code_sync"
+    replace "$1" "content/upscale.sh" "$code_upscale"
 
     local path="$PWD/room/$1/content"
 
