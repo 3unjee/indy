@@ -9,7 +9,7 @@ LivePortrait="$PWD/../../../../../Sky/tools/LivePortrait"
 
 input="$PWD/video/base"
 
-output="$PWD/video"
+output="$PWD/../content"
 
 #--------------------------------------------------------------------------------------------------
 # Functions
@@ -19,15 +19,10 @@ run()
 {
     if [ $# = 2 ]; then
 
-        sh run.sh "$input/$1.mp4" "$input/$1-sync.mp4" $2
+        sh sync.sh "$1" "$input" "$output" $2
     else
-        sh run.sh "$input/$1.mp4" "$input/$1-sync.mp4"
+        sh sync.sh "$1" "$input" "$output"
     fi
-
-    name="output/$1--$1-sync"
-
-    mv "$name".mp4        "$output/$1.mp4"
-    mv "$name"_concat.mp4 "$output/$1-sync.mp4"
 }
 
 #--------------------------------------------------------------------------------------------------
