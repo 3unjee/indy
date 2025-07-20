@@ -54,6 +54,10 @@ replace()
 {
     local file="$PWD/room/$1/content/$2.sh"
 
+    if [ ! -f "$file" ]; then
+        return
+    fi
+
     # Use awk to replace block
     awk -v content="$3" '
         BEGIN { in_block=0 }
