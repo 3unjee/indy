@@ -20,9 +20,9 @@ run()
 {
     if [ $# = 2 ]; then
 
-        sh sync.sh "$1" "$input" "$output" $2
+        sh sync.sh "$input" "$1" "$output" $2
     else
-        sh sync.sh "$1" "$input" "$output"
+        sh sync.sh "$input" "$1" "$output"
     fi
 }
 
