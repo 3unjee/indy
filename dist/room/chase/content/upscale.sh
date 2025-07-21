@@ -78,11 +78,13 @@ run "college3.mp4"     iris-3 60
 run "college4.mp4"     iris-3 60
 run "interior.mp4"     iris-3 30
 run "interior9.mp4"    iris-3 60
-run "dialog.mp4"       iris-3 30
-run "dialog2.mp4"      iris-3 30
-run "dialog3.mp4"      iris-3 30
-run "dialog4.mp4"      iris-3 30
-run "dialog5.mp4"      iris-3 30
+
+dialog "dialog"  iris-3 30
+dialog "dialog2" iris-3 30
+dialog "dialog3" iris-3 30
+dialog "dialog4" iris-3 30
+dialog "dialog5" iris-3 30
+
 run "dialog-sync.mp4"  iris-3 30 letterbox
 run "dialog2-sync.mp4" iris-3 30 letterbox
 run "dialog3-sync.mp4" iris-3 30 letterbox
