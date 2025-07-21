@@ -10,9 +10,13 @@ root="$PWD"
 
 ffmpeg="$PWD/../../../../../Sky/tools/ffmpeg"
 
+LivePortrait="$PWD/../../../../../Sky/tools/LivePortrait"
+
 input="$PWD"
 
 output="$PWD/upscale"
+
+base="$PWD/../data/video/base"
 
 #--------------------------------------------------------------------------------------------------
 # Functions
@@ -36,6 +40,29 @@ runWide()
     else
         sh topaz.sh "$input/wide/$1" "$output/wide/$1" "$2" wide 5110 2160 "$3"
     fi
+}
+
+dialog()
+{
+    cd "$LivePortrait"
+
+    if [ $# = 4 ]; then
+
+        sh sync.sh "$base" "$1" "$output" $4 3840 2160 lossless
+    else
+        sh sync.sh "$base" "$1" "$output" 0 3840 2160 lossless
+    fi
+
+    cd -
+
+    local path="$output/$1.mp4"
+    local temp="$output/$1-temp.mp4"
+
+    mv "$path" "$temp"
+
+    sh topaz.sh "$temp" "$path" "$2" default 3840 2160 "$3"
+
+    rm "$temp"
 }
 
 #--------------------------------------------------------------------------------------------------
