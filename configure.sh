@@ -515,7 +515,7 @@ if [ $1 = "movie"       -o \
 
             echo "$source"
 
-            path="$PWD/dist/$1/content"
+            path="$PWD/dist/$1/content/upscale"
 
             if exists "$source"/*.mp4; then
 
@@ -529,7 +529,7 @@ if [ $1 = "movie"       -o \
 
             echo "$source"
 
-            path="$PWD/dist/$1/content"
+            path="$PWD/dist/$1/content/upscale/wide"
 
             if exists "$source"/*.mp4; then
 

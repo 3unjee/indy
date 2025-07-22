@@ -494,7 +494,7 @@ if [ $1 = "movie"       -o \
 
             echo "$source"
 
-            path="$assets/$1/content"
+            path="$assets/$1/content/upscale"
             mkdir -p "$path"
 
             if exists "$source"/*.mp4; then
@@ -509,7 +509,7 @@ if [ $1 = "movie"       -o \
 
             echo "$source"
 
-            path="$assets/$1/content"
+            path="$assets/$1/content/upscale/wide"
             mkdir -p "$path"
 
             if exists "$source"/*.mp4; then
