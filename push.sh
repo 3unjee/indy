@@ -193,7 +193,7 @@ if [ $1 = "movie"       -o \
      $1 = "room/intro"  -o \
      $1 = "room/attic"  -o \
      $1 = "room/attic2" -o \
-     $1 = "room/chase" ]; then
+     $1 = "room/chase" ] && [ "$2" != "upscale" ]; then
 
     source="$PWD/dist/$1/data"
 
@@ -428,39 +428,6 @@ if [ $1 = "movie"       -o \
         fi
     fi
 
-    if [ "$2" = "all" -o "$2" = "upscale" ]; then
-
-        source="$PWD/dist/$1/content/upscale"
-
-        if [ -d "$source" ]; then
-
-            echo "$source"
-
-            path="$assets/$1/content"
-            mkdir -p "$path"
-
-            if exists "$source"/*.mp4; then
-
-                cp "$source"/*.mp4 "$path"
-            fi
-        fi
-
-        source="$PWD/dist/$1/content/upscale/wide"
-
-        if [ -d "$source" ]; then
-
-            echo "$source"
-
-            path="$assets/$1/content"
-            mkdir -p "$path"
-
-            if exists "$source"/*.mp4; then
-
-                cp "$source"/*.mp4 "$path"
-            fi
-        fi
-    fi
-
     source="$PWD/dist/$1/content/audio"
 
     if [ -d "$source" ]; then
@@ -510,6 +477,43 @@ if [ $1 = "movie"       -o \
         if exists "$source"/*.webm; then
 
             cp "$source"/*.webm "$path"
+        fi
+    fi
+fi
+
+#--------------------------------------------------------------------------------------------------
+# Upscale
+#--------------------------------------------------------------------------------------------------
+
+if [ "$2" = "all" -o "$2" = "upscale" ]; then
+
+    source="$PWD/dist/$1/content/upscale"
+
+    if [ -d "$source" ]; then
+
+        echo "$source"
+
+        path="$assets/$1/content"
+        mkdir -p "$path"
+
+        if exists "$source"/*.mp4; then
+
+            cp "$source"/*.mp4 "$path"
+        fi
+    fi
+
+    source="$PWD/dist/$1/content/upscale/wide"
+
+    if [ -d "$source" ]; then
+
+        echo "$source"
+
+        path="$assets/$1/content"
+        mkdir -p "$path"
+
+        if exists "$source"/*.mp4; then
+
+            cp "$source"/*.mp4 "$path"
         fi
     fi
 fi

@@ -220,7 +220,7 @@ if [ $1 = "movie"       -o \
      $1 = "room/intro"  -o \
      $1 = "room/attic"  -o \
      $1 = "room/attic2" -o \
-     $1 = "room/chase" ]; then
+     $1 = "room/chase" ] && [ "$2" != "upscale" ]; then
 
     source="$assets/$1/data"
 
@@ -441,37 +441,6 @@ if [ $1 = "movie"       -o \
         fi
     fi
 
-    if [ "$2" = "all" -o "$2" = "upscale" ]; then
-
-        source="$assets/$1/content/upscale"
-
-        if [ -d "$source" ]; then
-
-            echo "$source"
-
-            path="$PWD/dist/$1/content"
-
-            if exists "$source"/*.mp4; then
-
-                cp "$source"/*.mp4 "$path"
-            fi
-        fi
-
-        source="$assets/$1/content/upscale/wide"
-
-        if [ -d "$source" ]; then
-
-            echo "$source"
-
-            path="$PWD/dist/$1/content"
-
-            if exists "$source"/*.mp4; then
-
-                cp "$source"/*.mp4 "$path"
-            fi
-        fi
-    fi
-
     source="$assets/$1/content/audio"
 
     if [ -d "$source" ]; then
@@ -530,5 +499,40 @@ if [ $1 = "movie"       -o \
         path="$PWD/dist/$1/content/music/extra"
 
         cp "$source"/*.webm "$path"
+    fi
+fi
+
+#--------------------------------------------------------------------------------------------------
+# Upscale
+#--------------------------------------------------------------------------------------------------
+
+if [ "$2" = "all" -o "$2" = "upscale" ]; then
+
+    source="$assets/$1/content/upscale"
+
+    if [ -d "$source" ]; then
+
+        echo "$source"
+
+        path="$PWD/dist/$1/content"
+
+        if exists "$source"/*.mp4; then
+
+            cp "$source"/*.mp4 "$path"
+        fi
+    fi
+
+    source="$assets/$1/content/upscale/wide"
+
+    if [ -d "$source" ]; then
+
+        echo "$source"
+
+        path="$PWD/dist/$1/content"
+
+        if exists "$source"/*.mp4; then
+
+            cp "$source"/*.mp4 "$path"
+        fi
     fi
 fi
