@@ -13,7 +13,7 @@ upscale()
     echo " CONFIGURING"
     echo "------------"
 
-    sh configure.sh "$name"
+    sh configure.sh "$name" default silent
 
     echo "----------"
     echo " UPSCALING"
@@ -29,7 +29,7 @@ upscale()
     echo " PUSHING"
     echo "--------"
 
-    sh push.sh "$name" upscale
+    sh push.sh "$name" upscale silent
 }
 
 renderBase()

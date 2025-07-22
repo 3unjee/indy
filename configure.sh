@@ -22,7 +22,7 @@ exists()
 # Syntax
 #--------------------------------------------------------------------------------------------------
 
-if [ $# != 1 -a $# != 2 ] \
+if [ $# != 1 -a $# != 3 ] \
    || \
    [ $1 != "all"              -a \
      $1 != "deploy"           -a \
@@ -38,7 +38,9 @@ if [ $# != 1 -a $# != 2 ] \
      $1 != "room/attic2"      -a \
      $1 != "room/chase" ] \
    || \
-   [ $# = 2 -a "$2" != "all" -a "$2" != "upscale" ]; then
+   [ $# = 2 -a "$2" != "default" -a "$2" != "all" -a "$2" != "upscale" ] \
+   || \
+   [ $# = 3 -a "$3" != "silent" ]; then
 
     echo "Usage: configure <all>"
     echo "                 <deploy>"
@@ -53,14 +55,17 @@ if [ $# != 1 -a $# != 2 ] \
     echo "                 <room/attic>"
     echo "                 <room/attic2>"
     echo "                 <room/chase>"
-    echo "                 [all | upscale]"
+    echo "                 [default | all | upscale] [silent]"
 
     exit 1
 fi
 
-read -p "Run configure for $1 ? (yes/no) " REPLY
+if [ "$3" != "silent" ]; then
 
-if [ "$REPLY" != "yes" ]; then exit 1; fi
+    read -p "Run configure for $1 ? (yes/no) " REPLY
+
+    if [ "$REPLY" != "yes" ]; then exit 1; fi
+fi
 
 #--------------------------------------------------------------------------------------------------
 # All
