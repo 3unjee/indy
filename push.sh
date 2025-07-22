@@ -193,327 +193,329 @@ if [ $1 = "movie"       -o \
      $1 = "room/intro"  -o \
      $1 = "room/attic"  -o \
      $1 = "room/attic2" -o \
-     $1 = "room/chase" ] && [ "$2" != "upscale" ]; then
+     $1 = "room/chase" ]; then
 
-    source="$PWD/dist/$1/data"
+    if [ "$2" != "upscale" ]; then
 
-    if [ -d "$source" ]; then
+        source="$PWD/dist/$1/data"
 
-        echo "$source"
+        if [ -d "$source" ]; then
 
-        path="$assets/$1/data"
-        mkdir -p "$path"
+            echo "$source"
 
-        if exists "$source"/*.kra; then
+            path="$assets/$1/data"
+            mkdir -p "$path"
 
-            cp "$source"/*.kra "$path"
+            if exists "$source"/*.kra; then
+
+                cp "$source"/*.kra "$path"
+            fi
+
+            if exists "$source"/*.psd; then
+
+                cp "$source"/*.psd "$path"
+            fi
+
+            if exists "$source"/*.png; then
+
+                cp "$source"/*.png "$path"
+            fi
         fi
 
-        if exists "$source"/*.psd; then
+        source="$PWD/dist/$1/data/wide"
 
-            cp "$source"/*.psd "$path"
+        if [ -d "$source" ]; then
+
+            echo "$source"
+
+            path="$assets/$1/data/wide"
+            mkdir -p "$path"
+
+            if exists "$source"/*.psd; then
+
+                cp "$source"/*.psd "$path"
+            fi
+
+            if exists "$source"/*.png; then
+
+                cp "$source"/*.png "$path"
+            fi
         fi
 
-        if exists "$source"/*.png; then
+        source="$PWD/dist/$1/data/upscale"
+
+        if [ -d "$source" ]; then
+
+            echo "$source"
+
+            path="$assets/$1/data/upscale"
+            mkdir -p "$path"
+
+            if exists "$source"/*.png; then
+
+                cp "$source"/*.png "$path"
+            fi
+
+            if exists "$source"/*.jpeg; then
+
+                cp "$source"/*.jpeg "$path"
+            fi
+        fi
+
+        source="$PWD/dist/$1/data/upscale/base"
+
+        if [ -d "$source" ]; then
+
+            echo "$source"
+
+            path="$assets/$1/data/upscale/base"
+            mkdir -p "$path"
 
             cp "$source"/*.png "$path"
         fi
-    fi
 
-    source="$PWD/dist/$1/data/wide"
+        source="$PWD/dist/$1/data/upscale/jpg"
 
-    if [ -d "$source" ]; then
+        if [ -d "$source" ]; then
 
-        echo "$source"
+            echo "$source"
 
-        path="$assets/$1/data/wide"
-        mkdir -p "$path"
+            path="$assets/$1/data/upscale/jpg"
+            mkdir -p "$path"
 
-        if exists "$source"/*.psd; then
+            if exists "$source"/*.jpg; then
 
-            cp "$source"/*.psd "$path"
+                cp "$source"/*.jpg "$path"
+            fi
         fi
 
-        if exists "$source"/*.png; then
+        source="$PWD/dist/$1/data/upscale/upload"
 
-            cp "$source"/*.png "$path"
-        fi
-    fi
+        if [ -d "$source" ]; then
 
-    source="$PWD/dist/$1/data/upscale"
+            echo "$source"
 
-    if [ -d "$source" ]; then
+            path="$assets/$1/data/upscale/upload"
+            mkdir -p "$path"
 
-        echo "$source"
+            if exists "$source"/*.jpg; then
 
-        path="$assets/$1/data/upscale"
-        mkdir -p "$path"
-
-        if exists "$source"/*.png; then
-
-            cp "$source"/*.png "$path"
+                cp "$source"/*.jpg "$path"
+            fi
         fi
 
-        if exists "$source"/*.jpeg; then
+        source="$PWD/dist/$1/data/video"
 
-            cp "$source"/*.jpeg "$path"
+        if [ -d "$source" ]; then
+
+            echo "$source"
+
+            path="$assets/$1/data/video"
+            mkdir -p "$path"
+
+            if exists "$source"/*.mp4; then
+
+                cp "$source"/*.mp4 "$path"
+            fi
         fi
-    fi
 
-    source="$PWD/dist/$1/data/upscale/base"
+        source="$PWD/dist/$1/data/video/base"
 
-    if [ -d "$source" ]; then
+        if [ -d "$source" ]; then
 
-        echo "$source"
+            echo "$source"
 
-        path="$assets/$1/data/upscale/base"
-        mkdir -p "$path"
-
-        cp "$source"/*.png "$path"
-    fi
-
-    source="$PWD/dist/$1/data/upscale/jpg"
-
-    if [ -d "$source" ]; then
-
-        echo "$source"
-
-        path="$assets/$1/data/upscale/jpg"
-        mkdir -p "$path"
-
-        if exists "$source"/*.jpg; then
-
-            cp "$source"/*.jpg "$path"
-        fi
-    fi
-
-    source="$PWD/dist/$1/data/upscale/upload"
-
-    if [ -d "$source" ]; then
-
-        echo "$source"
-
-        path="$assets/$1/data/upscale/upload"
-        mkdir -p "$path"
-
-        if exists "$source"/*.jpg; then
-
-            cp "$source"/*.jpg "$path"
-        fi
-    fi
-
-    source="$PWD/dist/$1/data/video"
-
-    if [ -d "$source" ]; then
-
-        echo "$source"
-
-        path="$assets/$1/data/video"
-        mkdir -p "$path"
-
-        if exists "$source"/*.mp4; then
+            path="$assets/$1/data/video/base"
+            mkdir -p "$path"
 
             cp "$source"/*.mp4 "$path"
         fi
-    fi
 
-    source="$PWD/dist/$1/data/video/base"
+        source="$PWD/dist/$1/data/video/sync"
 
-    if [ -d "$source" ]; then
+        if [ -d "$source" ]; then
 
-        echo "$source"
+            echo "$source"
 
-        path="$assets/$1/data/video/base"
-        mkdir -p "$path"
+            path="$assets/$1/data/video/sync"
+            mkdir -p "$path"
 
-        cp "$source"/*.mp4 "$path"
-    fi
-
-    source="$PWD/dist/$1/data/video/sync"
-
-    if [ -d "$source" ]; then
-
-        echo "$source"
-
-        path="$assets/$1/data/video/sync"
-        mkdir -p "$path"
-
-        cp "$source"/*.mp4 "$path"
-    fi
-
-    source="$PWD/dist/$1/data/voice"
-
-    if [ -d "$source" ]; then
-
-        echo "$source"
-
-        path="$assets/$1/data/voice"
-        mkdir -p "$path"
-
-        if exists "$source"/*.wav; then
-
-            cp "$source"/*.wav "$path"
+            cp "$source"/*.mp4 "$path"
         fi
 
-        if exists "$source"/*.mp3; then
+        source="$PWD/dist/$1/data/voice"
+
+        if [ -d "$source" ]; then
+
+            echo "$source"
+
+            path="$assets/$1/data/voice"
+            mkdir -p "$path"
+
+            if exists "$source"/*.wav; then
+
+                cp "$source"/*.wav "$path"
+            fi
+
+            if exists "$source"/*.mp3; then
+
+                cp "$source"/*.mp3 "$path"
+            fi
+        fi
+
+        source="$PWD/dist/$1/content"
+
+        if [ -d "$source" ]; then
+
+            echo "$source"
+
+            path="$assets/$1/content"
+            mkdir -p "$path"
+
+            cp "$source"/*.mp4 "$path"
+
+            if exists "$source"/*.png; then
+
+                cp "$source"/*.png "$path"
+            fi
+
+            if exists "$source"/*.jpg; then
+
+                cp "$source"/*.jpg "$path"
+            fi
+        fi
+
+        source="$PWD/dist/$1/content/wide"
+
+        if [ -d "$source" ]; then
+
+            echo "$source"
+
+            path="$assets/$1/content/wide"
+            mkdir -p "$path"
+
+            if exists "$source"/*.mp4; then
+
+                cp "$source"/*.mp4 "$path"
+            fi
+        fi
+
+        source="$PWD/dist/$1/content/wide/base"
+
+        if [ -d "$source" ]; then
+
+            echo "$source"
+
+            path="$assets/$1/content/wide/base"
+            mkdir -p "$path"
+
+            if exists "$source"/*.mp4; then
+
+                cp "$source"/*.mp4 "$path"
+            fi
+        fi
+
+        source="$PWD/dist/$1/content/wide/fix"
+
+        if [ -d "$source" ]; then
+
+            echo "$source"
+
+            path="$assets/$1/content/wide/fix"
+            mkdir -p "$path"
+
+            if exists "$source"/*.mp4; then
+
+                cp "$source"/*.mp4 "$path"
+            fi
+        fi
+
+        source="$PWD/dist/$1/content/audio"
+
+        if [ -d "$source" ]; then
+
+            echo "$source"
+
+            path="$assets/$1/content/audio"
+            mkdir -p "$path"
 
             cp "$source"/*.mp3 "$path"
+
+            if exists "$source"/*.mp4; then
+
+                cp "$source"/*.mp4 "$path"
+            fi
+        fi
+
+        source="$PWD/dist/$1/content/voice"
+
+        if [ -d "$source" ]; then
+
+            echo "$source"
+
+            path="$assets/$1/content/voice"
+            mkdir -p "$path"
+
+            if exists "$source"/*.wav; then
+
+                cp "$source"/*.wav "$path"
+            fi
+
+            if exists "$source"/*.mp3; then
+
+                cp "$source"/*.mp3 "$path"
+            fi
+        fi
+
+        source="$PWD/dist/$1/content/music"
+
+        if [ -d "$source" ]; then
+
+            echo "$source"
+
+            path="$assets/$1/content/music"
+            mkdir -p "$path"
+
+            if exists "$source"/*.webm; then
+
+                cp "$source"/*.webm "$path"
+            fi
         fi
     fi
 
-    source="$PWD/dist/$1/content"
+    #----------------------------------------------------------------------------------------------
+    # Upscale
 
-    if [ -d "$source" ]; then
+    if [ "$2" = "all" -o "$2" = "upscale" ]; then
 
-        echo "$source"
+        source="$PWD/dist/$1/content/upscale"
 
-        path="$assets/$1/content"
-        mkdir -p "$path"
+        if [ -d "$source" ]; then
 
-        cp "$source"/*.mp4 "$path"
+            echo "$source"
 
-        if exists "$source"/*.png; then
+            path="$assets/$1/content"
+            mkdir -p "$path"
 
-            cp "$source"/*.png "$path"
+            if exists "$source"/*.mp4; then
+
+                cp "$source"/*.mp4 "$path"
+            fi
         fi
 
-        if exists "$source"/*.jpg; then
+        source="$PWD/dist/$1/content/upscale/wide"
 
-            cp "$source"/*.jpg "$path"
-        fi
-    fi
+        if [ -d "$source" ]; then
 
-    source="$PWD/dist/$1/content/wide"
+            echo "$source"
 
-    if [ -d "$source" ]; then
+            path="$assets/$1/content"
+            mkdir -p "$path"
 
-        echo "$source"
+            if exists "$source"/*.mp4; then
 
-        path="$assets/$1/content/wide"
-        mkdir -p "$path"
-
-        if exists "$source"/*.mp4; then
-
-            cp "$source"/*.mp4 "$path"
-        fi
-    fi
-
-    source="$PWD/dist/$1/content/wide/base"
-
-    if [ -d "$source" ]; then
-
-        echo "$source"
-
-        path="$assets/$1/content/wide/base"
-        mkdir -p "$path"
-
-        if exists "$source"/*.mp4; then
-
-            cp "$source"/*.mp4 "$path"
-        fi
-    fi
-
-    source="$PWD/dist/$1/content/wide/fix"
-
-    if [ -d "$source" ]; then
-
-        echo "$source"
-
-        path="$assets/$1/content/wide/fix"
-        mkdir -p "$path"
-
-        if exists "$source"/*.mp4; then
-
-            cp "$source"/*.mp4 "$path"
-        fi
-    fi
-
-    source="$PWD/dist/$1/content/audio"
-
-    if [ -d "$source" ]; then
-
-        echo "$source"
-
-        path="$assets/$1/content/audio"
-        mkdir -p "$path"
-
-        cp "$source"/*.mp3 "$path"
-
-        if exists "$source"/*.mp4; then
-
-            cp "$source"/*.mp4 "$path"
-        fi
-    fi
-
-    source="$PWD/dist/$1/content/voice"
-
-    if [ -d "$source" ]; then
-
-        echo "$source"
-
-        path="$assets/$1/content/voice"
-        mkdir -p "$path"
-
-        if exists "$source"/*.wav; then
-
-            cp "$source"/*.wav "$path"
-        fi
-
-        if exists "$source"/*.mp3; then
-
-            cp "$source"/*.mp3 "$path"
-        fi
-    fi
-
-    source="$PWD/dist/$1/content/music"
-
-    if [ -d "$source" ]; then
-
-        echo "$source"
-
-        path="$assets/$1/content/music"
-        mkdir -p "$path"
-
-        if exists "$source"/*.webm; then
-
-            cp "$source"/*.webm "$path"
-        fi
-    fi
-fi
-
-#--------------------------------------------------------------------------------------------------
-# Upscale
-#--------------------------------------------------------------------------------------------------
-
-if [ "$2" = "all" -o "$2" = "upscale" ]; then
-
-    source="$PWD/dist/$1/content/upscale"
-
-    if [ -d "$source" ]; then
-
-        echo "$source"
-
-        path="$assets/$1/content"
-        mkdir -p "$path"
-
-        if exists "$source"/*.mp4; then
-
-            cp "$source"/*.mp4 "$path"
-        fi
-    fi
-
-    source="$PWD/dist/$1/content/upscale/wide"
-
-    if [ -d "$source" ]; then
-
-        echo "$source"
-
-        path="$assets/$1/content"
-        mkdir -p "$path"
-
-        if exists "$source"/*.mp4; then
-
-            cp "$source"/*.mp4 "$path"
+                cp "$source"/*.mp4 "$path"
+            fi
         fi
     fi
 fi
