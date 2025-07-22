@@ -1,6 +1,8 @@
 OTHER_FILES += configure.sh \
                push.sh \
                render.sh \
+               update.sh \
+               upscale.sh \
                environment.sh \
                README.md \
                extra.md \
@@ -8,8 +10,6 @@ OTHER_FILES += configure.sh \
                videos.md \
                indy.vbml \
                local.vbml \
-               dist/update.sh \
-               dist/upscale.sh \
                dist/profile/default.mlt \
                dist/profile/wide.mlt \
                dist/reference/reference.md \

@@ -108,7 +108,7 @@ EOF
 
 replace()
 {
-    local file="$PWD/room/$1/$2"
+    local file="$PWD/dist/room/$1/$2"
 
     if [ ! -f "$file" ]; then
         return
@@ -139,7 +139,7 @@ updateScript()
     replace "$1" "data/sync.sh"       "$code_sync"
     replace "$1" "content/upscale.sh" "$code_upscale"
 
-    local path="$PWD/room/$1/content"
+    local path="$PWD/dist/room/$1/content"
 
     local upscale="$path/upscale.sh"
 
@@ -218,9 +218,9 @@ generate()
 {
     if [ $# = 2 ]; then
 
-        generateBase "room/$1" "$2"
+        generateBase "dist/room/$1" "$2"
     else
-        generateBase "room/$1" "$1"
+        generateBase "dist/room/$1" "$1"
     fi
 }
 
@@ -233,7 +233,7 @@ cleanBase()
 
 clean()
 {
-    cleanBase "room/$1"
+    cleanBase "dist/room/$1"
 }
 
 #--------------------------------------------------------------------------------------------------
@@ -249,7 +249,7 @@ updateScript "chase"
 # 16-9
 #--------------------------------------------------------------------------------------------------
 
-#generateBase "movie"
+#generateBase "dist/movie" "movie"
 
 #generate "intro"
 
@@ -264,7 +264,7 @@ updateScript "chase"
 # Clean
 #--------------------------------------------------------------------------------------------------
 
-cleanBase "movie"
+cleanBase "dist/movie"
 
 clean "intro"
 clean "attic"

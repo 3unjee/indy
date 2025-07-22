@@ -7,7 +7,7 @@ set -e
 
 upscale()
 {
-    cd "$PWD/room/$1"/content
+    cd "$PWD/dist/room/$1"/content
 
     sh upscale.sh
 
@@ -16,11 +16,7 @@ upscale()
 
 renderBase()
 {
-    cd "$PWD"/..
-
     sh render.sh "$1"
-
-    cd -
 }
 
 render()
