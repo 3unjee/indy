@@ -9,13 +9,27 @@ upscale()
 {
     name="room/$1"
 
+    echo "------------"
+    echo " CONFIGURING"
+    echo "------------"
+
+    sh configure.sh "$name"
+
+    echo "----------"
+    echo " UPSCALING"
+    echo "----------"
+
     cd "$PWD/dist/$name"/content
 
     sh upscale.sh
 
     cd -
 
-    sh push "$name" upscale
+    echo "--------"
+    echo " PUSHING"
+    echo "--------"
+
+    sh push.sh "$name" upscale
 }
 
 renderBase()
