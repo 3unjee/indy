@@ -43,15 +43,15 @@ if [ "$REPLY" != "yes" ]; then exit 1; fi
 #upscale "intro"
 #upscale "attic"
 #upscale "attic2"
-#upscale "chase"
+upscale "chase"
 
 #--------------------------------------------------------------------------------------------------
 # Render
 #--------------------------------------------------------------------------------------------------
 
-renderBase "movie"
+#renderBase "movie"
 
-render "intro"
-render "attic"
-render "attic2"
+#render "intro"
+#render "attic"
+#render "attic2"
 render "chase"
