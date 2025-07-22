@@ -153,7 +153,7 @@ updateScript()
 
     while IFS= read -r line; do
         block+="${indent}${line}\n"
-    done < <(awk '/^run / || /^runWide /' "$upscale")
+    done < <(awk '/^run / || /^runWide / || /^dialog /' "$upscale")
 
     awk -v marker="$marker" -v block="$block" '
     {
