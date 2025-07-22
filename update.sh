@@ -73,6 +73,10 @@ cd "$ffmpeg"
 EOF
 )
 
+code_copy=$(cat <<'EOF'
+EOF
+)
+
 code_sync=$(cat <<'EOF'
 LivePortrait="$PWD/../../../../../Sky/tools/LivePortrait"
 

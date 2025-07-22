@@ -5,6 +5,7 @@ set -e
 # Settings
 #--------------------------------------------------------------------------------------------------
 
+# BEGIN code
 upscale="$PWD/upscale"
 
 temp="$upscale/temp"
@@ -21,6 +22,11 @@ run()
 runWide()
 {
     run "$1"
+}
+
+dialog()
+{
+    run "$1.mp4"
 }
 
 exists()
@@ -71,6 +77,7 @@ else
 
     move "$upscale"      "$temp"
     move "$upscale/wide" "$temp/wide"
+# END code
 
     #----------------------------------------------------------------------------------------------
     # BEGIN copy

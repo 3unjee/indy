@@ -5,6 +5,7 @@ set -e
 # Settings
 #--------------------------------------------------------------------------------------------------
 
+# BEGIN code
 upscale="$PWD/upscale"
 
 temp="$upscale/temp"
@@ -71,6 +72,7 @@ else
 
     move "$upscale"      "$temp"
     move "$upscale/wide" "$temp/wide"
+# END code
 
     #----------------------------------------------------------------------------------------------
     # BEGIN copy
