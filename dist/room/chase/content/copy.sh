@@ -24,6 +24,11 @@ runWide()
     run "$1"
 }
 
+dialog()
+{
+    run "$1.mp4"
+}
+
 exists()
 {
     ls "$1" 1> /dev/null 2>&1

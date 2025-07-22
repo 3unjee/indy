@@ -74,6 +74,77 @@ EOF
 )
 
 code_copy=$(cat <<'EOF'
+upscale="$PWD/upscale"
+
+temp="$upscale/temp"
+
+#--------------------------------------------------------------------------------------------------
+# Functions
+#--------------------------------------------------------------------------------------------------
+
+run()
+{
+    cp "$1" "$upscale/$1"
+}
+
+runWide()
+{
+    run "$1"
+}
+
+dialog()
+{
+    run "$1.mp4"
+}
+
+exists()
+{
+    ls "$1" 1> /dev/null 2>&1
+}
+
+move()
+{
+    if exists "$1"/*.mp4; then
+
+        mv "$1"/*.mp4 "$2"
+    fi
+}
+
+restore()
+{
+    if exists "$1"/*.mp4; then
+
+        rm -f "$2"/*.mp4
+
+        mv "$1"/*.mp4 "$2"
+    fi
+}
+
+#--------------------------------------------------------------------------------------------------
+# Run
+#--------------------------------------------------------------------------------------------------
+
+if [ "$1" = "restore" ]; then
+
+    if ! exists "$temp"/*.mp4; then
+
+        echo "The temp folder does not contain video files."
+
+        exit 0
+    fi
+
+    restore "$temp"      "$upscale"
+    restore "$temp/wide" "$upscale/wide"
+else
+    if exists "$temp"/*.mp4; then
+
+        echo "The temp folder already contains video files."
+
+        exit 0
+    fi
+
+    move "$upscale"      "$temp"
+    move "$upscale/wide" "$temp/wide"
 EOF
 )
 
@@ -142,6 +213,7 @@ updateScript()
 {
     replace "$1" "data/sync.sh"       "$code_sync"
     replace "$1" "content/upscale.sh" "$code_upscale"
+    replace "$1" "content/copy.sh"    "$code_copy"
 
     local path="$PWD/dist/room/$1/content"
 
