@@ -9,15 +9,15 @@ upscale()
 {
     name="room/$1"
 
-    echo "------------"
-    echo " CONFIGURING"
-    echo "------------"
+    echo "-----------"
+    echo "CONFIGURING"
+    echo "-----------"
 
     sh configure.sh "$name" default silent
 
-    echo "----------"
-    echo " UPSCALING"
-    echo "----------"
+    echo "---------"
+    echo "UPSCALING"
+    echo "---------"
 
     cd "$PWD/dist/$name"/content
 
@@ -25,9 +25,9 @@ upscale()
 
     cd -
 
-    echo "--------"
-    echo " PUSHING"
-    echo "--------"
+    echo "-------"
+    echo "PUSHING"
+    echo "-------"
 
     sh push.sh "$name" upscale silent
 }
