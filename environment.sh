@@ -8,10 +8,14 @@ set -e
 
 assets="/c/users/bunjee/OneDrive/assets/indy"
 
+kdenlive="/c/dev/tools/kdenlive/bin"
+
 #--------------------------------------------------------------------------------------------------
 # defaults
 
 assets_default="/c/users/bunjee/OneDrive/assets/indy"
+
+kdenlive_default="/c/dev/tools/kdenlive/bin"
 
 #--------------------------------------------------------------------------------------------------
 # Functions
@@ -25,6 +29,7 @@ replace()
 
     apply $expression configure.sh
     apply $expression push.sh
+    apply $expression render.sh
 }
 
 apply()
@@ -53,7 +58,7 @@ getOs()
 
 if [ $# != 2 ] || [ $1 != "assets" ]; then
 
-    echo "Usage: environment <assets> <path>"
+    echo "Usage: environment <assets path | default> <kdenlive path | default>"
 
     exit 1
 fi
@@ -68,8 +73,16 @@ host=$(getOs)
 # Replacements
 #--------------------------------------------------------------------------------------------------
 
-if [ "$2" = "default" ]; then
+if [ "$1" = "default" ]; then
+
     replace assets "$assets" "$assets_default"
 else
-    replace assets "$assets" "$2"
+    replace assets "$assets" "$1"
+fi
+
+if [ "$2" = "default" ]; then
+
+    replace kdenlive "$kdenlive" "$kdenlive_default"
+else
+    replace kdenlive "$kdenlive" "$1"
 fi
