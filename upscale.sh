@@ -43,6 +43,8 @@ renderBase()
 
     sh configure.sh "$1" default force
 
+    sh configure.sh deploy default force
+
     echo "---------"
     echo "RENDERING"
     echo "---------"
@@ -53,7 +55,7 @@ renderBase()
     echo "PUSHING"
     echo "-------"
 
-    sh push.sh "$1" deploy default force
+    sh push.sh deploy default force
 }
 
 render()
