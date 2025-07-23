@@ -84,5 +84,5 @@ if [ "$2" = "default" ]; then
 
     replace kdenlive "$kdenlive" "$kdenlive_default"
 else
-    replace kdenlive "$kdenlive" "$1"
+    replace kdenlive "$kdenlive" "$2"
 fi
