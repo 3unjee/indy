@@ -56,7 +56,7 @@ getOs()
 # Syntax
 #--------------------------------------------------------------------------------------------------
 
-if [ $# != 2 ] || [ $1 != "assets" ]; then
+if [ $# != 2 ]
 
     echo "Usage: environment <assets path | default> <kdenlive path | default>"
 
