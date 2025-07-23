@@ -37,7 +37,7 @@ if [ $# -lt 1 -o $# -gt 3 ] \
    || \
    [ $# = 2 -a "$2" != "default" -a "$2" != "all" -a "$2" != "upscale" ] \
    || \
-   [ $# = 3 -a "$3" != "silent" ]; then
+   [ $# = 3 -a "$3" != "force" ]; then
 
     echo "Usage: push <deploy>"
     echo "            <screens>"
@@ -51,12 +51,12 @@ if [ $# -lt 1 -o $# -gt 3 ] \
     echo "            <room/attic>"
     echo "            <room/attic2>"
     echo "            <room/chase>"
-    echo "            [default | all | upscale] [silent]"
+    echo "            [default | all | upscale] [force]"
 
     exit 1
 fi
 
-if [ "$3" != "silent" ]; then
+if [ "$3" != "force" ]; then
 
    read -p "Run push for $1 ? (yes/no) " REPLY
 

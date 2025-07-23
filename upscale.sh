@@ -5,21 +5,19 @@ set -e
 # Functions
 #--------------------------------------------------------------------------------------------------
 
-upscale()
+upscaleBase()
 {
-    name="room/$1"
-
     echo "-----------"
     echo "CONFIGURING"
     echo "-----------"
 
-    sh configure.sh "$name" default silent
+    sh configure.sh "$1" default force
 
     echo "---------"
     echo "UPSCALING"
     echo "---------"
 
-    cd "$PWD/dist/$name"/content
+    cd "$PWD/dist/$1"/content
 
     sh upscale.sh
 
@@ -29,12 +27,33 @@ upscale()
     echo "PUSHING"
     echo "-------"
 
-    sh push.sh "$name" upscale silent
+    sh push.sh "$1" upscale force
+}
+
+upscale()
+{
+    upscaleBase "room/$1"
 }
 
 renderBase()
 {
+    echo "-----------"
+    echo "CONFIGURING"
+    echo "-----------"
+
+    sh configure.sh "$1" default force
+
+    echo "---------"
+    echo "RENDERING"
+    echo "---------"
+
     sh render.sh "$1"
+
+    echo "-------"
+    echo "PUSHING"
+    echo "-------"
+
+    sh push.sh "$1" deploy default force
 }
 
 render()
@@ -57,7 +76,7 @@ if [ "$REPLY" != "yes" ]; then exit 1; fi
 #upscale "intro"
 #upscale "attic"
 #upscale "attic2"
-upscale "chase"
+#upscale "chase"
 
 #--------------------------------------------------------------------------------------------------
 # Render
@@ -68,4 +87,4 @@ upscale "chase"
 #render "intro"
 #render "attic"
 #render "attic2"
-#render "chase"
+render "chase"
