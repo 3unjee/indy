@@ -43,19 +43,11 @@ renderBase()
 
     sh configure.sh "$1" default force
 
-    sh configure.sh deploy default force
-
     echo "---------"
     echo "RENDERING"
     echo "---------"
 
     sh render.sh "$1"
-
-    echo "-------"
-    echo "PUSHING"
-    echo "-------"
-
-    sh push.sh deploy default force
 }
 
 render()
@@ -84,9 +76,13 @@ if [ "$REPLY" != "yes" ]; then exit 1; fi
 # Render
 #--------------------------------------------------------------------------------------------------
 
+sh configure.sh deploy default force
+
 #renderBase "movie"
 
 #render "intro"
 #render "attic"
 #render "attic2"
 render "chase"
+
+sh push.sh deploy default force
