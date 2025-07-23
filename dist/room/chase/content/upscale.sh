@@ -72,12 +72,12 @@ dialog()
 cd "$ffmpeg"
 # END code
 
-run "college.mp4"      iris-3 60
-run "college2.mp4"     iris-3 60
-run "college3.mp4"     iris-3 60
-run "college4.mp4"     iris-3 60
-run "interior.mp4"     iris-3 30
-run "interior9.mp4"    iris-3 60
+run "college.mp4"   iris-3 60
+run "college2.mp4"  iris-3 60
+run "college3.mp4"  iris-3 60
+run "college4.mp4"  iris-3 60
+run "interior.mp4"  iris-3 30
+run "interior9.mp4" iris-3 60
 
 dialog "dialog"  iris-3 30
 dialog "dialog2" iris-3 30
