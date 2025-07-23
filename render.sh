@@ -8,7 +8,7 @@ set -e
 root="$PWD"
 
 # NOTE windows: It seems the Program Files path is messing up the melt command line.
-bin="/c/dev/tools/kdenlive/bin"
+kdenlive="/c/dev/tools/kdenlive/bin"
 
 ffmpeg="$PWD/../Sky/tools/ffmpeg/bin/ffmpeg"
 
@@ -202,7 +202,7 @@ fi
 # Render
 #--------------------------------------------------------------------------------------------------
 
-cd "$bin"
+cd "$kdenlive"
 
 if [ $1 = "movie" ]; then
 
