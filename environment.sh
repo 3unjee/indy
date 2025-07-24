@@ -89,8 +89,8 @@ applyRoom()
 getOs()
 {
     case `uname` in
-    Darwin*) echo "macOS";;
-    *)       echo "other";;
+        Darwin*) echo "macOS";;
+        *)       echo "other";;
     esac
 }
 
@@ -117,16 +117,16 @@ host=$(getOs)
 # Replacements
 #--------------------------------------------------------------------------------------------------
 
-if [ "$2" = "default" ]; then
+if [ "$1" = "default" ]; then
 
-    replaceProjects "$path" "$path_default"
+    replaceProjects "$project" "$project_default"
 else
-    replaceProjects "$path_default" "$1"
+    replaceProjects "$project_default" "$1"
 fi
 
 if [ $# -gt 1 ]; then
 
-    if [ "$1" = "default" ]; then
+    if [ "$2" = "default" ]; then
 
         replace assets "$assets" "$assets_default"
     else
@@ -136,7 +136,7 @@ fi
 
 if [ $# -gt 2 ]; then
 
-    if [ "$2" = "default" ]; then
+    if [ "$3" = "default" ]; then
 
         replace kdenlive "$kdenlive" "$kdenlive_default"
     else
