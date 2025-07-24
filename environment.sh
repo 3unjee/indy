@@ -73,7 +73,13 @@ applyBase()
     local path="$1"
     local name="${2:-$1}"
 
-    apply "$expression" "dist/$path/data/$name.kdenlive"
+    # NOTE: When the parameter is 'default' we checkout the original project file.
+    if [ "$parameter" = "default" ]; then
+
+        git checkout "dist/$path/data/$name.kdenlive"
+    else
+        apply "$expression" "dist/$path/data/$name.kdenlive"
+    fi
 }
 
 applyRoom()
@@ -116,6 +122,8 @@ host=$(getOs)
 #--------------------------------------------------------------------------------------------------
 # Replacements
 #--------------------------------------------------------------------------------------------------
+
+parameter="$1"
 
 if [ "$1" = "default" ]; then
 
