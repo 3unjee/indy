@@ -79,8 +79,8 @@ applyBase()
 
 applyRoom()
 {
-    local nameA="$1"
-    local nameB="${2:-$1}"
+    local path="room/$1"
+    local name="${2:-$1}"
 
     applyBase "$nameA" "$nameB"
 }
@@ -155,16 +155,14 @@ fi
 # Replacements
 #--------------------------------------------------------------------------------------------------
 
-path=$(getPath "$project")
-
-pathDefault=$(getPath "$project_default")
-
 if [ "$2" = "default" ]; then
 
-    replaceProjects "$path" "$pathDefault"
+    path=$(getPath "$project")x
 else
-    replaceProjects "$pathDefault" "$path"
+    path=$(getPath "$project_default")
 fi
+
+replaceProjects "$path" "$1"
 
 if [ $# -gt 1 ]; then
 
@@ -172,7 +170,7 @@ if [ $# -gt 1 ]; then
 
         replace assets "$assets" "$assets_default"
     else
-        replace assets "$assets" "$1"
+        replace assets "$assets" "$2"
     fi
 fi
 
@@ -182,6 +180,6 @@ if [ $# -gt 2 ]; then
 
         replace kdenlive "$kdenlive" "$kdenlive_default"
     else
-        replace kdenlive "$kdenlive" "$2"
+        replace kdenlive "$kdenlive" "$3"
     fi
 fi
