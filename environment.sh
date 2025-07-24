@@ -89,8 +89,8 @@ applyRoom()
 getOs()
 {
     case `uname` in
-    Darwin*) os="macOS";;
-    *)       os="other";;
+    Darwin*) echo "macOS";;
+    *)       echo "other";;
     esac
 }
 
