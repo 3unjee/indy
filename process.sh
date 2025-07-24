@@ -59,7 +59,7 @@ render()
 # Syntax
 #--------------------------------------------------------------------------------------------------
 
-read -p "Run upscale ? (yes/no) " REPLY
+read -p "Run process ? (yes/no) " REPLY
 
 if [ "$REPLY" != "yes" ]; then exit 1; fi
 

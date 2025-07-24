@@ -2,7 +2,7 @@ OTHER_FILES += configure.sh \
                push.sh \
                render.sh \
                update.sh \
-               upscale.sh \
+               process.sh \
                environment.sh \
                README.md \
                extra.md \
