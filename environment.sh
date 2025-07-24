@@ -70,24 +70,20 @@ apply()
 
 applyBase()
 {
-    local path="$1"
-    local name="${2:-$1}"
+    local path="dist/$1/data/${2:-$1}.kdenlive"
 
     # NOTE: When the parameter is 'default' we checkout the original project file.
     if [ "$parameter" = "default" ]; then
 
-        git checkout "dist/$path/data/$name.kdenlive"
+        git checkout "$path"
     else
-        apply "$expression" "dist/$path/data/$name.kdenlive"
+        apply "$expression" "$path"
     fi
 }
 
 applyRoom()
 {
-    local path="room/$1"
-    local name="${2:-$1}"
-
-    applyBase "$path" "$name"
+    applyBase "room/$1" "${2:-$1}"
 }
 
 #--------------------------------------------------------------------------------------------------
