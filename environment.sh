@@ -44,7 +44,10 @@ replaceProjects()
 
     expression="s|$path|$pathDefault|g"
 
-    applyBase "movie"
+    applyBase "movie" "movieIntro"
+    applyBase "movie" "movieAttic"
+    applyBase "movie" "movieChase"
+    applyBase "movie" "movieOutro"
 
     applyRoom "intro"
 
