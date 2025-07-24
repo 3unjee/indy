@@ -82,7 +82,7 @@ applyRoom()
     local path="room/$1"
     local name="${2:-$1}"
 
-    applyBase "$nameA" "$nameB"
+    applyBase "$path" "$name"
 }
 
 #--------------------------------------------------------------------------------------------------
