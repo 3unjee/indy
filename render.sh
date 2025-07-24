@@ -63,11 +63,11 @@ renderBase()
 
     local input=$(getPath "$root/dist/$path/data/$nameInput.kdenlive")
 
-    local output=$(getPath "$root/deploy/$nameOutput.mp4")
+    local output=$(getPath "$root/deploy/$nameOutput.$extension")
 
     local profile=$(getPath "$root/dist/profile/$nameProfile.mlt")
 
-    local temp=$(getPath "$root/deploy/temp.mp4")
+    local temp=$(getPath "$root/deploy/temp.$extension")
 
     echo "Rendering from: $input"
     echo "Output:         $output"
@@ -75,11 +75,23 @@ renderBase()
 
     rm -f "$temp"
 
-    # NOTE: These settings are extracted from the kdenlive render panel.
-    ./melt "$input" -profile "$profile" -consumer avformat:"$temp" \
-           ab=160k acodec=aac channels=2 crf=$crf f=mp4 g=15 movflags=+faststart preset=veryfast \
-           real_time=-1 threads=0 vcodec=libx264 \
-           -progress -verbose
+    # NOTE: These settings are extracted from the kdenlive render panel and the following folder:
+    #       kdenlive/share/mlt/presets/consumer/avformat.
+
+    if [ $codec = "lossless" ]; then
+
+        ./melt "$input" -profile "$profile" -consumer avformat:"$temp" f=matroska \
+               vcodec=libx264 vb=0 crf=0 coder=ac g=25 bf=0 \
+               acodec=flac channels=2 \
+               preset=medium real_time=-1 threads=0 \
+               -progress -verbose
+    else
+        ./melt "$input" -profile "$profile" -consumer avformat:"$temp" f=mp4 \
+               vcodec=libx264 crf=$crf g=15 movflags=+faststart \
+               acodec=aac channels=2 ab=160k \
+               preset=veryfast real_time=-1 threads=0 \
+               -progress -verbose
+    fi
 
     mv "$temp" "$output"
 
@@ -149,12 +161,14 @@ getPath()
 # Syntax
 #--------------------------------------------------------------------------------------------------
 
-if [ $# != 1 ] || [ $1 != "all"         -a \
-                    $1 != "movie"       -a \
-                    $1 != "room/intro"  -a \
-                    $1 != "room/attic"  -a \
-                    $1 != "room/attic2" -a \
-                    $1 != "room/chase" ]; then
+if [ $# -lt 1 -o $# -gt 2 ] \
+   || \
+   [ $1 != "all"         -a \
+     $1 != "movie"       -a \
+     $1 != "room/intro"  -a \
+     $1 != "room/attic"  -a \
+     $1 != "room/attic2" -a \
+     $1 != "room/chase" ] || [ $# = 2 -a "$2" != "lossless" ]; then
 
     echo "Usage: render <all>"
     echo "              <movie>"
@@ -162,6 +176,7 @@ if [ $# != 1 ] || [ $1 != "all"         -a \
     echo "              <room/attic>"
     echo "              <room/attic2>"
     echo "              <room/chase>"
+    echo "              [lossless]"
 
     exit 1
 fi
@@ -169,6 +184,21 @@ fi
 #read -p "Run render for $1 ? (yes/no) " REPLY
 
 #if [ "$REPLY" != "yes" ]; then exit 1; fi
+
+#--------------------------------------------------------------------------------------------------
+# Configuration
+#--------------------------------------------------------------------------------------------------
+
+if [ $# = 2 ]; then
+
+    codec="lossless"
+
+    extension="mkv"
+else
+    codec="default"
+
+    extension="mp4"
+fi
 
 #--------------------------------------------------------------------------------------------------
 # All
