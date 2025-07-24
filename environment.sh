@@ -8,12 +8,16 @@ set -e
 
 assets="/c/users/bunjee/OneDrive/assets/indy"
 
+project="/c/dev/workspace/indy"
+
 kdenlive="/c/dev/tools/kdenlive/bin"
 
 #--------------------------------------------------------------------------------------------------
 # defaults
 
 assets_default="/c/users/bunjee/OneDrive/assets/indy"
+
+project_default="/c/dev/workspace/indy"
 
 kdenlive_default="/c/dev/tools/kdenlive/bin"
 
@@ -32,14 +36,50 @@ replace()
     apply $expression render.sh
 }
 
+replaceProjects()
+{
+    local path=$(printf "%s" "$1" | sed 's/[\/&]/\\&/g')
+
+    local pathDefault=$(printf "%s" "$2" | sed 's/[\/&]/\\&/g')
+
+    expression="s|$path|$pathDefault|g"
+
+    applyBase "movie"
+
+    applyRoom "intro"
+
+    applyRoom "attic"
+    applyRoom "attic" "attic2"
+
+    applyRoom "attic2"
+
+    applyRoom "chase"
+}
+
 apply()
 {
     if [ $host = "macOS" ]; then
 
-        sed -i "" $1 $2
+        sed -i "" "$1" "$2"
     else
-        sed -i $1 $2
+        sed -i "$1" "$2"
     fi
+}
+
+applyBase()
+{
+    local path="$1"
+    local name="${2:-$1}"
+
+    apply "$expression" "dist/$path/data/$name.kdenlive"
+}
+
+applyRoom()
+{
+    local nameA="$1"
+    local nameB="${2:-$1}"
+
+    applyBase "$nameA" "$nameB"
 }
 
 #--------------------------------------------------------------------------------------------------
@@ -47,18 +87,50 @@ apply()
 getOs()
 {
     case `uname` in
-    Darwin*) echo "macOS";;
-    *)       echo "other";;
+    MINGW*)  os="windows";;
+    Darwin*) os="macOS";;
+    Linux*)  os="linux";;
+    *)       os="other";;
     esac
+
+    type=`uname -m`
+
+    if [ $type = "x86_64" ]; then
+
+        if [ $os = "windows" ]; then
+
+            echo win64
+        else
+            echo $os
+        fi
+
+    elif [ $os = "windows" ]; then
+
+        echo win32
+    else
+        echo $os
+    fi
+}
+
+getPath()
+{
+    if [ $os = "windows" ]; then
+
+        cygpath -w "$1"
+    else
+        echo "$1"
+    fi
 }
 
 #--------------------------------------------------------------------------------------------------
 # Syntax
 #--------------------------------------------------------------------------------------------------
 
-if [ $# != 2 ]; then
+if [ $# -lt 1 -o $# -gt 3 ]; then
 
-    echo "Usage: environment <assets path | default> <kdenlive path | default>"
+    echo "Usage: environment <assets path   | default>"
+    echo "                   [project path  | default]"
+    echo "                   [kdenlive path | default]"
 
     exit 1
 fi
@@ -68,6 +140,13 @@ fi
 #--------------------------------------------------------------------------------------------------
 
 host=$(getOs)
+
+if [ $host = "win32" -o $host = "win64" ]; then
+
+    os="windows"
+else
+    os="default"
+fi
 
 #--------------------------------------------------------------------------------------------------
 # Replacements
@@ -80,9 +159,26 @@ else
     replace assets "$assets" "$1"
 fi
 
-if [ "$2" = "default" ]; then
+if [ $# -gt 1 ]; then
 
-    replace kdenlive "$kdenlive" "$kdenlive_default"
-else
-    replace kdenlive "$kdenlive" "$2"
+    path=$(getPath "$project")
+
+    pathDefault=$(getPath "$project_default")
+
+    if [ "$2" = "default" ]; then
+
+        replaceProjects "$path" "$pathDefault"
+    else
+        replaceProjects "$pathDefault" "$path"
+    fi
+fi
+
+if [ $# -gt 2 ]; then
+
+    if [ "$2" = "default" ]; then
+
+        replace kdenlive "$kdenlive" "$kdenlive_default"
+    else
+        replace kdenlive "$kdenlive" "$2"
+    fi
 fi
