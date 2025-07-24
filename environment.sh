@@ -42,6 +42,11 @@ replaceProjects()
 
     local pathDefault=$(printf "%s" "$2" | sed 's/[\/&]/\\&/g')
 
+    echo "path"
+    echo "$path"
+    echo "pathDefault"
+    echo "$pathDefault"
+
     expression="s|$path|$pathDefault|g"
 
     applyBase "movie" "movieIntro"
