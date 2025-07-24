@@ -6,7 +6,7 @@ set -e
 #--------------------------------------------------------------------------------------------------
 # environment
 
-project="/c/dev/workspace/indy"
+project="C:/dev/workspace/indy"
 
 assets="/c/users/bunjee/OneDrive/assets/indy"
 
@@ -15,7 +15,7 @@ kdenlive="/c/dev/tools/kdenlive/bin"
 #--------------------------------------------------------------------------------------------------
 # defaults
 
-project_default="/c/dev/workspace/indy"
+project_default="C:/dev/workspace/indy"
 
 assets_default="/c/users/bunjee/OneDrive/assets/indy"
 
@@ -38,16 +38,10 @@ replace()
 
 replaceProjects()
 {
-    local path=$(printf "%s" "$1" | sed 's/[\/&]/\\&/g')
+    local pathA=$(printf "%s" "$1" | sed 's/[\/&]/\\&/g')
+    local pathB=$(printf "%s" "$2" | sed 's/[\/&]/\\&/g')
 
-    local pathDefault=$(printf "%s" "$2" | sed 's/[\/&]/\\&/g')
-
-    echo "path"
-    echo "$path"
-    echo "pathDefault"
-    echo "$pathDefault"
-
-    expression="s|$path|$pathDefault|g"
+    expression="s|$pathA|$pathB|g"
 
     applyBase "movie" "movieIntro"
     applyBase "movie" "movieAttic"
@@ -95,39 +89,9 @@ applyRoom()
 getOs()
 {
     case `uname` in
-    MINGW*)  os="windows";;
     Darwin*) os="macOS";;
-    Linux*)  os="linux";;
     *)       os="other";;
     esac
-
-    type=`uname -m`
-
-    if [ $type = "x86_64" ]; then
-
-        if [ $os = "windows" ]; then
-
-            echo win64
-        else
-            echo $os
-        fi
-
-    elif [ $os = "windows" ]; then
-
-        echo win32
-    else
-        echo $os
-    fi
-}
-
-getPath()
-{
-    if [ $os = "windows" ]; then
-
-        cygpath -w "$1"
-    else
-        echo "$1"
-    fi
 }
 
 #--------------------------------------------------------------------------------------------------
@@ -149,25 +113,16 @@ fi
 
 host=$(getOs)
 
-if [ $host = "win32" -o $host = "win64" ]; then
-
-    os="windows"
-else
-    os="default"
-fi
-
 #--------------------------------------------------------------------------------------------------
 # Replacements
 #--------------------------------------------------------------------------------------------------
 
 if [ "$2" = "default" ]; then
 
-    path=$(getPath "$project")x
+    replaceProjects "$path" "$path_default"
 else
-    path=$(getPath "$project_default")
+    replaceProjects "$path_default" "$1"
 fi
-
-replaceProjects "$path" "$1"
 
 if [ $# -gt 1 ]; then
 
