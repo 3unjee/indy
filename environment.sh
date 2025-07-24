@@ -6,18 +6,18 @@ set -e
 #--------------------------------------------------------------------------------------------------
 # environment
 
-assets="/c/users/bunjee/OneDrive/assets/indy"
-
 project="/c/dev/workspace/indy"
+
+assets="/c/users/bunjee/OneDrive/assets/indy"
 
 kdenlive="/c/dev/tools/kdenlive/bin"
 
 #--------------------------------------------------------------------------------------------------
 # defaults
 
-assets_default="/c/users/bunjee/OneDrive/assets/indy"
-
 project_default="/c/dev/workspace/indy"
+
+assets_default="/c/users/bunjee/OneDrive/assets/indy"
 
 kdenlive_default="/c/dev/tools/kdenlive/bin"
 
@@ -128,8 +128,8 @@ getPath()
 
 if [ $# -lt 1 -o $# -gt 3 ]; then
 
-    echo "Usage: environment <assets path   | default>"
-    echo "                   [project path  | default]"
+    echo "Usage: environment <project path  | default>"
+    echo "                   [assets path   | default]"
     echo "                   [kdenlive path | default]"
 
     exit 1
@@ -152,24 +152,24 @@ fi
 # Replacements
 #--------------------------------------------------------------------------------------------------
 
-if [ "$1" = "default" ]; then
+path=$(getPath "$project")
 
-    replace assets "$assets" "$assets_default"
+pathDefault=$(getPath "$project_default")
+
+if [ "$2" = "default" ]; then
+
+    replaceProjects "$path" "$pathDefault"
 else
-    replace assets "$assets" "$1"
+    replaceProjects "$pathDefault" "$path"
 fi
 
 if [ $# -gt 1 ]; then
 
-    path=$(getPath "$project")
+    if [ "$1" = "default" ]; then
 
-    pathDefault=$(getPath "$project_default")
-
-    if [ "$2" = "default" ]; then
-
-        replaceProjects "$path" "$pathDefault"
+        replace assets "$assets" "$assets_default"
     else
-        replaceProjects "$pathDefault" "$path"
+        replace assets "$assets" "$1"
     fi
 fi
 
