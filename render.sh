@@ -163,13 +163,17 @@ renderPart()
 
     cd -
 
+    path="deploy/wide"
+
+    mv "$path/$1-part.mp4" "$path/$1.mp4"
+
     echo "--------"
     echo "CLEANING"
     echo "--------"
 
     rm "dist/movie/data/$1-part.kdenlive"
 
-    rm "deploy/wide/$1*.mkv"
+    rm "deploy/wide/$2"*.mkv
 }
 
 apply()
