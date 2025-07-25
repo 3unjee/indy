@@ -52,6 +52,16 @@ renderBase()
         nameProfile="$2"
     fi
 
+    if [ $ratio != "all" ]; then
+
+        if [ $ratio != $nameProfile ]; then
+
+            echo "render: Skipping $nameProfile rendering."
+
+            return
+        fi
+    fi
+
     if [ $nameProfile = "16-9" ]; then
 
         nameInput="16-9/$nameInput"
@@ -214,14 +224,18 @@ getPath()
 # Syntax
 #--------------------------------------------------------------------------------------------------
 
-if [ $# -lt 1 -o $# -gt 2 ] \
+if [ $# -lt 1 -o $# -gt 3 ] \
    || \
    [ $1 != "all"         -a \
      $1 != "movie"       -a \
      $1 != "room/intro"  -a \
      $1 != "room/attic"  -a \
      $1 != "room/attic2" -a \
-     $1 != "room/chase" ] || [ $# = 2 -a "$2" != "lossless" ]; then
+     $1 != "room/chase" ] \
+   || \
+   [ $# = 2 -a "$2" != "all" -a "$2" != "wide" -a "$2" != "16-9" ] \
+   || \
+   [ $# = 3 -a "$3" != "lossless" ]; then
 
     echo "Usage: render <all>"
     echo "              <movie>"
@@ -229,6 +243,7 @@ if [ $# -lt 1 -o $# -gt 2 ] \
     echo "              <room/attic>"
     echo "              <room/attic2>"
     echo "              <room/chase>"
+    echo "              [all | wide | 16-9]"
     echo "              [lossless]"
 
     exit 1
@@ -243,6 +258,13 @@ fi
 #--------------------------------------------------------------------------------------------------
 
 if [ $# = 2 ]; then
+
+    ratio="$2"
+else
+    ratio="all"
+fi
+
+if [ $# = 3 ]; then
 
     codec="lossless"
 
