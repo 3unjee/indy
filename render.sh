@@ -122,22 +122,15 @@ renderRoom()
 
     sh render.sh "room/$2" "$3" "lossless"
 
-    echo "--------"
-    echo "PATCHING"
-    echo "--------"
+    local path="dist/movie/data/$1.kdenlive"
 
-    local path="deploy/wide/$2"
+    local project="dist/movie/data/$1-part.kdenlive"
 
-    local pathA="$path.mp4"
-    local pathB="$path.mkv"
+    cp "$path" "$project"
 
-    local project="dist/movie/data/$1.kdenlive"
+    path="deploy/wide/$2"
 
-    path="dist/movie/data/$1-part.kdenlive"
-
-    cp "$project" "$path"
-
-    apply "s|$pathA|$pathB|g" "$path"
+    apply "s|$path.mp4|$path.mkv|g" "$project"
 }
 
 renderPart()
