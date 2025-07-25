@@ -131,15 +131,13 @@ renderRoom()
     local pathA="$path.mp4"
     local pathB="$path.mkv"
 
-    path="dist/movie/data/$1.kdenlive"
+    local project="dist/movie/data/$1.kdenlive"
+
+    path="dist/movie/data/$1-part.kdenlive"
+
+    cp "$project" "$path"
 
     apply "s|$pathA|$pathB|g" "$path"
-
-    git diff "$path" > patch.txt
-
-    cat patch.txt
-
-    rm patch.txt
 }
 
 renderPart()
@@ -150,7 +148,7 @@ renderPart()
 
     cd "$kdenlive"
 
-    renderBase "movie" "$1" "$2"
+    renderBase "movie" "$1-part" "$2"
 
     cd -
 
@@ -158,7 +156,7 @@ renderPart()
     echo "RESTORING"
     echo "---------"
 
-    git checkout "dist/movie/data/$1.kdenlive"
+    rm "dist/movie/data/$1-part.kdenlive"
 }
 
 removeRoom()
