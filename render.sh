@@ -120,17 +120,7 @@ renderRoom()
     echo "RENDERING ROOM"
     echo "--------------"
 
-    local codec_old="$codec"
-
-    codec="lossless"
-
-    cd "$kdenlive"
-
-    render "$2" "16-9"
-
-    cd -
-
-    codec="$codec_old"
+    sh render.sh "room/$2" "$3" "lossless"
 
     echo "--------"
     echo "PATCHING"
@@ -313,7 +303,7 @@ if [ $1 = "movie" ]; then
     #----------------------------------------------------------------------------------------------
     # Intro
 
-    renderRoom "movieIntro" "intro"
+    renderRoom "movieIntro" "intro" "wide"
 
     renderPart "movieIntro" "wide"
 
