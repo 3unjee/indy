@@ -114,6 +114,78 @@ render()
     fi
 }
 
+renderRoom()
+{
+    echo "--------------"
+    echo "RENDERING ROOM"
+    echo "--------------"
+
+    local codec_old="$codec"
+
+    codec="lossless"
+
+    cd "$kdenlive"
+
+    render "$2" "16-9"
+
+    cd -
+
+    codec="$codec_old"
+
+    echo "--------"
+    echo "PATCHING"
+    echo "--------"
+
+    local path="deploy/wide/$2"
+
+    local pathA="$path.mp4"
+    local pathB="$path.mkv"
+
+    path="dist/movie/data/$1.kdenlive"
+
+    apply "s|$pathA|$pathB|g" "$path"
+
+    git diff "$path" > patch.txt
+
+    cat patch.txt
+
+    rm patch.txt
+}
+
+renderPart()
+{
+    echo "---------"
+    echo "RENDERING"
+    echo "---------"
+
+    cd "$kdenlive"
+
+    renderBase "movie" "$1" "$2"
+
+    cd -
+
+    echo "---------"
+    echo "RESTORING"
+    echo "---------"
+
+    git checkout "dist/movie/data/$1.kdenlive"
+}
+
+removeRoom()
+{
+    rm "$root/deploy/wide/$1.mkv"
+}
+
+apply()
+{
+    if [ $host = "macOS" ]; then
+
+        sed -i "" "$1" "$2"
+    else
+        sed -i "$1" "$2"
+    fi
+}
+
 append()
 {
     echo "file '$(getPath "$1.mp4")'" >> videos.txt
@@ -236,10 +308,25 @@ cd "$kdenlive"
 
 if [ $1 = "movie" ]; then
 
-    renderBase "movie" "movieIntro" "wide"
-    renderBase "movie" "movieAttic" "wide"
-    renderBase "movie" "movieChase" "wide"
-    renderBase "movie" "movieOutro" "wide"
+    cd "$root"
+
+    #----------------------------------------------------------------------------------------------
+    # Intro
+
+    renderRoom "movieIntro" "intro"
+
+    renderPart "movieIntro" "wide"
+
+    removeRoom "intro"
+
+    #renderBase "movie" "movieIntro" "wide"
+    #renderBase "movie" "movieAttic" "wide"
+    #renderBase "movie" "movieChase" "wide"
+    #renderBase "movie" "movieOutro" "wide"
+
+    echo "---------------"
+    echo "RENDERING MOVIE"
+    echo "---------------"
 
     cd "$root"
 
