@@ -126,11 +126,22 @@ render()
 
 renderRoom()
 {
+    sh render.sh "room/$1" "$2" "lossless"
+}
+
+renderPart()
+{
     echo "--------------"
     echo "RENDERING ROOM"
     echo "--------------"
 
-    sh render.sh "room/$2" "$3" "lossless"
+    if [ $2 = "attic" ]; then
+
+        renderRoom "attic"  "$3"
+        renderRoom "attic2" "$3"
+    else
+        renderRoom "$2" "$3"
+    fi
 
     local path="dist/movie/data/$1.kdenlive"
 
@@ -141,30 +152,24 @@ renderRoom()
     path="deploy/wide/$2"
 
     apply "s|$path.mp4|$path.mkv|g" "$project"
-}
 
-renderPart()
-{
-    echo "---------"
-    echo "RENDERING"
-    echo "---------"
+    echo "--------------"
+    echo "RENDERING PART"
+    echo "--------------"
 
     cd "$kdenlive"
 
-    renderBase "movie" "$1-part" "$2"
+    renderBase "movie" "$1-part" "$3"
 
     cd -
 
-    echo "---------"
-    echo "RESTORING"
-    echo "---------"
+    echo "--------"
+    echo "CLEANING"
+    echo "--------"
 
     rm "dist/movie/data/$1-part.kdenlive"
-}
 
-removeRoom()
-{
-    rm "$root/deploy/wide/$1.mkv"
+    rm "deploy/wide/$1*.mkv"
 }
 
 apply()
@@ -313,25 +318,15 @@ if [ $1 = "movie" ]; then
 
     cd "$root"
 
-    #----------------------------------------------------------------------------------------------
-    # Intro
+    renderPart "movieIntro" "intro" "wide"
+    #renderPart "movieAttic" "attic" "wide"
+    #renderPart "movieChase" "chase" "wide"
 
-    renderRoom "movieIntro" "intro" "wide"
-
-    renderPart "movieIntro" "wide"
-
-    removeRoom "intro"
-
-    #renderBase "movie" "movieIntro" "wide"
-    #renderBase "movie" "movieAttic" "wide"
-    #renderBase "movie" "movieChase" "wide"
     #renderBase "movie" "movieOutro" "wide"
 
     echo "---------------"
     echo "RENDERING MOVIE"
     echo "---------------"
-
-    cd "$root"
 
     path="$root/deploy/wide"
 
