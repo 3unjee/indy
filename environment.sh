@@ -102,11 +102,22 @@ getOs()
 
 if [ $# -lt 1 -o $# -gt 3 ]; then
 
-    echo "Usage: environment <project path  | default>"
+    echo "Usage: environment <project path  | default | reset>"
     echo "                   [assets path   | default]"
     echo "                   [kdenlive path | default]"
 
     exit 1
+fi
+
+#--------------------------------------------------------------------------------------------------
+# Reset
+#--------------------------------------------------------------------------------------------------
+
+if [ "$1" = "reset" ]; then
+
+    sh environment.sh default default default
+
+    exit 0
 fi
 
 #--------------------------------------------------------------------------------------------------
