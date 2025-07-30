@@ -248,6 +248,7 @@ if [ $# -lt 1 -o $# -gt 3 ] \
 
     echo "Usage: render <all>"
     echo "              <movie>"
+    echo "              <trailer>"
     echo "              <room/intro>"
     echo "              <room/attic>"
     echo "              <room/attic2>"
@@ -344,6 +345,10 @@ if [ $1 = "movie" ]; then
     "$ffmpeg" -y -f concat -safe 0 -i videos.txt -c copy "$path/movie.mp4"
 
     rm videos.txt
+
+elif [ $1 = "trailer" ]; then
+
+    renderBase "trailer" "trailer6" "wide"
 
 elif [ $1 = "room/intro" ]; then
 
