@@ -325,11 +325,13 @@ if [ $1 = "movie" ]; then
 
     cd "$root"
 
-    #renderPart "movieIntro" "intro" "wide"
+    renderPart "movieIntro" "intro" "wide"
     renderPart "movieAttic" "attic" "wide"
-    #renderPart "movieChase" "chase" "wide"
+    renderPart "movieChase" "chase" "wide"
 
-    #renderBase "movie" "movieOutro" "wide"
+    cd "$kdenlive"
+
+    renderBase "movie" "movieOutro" "wide"
 
     echo "---------------"
     echo "RENDERING MOVIE"

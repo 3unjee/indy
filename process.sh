@@ -79,10 +79,11 @@ if [ "$REPLY" != "yes" ]; then exit 1; fi
 sh configure.sh deploy default force
 
 #renderBase "movie"
+renderBase "trailer"
 
 #render "intro"
 #render "attic"
 #render "attic2"
-render "chase"
+#render "chase"
 
 sh push.sh deploy default force
