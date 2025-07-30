@@ -48,6 +48,8 @@ replaceProjects()
     applyBase "movie" "movieChase"
     applyBase "movie" "movieOutro"
 
+    applyBase "trailer" "trailer6"
+
     applyRoom "intro"
 
     applyRoom "attic"

@@ -237,6 +237,7 @@ if [ $# -lt 1 -o $# -gt 3 ] \
    || \
    [ $1 != "all"         -a \
      $1 != "movie"       -a \
+     $1 != "trailer"     -a \
      $1 != "room/intro"  -a \
      $1 != "room/attic"  -a \
      $1 != "room/attic2" -a \
@@ -248,6 +249,7 @@ if [ $# -lt 1 -o $# -gt 3 ] \
 
     echo "Usage: render <all>"
     echo "              <movie>"
+    echo "              <trailer>"
     echo "              <trailer>"
     echo "              <room/intro>"
     echo "              <room/attic>"
@@ -323,8 +325,8 @@ if [ $1 = "movie" ]; then
 
     cd "$root"
 
-    renderPart "movieIntro" "intro" "wide"
-    #renderPart "movieAttic" "attic" "wide"
+    #renderPart "movieIntro" "intro" "wide"
+    renderPart "movieAttic" "attic" "wide"
     #renderPart "movieChase" "chase" "wide"
 
     #renderBase "movie" "movieOutro" "wide"
