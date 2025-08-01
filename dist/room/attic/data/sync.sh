@@ -6,7 +6,7 @@ set -e
 #--------------------------------------------------------------------------------------------------
 
 # BEGIN code
-LivePortrait="$PWD/../../../../../Sky/tools/LivePortrait"
+LivePortrait="$PWD/../../../../../Sky/script/LivePortrait"
 
 input="$PWD/video/base"
 

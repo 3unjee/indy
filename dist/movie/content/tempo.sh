@@ -7,7 +7,7 @@ set -e
 
 root="$PWD"
 
-ffmpeg="$PWD/../../../../Sky/tools/ffmpeg"
+ffmpeg="$PWD/../../../../Sky/script/ffmpeg"
 
 input="$PWD/music/extra"
 

@@ -5,7 +5,7 @@ set -e
 # Settings
 #--------------------------------------------------------------------------------------------------
 
-Freepik="$PWD/../../../../../Sky/tools/Freepik"
+Freepik="$PWD/../../../../../Sky/script/Freepik"
 
 imageConverter="$PWD/../../../../../Sky/deploy/imageConverter"
 

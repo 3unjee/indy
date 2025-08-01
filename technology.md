@@ -64,7 +64,7 @@ LivePortrait:
     - https://huggingface.co/cleardusk/LivePortrait-Windows/tree/main
 
 Configuration:
-- Code changes (Sky/tools/LivePortrait/patch.txt)
+- Code changes (Sky/script/LivePortrait/patch.txt)
     - crf=15 (inference_config.py / video.py)
     - flag_normalize_lip: bool = True (argument_config.py)
     - max_dim 1280 -> 3840

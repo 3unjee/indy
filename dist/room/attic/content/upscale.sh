@@ -8,9 +8,9 @@ set -e
 # BEGIN code
 root="$PWD"
 
-ffmpeg="$PWD/../../../../../Sky/tools/ffmpeg"
+ffmpeg="$PWD/../../../../../Sky/script/ffmpeg"
 
-LivePortrait="$PWD/../../../../../Sky/tools/LivePortrait"
+LivePortrait="$PWD/../../../../../Sky/script/LivePortrait"
 
 input="$PWD"
 

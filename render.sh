@@ -10,7 +10,7 @@ root="$PWD"
 # NOTE windows: It seems the Program Files path is messing up the melt command line.
 kdenlive="/c/dev/tools/kdenlive/bin"
 
-ffmpeg="$PWD/../Sky/tools/ffmpeg/bin/ffmpeg"
+ffmpeg="$PWD/../Sky/script/ffmpeg/bin/ffmpeg"
 
 #--------------------------------------------------------------------------------------------------
 # melt
