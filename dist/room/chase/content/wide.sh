@@ -5,7 +5,7 @@ set -e
 # Settings
 #--------------------------------------------------------------------------------------------------
 
-Luma="$PWD/../../../../../Sky/script/Luma"
+Luma="$PWD/../../../../../Sky-runtime/bash/generate/Luma"
 
 input="$PWD"
 

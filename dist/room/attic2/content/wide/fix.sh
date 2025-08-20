@@ -5,7 +5,7 @@ set -e
 # Settings
 #--------------------------------------------------------------------------------------------------
 
-ffmpeg="$PWD/../../../../../../Sky/script/ffmpeg"
+ffmpeg="$PWD/../../../../../../Sky-runtime/bash/ffmpeg"
 
 fix="$PWD/fix"
 

@@ -6,7 +6,7 @@ set -e
 #--------------------------------------------------------------------------------------------------
 
 code_sync=$(cat <<'EOF'
-LivePortrait="$PWD/../../../../../Sky/script/LivePortrait"
+LivePortrait="$PWD/../../../../../Sky-runtime/bash/generate/LivePortrait"
 
 input="$PWD/video/base"
 
@@ -37,9 +37,9 @@ EOF
 code_upscale=$(cat <<'EOF'
 root="$PWD"
 
-ffmpeg="$PWD/../../../../../Sky/script/ffmpeg"
+ffmpeg="$PWD/../../../../../Sky-runtime/bash/ffmpeg"
 
-LivePortrait="$PWD/../../../../../Sky/script/LivePortrait"
+LivePortrait="$PWD/../../../../../Sky-runtime/bash/generate/LivePortrait"
 
 input="$PWD"
 
