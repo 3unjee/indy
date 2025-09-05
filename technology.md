@@ -25,7 +25,11 @@ fal.ai: https://fal.ai/dashboard
 
 Midjourney: https://www.midjourney.com
 
-Runway references: https://api.dev.runwayml.com/v1/text_to_image
+Flux Kontext: https://bfl.ai/models/flux-kontext
+
+Gemini 2.5 Flash: https://deepmind.google/models/gemini/flash
+
+FaceFusion: https://github.com/facefusion/facefusion
 
 ### Image upscaling
 
