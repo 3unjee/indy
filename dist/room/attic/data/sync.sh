@@ -6,7 +6,7 @@ set -e
 #--------------------------------------------------------------------------------------------------
 
 # BEGIN code
-LivePortrait="$PWD/../../../../../Sky-runtime/bash/generate/LivePortrait"
+livePortrait="$PWD/../../../../../Sky-runtime/bash/generate/livePortrait"
 
 input="$PWD/video/base"
 
@@ -30,7 +30,7 @@ run()
 # Run
 #--------------------------------------------------------------------------------------------------
 
-cd "$LivePortrait"
+cd "$livePortrait"
 # END code
 
 run "dialog"

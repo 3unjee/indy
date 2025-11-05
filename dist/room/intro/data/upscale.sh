@@ -5,7 +5,7 @@ set -e
 # Settings
 #--------------------------------------------------------------------------------------------------
 
-Freepik="$PWD/../../../../../Sky-runtime/bash/generate/Freepik"
+freepik="$PWD/../../../../../Sky-runtime/bash/generate/freepik"
 
 imageConverter="$PWD/../../../../../Sky/deploy/imageConverter"
 
@@ -33,7 +33,7 @@ copy()
 # Run
 #--------------------------------------------------------------------------------------------------
 
-cd "$Freepik"
+cd "$freepik"
 
 run "college2" 2x
 run "college4" 2x

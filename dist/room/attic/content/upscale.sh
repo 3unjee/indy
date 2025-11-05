@@ -8,9 +8,9 @@ set -e
 # BEGIN code
 root="$PWD"
 
-ffmpeg="$PWD/../../../../../Sky-runtime/bash/ffmpeg"
+topaz="$PWD/../../../../../Sky-runtime/bash/generate/topaz"
 
-LivePortrait="$PWD/../../../../../Sky-runtime/bash/generate/LivePortrait"
+livePortrait="$PWD/../../../../../Sky-runtime/bash/generate/livePortrait"
 
 input="$PWD"
 
@@ -26,9 +26,9 @@ run()
 {
     if [ $# = 4 ]; then
 
-        sh topaz.sh "$input/$1" "$output/$1" "$2" "$4" 3840 2160 "$3"
+        sh upscale.sh "$input/$1" "$output/$1" "$2" "$4" 3840 2160 "$3"
     else
-        sh topaz.sh "$input/$1" "$output/$1" "$2" default 3840 2160 "$3"
+        sh upscale.sh "$input/$1" "$output/$1" "$2" default 3840 2160 "$3"
     fi
 }
 
@@ -36,15 +36,15 @@ runWide()
 {
     if [ $# = 4 ]; then
 
-        sh topaz.sh "$input/wide/$1" "$output/wide/$1" "$2" "$4" 5110 2160 "$3"
+        sh upscale.sh "$input/wide/$1" "$output/wide/$1" "$2" "$4" 5110 2160 "$3"
     else
-        sh topaz.sh "$input/wide/$1" "$output/wide/$1" "$2" wide 5110 2160 "$3"
+        sh upscale.sh "$input/wide/$1" "$output/wide/$1" "$2" wide 5110 2160 "$3"
     fi
 }
 
 dialog()
 {
-    cd "$LivePortrait"
+    cd "$livePortrait"
 
     if [ $# = 4 ]; then
 
@@ -60,7 +60,7 @@ dialog()
 
     mv "$path" "$temp"
 
-    sh topaz.sh "$temp" "$path" "$2" default 3840 2160 "$3"
+    sh upscale.sh "$temp" "$path" "$2" default 3840 2160 "$3"
 
     rm "$temp"
 }
@@ -69,7 +69,7 @@ dialog()
 # Run
 #--------------------------------------------------------------------------------------------------
 
-cd "$ffmpeg"
+cd "$topaz"
 # END code
 
 run "attic.mp4"   iris-3 48
