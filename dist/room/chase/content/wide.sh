@@ -19,7 +19,7 @@ wide="$PWD/../data/wide"
 
 run()
 {
-    sh reframeWide.sh "$wide/$1" "$input/$2" "$output/$2"
+    sh reframe-wide.sh "$wide/$1" "$input/$2" "$output/$2"
 }
 
 #--------------------------------------------------------------------------------------------------
